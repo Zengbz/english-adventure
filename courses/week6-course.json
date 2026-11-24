@@ -121,93 +121,122 @@
             "answer": "The large suitcase"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s transport briefing at the station information desk. It begins at 15 fifteen in the Hill Room and lasts 25 minutes. Admission costs 9 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Monday",
-                "Wednesday",
-                "Tuesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "15:45",
-                "14:15",
-                "15:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Oak Room",
-                "Maple Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "45 minutes",
-                "25 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£9",
-              "options": [
-                "£9",
-                "£11",
-                "£13"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "26",
-                "22",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Jo",
-              "options": [
-                "Jo",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Monday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Monday",
+                  "Wednesday",
+                  "Tuesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "15:45",
+                  "14:15",
+                  "15:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Hill Room. The session lasts 25 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Oak Room",
+                  "Maple Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "45 minutes",
+                  "25 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 25 minutes. A ticket costs 9 pounds. We have space for 22 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£9",
+                "options": [
+                  "£9",
+                  "£11",
+                  "£13"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "26",
+                  "22",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 22 places. Use the south entrance. Please bring a pencil. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Jo",
+                "options": [
+                  "Jo",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "扮演旅客，询问过道座、手提行李与登机口。",
@@ -259,48 +288,72 @@
             "answer": "Passengers with hand luggage and an online boarding pass"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "13:00",
-                "11:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "13:00",
+                  "11:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 50 词给旅伴说明值机时间、行李处理和安检。",
@@ -480,93 +533,122 @@
             "answer": "C4"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s transport briefing at the station information desk. It begins at 16 fifteen in the Oak Room and lasts 35 minutes. Admission costs 11 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Tuesday",
-                "Wednesday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "16:15",
-              "options": [
-                "15:15",
-                "16:15",
-                "16:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Oak Room",
-                "Blue Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£11",
-              "options": [
-                "£13",
-                "£11",
-                "£15"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "24",
-              "options": [
-                "26",
-                "24",
-                "28"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "West",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Maya",
-              "options": [
-                "Nina",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Tuesday. It starts at 16 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "16:15",
+                "options": [
+                  "15:15",
+                  "16:15",
+                  "16:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Oak Room. The session lasts 35 minutes. It begins at 16 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Oak Room",
+                  "Blue Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 35 minutes. A ticket costs 11 pounds. We have space for 24 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£11",
+                "options": [
+                  "£13",
+                  "£11",
+                  "£15"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "24",
+                "options": [
+                  "26",
+                  "24",
+                  "28"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 24 places. Use the west entrance. Please bring a reusable bottle. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "West",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Maya",
+                "options": [
+                  "Nina",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "听完广播后向旅伴复述航班、新登机口和剩余时间。",
@@ -618,48 +700,72 @@
             "answer": "19:00"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 14:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "14:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "In cash",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "14:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "In cash",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一则 45–60 词的变更通知，区别登机和起飞。",
@@ -839,93 +945,122 @@
             "answer": "Four"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s transport briefing at the station information desk. It begins at 9 fifteen in the Maple Room and lasts 45 minutes. Admission costs 13 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Thursday",
-                "Friday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "09:15",
-              "options": [
-                "08:15",
-                "09:45",
-                "09:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Maple Room",
-                "Blue Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "55 minutes",
-                "65 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£13",
-              "options": [
-                "£13",
-                "£15",
-                "£17"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "10",
-              "options": [
-                "14",
-                "10",
-                "12"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "South",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Leo",
-              "options": [
-                "Leo",
-                "Maya",
-                "Nina"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Wednesday. It starts at 9 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Thursday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "09:15",
+                "options": [
+                  "08:15",
+                  "09:45",
+                  "09:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Maple Room. The session lasts 45 minutes. It begins at 9 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Maple Room",
+                  "Blue Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "55 minutes",
+                  "65 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 45 minutes. A ticket costs 13 pounds. We have space for 10 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£13",
+                "options": [
+                  "£13",
+                  "£15",
+                  "£17"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "10",
+                "options": [
+                  "14",
+                  "10",
+                  "12"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 10 places. Use the north entrance. Please bring a notebook. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "South",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Leo",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Nina"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "买当天往返票，问是否直达、站台和有效时段。",
@@ -977,48 +1112,72 @@
             "answer": "The local train"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 16:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "15:00",
-                "17:00",
-                "16:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "15:00",
+                  "17:00",
+                  "16:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 50–65 词告诉朋友买什么票、从哪里上车、何时回来。",
@@ -1198,93 +1357,122 @@
             "answer": "Central"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s transport briefing at the station information desk. It begins at 10 fifteen in the Blue Room and lasts 55 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Thursday",
-                "Friday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "10:15",
-              "options": [
-                "10:15",
-                "09:15",
-                "10:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Garden Room",
-                "Blue Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "55 minutes",
-                "65 minutes",
-                "75 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£6",
-                "£4",
-                "£8"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "12",
-              "options": [
-                "14",
-                "12",
-                "16"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Nina",
-              "options": [
-                "Leo",
-                "Nina",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Thursday. It starts at 10 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Thursday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "10:15",
+                "options": [
+                  "10:15",
+                  "09:15",
+                  "10:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Blue Room. The session lasts 55 minutes. It begins at 10 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Garden Room",
+                  "Blue Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "55 minutes",
+                  "65 minutes",
+                  "75 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 55 minutes. A ticket costs 4 pounds. We have space for 12 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£6",
+                  "£4",
+                  "£8"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "12",
+                "options": [
+                  "14",
+                  "12",
+                  "16"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 12 places. Use the east entrance. Please bring a pencil. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Nina",
+                "options": [
+                  "Leo",
+                  "Nina",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "给一个第一次坐地铁的人说明上车线、换乘站和下车站。",
@@ -1336,48 +1524,72 @@
             "answer": "16"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "11:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "11:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一条三步换乘指引，每步说清路线或站名。",
@@ -1557,93 +1769,122 @@
             "answer": "A pharmacy"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s transport briefing at the station information desk. It begins at 11 fifteen in the Green Room and lasts 25 minutes. Admission costs 6 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Saturday",
-                "Friday",
-                "Sunday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "11:15",
-              "options": [
-                "11:15",
-                "10:15",
-                "11:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "Garden Room",
-                "River Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "45 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£6",
-              "options": [
-                "£10",
-                "£6",
-                "£8"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "14",
-              "options": [
-                "16",
-                "14",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Omar",
-              "options": [
-                "Omar",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Friday. It starts at 11 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Saturday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "11:15",
+                "options": [
+                  "11:15",
+                  "10:15",
+                  "11:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Green Room. The session lasts 25 minutes. It begins at 11 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "Garden Room",
+                  "River Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "45 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 25 minutes. A ticket costs 6 pounds. We have space for 14 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£6",
+                "options": [
+                  "£10",
+                  "£6",
+                  "£8"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "14",
+                "options": [
+                  "16",
+                  "14",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 14 places. Use the south entrance. Please bring a reusable bottle. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Omar",
+                "options": [
+                  "Omar",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "先问图书馆怎么走，再用两个地标复述路线。",
@@ -1695,48 +1936,72 @@
             "answer": "At the café"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 14:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "13:00",
-                "15:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "13:00",
+                  "15:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 55–70 词指路信息，注明起点、转弯和目的地参照物。",
@@ -1916,93 +2181,122 @@
             "answer": "Bus eight"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s transport briefing at the station information desk. It begins at 12 fifteen in the Garden Room and lasts 35 minutes. Admission costs 8 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Sunday",
-                "Monday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "12:15",
-              "options": [
-                "12:15",
-                "11:15",
-                "12:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "River Room",
-                "Hill Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£8",
-              "options": [
-                "£12",
-                "£8",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "16",
-              "options": [
-                "16",
-                "18",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "East",
-                "North",
-                "West"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a pencil",
-                "a notebook",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Sofia",
-              "options": [
-                "Sofia",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Saturday. It starts at 12 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Sunday",
+                  "Monday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "12:15",
+                "options": [
+                  "12:15",
+                  "11:15",
+                  "12:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the Garden Room. The session lasts 35 minutes. It begins at 12 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "River Room",
+                  "Hill Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 35 minutes. A ticket costs 8 pounds. We have space for 16 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£8",
+                "options": [
+                  "£12",
+                  "£8",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "16",
+                "options": [
+                  "16",
+                  "18",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 16 places. Use the west entrance. Please bring a notebook. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "East",
+                  "North",
+                  "West"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a pencil",
+                  "a notebook",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Sofia",
+                "options": [
+                  "Sofia",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "给旅伴解释什么路走不了、必须用哪个入口，以及一个替代方案。",
@@ -2054,48 +2348,72 @@
             "answer": "The north entrance"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 16:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "17:00",
-                "15:00",
-                "16:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Wednesday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "17:00",
+                  "15:00",
+                  "16:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 60–75 词转述改道通知，补上替代路线和站点。",
@@ -2275,93 +2593,122 @@
             "answer": "At the north exit"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s transport briefing at the station information desk. It begins at 13 fifteen in the River Room and lasts 45 minutes. Admission costs 10 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Tuesday",
-                "Monday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "12:15",
-                "13:45",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "River Room",
-                "Oak Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "55 minutes",
-                "45 minutes",
-                "65 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£10",
-              "options": [
-                "£12",
-                "£14",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "22",
-                "18",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Eli",
-              "options": [
-                "Maya",
-                "Eli",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the station information desk to confirm your booking. We’re holding the transport briefing on Sunday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Tuesday",
+                  "Monday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "12:15",
+                  "13:45",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the station information desk! Are you here for the transport briefing? Please meet us in the River Room. The session lasts 45 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "River Room",
+                  "Oak Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "55 minutes",
+                  "45 minutes",
+                  "65 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the transport briefing. It lasts 45 minutes. A ticket costs 10 pounds. We have space for 18 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£10",
+                "options": [
+                  "£12",
+                  "£14",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "22",
+                  "18",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the transport briefing at the station information desk. There are 18 places. Use the north entrance. Please bring a pencil. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Eli",
+                "options": [
+                  "Maya",
+                  "Eli",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "按广播和通知口头说明改坐什么、预计何时到机场、值机最晚几点。",
@@ -2413,48 +2760,72 @@
             "answer": "15:30"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "12:00",
-                "11:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the entrance",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "In cash",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Transport briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "12:00",
+                  "11:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the station information desk information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the entrance",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the transport briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "In cash",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 80–100 词给迟到的旅伴，说明乘车、值机、登机和备用办法。",

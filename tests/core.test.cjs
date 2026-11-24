@@ -10,11 +10,15 @@ test('all published lessons have four skills and one correct option per question
       assert.equal(lesson.minutes,30,lesson.id);
       assert.ok(lesson.listening.transcript&&lesson.speaking.prompt&&lesson.reading.text&&lesson.writing.prompt,lesson.id);
       assert.equal(new Set(lesson.vocabulary.map(v=>v.word.toLowerCase())).size,20,lesson.id);
-      assert.equal(lesson.listening.questions.length+lesson.listening.followUp.questions.length,10,lesson.id);
-      assert.equal(lesson.reading.questions.length+lesson.reading.followUp.questions.length,5,lesson.id);
+      assert.equal(lesson.listening.passages.length,4,lesson.id);
+      assert.equal(new Set([lesson.listening.transcript,...lesson.listening.passages.map(p=>p.transcript)]).size,5,lesson.id);
+      assert.equal(lesson.listening.questions.length+lesson.listening.passages.flatMap(p=>p.questions).length,10,lesson.id);
+      assert.equal(lesson.reading.passages.length,4,lesson.id);
+      assert.equal(new Set([lesson.reading.text,...lesson.reading.passages.map(p=>p.text)]).size,5,lesson.id);
+      assert.equal(lesson.reading.questions.length+lesson.reading.passages.flatMap(p=>p.questions).length,5,lesson.id);
       assert.equal(lesson.speaking.practice.length,4,lesson.id);
       assert.equal(lesson.writing.practice.length,4,lesson.id);
-      for(const q of [...lesson.quiz,...lesson.listening.questions,...lesson.reading.questions,...lesson.listening.followUp.questions,...lesson.reading.followUp.questions]){
+      for(const q of [...lesson.quiz,...lesson.listening.questions,...lesson.reading.questions,...lesson.listening.passages.flatMap(p=>p.questions),...lesson.reading.passages.flatMap(p=>p.questions)]){
         assert.equal(q.options.filter(option=>option===q.answer).length,1,q.id||q.q);
       }
     }

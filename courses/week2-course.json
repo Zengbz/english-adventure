@@ -135,84 +135,112 @@
             "answer": "At the supermarket"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s routine workshop at the library. It begins at 11 fifteen in the Blue Room and lasts 25 minutes. Admission costs 5 pounds and there are 14 places. Please come in through the south entrance and ask for Nina. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Monday",
-                "Tuesday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "11:15",
-              "options": [
-                "11:45",
-                "10:15",
-                "11:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Green Room",
-                "Garden Room",
-                "Blue Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "25 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£5",
-              "options": [
-                "£5",
-                "£7",
-                "£9"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "14",
-              "options": [
-                "14",
-                "16",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "North",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Monday. It starts at 11 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "11:15",
+                "options": [
+                  "11:45",
+                  "10:15",
+                  "11:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Blue Room. The session lasts 25 minutes. It begins at 11 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Green Room",
+                  "Garden Room",
+                  "Blue Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "25 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 25 minutes. A ticket costs 5 pounds. We have space for 14 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£5",
+                "options": [
+                  "£5",
+                  "£7",
+                  "£9"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "14",
+                "options": [
+                  "14",
+                  "16",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 14 places. Use the south entrance. Please bring a pencil. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "North",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "A message to a flatmate",
@@ -237,39 +265,61 @@
             "answer": "About six in the evening"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 12:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "11:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "11:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Describe four parts of your weekday from morning to evening. Speak for about a minute, then repeat without reading.",
@@ -511,84 +561,112 @@
             "answer": "2:45 p.m."
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s routine workshop at the library. It begins at 12 fifteen in the Green Room and lasts 35 minutes. Admission costs 7 pounds and there are 16 places. Please come in through the west entrance and ask for Omar. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Tuesday",
-                "Wednesday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "12:15",
-              "options": [
-                "12:45",
-                "11:15",
-                "12:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "River Room",
-                "Garden Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£7",
-              "options": [
-                "£7",
-                "£9",
-                "£11"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "16",
-              "options": [
-                "16",
-                "20",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "East",
-                "West",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Tuesday. It starts at 12 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "12:15",
+                "options": [
+                  "12:45",
+                  "11:15",
+                  "12:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Green Room. The session lasts 35 minutes. It begins at 12 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "River Room",
+                  "Garden Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 35 minutes. A ticket costs 7 pounds. We have space for 16 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£7",
+                "options": [
+                  "£7",
+                  "£9",
+                  "£11"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "16",
+                "options": [
+                  "16",
+                  "20",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 16 places. Use the west entrance. Please bring a reusable bottle. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "East",
+                  "West",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "Library opening hours",
@@ -613,39 +691,61 @@
             "answer": "11:00 a.m."
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 14:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "13:00",
-                "15:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "13:00",
+                  "15:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Role-play a call to a museum. Ask when it opens on Saturday and when it closes. Read 9:30 and 4:45 aloud in two ways.",
@@ -887,84 +987,112 @@
             "answer": "He plays football"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s routine workshop at the library. It begins at 13 fifteen in the Garden Room and lasts 45 minutes. Admission costs 9 pounds and there are 18 places. Please come in through the north entrance and ask for Sofia. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Thursday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "13:45",
-                "12:15",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "River Room",
-                "Garden Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£9",
-              "options": [
-                "£9",
-                "£11",
-                "£13"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "22",
-                "18",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Wednesday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "13:45",
+                  "12:15",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Garden Room. The session lasts 45 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "River Room",
+                  "Garden Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 45 minutes. A ticket costs 9 pounds. We have space for 18 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£9",
+                "options": [
+                  "£9",
+                  "£11",
+                  "£13"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "22",
+                  "18",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 18 places. Use the north entrance. Please bring a notebook. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "After-work habits",
@@ -989,39 +1117,61 @@
             "answer": "To the market"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 16:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "16:00",
-                "17:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "16:00",
+                  "17:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Ask a friend three How often questions. Answer the same questions yourself aloud.",
@@ -1263,84 +1413,112 @@
             "answer": "Visits their parents"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s routine workshop at the library. It begins at 14 fifteen in the River Room and lasts 55 minutes. Admission costs 11 pounds and there are 20 places. Please come in through the east entrance and ask for Eli. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Thursday",
-                "Saturday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "14:15",
-              "options": [
-                "14:15",
-                "13:15",
-                "14:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "River Room",
-                "Oak Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "75 minutes",
-                "65 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£11",
-              "options": [
-                "£15",
-                "£13",
-                "£11"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "20",
-              "options": [
-                "24",
-                "20",
-                "22"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "East",
-                "North",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Thursday. It starts at 14 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Thursday",
+                  "Saturday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "14:15",
+                "options": [
+                  "14:15",
+                  "13:15",
+                  "14:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the River Room. The session lasts 55 minutes. It begins at 14 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "River Room",
+                  "Oak Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "75 minutes",
+                  "65 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 55 minutes. A ticket costs 11 pounds. We have space for 20 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£11",
+                "options": [
+                  "£15",
+                  "£13",
+                  "£11"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "20",
+                "options": [
+                  "24",
+                  "20",
+                  "22"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 20 places. Use the east entrance. Please bring a pencil. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "East",
+                  "North",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "A week at the studio",
@@ -1365,39 +1543,61 @@
             "answer": "She works from home"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 12:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "11:00",
-                "13:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the entrance",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "11:00",
+                  "13:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the entrance",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Compare a workday and a day off. Ask two questions you could use to find out how someone else spends their days off.",
@@ -1639,84 +1839,112 @@
             "answer": "Outside the station"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s routine workshop at the library. It begins at 15 fifteen in the Hill Room and lasts 25 minutes. Admission costs 13 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "15:15",
-                "14:15",
-                "15:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Oak Room",
-                "Hill Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "45 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£13",
-              "options": [
-                "£13",
-                "£17",
-                "£15"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "26",
-                "24",
-                "22"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Friday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "15:15",
+                  "14:15",
+                  "15:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Hill Room. The session lasts 25 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Oak Room",
+                  "Hill Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "45 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 25 minutes. A ticket costs 13 pounds. We have space for 22 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£13",
+                "options": [
+                  "£13",
+                  "£17",
+                  "£15"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "26",
+                  "24",
+                  "22"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 22 places. Use the south entrance. Please bring a reusable bottle. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "Two messages about coffee",
@@ -1741,39 +1969,61 @@
             "answer": "2 p.m."
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 14:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "13:00",
-                "15:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "13:00",
+                  "15:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Role-play an invitation to a language exchange. Decline the first time politely, suggest a new time and confirm a meeting point.",
@@ -2015,84 +2265,112 @@
             "answer": "At five"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s routine workshop at the library. It begins at 16 fifteen in the Oak Room and lasts 35 minutes. Admission costs 4 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Sunday",
-                "Monday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "16:15",
-              "options": [
-                "16:15",
-                "16:45",
-                "15:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Blue Room",
-                "Oak Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "55 minutes",
-                "45 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£8",
-                "£4",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "24",
-              "options": [
-                "26",
-                "24",
-                "28"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "West",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Saturday. It starts at 16 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Sunday",
+                  "Monday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "16:15",
+                "options": [
+                  "16:15",
+                  "16:45",
+                  "15:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Oak Room. The session lasts 35 minutes. It begins at 16 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Blue Room",
+                  "Oak Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "55 minutes",
+                  "45 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 35 minutes. A ticket costs 4 pounds. We have space for 24 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£8",
+                  "£4",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "24",
+                "options": [
+                  "26",
+                  "24",
+                  "28"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 24 places. Use the west entrance. Please bring a notebook. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "West",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "A note at reception",
@@ -2117,39 +2395,61 @@
             "answer": "The front door"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 16:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "16:00",
-                "15:00",
-                "17:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the entrance",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "16:00",
+                  "15:00",
+                  "17:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the entrance",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "Explain a three-stop errand plan to a friend. Say what you have to do by a certain time and how long one place stays open.",
@@ -2400,75 +2700,102 @@
             "answer": "Outside the library"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s routine workshop at the library. It begins at 9 fifteen in the Maple Room and lasts 45 minutes. Admission costs 6 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Tuesday",
-                "Monday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "09:15",
-              "options": [
-                "09:45",
-                "08:15",
-                "09:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Blue Room",
-                "Maple Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "45 minutes",
-                "65 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£6",
-              "options": [
-                "£6",
-                "£8",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "10",
-              "options": [
-                "12",
-                "14",
-                "10"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "South",
-                "North",
-                "East"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the library to confirm your booking. We’re holding the routine workshop on Sunday. It starts at 9 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Tuesday",
+                  "Monday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "09:15",
+                "options": [
+                  "09:45",
+                  "08:15",
+                  "09:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the library! Are you here for the routine workshop? Please meet us in the Maple Room. The session lasts 45 minutes. It begins at 9 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Blue Room",
+                  "Maple Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "45 minutes",
+                  "65 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the routine workshop. It lasts 45 minutes. A ticket costs 6 pounds. We have space for 10 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£6",
+                "options": [
+                  "£6",
+                  "£8",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "10",
+                "options": [
+                  "12",
+                  "14",
+                  "10"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the routine workshop at the library. There are 10 places. Use the north entrance. Please bring a pencil. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "South",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              }
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "Saturday in town",
@@ -2502,30 +2829,50 @@
             "answer": "The café"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Routine workshop booking notice. Book online before 12:00. Collect your ticket at the library information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "13:00",
-                "11:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Routine workshop bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "13:00",
+                  "11:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the library information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the routine workshop. Keep the confirmation email until the event is over.",
+            "questions": []
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "speaking": {
         "prompt": "You are busy until three. Reply to Kai aloud. Explain your schedule, suggest a new time and place, and check that the new time works. Then try again without the sample.",

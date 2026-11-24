@@ -121,93 +121,122 @@
             "answer": "Eating outside"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s storytelling session at the local theatre. It begins at 12 fifteen in the Garden Room and lasts 25 minutes. Admission costs 3 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Wednesday",
-                "Monday",
-                "Tuesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "12:15",
-              "options": [
-                "12:45",
-                "12:15",
-                "11:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "River Room",
-                "Garden Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£3",
-              "options": [
-                "£5",
-                "£3",
-                "£7"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "16",
-              "options": [
-                "16",
-                "20",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "West",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Sofia",
-              "options": [
-                "Sofia",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Monday. It starts at 12 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Wednesday",
+                  "Monday",
+                  "Tuesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "12:15",
+                "options": [
+                  "12:45",
+                  "12:15",
+                  "11:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Garden Room. The session lasts 25 minutes. It begins at 12 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "River Room",
+                  "Garden Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 25 minutes. A ticket costs 3 pounds. We have space for 16 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£3",
+                "options": [
+                  "£5",
+                  "£3",
+                  "£7"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "16",
+                "options": [
+                  "16",
+                  "20",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 16 places. Use the west entrance. Please bring a pencil. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "West",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Sofia",
+                "options": [
+                  "Sofia",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用背景、打断事件和结果讲一段一分钟的小故事。",
@@ -259,48 +288,72 @@
             "answer": "Near the station"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "12:00",
-                "11:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Wednesday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "12:00",
+                  "11:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 90–110 词讲一件突发小事，写清当时在做什么。",
@@ -480,93 +533,122 @@
             "answer": "The speaker’s sister"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s storytelling session at the local theatre. It begins at 13 fifteen in the River Room and lasts 35 minutes. Admission costs 5 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Wednesday",
-                "Tuesday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "13:45",
-                "12:15",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "River Room",
-                "Hill Room",
-                "Oak Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "45 minutes",
-                "35 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£5",
-              "options": [
-                "£5",
-                "£9",
-                "£7"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "22",
-                "18",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "South",
-                "East",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Eli",
-              "options": [
-                "Leo",
-                "Eli",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Tuesday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Wednesday",
+                  "Tuesday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "13:45",
+                  "12:15",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the River Room. The session lasts 35 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "River Room",
+                  "Hill Room",
+                  "Oak Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "45 minutes",
+                  "35 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 35 minutes. A ticket costs 5 pounds. We have space for 18 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£5",
+                "options": [
+                  "£5",
+                  "£9",
+                  "£7"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "22",
+                  "18",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 18 places. Use the north entrance. Please bring a reusable bottle. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "South",
+                  "East",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Eli",
+                "options": [
+                  "Leo",
+                  "Eli",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "讲清同一时间两个人在做的不同事情，然后交代发生了什么。",
@@ -618,48 +700,72 @@
             "answer": "The controls"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 14:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "14:00",
-                "13:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "14:00",
+                  "13:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 90–110 词，用两个角色的不同动作讲一次共同解决问题的经历。",
@@ -839,93 +945,122 @@
             "answer": "Yesterday’s timetable"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s storytelling session at the local theatre. It begins at 14 fifteen in the Hill Room and lasts 45 minutes. Admission costs 7 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Friday",
-                "Thursday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "14:15",
-              "options": [
-                "14:45",
-                "14:15",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Maple Room",
-                "Oak Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "55 minutes",
-                "65 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£7",
-              "options": [
-                "£11",
-                "£9",
-                "£7"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "20",
-              "options": [
-                "24",
-                "22",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "South",
-                "East",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Jo",
-              "options": [
-                "Maya",
-                "Leo",
-                "Jo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Wednesday. It starts at 14 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Friday",
+                  "Thursday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "14:15",
+                "options": [
+                  "14:45",
+                  "14:15",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Hill Room. The session lasts 45 minutes. It begins at 14 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Maple Room",
+                  "Oak Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "55 minutes",
+                  "65 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 45 minutes. A ticket costs 7 pounds. We have space for 20 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£7",
+                "options": [
+                  "£11",
+                  "£9",
+                  "£7"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "20",
+                "options": [
+                  "24",
+                  "22",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 20 places. Use the east entrance. Please bring a notebook. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "South",
+                  "East",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Jo",
+                "options": [
+                  "Maya",
+                  "Leo",
+                  "Jo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "先说你发现了什么，再回溯之前发生的事，让听者明白因果。",
@@ -977,48 +1112,72 @@
             "answer": "The neighbour"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 16:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "15:00",
-                "17:00",
-                "16:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Sunday",
-                "Wednesday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "15:00",
+                  "17:00",
+                  "16:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Sunday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 95–115 词讲一次因早先疏忽造成的意外，写清两个事件的先后。",
@@ -1198,93 +1357,122 @@
             "answer": "About five hours"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s storytelling session at the local theatre. It begins at 15 fifteen in the Oak Room and lasts 55 minutes. Admission costs 9 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Friday",
-                "Saturday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "15:45",
-                "15:15",
-                "14:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Oak Room",
-                "Maple Room",
-                "Blue Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "75 minutes",
-                "55 minutes",
-                "65 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£9",
-              "options": [
-                "£13",
-                "£9",
-                "£11"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "26",
-                "22",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "South",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Maya",
-              "options": [
-                "Nina",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Thursday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Friday",
+                  "Saturday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "15:45",
+                  "15:15",
+                  "14:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Oak Room. The session lasts 55 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Oak Room",
+                  "Maple Room",
+                  "Blue Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "75 minutes",
+                  "55 minutes",
+                  "65 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 55 minutes. A ticket costs 9 pounds. We have space for 22 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£9",
+                "options": [
+                  "£13",
+                  "£9",
+                  "£11"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "26",
+                  "22",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 22 places. Use the south entrance. Please bring a pencil. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "South",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Maya",
+                "options": [
+                  "Nina",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "先问对方有没有坐过夜车，再追问时间、目的地和印象。",
@@ -1336,48 +1524,72 @@
             "answer": "Old maps"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "11:00",
-                "13:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Wednesday",
-                "Sunday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "11:00",
+                  "13:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Wednesday",
+                  "Sunday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一段 8–10 行采访，区分泛指的体验和有明确时间的旅行细节。",
@@ -1557,93 +1769,122 @@
             "answer": "Because it was raining"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s storytelling session at the local theatre. It begins at 16 fifteen in the Maple Room and lasts 25 minutes. Admission costs 11 pounds and there are 24 places. Please come in through the west entrance and ask for Leo. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "16:15",
-              "options": [
-                "16:15",
-                "15:15",
-                "16:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Blue Room",
-                "Green Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "25 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£11",
-              "options": [
-                "£13",
-                "£15",
-                "£11"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "24",
-              "options": [
-                "24",
-                "28",
-                "26"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "North",
-                "West",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Leo",
-              "options": [
-                "Maya",
-                "Leo",
-                "Nina"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Friday. It starts at 16 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "16:15",
+                "options": [
+                  "16:15",
+                  "15:15",
+                  "16:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Maple Room. The session lasts 25 minutes. It begins at 16 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Blue Room",
+                  "Green Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "25 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 25 minutes. A ticket costs 11 pounds. We have space for 24 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£11",
+                "options": [
+                  "£13",
+                  "£15",
+                  "£11"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "24",
+                "options": [
+                  "24",
+                  "28",
+                  "26"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 24 places. Use the west entrance. Please bring a reusable bottle. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "North",
+                  "West",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Leo",
+                "options": [
+                  "Maya",
+                  "Leo",
+                  "Nina"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "讲一个遇到困难却有好结果的故事，包含 although 或 however。",
@@ -1695,48 +1936,72 @@
             "answer": "A storm"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 14:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "13:00",
-                "14:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the entrance",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "13:00",
+                  "14:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the entrance",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 95–115 词游记，包含原预期、障碍、行动和结局。",
@@ -1916,93 +2181,122 @@
             "answer": "The driver"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s storytelling session at the local theatre. It begins at 9 fifteen in the Blue Room and lasts 35 minutes. Admission costs 13 pounds and there are 10 places. Please come in through the north entrance and ask for Nina. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Monday",
-                "Sunday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "09:15",
-              "options": [
-                "08:15",
-                "09:15",
-                "09:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Garden Room",
-                "Blue Room",
-                "Green Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "55 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£13",
-              "options": [
-                "£15",
-                "£17",
-                "£13"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "10",
-              "options": [
-                "10",
-                "12",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Nina",
-              "options": [
-                "Nina",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Saturday. It starts at 9 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Monday",
+                  "Sunday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "09:15",
+                "options": [
+                  "08:15",
+                  "09:15",
+                  "09:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Blue Room. The session lasts 35 minutes. It begins at 9 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Garden Room",
+                  "Blue Room",
+                  "Green Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "55 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 35 minutes. A ticket costs 13 pounds. We have space for 10 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£13",
+                "options": [
+                  "£15",
+                  "£17",
+                  "£13"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "10",
+                "options": [
+                  "10",
+                  "12",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 10 places. Use the north entrance. Please bring a notebook. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Nina",
+                "options": [
+                  "Nina",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用自己的话转述两个人说过的事，分别练习 said 和 told。",
@@ -2054,48 +2348,72 @@
             "answer": "At the desk"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 16:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "15:00",
-                "16:00",
-                "17:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "In cash",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "15:00",
+                  "16:00",
+                  "17:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "In cash",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 95–115 词转述一次服务人员和同伴的交流。",
@@ -2275,93 +2593,122 @@
             "answer": "At the tourist desk"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s storytelling session at the local theatre. It begins at 10 fifteen in the Green Room and lasts 45 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Omar. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Tuesday",
-                "Sunday",
-                "Monday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "10:15",
-              "options": [
-                "10:15",
-                "10:45",
-                "09:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "River Room",
-                "Green Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£6",
-                "£4",
-                "£8"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "12",
-              "options": [
-                "12",
-                "16",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a notebook",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Omar",
-              "options": [
-                "Omar",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the local theatre to confirm your booking. We’re holding the storytelling session on Sunday. It starts at 10 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Tuesday",
+                  "Sunday",
+                  "Monday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "10:15",
+                "options": [
+                  "10:15",
+                  "10:45",
+                  "09:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the local theatre! Are you here for the storytelling session? Please meet us in the Green Room. The session lasts 45 minutes. It begins at 10 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "River Room",
+                  "Green Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the storytelling session. It lasts 45 minutes. A ticket costs 4 pounds. We have space for 12 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£6",
+                  "£4",
+                  "£8"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "12",
+                "options": [
+                  "12",
+                  "16",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the storytelling session at the local theatre. There are 12 places. Use the east entrance. Please bring a pencil. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a notebook",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Omar",
+                "options": [
+                  "Omar",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用两分钟讲一个遗失物品的故事，包含背景、先发生的事、一句转述和结局。",
@@ -2413,48 +2760,72 @@
             "answer": "The ticket clerk"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "11:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the exit",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Storytelling session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "11:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the local theatre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the exit",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the storytelling session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 110–135 词的故事，给出背景、问题、转折点和结果。",

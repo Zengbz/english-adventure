@@ -121,93 +121,122 @@
             "answer": "10:20"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s visitor briefing at the tourist office. It begins at 13 fifteen in the River Room and lasts 25 minutes. Admission costs 4 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Monday",
-                "Wednesday",
-                "Tuesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "12:15",
-                "13:15",
-                "13:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "Oak Room",
-                "Hill Room",
-                "River Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "25 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£4",
-                "£8",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "22",
-                "20",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Eli",
-              "options": [
-                "Leo",
-                "Maya",
-                "Eli"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Monday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Monday",
+                  "Wednesday",
+                  "Tuesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "12:15",
+                  "13:15",
+                  "13:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the River Room. The session lasts 25 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "Oak Room",
+                  "Hill Room",
+                  "River Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "25 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 25 minutes. A ticket costs 4 pounds. We have space for 18 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£4",
+                  "£8",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "22",
+                  "20",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 18 places. Use the north entrance. Please bring a pencil. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Eli",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Eli"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "选择列车或巴士，向旅伴说明时间和抵达酒店后的安排。",
@@ -259,48 +288,72 @@
             "answer": "Wait in the lobby"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 12:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "13:00",
-                "11:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "By card",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Wednesday",
-                "Sunday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "13:00",
+                  "11:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "By card",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Wednesday",
+                  "Sunday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 90–110 词给旅伴，比较两种方案并给出抵达预估。",
@@ -480,93 +533,122 @@
             "answer": "After two"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s visitor briefing at the tourist office. It begins at 14 fifteen in the Hill Room and lasts 35 minutes. Admission costs 6 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Tuesday",
-                "Wednesday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "14:15",
-              "options": [
-                "14:45",
-                "14:15",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Oak Room",
-                "Maple Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "55 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£6",
-              "options": [
-                "£8",
-                "£6",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "20",
-              "options": [
-                "20",
-                "22",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "South",
-                "East",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Jo",
-              "options": [
-                "Leo",
-                "Maya",
-                "Jo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Tuesday. It starts at 14 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "14:15",
+                "options": [
+                  "14:45",
+                  "14:15",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Hill Room. The session lasts 35 minutes. It begins at 14 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Oak Room",
+                  "Maple Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "55 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 35 minutes. A ticket costs 6 pounds. We have space for 20 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£6",
+                "options": [
+                  "£8",
+                  "£6",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "20",
+                "options": [
+                  "20",
+                  "22",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 20 places. Use the east entrance. Please bring a reusable bottle. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "South",
+                  "East",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Jo",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Jo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用预订内容说明问题，礼貌比较两个处理方案，明确给出选择。",
@@ -618,48 +700,72 @@
             "answer": "The guest’s"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 14:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "14:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "In cash",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "14:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "In cash",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 100–120 词给前台，说明邮件确认内容、现场问题和期望处理。",
@@ -839,93 +945,122 @@
             "answer": "Two"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s visitor briefing at the tourist office. It begins at 15 fifteen in the Oak Room and lasts 45 minutes. Admission costs 8 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Thursday",
-                "Wednesday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "15:15",
-                "14:15",
-                "15:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Blue Room",
-                "Oak Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "55 minutes",
-                "45 minutes",
-                "65 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£8",
-              "options": [
-                "£10",
-                "£8",
-                "£12"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "22",
-                "26",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Maya",
-              "options": [
-                "Maya",
-                "Nina",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Wednesday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Thursday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "15:15",
+                  "14:15",
+                  "15:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Oak Room. The session lasts 45 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Blue Room",
+                  "Oak Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "55 minutes",
+                  "45 minutes",
+                  "65 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 45 minutes. A ticket costs 8 pounds. We have space for 22 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£8",
+                "options": [
+                  "£10",
+                  "£8",
+                  "£12"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "22",
+                  "26",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 22 places. Use the south entrance. Please bring a notebook. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Maya",
+                "options": [
+                  "Maya",
+                  "Nina",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "口头提出一个不超预算的四人组合，并向店员确认素食选项。",
@@ -977,48 +1112,72 @@
             "answer": "Which toppings are vegetarian"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 16:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "17:00",
-                "16:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "17:00",
+                  "16:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 100–120 词总结菜单选择、总价和你还需要确认的一项信息。",
@@ -1198,93 +1357,122 @@
             "answer": "The north gate"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s visitor briefing at the tourist office. It begins at 16 fifteen in the Maple Room and lasts 55 minutes. Admission costs 10 pounds and there are 24 places. Please come in through the west entrance and ask for Leo. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Friday",
-                "Saturday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "16:15",
-              "options": [
-                "15:15",
-                "16:45",
-                "16:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Green Room",
-                "Blue Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "65 minutes",
-                "75 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£10",
-              "options": [
-                "£14",
-                "£12",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "24",
-              "options": [
-                "28",
-                "26",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "North",
-                "East",
-                "West"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Leo",
-              "options": [
-                "Leo",
-                "Maya",
-                "Nina"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Thursday. It starts at 16 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Friday",
+                  "Saturday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "16:15",
+                "options": [
+                  "15:15",
+                  "16:45",
+                  "16:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Maple Room. The session lasts 55 minutes. It begins at 16 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Green Room",
+                  "Blue Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "65 minutes",
+                  "75 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 55 minutes. A ticket costs 10 pounds. We have space for 24 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£10",
+                "options": [
+                  "£14",
+                  "£12",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "24",
+                "options": [
+                  "28",
+                  "26",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 24 places. Use the west entrance. Please bring a pencil. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "North",
+                  "East",
+                  "West"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Leo",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Nina"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "主动开启对话，问一次体验和一次细节，复述本周集合点并确认路线。",
@@ -1336,48 +1524,72 @@
             "answer": "The three-kilometre route"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 12:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "11:00",
-                "12:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "In cash",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "11:00",
+                  "12:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "In cash",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 95–115 词回访新朋友，提起话题、确认路线并问一个后续问题。",
@@ -1557,93 +1769,122 @@
             "answer": "It finishes before their train"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s visitor briefing at the tourist office. It begins at 9 fifteen in the Blue Room and lasts 25 minutes. Admission costs 12 pounds and there are 10 places. Please come in through the north entrance and ask for Nina. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Saturday",
-                "Friday",
-                "Sunday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "09:15",
-              "options": [
-                "09:45",
-                "08:15",
-                "09:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Blue Room",
-                "Green Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£12",
-              "options": [
-                "£16",
-                "£12",
-                "£14"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "10",
-              "options": [
-                "10",
-                "12",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Nina",
-              "options": [
-                "Maya",
-                "Nina",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Friday. It starts at 9 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Saturday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "09:15",
+                "options": [
+                  "09:45",
+                  "08:15",
+                  "09:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Blue Room. The session lasts 25 minutes. It begins at 9 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Blue Room",
+                  "Green Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 25 minutes. A ticket costs 12 pounds. We have space for 10 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£12",
+                "options": [
+                  "£16",
+                  "£12",
+                  "£14"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "10",
+                "options": [
+                  "10",
+                  "12",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 10 places. Use the north entrance. Please bring a reusable bottle. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Nina",
+                "options": [
+                  "Maya",
+                  "Nina",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "比较票价、结束时间和路线，向伙伴解释哪一项优先并提出备选。",
@@ -1695,48 +1936,72 @@
             "answer": "The walking tour"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 14:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "14:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the exit",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "In cash",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "14:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the exit",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "In cash",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 105–125 词给小组建议，引用至少两个事实，回应一个反方理由。",
@@ -1916,93 +2181,122 @@
             "answer": "The West Street entrance"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s visitor briefing at the tourist office. It begins at 10 fifteen in the Green Room and lasts 35 minutes. Admission costs 3 pounds and there are 12 places. Please come in through the east entrance and ask for Omar. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Monday",
-                "Sunday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "10:15",
-              "options": [
-                "10:15",
-                "10:45",
-                "09:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "River Room",
-                "Green Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "55 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£3",
-              "options": [
-                "£7",
-                "£3",
-                "£5"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "12",
-              "options": [
-                "16",
-                "12",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Omar",
-              "options": [
-                "Omar",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Saturday. It starts at 10 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Monday",
+                  "Sunday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "10:15",
+                "options": [
+                  "10:15",
+                  "10:45",
+                  "09:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Green Room. The session lasts 35 minutes. It begins at 10 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "River Room",
+                  "Green Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "55 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 35 minutes. A ticket costs 3 pounds. We have space for 12 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£3",
+                "options": [
+                  "£7",
+                  "£3",
+                  "£5"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "12",
+                "options": [
+                  "16",
+                  "12",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 12 places. Use the east entrance. Please bring a notebook. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Omar",
+                "options": [
+                  "Omar",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "把更改通知转述给朋友，指出什么时间到最稳妥，并准备满座时的备选。",
@@ -2054,48 +2348,72 @@
             "answer": "6:45"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 16:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "17:00",
-                "15:00",
-                "16:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the entrance",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "17:00",
+                  "15:00",
+                  "16:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the entrance",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 105–125 词的群聊通知，包含取消原因、门口、优先时段和备选。",
@@ -2275,93 +2593,122 @@
             "answer": "Three"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s visitor briefing at the tourist office. It begins at 11 fifteen in the Garden Room and lasts 45 minutes. Admission costs 5 pounds and there are 14 places. Please come in through the south entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Tuesday",
-                "Monday",
-                "Sunday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "11:15",
-              "options": [
-                "10:15",
-                "11:45",
-                "11:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "Hill Room",
-                "River Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£5",
-              "options": [
-                "£9",
-                "£5",
-                "£7"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "14",
-              "options": [
-                "14",
-                "18",
-                "16"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Sofia",
-              "options": [
-                "Sofia",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the tourist office to confirm your booking. We’re holding the visitor briefing on Sunday. It starts at 11 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Tuesday",
+                  "Monday",
+                  "Sunday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "11:15",
+                "options": [
+                  "10:15",
+                  "11:45",
+                  "11:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the tourist office! Are you here for the visitor briefing? Please meet us in the Garden Room. The session lasts 45 minutes. It begins at 11 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "Hill Room",
+                  "River Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the visitor briefing. It lasts 45 minutes. A ticket costs 5 pounds. We have space for 14 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£5",
+                "options": [
+                  "£9",
+                  "£5",
+                  "£7"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "14",
+                "options": [
+                  "14",
+                  "18",
+                  "16"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the visitor briefing at the tourist office. There are 14 places. Use the south entrance. Please bring a pencil. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Sofia",
+                "options": [
+                  "Sofia",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "做两分钟任务：先给酒店打电话确认寄存，再与 Lin 敲定活动，解释取舍并给出天气备选。",
@@ -2413,48 +2760,72 @@
             "answer": "Book online by noon"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Visitor briefing booking notice. Book online before 12:00. Collect your ticket at the tourist office information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "11:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the entrance",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "By card",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Visitor briefing bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "11:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the tourist office information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the entrance",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the visitor briefing. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "By card",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 120–150 词作为结课任务：给 Lin 发一封完整确认消息，使用至少三个材料细节并提出备选。",

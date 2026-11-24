@@ -135,84 +135,112 @@
             "answer": "A designer"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s welcome session at the community centre. It begins at 10 fifteen in the Maple Room and lasts 25 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Leo. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Monday",
-                "Tuesday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "10:15",
-              "options": [
-                "09:15",
-                "10:45",
-                "10:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Green Room",
-                "Blue Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "45 minutes",
-                "35 minutes",
-                "25 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£4",
-                "£8",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "12",
-              "options": [
-                "14",
-                "12",
-                "16"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "East",
-                "North",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Monday. It starts at 10 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "10:15",
+                "options": [
+                  "09:15",
+                  "10:45",
+                  "10:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Maple Room. The session lasts 25 minutes. It begins at 10 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Green Room",
+                  "Blue Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "45 minutes",
+                  "35 minutes",
+                  "25 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 25 minutes. A ticket costs 4 pounds. We have space for 12 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£4",
+                  "£8",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "12",
+                "options": [
+                  "14",
+                  "12",
+                  "16"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 12 places. Use the east entrance. Please bring a pencil. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "East",
+                  "North",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Introduce yourself in 3–5 sentences. Include your country, job, hobbies and reason for learning English.",
@@ -273,39 +301,61 @@
             "answer": "To talk to more people when travelling"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "11:00",
-                "12:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "11:00",
+                  "12:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": []
+          }
+        ]
       },
       "writing": {
         "prompt": "Write 3–5 sentences to introduce yourself.",
@@ -527,93 +577,122 @@
             "answer": "One"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s welcome session at the community centre. It begins at 11 fifteen in the Blue Room and lasts 35 minutes. Admission costs 6 pounds and there are 14 places. Please come in through the south entrance and ask for Nina. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Tuesday",
-                "Thursday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "11:15",
-              "options": [
-                "11:45",
-                "11:15",
-                "10:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Green Room",
-                "Garden Room",
-                "Blue Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "55 minutes",
-                "45 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£6",
-              "options": [
-                "£10",
-                "£8",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "14",
-              "options": [
-                "16",
-                "14",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Nina",
-              "options": [
-                "Maya",
-                "Nina",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Tuesday. It starts at 11 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Tuesday",
+                  "Thursday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "11:15",
+                "options": [
+                  "11:45",
+                  "11:15",
+                  "10:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Blue Room. The session lasts 35 minutes. It begins at 11 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Green Room",
+                  "Garden Room",
+                  "Blue Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "55 minutes",
+                  "45 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 35 minutes. A ticket costs 6 pounds. We have space for 14 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£6",
+                "options": [
+                  "£10",
+                  "£8",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "14",
+                "options": [
+                  "16",
+                  "14",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 14 places. Use the south entrance. Please bring a reusable bottle. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Nina",
+                "options": [
+                  "Maya",
+                  "Nina",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Describe two people in your family or among your friends.",
@@ -665,48 +744,72 @@
             "answer": "In the same office"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 14:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "14:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "14:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write four sentences about a family member or friend.",
@@ -903,93 +1006,122 @@
             "answer": "Software engineer"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s welcome session at the community centre. It begins at 12 fifteen in the Green Room and lasts 45 minutes. Admission costs 8 pounds and there are 16 places. Please come in through the west entrance and ask for Omar. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Friday",
-                "Thursday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "12:15",
-              "options": [
-                "11:15",
-                "12:45",
-                "12:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "Green Room",
-                "River Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "55 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£8",
-              "options": [
-                "£12",
-                "£8",
-                "£10"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "16",
-              "options": [
-                "18",
-                "16",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "North",
-                "East",
-                "West"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Omar",
-              "options": [
-                "Omar",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Wednesday. It starts at 12 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Friday",
+                  "Thursday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "12:15",
+                "options": [
+                  "11:15",
+                  "12:45",
+                  "12:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Green Room. The session lasts 45 minutes. It begins at 12 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "Green Room",
+                  "River Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "55 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 45 minutes. A ticket costs 8 pounds. We have space for 16 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£8",
+                "options": [
+                  "£12",
+                  "£8",
+                  "£10"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "16",
+                "options": [
+                  "18",
+                  "16",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 16 places. Use the west entrance. Please bring a notebook. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "North",
+                  "East",
+                  "West"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Omar",
+                "options": [
+                  "Omar",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Explain what you do at work or what you study. Give two examples of daily tasks.",
@@ -1041,48 +1173,72 @@
             "answer": "Project manager"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 16:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "15:00",
-                "17:00",
-                "16:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the entrance",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "15:00",
+                  "17:00",
+                  "16:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the entrance",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write 4–5 sentences about your job, studies or daily role.",
@@ -1279,93 +1435,122 @@
             "answer": "Listen to music"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s welcome session at the community centre. It begins at 13 fifteen in the Garden Room and lasts 55 minutes. Admission costs 10 pounds and there are 18 places. Please come in through the north entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Saturday",
-                "Thursday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "12:15",
-                "13:45",
-                "13:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "Garden Room",
-                "River Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "55 minutes",
-                "65 minutes",
-                "75 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£10",
-              "options": [
-                "£12",
-                "£10",
-                "£14"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "20",
-                "18",
-                "22"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Sofia",
-              "options": [
-                "Sofia",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Thursday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Saturday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "12:15",
+                  "13:45",
+                  "13:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Garden Room. The session lasts 55 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "Garden Room",
+                  "River Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "55 minutes",
+                  "65 minutes",
+                  "75 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 55 minutes. A ticket costs 10 pounds. We have space for 18 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£10",
+                "options": [
+                  "£12",
+                  "£10",
+                  "£14"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "20",
+                  "18",
+                  "22"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 18 places. Use the north entrance. Please bring a pencil. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Sofia",
+                "options": [
+                  "Sofia",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Talk about two hobbies. Say how often you do them and why you enjoy them.",
@@ -1417,48 +1602,72 @@
             "answer": "Nature"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "11:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "By card",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Sunday",
-                "Wednesday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "11:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "By card",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Sunday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write a short paragraph about your hobbies.",
@@ -1655,93 +1864,122 @@
             "answer": "By bus"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s welcome session at the community centre. It begins at 14 fifteen in the River Room and lasts 25 minutes. Admission costs 12 pounds and there are 20 places. Please come in through the east entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Saturday",
-                "Sunday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "14:15",
-              "options": [
-                "14:15",
-                "13:15",
-                "14:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "Oak Room",
-                "Hill Room",
-                "River Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "45 minutes",
-                "35 minutes",
-                "25 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£12",
-              "options": [
-                "£12",
-                "£14",
-                "£16"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "20",
-              "options": [
-                "22",
-                "24",
-                "20"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "South",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a pencil",
-                "a notebook",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Eli",
-              "options": [
-                "Eli",
-                "Leo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Friday. It starts at 14 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Saturday",
+                  "Sunday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "14:15",
+                "options": [
+                  "14:15",
+                  "13:15",
+                  "14:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the River Room. The session lasts 25 minutes. It begins at 14 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "Oak Room",
+                  "Hill Room",
+                  "River Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "45 minutes",
+                  "35 minutes",
+                  "25 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 25 minutes. A ticket costs 12 pounds. We have space for 20 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£12",
+                "options": [
+                  "£12",
+                  "£14",
+                  "£16"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "20",
+                "options": [
+                  "22",
+                  "24",
+                  "20"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 20 places. Use the east entrance. Please bring a reusable bottle. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "South",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a pencil",
+                  "a notebook",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Eli",
+                "options": [
+                  "Eli",
+                  "Leo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Describe a normal weekday from morning to evening.",
@@ -1793,48 +2031,72 @@
             "answer": "Three"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 14:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "13:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "13:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write five sentences about your weekday routine.",
@@ -2031,93 +2293,122 @@
             "answer": "In a hospital"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s welcome session at the community centre. It begins at 15 fifteen in the Hill Room and lasts 35 minutes. Admission costs 3 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Monday",
-                "Sunday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "14:15",
-                "15:15",
-                "15:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Oak Room",
-                "Hill Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "35 minutes",
-                "55 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£3",
-              "options": [
-                "£7",
-                "£5",
-                "£3"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "24",
-                "22",
-                "26"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Jo",
-              "options": [
-                "Leo",
-                "Maya",
-                "Jo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Saturday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Monday",
+                  "Sunday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "14:15",
+                  "15:15",
+                  "15:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Hill Room. The session lasts 35 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Oak Room",
+                  "Hill Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "35 minutes",
+                  "55 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 35 minutes. A ticket costs 3 pounds. We have space for 22 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£3",
+                "options": [
+                  "£7",
+                  "£5",
+                  "£3"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "24",
+                  "22",
+                  "26"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 22 places. Use the south entrance. Please bring a notebook. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Jo",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Jo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Give a 60–90 second introduction. Include personal details, work, hobbies and daily routine.",
@@ -2169,48 +2460,72 @@
             "answer": "They help people start talking"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 16:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "16:00",
-                "15:00",
-                "17:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "16:00",
+                  "15:00",
+                  "17:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write a 70–90 word introduction about yourself.",
@@ -2415,84 +2730,112 @@
             "answer": "Tokyo"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s welcome session at the community centre. It begins at 16 fifteen in the Oak Room and lasts 45 minutes. Admission costs 5 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Tuesday",
-                "Monday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "16:15",
-              "options": [
-                "16:15",
-                "16:45",
-                "15:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Blue Room",
-                "Maple Room",
-                "Oak Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£5",
-              "options": [
-                "£5",
-                "£9",
-                "£7"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "24",
-              "options": [
-                "28",
-                "26",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "East",
-                "North",
-                "West"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a notebook",
-                "a pencil",
-                "a reusable bottle"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the community centre to confirm your booking. We’re holding the welcome session on Sunday. It starts at 16 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Tuesday",
+                  "Monday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "16:15",
+                "options": [
+                  "16:15",
+                  "16:45",
+                  "15:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the community centre! Are you here for the welcome session? Please meet us in the Oak Room. The session lasts 45 minutes. It begins at 16 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Blue Room",
+                  "Maple Room",
+                  "Oak Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the welcome session. It lasts 45 minutes. A ticket costs 5 pounds. We have space for 24 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£5",
+                "options": [
+                  "£5",
+                  "£9",
+                  "£7"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "24",
+                "options": [
+                  "28",
+                  "26",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the welcome session at the community centre. There are 24 places. Use the west entrance. Please bring a pencil. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "East",
+                  "North",
+                  "West"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a notebook",
+                  "a pencil",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "Role-play meeting an international friend. Ask their name, where they are from, what they do and what they enjoy.",
@@ -2544,48 +2887,72 @@
             "answer": "Asking questions and listening"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "11:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the exit",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Wednesday",
-                "Friday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Welcome session bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "11:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the community centre information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the exit",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the welcome session. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Wednesday",
+                  "Friday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "Write a short message to a new international friend. Introduce yourself and ask two questions.",

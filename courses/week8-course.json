@@ -121,93 +121,122 @@
             "answer": "Spanish"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Monday’s language exchange at the language café. It begins at 9 fifteen in the Maple Room and lasts 25 minutes. Admission costs 11 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Monday",
-              "options": [
-                "Wednesday",
-                "Tuesday",
-                "Monday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "09:15",
-              "options": [
-                "08:15",
-                "09:15",
-                "09:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Maple Room",
-              "options": [
-                "Maple Room",
-                "Green Room",
-                "Blue Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "35 minutes",
-                "45 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£11",
-              "options": [
-                "£15",
-                "£11",
-                "£13"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "10",
-              "options": [
-                "12",
-                "10",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "South",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Leo",
-              "options": [
-                "Leo",
-                "Nina",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Monday. It starts at 9 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Monday",
+                "options": [
+                  "Wednesday",
+                  "Tuesday",
+                  "Monday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "09:15",
+                "options": [
+                  "08:15",
+                  "09:15",
+                  "09:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Maple Room. The session lasts 25 minutes. It begins at 9 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Maple Room",
+                "options": [
+                  "Maple Room",
+                  "Green Room",
+                  "Blue Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "35 minutes",
+                  "45 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 25 minutes. A ticket costs 11 pounds. We have space for 10 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£11",
+                "options": [
+                  "£15",
+                  "£11",
+                  "£13"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "10",
+                "options": [
+                  "12",
+                  "10",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 10 places. Use the north entrance. Please bring a pencil. If you need help, ask for Leo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "South",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Leo",
+                "options": [
+                  "Leo",
+                  "Nina",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用两种不同的开场白和一位新朋友说话，再问一句开放式问题。",
@@ -259,48 +288,72 @@
             "answer": "6:45"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "12:00",
-                "11:00",
-                "13:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the information desk",
-                "At the entrance",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By card",
-                "By cheque",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Sunday",
-                "Wednesday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "12:00",
+                  "11:00",
+                  "13:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the information desk",
+                  "At the entrance",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By card",
+                  "By cheque",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Sunday",
+                  "Wednesday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 55–70 词欢迎新人，给出见面安排和一个可以回答的话题。",
@@ -480,93 +533,122 @@
             "answer": "Puzzle games"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Tuesday’s language exchange at the language café. It begins at 10 fifteen in the Blue Room and lasts 35 minutes. Admission costs 13 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Tuesday",
-              "options": [
-                "Tuesday",
-                "Wednesday",
-                "Thursday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "10:15",
-              "options": [
-                "10:45",
-                "09:15",
-                "10:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Blue Room",
-              "options": [
-                "Blue Room",
-                "Green Room",
-                "Garden Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "35 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£13",
-              "options": [
-                "£13",
-                "£15",
-                "£17"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "12",
-              "options": [
-                "14",
-                "12",
-                "16"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a pencil",
-                "a notebook",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Nina",
-              "options": [
-                "Leo",
-                "Maya",
-                "Nina"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Tuesday. It starts at 10 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Tuesday",
+                "options": [
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "10:15",
+                "options": [
+                  "10:45",
+                  "09:15",
+                  "10:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Blue Room. The session lasts 35 minutes. It begins at 10 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Blue Room",
+                "options": [
+                  "Blue Room",
+                  "Green Room",
+                  "Garden Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "35 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 35 minutes. A ticket costs 13 pounds. We have space for 12 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£13",
+                "options": [
+                  "£13",
+                  "£15",
+                  "£17"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "12",
+                "options": [
+                  "14",
+                  "12",
+                  "16"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 12 places. Use the east entrance. Please bring a reusable bottle. If you need help, ask for Nina. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a pencil",
+                  "a notebook",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Nina",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Nina"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "听到对方说喜欢做游戏或旅行后，给一句回应，再追问两个细节。",
@@ -618,48 +700,72 @@
             "answer": "A trail recommendation"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 14:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "13:00",
-                "15:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the information desk",
-                "At the exit"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "13:00",
+                  "15:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the information desk",
+                  "At the exit"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一段 8 行聊天，至少有两次根据上句内容进行追问。",
@@ -839,93 +945,122 @@
             "answer": "Penang"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Wednesday’s language exchange at the language café. It begins at 11 fifteen in the Green Room and lasts 45 minutes. Admission costs 4 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Wednesday",
-              "options": [
-                "Friday",
-                "Thursday",
-                "Wednesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "11:15",
-              "options": [
-                "11:15",
-                "10:15",
-                "11:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Green Room",
-              "options": [
-                "Garden Room",
-                "Green Room",
-                "River Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "65 minutes",
-                "45 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£4",
-              "options": [
-                "£4",
-                "£8",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "14",
-              "options": [
-                "16",
-                "18",
-                "14"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a notebook",
-                "a reusable bottle",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Omar",
-              "options": [
-                "Leo",
-                "Maya",
-                "Omar"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Wednesday. It starts at 11 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Wednesday",
+                "options": [
+                  "Friday",
+                  "Thursday",
+                  "Wednesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "11:15",
+                "options": [
+                  "11:15",
+                  "10:15",
+                  "11:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Green Room. The session lasts 45 minutes. It begins at 11 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Green Room",
+                "options": [
+                  "Garden Room",
+                  "Green Room",
+                  "River Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "65 minutes",
+                  "45 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 45 minutes. A ticket costs 4 pounds. We have space for 14 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£4",
+                "options": [
+                  "£4",
+                  "£8",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "14",
+                "options": [
+                  "16",
+                  "18",
+                  "14"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 14 places. Use the south entrance. Please bring a notebook. If you need help, ask for Omar. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a notebook",
+                  "a reusable bottle",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Omar",
+                "options": [
+                  "Leo",
+                  "Maya",
+                  "Omar"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "用 Have you ever 提三个旅行问题，再就一个回答用过去时追问。",
@@ -977,48 +1112,72 @@
             "answer": "Travelling alone"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 16:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "16:00",
-                "17:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "By card",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Friday",
-                "Wednesday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "16:00",
+                  "17:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "By card",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Friday",
+                  "Wednesday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一段对话，包含两个 Have you ever 问题和一个有具体时间的回答。",
@@ -1198,93 +1357,122 @@
             "answer": "Skiing"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Thursday’s language exchange at the language café. It begins at 12 fifteen in the Garden Room and lasts 55 minutes. Admission costs 6 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Thursday",
-              "options": [
-                "Saturday",
-                "Thursday",
-                "Friday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "12:15",
-              "options": [
-                "12:45",
-                "11:15",
-                "12:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Garden Room",
-              "options": [
-                "Garden Room",
-                "Hill Room",
-                "River Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "55 minutes",
-              "options": [
-                "75 minutes",
-                "65 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£6",
-              "options": [
-                "£10",
-                "£8",
-                "£6"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "16",
-              "options": [
-                "20",
-                "18",
-                "16"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "West",
-              "options": [
-                "West",
-                "North",
-                "East"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a reusable bottle",
-                "a pencil",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Sofia",
-              "options": [
-                "Maya",
-                "Leo",
-                "Sofia"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Thursday. It starts at 12 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Thursday",
+                "options": [
+                  "Saturday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "12:15",
+                "options": [
+                  "12:45",
+                  "11:15",
+                  "12:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Garden Room. The session lasts 55 minutes. It begins at 12 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Garden Room",
+                "options": [
+                  "Garden Room",
+                  "Hill Room",
+                  "River Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "55 minutes",
+                "options": [
+                  "75 minutes",
+                  "65 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 55 minutes. A ticket costs 6 pounds. We have space for 16 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£6",
+                "options": [
+                  "£10",
+                  "£8",
+                  "£6"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "16",
+                "options": [
+                  "20",
+                  "18",
+                  "16"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 16 places. Use the west entrance. Please bring a pencil. If you need help, ask for Sofia. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "West",
+                "options": [
+                  "West",
+                  "North",
+                  "East"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a reusable bottle",
+                  "a pencil",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Sofia",
+                "options": [
+                  "Maya",
+                  "Leo",
+                  "Sofia"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "说两种你没尝试过的活动，以及一种尝试过的活动和具体时间。",
@@ -1336,48 +1524,72 @@
             "answer": "Bread"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "11:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Wednesday",
-                "Sunday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "11:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Wednesday",
+                  "Sunday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 65–80 词给活动搭子，交流做过、没做过以及想一起尝试的事。",
@@ -1557,93 +1769,122 @@
             "answer": "Coffee after three"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Friday’s language exchange at the language café. It begins at 13 fifteen in the River Room and lasts 25 minutes. Admission costs 8 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Friday",
-              "options": [
-                "Sunday",
-                "Friday",
-                "Saturday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "13:15",
-              "options": [
-                "12:15",
-                "13:15",
-                "13:45"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "River Room",
-              "options": [
-                "River Room",
-                "Oak Room",
-                "Hill Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "25 minutes",
-              "options": [
-                "25 minutes",
-                "45 minutes",
-                "35 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£8",
-              "options": [
-                "£8",
-                "£10",
-                "£12"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "18",
-              "options": [
-                "22",
-                "20",
-                "18"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "North",
-              "options": [
-                "East",
-                "South",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a reusable bottle",
-              "options": [
-                "a pencil",
-                "a reusable bottle",
-                "a notebook"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Eli",
-              "options": [
-                "Leo",
-                "Eli",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Friday. It starts at 13 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Friday",
+                "options": [
+                  "Sunday",
+                  "Friday",
+                  "Saturday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "13:15",
+                "options": [
+                  "12:15",
+                  "13:15",
+                  "13:45"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the River Room. The session lasts 25 minutes. It begins at 13 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "River Room",
+                "options": [
+                  "River Room",
+                  "Oak Room",
+                  "Hill Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "25 minutes",
+                "options": [
+                  "25 minutes",
+                  "45 minutes",
+                  "35 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 25 minutes. A ticket costs 8 pounds. We have space for 18 people. We’ll give you a worksheet when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£8",
+                "options": [
+                  "£8",
+                  "£10",
+                  "£12"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "18",
+                "options": [
+                  "22",
+                  "20",
+                  "18"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 18 places. Use the north entrance. Please bring a reusable bottle. If you need help, ask for Eli. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "North",
+                "options": [
+                  "East",
+                  "South",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a reusable bottle",
+                "options": [
+                  "a pencil",
+                  "a reusable bottle",
+                  "a notebook"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Eli",
+                "options": [
+                  "Leo",
+                  "Eli",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "邀请新朋友参加活动，然后练习接受和婉拒两种回答。",
@@ -1695,48 +1936,72 @@
             "answer": "By Wednesday"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 14:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "14:00",
-              "options": [
-                "15:00",
-                "13:00",
-                "14:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the entrance",
-                "At the exit",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By card",
-                "By cheque"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Friday",
-              "options": [
-                "Wednesday",
-                "Sunday",
-                "Friday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 14:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "14:00",
+                "options": [
+                  "15:00",
+                  "13:00",
+                  "14:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the entrance",
+                  "At the exit",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By card",
+                  "By cheque"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Friday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Friday",
+                "options": [
+                  "Wednesday",
+                  "Sunday",
+                  "Friday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写一条 60–75 词的邀请，给出活动、日期、地点和回复截止时间。",
@@ -1916,93 +2181,122 @@
             "answer": "6:45"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Saturday’s language exchange at the language café. It begins at 14 fifteen in the Hill Room and lasts 35 minutes. Admission costs 10 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Saturday",
-              "options": [
-                "Monday",
-                "Saturday",
-                "Sunday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "14:15",
-              "options": [
-                "14:45",
-                "13:15",
-                "14:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Hill Room",
-              "options": [
-                "Oak Room",
-                "Hill Room",
-                "Maple Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "35 minutes",
-              "options": [
-                "45 minutes",
-                "35 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£10",
-              "options": [
-                "£10",
-                "£14",
-                "£12"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "20",
-              "options": [
-                "24",
-                "20",
-                "22"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "East",
-              "options": [
-                "North",
-                "East",
-                "South"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a notebook",
-              "options": [
-                "a pencil",
-                "a notebook",
-                "a reusable bottle"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Jo",
-              "options": [
-                "Leo",
-                "Jo",
-                "Maya"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Saturday. It starts at 14 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Saturday",
+                "options": [
+                  "Monday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "14:15",
+                "options": [
+                  "14:45",
+                  "13:15",
+                  "14:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Hill Room. The session lasts 35 minutes. It begins at 14 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Hill Room",
+                "options": [
+                  "Oak Room",
+                  "Hill Room",
+                  "Maple Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "35 minutes",
+                "options": [
+                  "45 minutes",
+                  "35 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 35 minutes. A ticket costs 10 pounds. We have space for 20 people. We’ll give you a name badge when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£10",
+                "options": [
+                  "£10",
+                  "£14",
+                  "£12"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "20",
+                "options": [
+                  "24",
+                  "20",
+                  "22"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 20 places. Use the east entrance. Please bring a notebook. If you need help, ask for Jo. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "East",
+                "options": [
+                  "North",
+                  "East",
+                  "South"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a notebook",
+                "options": [
+                  "a pencil",
+                  "a notebook",
+                  "a reusable bottle"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Jo",
+                "options": [
+                  "Leo",
+                  "Jo",
+                  "Maya"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "请对方重复一个时刻，用自己的话确认位置，再询问一个陌生表达。",
@@ -2054,48 +2348,72 @@
             "answer": "A story or photo"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 16:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "16:00",
-              "options": [
-                "17:00",
-                "16:00",
-                "15:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the information desk",
-                "At the entrance"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "In cash",
-                "By cheque",
-                "By card"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Wednesday",
-              "options": [
-                "Friday",
-                "Wednesday",
-                "Sunday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 16:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "16:00",
+                "options": [
+                  "17:00",
+                  "16:00",
+                  "15:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the information desk",
+                  "At the entrance"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "In cash",
+                  "By cheque",
+                  "By card"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Wednesday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Wednesday",
+                "options": [
+                  "Friday",
+                  "Wednesday",
+                  "Sunday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 60–75 词确认一个你没听清的活动安排。",
@@ -2275,93 +2593,122 @@
             "answer": "The riverside market"
           }
         ],
-        "followUp": {
-          "title": "Listen to an announcement",
-          "transcript": "This is a message about Sunday’s language exchange at the language café. It begins at 15 fifteen in the Oak Room and lasts 45 minutes. Admission costs 12 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a map. Please bring a pencil.",
-          "questions": [
-            {
-              "q": "On which day does the event take place?",
-              "answer": "Sunday",
-              "options": [
-                "Monday",
-                "Sunday",
-                "Tuesday"
-              ]
-            },
-            {
-              "q": "What time does the event begin?",
-              "answer": "15:15",
-              "options": [
-                "15:15",
-                "15:45",
-                "14:15"
-              ]
-            },
-            {
-              "q": "Which room is it in?",
-              "answer": "Oak Room",
-              "options": [
-                "Maple Room",
-                "Oak Room",
-                "Blue Room"
-              ]
-            },
-            {
-              "q": "How long does it last?",
-              "answer": "45 minutes",
-              "options": [
-                "45 minutes",
-                "65 minutes",
-                "55 minutes"
-              ]
-            },
-            {
-              "q": "How much does admission cost?",
-              "answer": "£12",
-              "options": [
-                "£14",
-                "£12",
-                "£16"
-              ]
-            },
-            {
-              "q": "How many places are available?",
-              "answer": "22",
-              "options": [
-                "26",
-                "22",
-                "24"
-              ]
-            },
-            {
-              "q": "Which entrance should visitors use?",
-              "answer": "South",
-              "options": [
-                "South",
-                "East",
-                "North"
-              ]
-            },
-            {
-              "q": "What are visitors asked to bring?",
-              "answer": "a pencil",
-              "options": [
-                "a reusable bottle",
-                "a notebook",
-                "a pencil"
-              ]
-            },
-            {
-              "q": "Who should visitors ask for?",
-              "answer": "Maya",
-              "options": [
-                "Nina",
-                "Maya",
-                "Leo"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "A phone reminder",
+            "transcript": "Hi, I’m calling from the language café to confirm your booking. We’re holding the language exchange on Sunday. It starts at 15 fifteen. You can call back if you’d like to change your booking.",
+            "questions": [
+              {
+                "q": "On which day does the event take place?",
+                "answer": "Sunday",
+                "options": [
+                  "Monday",
+                  "Sunday",
+                  "Tuesday"
+                ],
+                "id": "listen-extra-0"
+              },
+              {
+                "q": "What time does the event begin?",
+                "answer": "15:15",
+                "options": [
+                  "15:15",
+                  "15:45",
+                  "14:15"
+                ],
+                "id": "listen-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "At the front desk",
+            "transcript": "Welcome to the language café! Are you here for the language exchange? Please meet us in the Oak Room. The session lasts 45 minutes. It begins at 15 fifteen. I can show you where to go.",
+            "questions": [
+              {
+                "q": "Which room is it in?",
+                "answer": "Oak Room",
+                "options": [
+                  "Maple Room",
+                  "Oak Room",
+                  "Blue Room"
+                ],
+                "id": "listen-extra-2"
+              },
+              {
+                "q": "How long does it last?",
+                "answer": "45 minutes",
+                "options": [
+                  "45 minutes",
+                  "65 minutes",
+                  "55 minutes"
+                ],
+                "id": "listen-extra-3"
+              }
+            ]
+          },
+          {
+            "title": "A ticket enquiry",
+            "transcript": "Thanks for asking about the language exchange. It lasts 45 minutes. A ticket costs 12 pounds. We have space for 22 people. We’ll give you a map when you arrive.",
+            "questions": [
+              {
+                "q": "How much does admission cost?",
+                "answer": "£12",
+                "options": [
+                  "£14",
+                  "£12",
+                  "£16"
+                ],
+                "id": "listen-extra-4"
+              },
+              {
+                "q": "How many places are available?",
+                "answer": "22",
+                "options": [
+                  "26",
+                  "22",
+                  "24"
+                ],
+                "id": "listen-extra-5"
+              }
+            ]
+          },
+          {
+            "title": "A message from the organiser",
+            "transcript": "A quick note for everyone joining the language exchange at the language café. There are 22 places. Use the south entrance. Please bring a pencil. If you need help, ask for Maya. See you there!",
+            "questions": [
+              {
+                "q": "Which entrance should visitors use?",
+                "answer": "South",
+                "options": [
+                  "South",
+                  "East",
+                  "North"
+                ],
+                "id": "listen-extra-6"
+              },
+              {
+                "q": "What are visitors asked to bring?",
+                "answer": "a pencil",
+                "options": [
+                  "a reusable bottle",
+                  "a notebook",
+                  "a pencil"
+                ],
+                "id": "listen-extra-7"
+              },
+              {
+                "q": "Who should visitors ask for?",
+                "answer": "Maya",
+                "options": [
+                  "Nina",
+                  "Maya",
+                  "Leo"
+                ],
+                "id": "listen-extra-8"
+              }
+            ]
+          }
+        ]
       },
       "speaking": {
         "prompt": "模拟两分钟聊天，先聊摄影，再问一次经历并确认集合时间。",
@@ -2413,48 +2760,72 @@
             "answer": "Send Jo a message"
           }
         ],
-        "followUp": {
-          "title": "Read the booking notice",
-          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
-          "questions": [
-            {
-              "q": "When is the online booking deadline?",
-              "answer": "12:00",
-              "options": [
-                "13:00",
-                "11:00",
-                "12:00"
-              ]
-            },
-            {
-              "q": "Where do you collect your ticket?",
-              "answer": "At the information desk",
-              "options": [
-                "At the exit",
-                "At the entrance",
-                "At the information desk"
-              ]
-            },
-            {
-              "q": "How do you pay?",
-              "answer": "By card",
-              "options": [
-                "By cheque",
-                "By card",
-                "In cash"
-              ]
-            },
-            {
-              "q": "Until when are changes free?",
-              "answer": "Sunday",
-              "options": [
-                "Friday",
-                "Sunday",
-                "Wednesday"
-              ]
-            }
-          ]
-        }
+        "passages": [
+          {
+            "title": "Online booking page",
+            "text": "Language exchange bookings close at 12:00. Reserve your place online before that time. Look for a confirmation in your email inbox.",
+            "questions": [
+              {
+                "q": "When is the online booking deadline?",
+                "answer": "12:00",
+                "options": [
+                  "13:00",
+                  "11:00",
+                  "12:00"
+                ],
+                "id": "read-extra-0"
+              }
+            ]
+          },
+          {
+            "title": "Ticket collection sign",
+            "text": "Ticket collection: show your confirmation at the language café information desk. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Where do you collect your ticket?",
+                "answer": "At the information desk",
+                "options": [
+                  "At the exit",
+                  "At the entrance",
+                  "At the information desk"
+                ],
+                "id": "read-extra-1"
+              }
+            ]
+          },
+          {
+            "title": "Payment instructions",
+            "text": "Pay by card when you book the language exchange. Keep the confirmation email until the event is over.",
+            "questions": [
+              {
+                "q": "How do you pay?",
+                "answer": "By card",
+                "options": [
+                  "By cheque",
+                  "By card",
+                  "In cash"
+                ],
+                "id": "read-extra-2"
+              }
+            ]
+          },
+          {
+            "title": "Message for participants",
+            "text": "Plans changed? You can move your booking free of charge until Sunday. If you arrive late, please wait at the entrance until a member of staff comes to meet you.",
+            "questions": [
+              {
+                "q": "Until when are changes free?",
+                "answer": "Sunday",
+                "options": [
+                  "Friday",
+                  "Sunday",
+                  "Wednesday"
+                ],
+                "id": "read-extra-3"
+              }
+            ]
+          }
+        ]
       },
       "writing": {
         "prompt": "写 85–105 词跟进这次见面，提到共同兴趣、问一个问题并确认活动。",
