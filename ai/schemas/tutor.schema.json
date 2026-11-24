@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","additionalProperties":false,"required":["reply_en","explanation_zh","example","practice_question","difficulty"],"properties":{"reply_en":{"type":"string"},"explanation_zh":{"type":"string"},"example":{"type":"string"},"practice_question":{"type":"string"},"difficulty":{"enum":["A2","A2+","B1"]}}}

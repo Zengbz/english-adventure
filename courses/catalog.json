@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "weeks": [
+    {
+      "week": 1,
+      "title": "About Me",
+      "summary": "建立自我介绍能力：个人信息、家庭、职业、兴趣和简单日常表达。",
+      "level": "A2",
+      "file": "courses/week1-course.json",
+      "revision": "0acd83c4580aa0a32ae5494643cd060628d463b161b7986f37426cf1f8a13ca1",
+      "lessons": [
+        {
+          "day": 1,
+          "id": "w01d01",
+          "title": "Could You Introduce Yourself?",
+          "subtitle": "姓名、国家、职业与学习目标",
+          "minutes": 30
+        },
+        {
+          "day": 2,
+          "id": "w01d02",
+          "title": "Family and Friends",
+          "subtitle": "介绍家人、朋友与关系",
+          "minutes": 30
+        },
+        {
+          "day": 3,
+          "id": "w01d03",
+          "title": "Jobs and Daily Roles",
+          "subtitle": "谈论职业、工作内容与日常职责",
+          "minutes": 30
+        },
+        {
+          "day": 4,
+          "id": "w01d04",
+          "title": "Hobbies and Interests",
+          "subtitle": "谈论兴趣、频率与喜欢的活动",
+          "minutes": 30
+        },
+        {
+          "day": 5,
+          "id": "w01d05",
+          "title": "A Typical Day",
+          "subtitle": "描述作息、时间和日常习惯",
+          "minutes": 30
+        },
+        {
+          "day": 6,
+          "id": "w01d06",
+          "title": "Review: About Me",
+          "subtitle": "整合个人信息、职业、兴趣与日常表达",
+          "minutes": 30
+        },
+        {
+          "day": 7,
+          "id": "w01d07",
+          "title": "Weekly Challenge: Meet a New Friend",
+          "subtitle": "完成一段真实的初次见面交流",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Daily Life",
+      "summary": "作息、时间、频率副词、日常习惯和生活安排。",
+      "level": "A2",
+      "file": "courses/week2-course.json",
+      "revision": "05a191fdde340c16cfeac5d4e3b5266192e2e74b5f95cc5faf0e99318a154deb",
+      "lessons": [
+        {
+          "day": 8,
+          "id": "w02d01",
+          "title": "From Morning to Evening",
+          "subtitle": "按顺序介绍作息",
+          "minutes": 30
+        },
+        {
+          "day": 9,
+          "id": "w02d02",
+          "title": "What Time Does It Open?",
+          "subtitle": "听懂时间，读懂营业时间",
+          "minutes": 30
+        },
+        {
+          "day": 10,
+          "id": "w02d03",
+          "title": "How Often Do You Do That?",
+          "subtitle": "聊习惯与频率",
+          "minutes": 30
+        },
+        {
+          "day": 11,
+          "id": "w02d04",
+          "title": "Workdays and Days Off",
+          "subtitle": "聊工作日和休息日的区别",
+          "minutes": 30
+        },
+        {
+          "day": 12,
+          "id": "w02d05",
+          "title": "Are You Free on Friday?",
+          "subtitle": "约时间、婉拒与改约",
+          "minutes": 30
+        },
+        {
+          "day": 13,
+          "id": "w02d06",
+          "title": "Getting Things Done",
+          "subtitle": "读行程、交代截止时间",
+          "minutes": 30
+        },
+        {
+          "day": 14,
+          "id": "w02d07",
+          "title": "Weekly Challenge: A Day in Town",
+          "subtitle": "综合实战：安排一天并确认见面",
+          "minutes": 30
+        }
+      ]
+    }
+  ]
+}

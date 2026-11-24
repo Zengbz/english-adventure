@@ -1,0 +1,1032 @@
+{
+  "schemaVersion": 1,
+  "week": 2,
+  "title": "Daily Life",
+  "summary": "作息、时间、频率副词、日常习惯和生活安排。",
+  "level": "A2",
+  "objectives": [
+    "Describe weekday and weekend routines in order",
+    "Understand opening hours, schedules and deadlines",
+    "Ask about habits and arrange or reschedule a meeting"
+  ],
+  "lessons": [
+    {
+      "day": 8,
+      "id": "w02d01",
+      "title": "From Morning to Evening",
+      "subtitle": "按顺序介绍作息",
+      "minutes": 30,
+      "grammar": [
+        "用 first、then、after that 排列事件",
+        "用 before/after + 名词说明先后"
+      ],
+      "vocabulary": [
+        {
+          "word": "get ready",
+          "ipa": "/ɡet ˈredi/",
+          "zh": "准备好",
+          "example": "I get ready for work at seven."
+        },
+        {
+          "word": "leave home",
+          "ipa": "/liːv həʊm/",
+          "zh": "出门",
+          "example": "I leave home after breakfast."
+        },
+        {
+          "word": "take a break",
+          "ipa": "/teɪk ə breɪk/",
+          "zh": "休息一下",
+          "example": "I take a break after lunch."
+        },
+        {
+          "word": "get back",
+          "ipa": "/ɡet bæk/",
+          "zh": "回来",
+          "example": "I get back at six."
+        },
+        {
+          "word": "pack",
+          "ipa": "/pæk/",
+          "zh": "收拾；把东西装进包里",
+          "example": "I pack my bag before bed."
+        }
+      ],
+      "listening": {
+        "title": "An early start",
+        "transcript": "I start work at eight. First, I have coffee at home. Then I walk to the station. I take a break at eleven. After work, I stop at the supermarket and get home at six.",
+        "questions": [
+          {
+            "q": "How does the speaker get to the station?",
+            "options": [
+              "By car",
+              "On foot",
+              "By bus"
+            ],
+            "answer": "On foot"
+          },
+          {
+            "q": "Where does the speaker stop after work?",
+            "options": [
+              "At a café",
+              "At the supermarket",
+              "At the station"
+            ],
+            "answer": "At the supermarket"
+          }
+        ]
+      },
+      "reading": {
+        "title": "A message to a flatmate",
+        "text": "Hi Jo, I leave home early on Mondays. Here is my routine for tomorrow. I eat breakfast at six thirty. Then I pack my lunch. I leave at seven. I get back at about six. I cook dinner after my shower.",
+        "questions": [
+          {
+            "q": "What does the writer do after breakfast?",
+            "options": [
+              "Cooks dinner",
+              "Packs lunch",
+              "Takes a shower"
+            ],
+            "answer": "Packs lunch"
+          },
+          {
+            "q": "When does the writer get home?",
+            "options": [
+              "About six in the evening",
+              "At seven in the morning",
+              "At six thirty in the morning"
+            ],
+            "answer": "About six in the evening"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Describe four parts of your weekday from morning to evening. Speak for about a minute, then repeat without reading.",
+        "sample": "First, I have breakfast. Then I take the train to work. I take a break after lunch. After work, I get home at seven and cook dinner."
+      },
+      "writing": {
+        "prompt": "Write 45–60 words to tell a visiting friend what you do on a typical weekday.",
+        "checklist": [
+          "I put events in time order.",
+          "I used first and then.",
+          "I included two times and one before or after phrase."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d01q01",
+          "type": "choice",
+          "explanation": "Then 表示接着做什么。",
+          "options": [
+            "Then",
+            "At",
+            "Before"
+          ],
+          "answer": "Then",
+          "prompt": "I eat first. ___ I pack my bag."
+        },
+        {
+          "id": "w02d01q02",
+          "type": "choice",
+          "explanation": "先吃早饭，所以用 after。",
+          "options": [
+            "before",
+            "on",
+            "after"
+          ],
+          "answer": "after",
+          "prompt": "I get ready for work ___ breakfast. I eat first."
+        },
+        {
+          "id": "w02d01q03",
+          "type": "choice",
+          "explanation": "Take a break 表示短暂休息。",
+          "options": [
+            "leave home",
+            "take a break",
+            "get ready"
+          ],
+          "answer": "take a break",
+          "prompt": "Which phrase means 休息一下?"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "id": "w02d02",
+      "title": "What Time Does It Open?",
+      "subtitle": "听懂时间，读懂营业时间",
+      "minutes": 30,
+      "grammar": [
+        "时刻用 at，星期用 on，早晚用 in the morning/evening",
+        "用 from ... to ... 说明时间段"
+      ],
+      "vocabulary": [
+        {
+          "word": "half past",
+          "ipa": "/hɑːf pɑːst/",
+          "zh": "……点半",
+          "example": "I start at half past eight."
+        },
+        {
+          "word": "quarter past",
+          "ipa": "/ˈkwɔːtə pɑːst/",
+          "zh": "……点过一刻",
+          "example": "The shop opens at quarter past nine."
+        },
+        {
+          "word": "quarter to",
+          "ipa": "/ˈkwɔːtə tə/",
+          "zh": "差一刻到……点",
+          "example": "The bus leaves at quarter to ten."
+        },
+        {
+          "word": "noon",
+          "ipa": "/nuːn/",
+          "zh": "中午十二点",
+          "example": "We close at noon."
+        },
+        {
+          "word": "opening hours",
+          "ipa": "/ˈəʊpənɪŋ ˌaʊəz/",
+          "zh": "营业时间",
+          "example": "What are your opening hours?"
+        }
+      ],
+      "listening": {
+        "title": "A call to a café",
+        "transcript": "Thanks for calling Rose Café. We open at half past eight on weekdays. On Saturdays, we open at quarter past nine. The kitchen closes at quarter to three, but you can get coffee until four.",
+        "questions": [
+          {
+            "q": "When does the café open on Saturday?",
+            "options": [
+              "8:30",
+              "9:45",
+              "9:15"
+            ],
+            "answer": "9:15"
+          },
+          {
+            "q": "What time does the kitchen close?",
+            "options": [
+              "3:15 p.m.",
+              "4:00 p.m.",
+              "2:45 p.m."
+            ],
+            "answer": "2:45 p.m."
+          }
+        ]
+      },
+      "reading": {
+        "title": "Library opening hours",
+        "text": "Monday to Friday: 9:00 a.m.–6:00 p.m. Saturday: 10:00 a.m.–noon. Sunday: closed. The café inside the library opens at 11:00 a.m. from Monday to Friday.",
+        "questions": [
+          {
+            "q": "Can you visit the library at 11:30 on Saturday?",
+            "options": [
+              "Yes",
+              "No, it opens later",
+              "No, it is closed all day"
+            ],
+            "answer": "Yes"
+          },
+          {
+            "q": "When does the café open on Tuesday?",
+            "options": [
+              "Noon",
+              "11:00 a.m.",
+              "9:00 a.m."
+            ],
+            "answer": "11:00 a.m."
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Role-play a call to a museum. Ask when it opens on Saturday and when it closes. Read 9:30 and 4:45 aloud in two ways.",
+        "sample": "What time do you open on Saturday? Half past nine, right? And what time do you close? Quarter to five? Thanks!"
+      },
+      "writing": {
+        "prompt": "Write a 40–55 word message with opening hours for two places. Tell a friend which place you can visit on Saturday morning.",
+        "checklist": [
+          "I gave an opening and a closing time.",
+          "I used at and on correctly.",
+          "I told my friend which place we can visit."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d02q01",
+          "type": "choice",
+          "explanation": "差一刻到十点是九点四十五。",
+          "options": [
+            "9:45",
+            "10:15",
+            "10:45"
+          ],
+          "answer": "9:45",
+          "prompt": "What time is quarter to ten?"
+        },
+        {
+          "id": "w02d02q02",
+          "type": "choice",
+          "explanation": "具体时刻用 at，星期用 on。",
+          "options": [
+            "in / at",
+            "at / on",
+            "on / at"
+          ],
+          "answer": "at / on",
+          "prompt": "We open ___ nine ___ Saturday."
+        },
+        {
+          "id": "w02d02q03",
+          "type": "choice",
+          "explanation": "From nine to five 表示从九点到五点。",
+          "options": [
+            "at / on",
+            "from / to",
+            "on / to"
+          ],
+          "answer": "from / to",
+          "prompt": "We are open ___ nine ___ five."
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "id": "w02d03",
+      "title": "How Often Do You Do That?",
+      "subtitle": "聊习惯与频率",
+      "minutes": 30,
+      "grammar": [
+        "频率副词通常放在实义动词前、be 动词后",
+        "用 How often ...? 询问频率，用 once/twice a week 作答"
+      ],
+      "vocabulary": [
+        {
+          "word": "often",
+          "ipa": "/ˈɒfən/",
+          "zh": "经常",
+          "example": "I often walk to work."
+        },
+        {
+          "word": "hardly ever",
+          "ipa": "/ˈhɑːdli ˈevə/",
+          "zh": "几乎不",
+          "example": "I hardly ever watch TV."
+        },
+        {
+          "word": "twice",
+          "ipa": "/twaɪs/",
+          "zh": "两次",
+          "example": "I go swimming twice a week."
+        },
+        {
+          "word": "exercise",
+          "ipa": "/ˈeksəsaɪz/",
+          "zh": "锻炼",
+          "example": "I exercise after work."
+        },
+        {
+          "word": "habit",
+          "ipa": "/ˈhæbɪt/",
+          "zh": "习惯",
+          "example": "Walking after lunch is a good habit."
+        }
+      ],
+      "listening": {
+        "title": "Two ways to stay active",
+        "transcript": "I usually walk to work. I go swimming twice a week, on Tuesday and Thursday. My brother never swims. He plays football every Sunday. He is often tired after the game.",
+        "questions": [
+          {
+            "q": "How often does the speaker swim?",
+            "options": [
+              "Once a week",
+              "Twice a week",
+              "Every day"
+            ],
+            "answer": "Twice a week"
+          },
+          {
+            "q": "What does the brother do on Sundays?",
+            "options": [
+              "He swims",
+              "He walks to work",
+              "He plays football"
+            ],
+            "answer": "He plays football"
+          }
+        ]
+      },
+      "reading": {
+        "title": "After-work habits",
+        "text": "Mina and Eli both work from home. Mina goes for a walk every afternoon. Eli hardly ever walks during the week, but he cycles to the market on Saturdays. They both exercise on Sundays.",
+        "questions": [
+          {
+            "q": "Who walks every afternoon?",
+            "options": [
+              "Both Mina and Eli",
+              "Mina",
+              "Eli"
+            ],
+            "answer": "Mina"
+          },
+          {
+            "q": "Where does Eli cycle on Saturdays?",
+            "options": [
+              "To the office",
+              "To the gym",
+              "To the market"
+            ],
+            "answer": "To the market"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Ask a friend three How often questions. Answer the same questions yourself aloud.",
+        "sample": "How often do you exercise? I exercise twice a week. How often do you cook? I usually cook after work. How often do you go out on weekdays? I hardly ever go out on weekdays."
+      },
+      "writing": {
+        "prompt": "Write 50–65 words comparing two of your habits with those of a friend or a fictional person.",
+        "checklist": [
+          "I used two different frequency expressions.",
+          "I put the adverb in the right position.",
+          "I checked third-person verb endings."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d03q01",
+          "type": "choice",
+          "explanation": "一般把 often 放在 be 动词后。",
+          "options": [
+            "She often is busy.",
+            "She often busy is.",
+            "She is often busy."
+          ],
+          "answer": "She is often busy.",
+          "prompt": "Choose the neutral word order."
+        },
+        {
+          "id": "w02d03q02",
+          "type": "choice",
+          "explanation": "How often 询问频率。",
+          "options": [
+            "At half past six.",
+            "At the market.",
+            "Twice a week."
+          ],
+          "answer": "Twice a week.",
+          "prompt": "Which answer fits How often?"
+        },
+        {
+          "id": "w02d03q03",
+          "type": "choice",
+          "explanation": "Hardly ever 表示这种事很少发生。",
+          "options": [
+            "quite often",
+            "hardly ever",
+            "almost always"
+          ],
+          "answer": "hardly ever",
+          "prompt": "Which means 几乎从不?"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "id": "w02d04",
+      "title": "Workdays and Days Off",
+      "subtitle": "聊工作日和休息日的区别",
+      "minutes": 30,
+      "grammar": [
+        "用 do/does 构成一般现在时问句",
+        "用 don’t/doesn’t + 动词原形表示否定"
+      ],
+      "vocabulary": [
+        {
+          "word": "day off",
+          "ipa": "/deɪ ɒf/",
+          "zh": "休息日",
+          "example": "Friday is my day off."
+        },
+        {
+          "word": "shift",
+          "ipa": "/ʃɪft/",
+          "zh": "班次",
+          "example": "My shift starts at two."
+        },
+        {
+          "word": "work from home",
+          "ipa": "/wɜːk frəm həʊm/",
+          "zh": "在家办公",
+          "example": "I work from home on Fridays."
+        },
+        {
+          "word": "run errands",
+          "ipa": "/rʌn ˈerəndz/",
+          "zh": "出门办杂事",
+          "example": "I run errands on Saturdays."
+        },
+        {
+          "word": "laundry",
+          "ipa": "/ˈlɔːndri/",
+          "zh": "要洗的衣物；洗衣",
+          "example": "I do the laundry on Sundays."
+        }
+      ],
+      "listening": {
+        "title": "A different work week",
+        "transcript": "I work from Tuesday to Saturday. On Saturdays, my shift starts at noon. I don’t work on Mondays. On my day off, I do the laundry in the morning and visit my parents in the afternoon.",
+        "questions": [
+          {
+            "q": "When does the Saturday shift start?",
+            "options": [
+              "At noon",
+              "At eight",
+              "At six"
+            ],
+            "answer": "At noon"
+          },
+          {
+            "q": "What does the speaker do on Monday afternoon?",
+            "options": [
+              "Visits their parents",
+              "Does the laundry",
+              "Starts a shift"
+            ],
+            "answer": "Visits their parents"
+          }
+        ]
+      },
+      "reading": {
+        "title": "A week at the studio",
+        "text": "Ana works in a game studio. She tests new levels on Tuesday and Thursday. She doesn’t go to the studio on Friday because she works from home. On Sundays, she runs errands in the morning and has lunch with a friend.",
+        "questions": [
+          {
+            "q": "What does Ana do at work on Thursday?",
+            "options": [
+              "Works from home",
+              "Tests new levels",
+              "Runs errands"
+            ],
+            "answer": "Tests new levels"
+          },
+          {
+            "q": "Why doesn’t she go to the studio on Friday?",
+            "options": [
+              "She works from home",
+              "She has a day off",
+              "She visits a friend"
+            ],
+            "answer": "She works from home"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Compare a workday and a day off. Ask two questions you could use to find out how someone else spends their days off.",
+        "sample": "I usually test new levels on Tuesdays. I don’t work on Sundays. On my day off, I do the laundry and meet friends. What do you do on your days off? Do you usually go out?"
+      },
+      "writing": {
+        "prompt": "Write 55–70 words describing your workday and day off. Ask the reader one question about their routine.",
+        "checklist": [
+          "I used don’t or doesn’t with a base verb.",
+          "I gave one detail about each day.",
+          "I included a question with do or does."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d04q01",
+          "type": "choice",
+          "explanation": "主语是 Ana，问句用 does，work 用原形。",
+          "options": [
+            "is",
+            "does",
+            "do"
+          ],
+          "answer": "does",
+          "prompt": "Where ___ Ana work on Fridays?"
+        },
+        {
+          "id": "w02d04q02",
+          "type": "choice",
+          "explanation": "Doesn’t 后接动词原形。",
+          "options": [
+            "working",
+            "work",
+            "works"
+          ],
+          "answer": "work",
+          "prompt": "She doesn’t ___ on Sunday."
+        },
+        {
+          "id": "w02d04q03",
+          "type": "choice",
+          "explanation": "Work from home 指在家办公。",
+          "options": [
+            "get back home",
+            "take work home",
+            "work from home"
+          ],
+          "answer": "work from home",
+          "prompt": "Which phrase means 在家办公?"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "id": "w02d05",
+      "title": "Are You Free on Friday?",
+      "subtitle": "约时间、婉拒与改约",
+      "minutes": 30,
+      "grammar": [
+        "用 Are you free ...? 询问是否有空",
+        "用 Can we ... instead? 提出替代安排"
+      ],
+      "vocabulary": [
+        {
+          "word": "free",
+          "ipa": "/friː/",
+          "zh": "有空的",
+          "example": "Are you free on Friday?"
+        },
+        {
+          "word": "meet up",
+          "ipa": "/miːt ʌp/",
+          "zh": "见面；碰头",
+          "example": "Can we meet up after work?"
+        },
+        {
+          "word": "instead",
+          "ipa": "/ɪnˈsted/",
+          "zh": "作为替代",
+          "example": "Can we meet on Saturday instead?"
+        },
+        {
+          "word": "work for me",
+          "ipa": "/wɜːk fə miː/",
+          "zh": "对我来说合适",
+          "example": "Three works for me."
+        },
+        {
+          "word": "entrance",
+          "ipa": "/ˈentrəns/",
+          "zh": "入口",
+          "example": "Let’s meet at the main entrance."
+        }
+      ],
+      "listening": {
+        "title": "Changing the time",
+        "transcript": "Are you free on Friday at six? Sorry, I work until seven. Can we meet on Saturday instead? Sure. How about eleven in the morning? Eleven works for me. Let’s meet outside the station.",
+        "questions": [
+          {
+            "q": "Why can’t they meet at six on Friday?",
+            "options": [
+              "The station closes at six",
+              "One person has a train at six",
+              "One person works until seven"
+            ],
+            "answer": "One person works until seven"
+          },
+          {
+            "q": "Where do they decide to meet?",
+            "options": [
+              "Outside the station",
+              "Inside the station",
+              "At a café"
+            ],
+            "answer": "Outside the station"
+          }
+        ]
+      },
+      "reading": {
+        "title": "Two messages about coffee",
+        "text": "Nora: Hi Jay! Are you free for coffee on Sunday at ten? Jay: Sorry, I have a class at ten. Can we meet at two instead? Nora: Two works for me. Let’s meet at the main entrance to the park.",
+        "questions": [
+          {
+            "q": "What does Jay have at ten?",
+            "options": [
+              "A train",
+              "A class",
+              "A work shift"
+            ],
+            "answer": "A class"
+          },
+          {
+            "q": "What time do they agree on?",
+            "options": [
+              "2 p.m.",
+              "10 a.m.",
+              "12 p.m."
+            ],
+            "answer": "2 p.m."
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Role-play an invitation to a language exchange. Decline the first time politely, suggest a new time and confirm a meeting point.",
+        "sample": "Are you free on Friday evening? Sorry, I have a class. Can we meet on Saturday instead? Yes, Saturday works for me. Let’s meet at the main entrance at three."
+      },
+      "writing": {
+        "prompt": "A friend suggests lunch at noon. Write a short reply declining and suggesting a specific time and place.",
+        "checklist": [
+          "I thanked my friend or said sorry.",
+          "I gave a short reason.",
+          "I suggested an alternative time and a clear location."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d05q01",
+          "type": "choice",
+          "explanation": "Free 是形容词，用 Are you free ...?",
+          "options": [
+            "Are you at Friday?",
+            "Are you free on Friday?",
+            "Do you free on Friday?"
+          ],
+          "answer": "Are you free on Friday?",
+          "prompt": "Which is a natural way to ask if someone is available?"
+        },
+        {
+          "id": "w02d05q02",
+          "type": "choice",
+          "explanation": "Instead 表示用另一个安排替代原计划。",
+          "options": [
+            "Can we meet at three instead?",
+            "Three works for me.",
+            "See you at the entrance."
+          ],
+          "answer": "Can we meet at three instead?",
+          "prompt": "Which reply suggests a new time?"
+        },
+        {
+          "id": "w02d05q03",
+          "type": "choice",
+          "explanation": "Works for me 表示这个时间对我合适。",
+          "options": [
+            "Two is a good time for me.",
+            "I have two jobs.",
+            "I work for two hours."
+          ],
+          "answer": "Two is a good time for me.",
+          "prompt": "What does Two works for me mean here?"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "id": "w02d06",
+      "title": "Getting Things Done",
+      "subtitle": "读行程、交代截止时间",
+      "minutes": 30,
+      "grammar": [
+        "用 have to + 动词原形表示必须做的事",
+        "用 by 表示最迟时间，用 until 表示持续到某时"
+      ],
+      "vocabulary": [
+        {
+          "word": "pick up",
+          "ipa": "/pɪk ʌp/",
+          "zh": "领取；接人",
+          "example": "I have to pick up a parcel."
+        },
+        {
+          "word": "drop off",
+          "ipa": "/drɒp ɒf/",
+          "zh": "送到；放下",
+          "example": "I drop off the keys at reception."
+        },
+        {
+          "word": "parcel",
+          "ipa": "/ˈpɑːsəl/",
+          "zh": "包裹",
+          "example": "My parcel is at the post office."
+        },
+        {
+          "word": "reception",
+          "ipa": "/rɪˈsepʃən/",
+          "zh": "前台",
+          "example": "Leave the keys at reception."
+        },
+        {
+          "word": "until",
+          "ipa": "/ənˈtɪl/",
+          "zh": "直到",
+          "example": "The office is open until six."
+        }
+      ],
+      "listening": {
+        "title": "A busy afternoon",
+        "transcript": "I have to drop off my keys by two. After that, I want to pick up a parcel. The post office is open until five. I also have to meet Lina at half past five, so I want to finish my errands before five.",
+        "questions": [
+          {
+            "q": "What must the speaker do by two?",
+            "options": [
+              "Meet Lina",
+              "Drop off the keys",
+              "Pick up a parcel"
+            ],
+            "answer": "Drop off the keys"
+          },
+          {
+            "q": "When does the post office close?",
+            "options": [
+              "At half past five",
+              "At five",
+              "At two"
+            ],
+            "answer": "At five"
+          }
+        ]
+      },
+      "reading": {
+        "title": "A note at reception",
+        "text": "Please return your room key to reception by 11 a.m. You can leave your bags here until 4 p.m. The free bus to the station leaves from the front door at 4:15 p.m.",
+        "questions": [
+          {
+            "q": "What must guests return by eleven?",
+            "options": [
+              "Their bus ticket",
+              "Their room key",
+              "Their bags"
+            ],
+            "answer": "Their room key"
+          },
+          {
+            "q": "Where does the bus leave from?",
+            "options": [
+              "The front door",
+              "The station",
+              "The car park"
+            ],
+            "answer": "The front door"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "Explain a three-stop errand plan to a friend. Say what you have to do by a certain time and how long one place stays open.",
+        "sample": "I have to return my key by eleven. Then I have to pick up a parcel. The post office is open until five. After that, I can meet you at the station."
+      },
+      "writing": {
+        "prompt": "Write 50–65 words telling a travel partner what you both need to do before leaving your hotel. Include two deadlines or opening hours.",
+        "checklist": [
+          "I used have to at least once.",
+          "I used by for a deadline and until for a period.",
+          "I put the tasks in a practical order."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d06q01",
+          "type": "choice",
+          "explanation": "By nine 表示最迟九点。",
+          "options": [
+            "until",
+            "on",
+            "by"
+          ],
+          "answer": "by",
+          "prompt": "You must arrive no later than 9. Arrive ___ nine."
+        },
+        {
+          "id": "w02d06q02",
+          "type": "choice",
+          "explanation": "Until six 表示营业持续到六点。",
+          "options": [
+            "on",
+            "from after",
+            "until"
+          ],
+          "answer": "until",
+          "prompt": "The café is open ___ six."
+        },
+        {
+          "id": "w02d06q03",
+          "type": "choice",
+          "explanation": "Have to 后接动词原形。",
+          "options": [
+            "picks up",
+            "picking up",
+            "pick up"
+          ],
+          "answer": "pick up",
+          "prompt": "I have to ___ the parcel today."
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "id": "w02d07",
+      "title": "Weekly Challenge: A Day in Town",
+      "subtitle": "综合实战：安排一天并确认见面",
+      "minutes": 30,
+      "grammar": [
+        "复习作息、频率与时间表达",
+        "用时间顺序和替代建议完成一段约见对话"
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "ipa": "/plæn/",
+          "zh": "计划",
+          "example": "Here is my plan for Saturday."
+        },
+        {
+          "word": "available",
+          "ipa": "/əˈveɪləbl/",
+          "zh": "有空的",
+          "example": "I’m available after two."
+        },
+        {
+          "word": "close",
+          "ipa": "/kləʊz/",
+          "zh": "关门",
+          "example": "The market closes at noon."
+        },
+        {
+          "word": "confirm",
+          "ipa": "/kənˈfɜːm/",
+          "zh": "确认",
+          "example": "Can you confirm the time?"
+        },
+        {
+          "word": "around",
+          "ipa": "/əˈraʊnd/",
+          "zh": "大约",
+          "example": "I usually get there around ten."
+        }
+      ],
+      "listening": {
+        "title": "A voice message from Kai",
+        "transcript": "Hi! I usually go to the market on Saturday morning. It closes at noon, so I want to get there by eleven. I have a class from one to two. Can we meet after that? How about half past two outside the library? Let me know.",
+        "questions": [
+          {
+            "q": "Why does Kai want to get to the market by eleven?",
+            "options": [
+              "Class starts at eleven",
+              "The library opens at eleven",
+              "It closes at noon"
+            ],
+            "answer": "It closes at noon"
+          },
+          {
+            "q": "What meeting time does Kai suggest?",
+            "options": [
+              "1:30 p.m.",
+              "11:30 a.m.",
+              "2:30 p.m."
+            ],
+            "answer": "2:30 p.m."
+          },
+          {
+            "q": "Where does Kai want to meet?",
+            "options": [
+              "At the market",
+              "In the classroom",
+              "Outside the library"
+            ],
+            "answer": "Outside the library"
+          }
+        ]
+      },
+      "reading": {
+        "title": "Saturday in town",
+        "text": "The library is open from ten to three. The café opposite the library is open until five. There is a language exchange at the café at four. To join, send the organiser a message by noon. The café has two entrances. Use the one on Park Street.",
+        "questions": [
+          {
+            "q": "What must you do by noon to join the event?",
+            "options": [
+              "Leave the library",
+              "Message the organiser",
+              "Go to the café"
+            ],
+            "answer": "Message the organiser"
+          },
+          {
+            "q": "Which entrance should you use?",
+            "options": [
+              "The library entrance",
+              "Either entrance",
+              "The Park Street entrance"
+            ],
+            "answer": "The Park Street entrance"
+          },
+          {
+            "q": "Which place is open at four?",
+            "options": [
+              "The café",
+              "The library",
+              "Both places"
+            ],
+            "answer": "The café"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "You are busy until three. Reply to Kai aloud. Explain your schedule, suggest a new time and place, and check that the new time works. Then try again without the sample.",
+        "sample": "Thanks, Kai. I have to work until three, so I can’t meet at half past two. Can we meet outside the café on Park Street at half past three instead? The language exchange starts at four. Does that work for you?"
+      },
+      "writing": {
+        "prompt": "Write 65–85 words to Kai. Confirm what you heard, explain why the original time fails, and give a new plan that fits the café schedule.",
+        "checklist": [
+          "I repeated the original time correctly.",
+          "I gave a reason and a realistic alternative.",
+          "I included the meeting point and the event time.",
+          "I used by or until correctly."
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w02d07q01",
+          "type": "choice",
+          "explanation": "到达是一个时点，by eleven 表示最迟十一点。",
+          "options": [
+            "by",
+            "until",
+            "on"
+          ],
+          "answer": "by",
+          "prompt": "The shop closes at noon. I want to get there ___ eleven."
+        },
+        {
+          "id": "w02d07q02",
+          "type": "choice",
+          "explanation": "一般现在时的实义动词问句用 do。",
+          "options": [
+            "How often do you go to the market?",
+            "How often are you go to the market?",
+            "How often you go to the market?"
+          ],
+          "answer": "How often do you go to the market?",
+          "prompt": "Which is a natural question about a habit?"
+        },
+        {
+          "id": "w02d07q03",
+          "type": "choice",
+          "explanation": "Can we ... instead? 可以礼貌提出替代方案。",
+          "options": [
+            "I am meet you at three thirty.",
+            "Can we meet at half past three instead?",
+            "Are we meet half past three?"
+          ],
+          "answer": "Can we meet at half past three instead?",
+          "prompt": "Which reply politely changes the meeting time?"
+        },
+        {
+          "id": "w02d07q04",
+          "type": "choice",
+          "explanation": "2:30 比 2:00 晚，所以是 after class。",
+          "options": [
+            "Meet Kai during class.",
+            "Meet Kai after class.",
+            "Meet Kai before class."
+          ],
+          "answer": "Meet Kai after class.",
+          "prompt": "The class finishes at 2 p.m. What can you do at 2:30?"
+        }
+      ]
+    }
+  ]
+}

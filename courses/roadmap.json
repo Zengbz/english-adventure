@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "course": "English A2 to B1",
+  "dailyMinutes": 30,
+  "plannedWeeks": [
+    {"week":1,"title":"About Me","level":"A2","summary":"个人信息、家庭、职业、兴趣和简单日常表达。"},
+    {"week":2,"title":"Daily Life","level":"A2","summary":"作息、时间、频率副词、日常习惯和生活安排。"},
+    {"week":3,"title":"Past Experiences","level":"A2","summary":"一般过去时、旅行经历、活动和感受。"},
+    {"week":4,"title":"Future Plans","level":"A2","summary":"will、be going to、日期安排和旅行计划。"},
+    {"week":5,"title":"Food and Shopping","level":"A2+","summary":"点餐、购物、数量表达、价格和礼貌请求。"},
+    {"week":6,"title":"Transportation and Directions","level":"A2+","summary":"机场、车站、问路、交通方式和情态动词。"},
+    {"week":7,"title":"Hotel and Travel","level":"A2+","summary":"酒店预订、入住、比较选择和处理问题。"},
+    {"week":8,"title":"Making Friends","level":"A2+","summary":"国际社交、兴趣交流、现在完成时入门。"},
+    {"week":9,"title":"Expressing Opinions","level":"B1","summary":"表达观点、赞同反对、解释原因和条件句。"},
+    {"week":10,"title":"Culture and Society","level":"B1","summary":"文化差异、国家生活、被动语态和关系从句。"},
+    {"week":11,"title":"Stories and Experiences","level":"B1","summary":"叙事、综合时态、经历描述和连贯表达。"},
+    {"week":12,"title":"Real World English","level":"B1","summary":"旅行、社交、听说读写综合实战与阶段验收。"}
+  ]
+}
