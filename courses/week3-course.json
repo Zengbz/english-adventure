@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 3,
+  "title": "Past Experiences",
+  "level": "A2",
+  "summary": "一般过去时、旅行经历、活动和感受。",
+  "objectives": [
+    "Describe past travel and daily events in order",
+    "Ask follow-up questions with did",
+    "Give a reason for a reaction or change of plans"
+  ],
+  "lessons": [
+    {
+      "day": 15,
+      "id": "w03d01",
+      "title": "A Weekend Away",
+      "subtitle": "用过去时讲周末旅行",
+      "minutes": 30,
+      "grammar": [
+        "规则动词加 -ed"
+      ],
+      "vocabulary": [
+        {
+          "word": "stay",
+          "ipa": "/steɪ/",
+          "zh": "住宿",
+          "example": "I stayed near the beach."
+        },
+        {
+          "word": "souvenir",
+          "ipa": "/ˌsuːvəˈnɪə/",
+          "zh": "纪念品",
+          "example": "I bought a souvenir at the market."
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "zh": "旅行",
+          "example": "Did you enjoy your trip?"
+        }
+      ],
+      "listening": {
+        "title": "A Weekend Away",
+        "transcript": "We arrived in Brighton on Friday and stayed for two nights. On Saturday we walked along the beach. We returned home on Sunday afternoon.",
+        "questions": [
+          {
+            "q": "How long did they stay?",
+            "options": [
+              "One night",
+              "Three nights",
+              "Two nights"
+            ],
+            "answer": "Two nights"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用四句话讲一次短途旅行，按到达、活动、回家排序。",
+        "sample": "We arrived on Friday. We stayed near the beach. We walked by the sea. We returned on Sunday."
+      },
+      "reading": {
+        "title": "用过去时讲周末旅行",
+        "text": "Our first day in Bath was rainy. We visited the museum in the morning and watched a film after lunch. We walked back to our hotel when the rain stopped.",
+        "questions": [
+          {
+            "q": "What did they do after lunch?",
+            "options": [
+              "Visited a museum",
+              "Returned home",
+              "Watched a film"
+            ],
+            "answer": "Watched a film"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 45–60 词给朋友介绍你上周末去的地方和做的两件事。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（规则动词加 -ed）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d01q01",
+          "type": "choice",
+          "explanation": "Yesterday 指已结束的时间，visit 的过去式是 visited。",
+          "options": [
+            "visited",
+            "visit",
+            "visiting"
+          ],
+          "answer": "visited",
+          "prompt": "We ___ the museum yesterday."
+        },
+        {
+          "id": "w03d01q02",
+          "type": "choice",
+          "explanation": "stay 在本课中指住宿。",
+          "options": [
+            "旅行",
+            "住宿",
+            "纪念品"
+          ],
+          "answer": "住宿",
+          "prompt": "What does “stay” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "id": "w03d02",
+      "title": "What Did You Do?",
+      "subtitle": "常见不规则过去式",
+      "minutes": 30,
+      "grammar": [
+        "go → went，take → took，buy → bought"
+      ],
+      "vocabulary": [
+        {
+          "word": "souvenir",
+          "ipa": "/ˌsuːvəˈnɪə/",
+          "zh": "纪念品",
+          "example": "I bought a souvenir at the market."
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "zh": "旅行",
+          "example": "Did you enjoy your trip?"
+        },
+        {
+          "word": "closed",
+          "ipa": "/kləʊzd/",
+          "zh": "关闭的",
+          "example": "The shop was closed."
+        }
+      ],
+      "listening": {
+        "title": "What Did You Do?",
+        "transcript": "I went to the night market on my first evening. I bought a postcard for my sister and took some photos of the food stalls.",
+        "questions": [
+          {
+            "q": "What did the speaker buy?",
+            "options": [
+              "A bag",
+              "A postcard",
+              "A camera"
+            ],
+            "answer": "A postcard"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "说出上次出门你去了哪、买了什么、怎样到达。",
+        "sample": "I went to the old town. I took a bus and bought a postcard."
+      },
+      "reading": {
+        "title": "常见不规则过去式",
+        "text": "Kim went to the old town on Saturday. She took a bus to the main square and bought bread at a small bakery. She met a friend at noon.",
+        "questions": [
+          {
+            "q": "How did Kim get to the square?",
+            "options": [
+              "By bus",
+              "By train",
+              "On foot"
+            ],
+            "answer": "By bus"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 50–65 词讲一次购物或参观经历，至少用三个不规则过去式。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（go → went，take → took，buy → bought）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d02q01",
+          "type": "choice",
+          "explanation": "Take 的过去式是 took。",
+          "options": [
+            "take",
+            "took",
+            "taked"
+          ],
+          "answer": "took",
+          "prompt": "I ___ a photo of the bridge."
+        },
+        {
+          "id": "w03d02q02",
+          "type": "choice",
+          "explanation": "souvenir 在本课中指纪念品。",
+          "options": [
+            "关闭的",
+            "纪念品",
+            "旅行"
+          ],
+          "answer": "纪念品",
+          "prompt": "What does “souvenir” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "id": "w03d03",
+      "title": "Did You Enjoy It?",
+      "subtitle": "用 did 追问经历",
+      "minutes": 30,
+      "grammar": [
+        "Did + 主语 + 动词原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "zh": "旅行",
+          "example": "Did you enjoy your trip?"
+        },
+        {
+          "word": "souvenir",
+          "ipa": "/ˌsuːvəˈnɪə/",
+          "zh": "纪念品",
+          "example": "I bought a souvenir at the market."
+        },
+        {
+          "word": "stay",
+          "ipa": "/steɪ/",
+          "zh": "住宿",
+          "example": "I stayed near the beach."
+        }
+      ],
+      "listening": {
+        "title": "Did You Enjoy It?",
+        "transcript": "Did you visit the castle? Yes, I did. I went on Tuesday. Did you take the guided tour? No, I walked around with my friend.",
+        "questions": [
+          {
+            "q": "When was the castle visit?",
+            "options": [
+              "Thursday",
+              "Saturday",
+              "Tuesday"
+            ],
+            "answer": "Tuesday"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "假装采访一位旅行者，用 Did 和 Where did 各问一句，再模拟回答。",
+        "sample": "Did you visit the castle? Yes, I did. Where did you stay? I stayed near the station."
+      },
+      "reading": {
+        "title": "用 did 追问经历",
+        "text": "Maya asks Leo about his trip. He tells her he visited the castle but chose a free walking tour instead of the paid castle tour. He met two other travellers on the walk.",
+        "questions": [
+          {
+            "q": "Which tour did Leo choose?",
+            "options": [
+              "A paid castle tour",
+              "A free walking tour",
+              "A food tour"
+            ],
+            "answer": "A free walking tour"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段 6 行采访对话，问目的地、活动和感受。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Did + 主语 + 动词原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d03q01",
+          "type": "choice",
+          "explanation": "Did 已经表示过去，后面的动词用原形。",
+          "options": [
+            "visits",
+            "visited",
+            "visit"
+          ],
+          "answer": "visit",
+          "prompt": "Did you ___ the castle?"
+        },
+        {
+          "id": "w03d03q02",
+          "type": "choice",
+          "explanation": "trip 在本课中指旅行。",
+          "options": [
+            "旅行",
+            "住宿",
+            "纪念品"
+          ],
+          "answer": "旅行",
+          "prompt": "What does “trip” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "id": "w03d04",
+      "title": "It Was Closed",
+      "subtitle": "描述意外和过去的状态",
+      "minutes": 30,
+      "grammar": [
+        "was/were 与 didn’t + 动词原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "closed",
+          "ipa": "/kləʊzd/",
+          "zh": "关闭的",
+          "example": "The shop was closed."
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "zh": "旅行",
+          "example": "Did you enjoy your trip?"
+        },
+        {
+          "word": "souvenir",
+          "ipa": "/ˌsuːvəˈnɪə/",
+          "zh": "纪念品",
+          "example": "I bought a souvenir at the market."
+        }
+      ],
+      "listening": {
+        "title": "It Was Closed",
+        "transcript": "The café was closed, so we didn’t have lunch there. We went to a place across the street. It was busy, but we found a table outside.",
+        "questions": [
+          {
+            "q": "Where did they find a table?",
+            "options": [
+              "At the first café",
+              "Outside",
+              "Upstairs"
+            ],
+            "answer": "Outside"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "说一次原计划没成的经历，然后交代你改做了什么。",
+        "sample": "The café was closed, so we didn’t eat there. We bought lunch at the market."
+      },
+      "reading": {
+        "title": "描述意外和过去的状态",
+        "text": "Our train was late, and we didn’t arrive before seven. The restaurant was full, so we bought sandwiches at the station. We ate them at the hotel.",
+        "questions": [
+          {
+            "q": "Why did they buy sandwiches?",
+            "options": [
+              "The restaurant was full",
+              "The hotel was closed",
+              "They missed breakfast"
+            ],
+            "answer": "The restaurant was full"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 55–70 词解释一个旅行计划为什么改变。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（was/were 与 didn’t + 动词原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d04q01",
+          "type": "choice",
+          "explanation": "Didn’t 后使用动词原形 have。",
+          "options": [
+            "have",
+            "had",
+            "having"
+          ],
+          "answer": "have",
+          "prompt": "We didn’t ___ lunch there."
+        },
+        {
+          "id": "w03d04q02",
+          "type": "choice",
+          "explanation": "closed 在本课中指关闭的。",
+          "options": [
+            "旅行",
+            "关闭的",
+            "纪念品"
+          ],
+          "answer": "关闭的",
+          "prompt": "What does “closed” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "id": "w03d05",
+      "title": "How Was It?",
+      "subtitle": "用感受形容词描述经历",
+      "minutes": 30,
+      "grammar": [
+        "was/were + 形容词，用 because 补充理由"
+      ],
+      "vocabulary": [
+        {
+          "word": "disappointed",
+          "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+          "zh": "失望的",
+          "example": "I was disappointed because it rained."
+        },
+        {
+          "word": "closed",
+          "ipa": "/kləʊzd/",
+          "zh": "关闭的",
+          "example": "The shop was closed."
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "zh": "旅行",
+          "example": "Did you enjoy your trip?"
+        }
+      ],
+      "listening": {
+        "title": "How Was It?",
+        "transcript": "I was nervous before my first boat trip. After ten minutes I felt fine. The water was calm, and I enjoyed the view.",
+        "questions": [
+          {
+            "q": "How did the speaker feel before the trip?",
+            "options": [
+              "Bored",
+              "Angry",
+              "Nervous"
+            ],
+            "answer": "Nervous"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "讲一次先紧张、后来开心的经历，解释原因。",
+        "sample": "I was nervous because it was my first boat trip. I felt better after ten minutes."
+      },
+      "reading": {
+        "title": "用感受形容词描述经历",
+        "text": "The walk was tiring because the hill was steep. Ben was tired at the top, but he was happy with the view. He stayed for twenty minutes to take photos.",
+        "questions": [
+          {
+            "q": "Why was the walk tiring?",
+            "options": [
+              "The hill was steep",
+              "It started raining",
+              "The group got lost"
+            ],
+            "answer": "The hill was steep"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一篇 60 词旅行短评，说清哪件事让你满意或失望。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（was/were + 形容词，用 because 补充理由）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d05q01",
+          "type": "choice",
+          "explanation": "Tiring 形容让人疲惫的事情。",
+          "options": [
+            "tired",
+            "tiring",
+            "tire"
+          ],
+          "answer": "tiring",
+          "prompt": "The walk was ___, so I felt tired."
+        },
+        {
+          "id": "w03d05q02",
+          "type": "choice",
+          "explanation": "disappointed 在本课中指失望的。",
+          "options": [
+            "关闭的",
+            "失望的",
+            "旅行"
+          ],
+          "answer": "失望的",
+          "prompt": "What does “disappointed” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "id": "w03d06",
+      "title": "First, Then, Finally",
+      "subtitle": "把旅行经历讲清楚",
+      "minutes": 30,
+      "grammar": [
+        "用 first、then、finally 串联事件"
+      ],
+      "vocabulary": [
+        {
+          "word": "finally",
+          "ipa": "/ˈfaɪnəli/",
+          "zh": "最后",
+          "example": "Finally, we found our hotel."
+        },
+        {
+          "word": "disappointed",
+          "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+          "zh": "失望的",
+          "example": "I was disappointed because it rained."
+        },
+        {
+          "word": "closed",
+          "ipa": "/kləʊzd/",
+          "zh": "关闭的",
+          "example": "The shop was closed."
+        }
+      ],
+      "listening": {
+        "title": "First, Then, Finally",
+        "transcript": "First we checked the address. Then we asked a shopkeeper for help. Finally, we found the hotel behind the bus station.",
+        "questions": [
+          {
+            "q": "Who helped them?",
+            "options": [
+              "A shopkeeper",
+              "A hotel guest",
+              "A bus driver"
+            ],
+            "answer": "A shopkeeper"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用三个连接词讲一件按顺序发生的小事。",
+        "sample": "First, I checked the address. Then I asked for help. Finally, I found the hotel."
+      },
+      "reading": {
+        "title": "把旅行经历讲清楚",
+        "text": "We missed a bus on Sunday. First, we checked the next departure time. Then we bought coffee nearby. Finally, we caught the next bus and arrived at the museum before noon.",
+        "questions": [
+          {
+            "q": "What did they do between buses?",
+            "options": [
+              "Checked into a hotel",
+              "Visited the museum",
+              "Bought coffee"
+            ],
+            "answer": "Bought coffee"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词复盘一次迷路或错过交通工具的经历。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（用 first、then、finally 串联事件）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d06q01",
+          "type": "choice",
+          "explanation": "Finally 在叙事中可以引出最后一步。",
+          "options": [
+            "Finally",
+            "First",
+            "Yesterday"
+          ],
+          "answer": "Finally",
+          "prompt": "Which word introduces the last event?"
+        },
+        {
+          "id": "w03d06q02",
+          "type": "choice",
+          "explanation": "finally 在本课中指最后。",
+          "options": [
+            "关闭的",
+            "最后",
+            "失望的"
+          ],
+          "answer": "最后",
+          "prompt": "What does “finally” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "id": "w03d07",
+      "title": "Weekly Challenge: My Last Trip",
+      "subtitle": "用过去时讲完整旅行故事",
+      "minutes": 30,
+      "grammar": [
+        "过去式、did 问句和时间顺序综合"
+      ],
+      "vocabulary": [
+        {
+          "word": "memorable",
+          "ipa": "/ˈmemərəbl/",
+          "zh": "难忘的",
+          "example": "It was a memorable trip."
+        },
+        {
+          "word": "finally",
+          "ipa": "/ˈfaɪnəli/",
+          "zh": "最后",
+          "example": "Finally, we found our hotel."
+        },
+        {
+          "word": "disappointed",
+          "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+          "zh": "失望的",
+          "example": "I was disappointed because it rained."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: My Last Trip",
+        "transcript": "I went to a mountain village last spring. The bus was late, but a passenger recommended a bakery near the stop. I tried its bread and met a local guide. That was my favourite part of the trip.",
+        "questions": [
+          {
+            "q": "What was the favourite part?",
+            "options": [
+              "Trying the bread and meeting a guide",
+              "Buying a map",
+              "Waiting for the bus"
+            ],
+            "answer": "Trying the bread and meeting a guide"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "讲一段约 90 秒的旅行回忆，包含一个意外和一个亮点，再自问自答两个问题。",
+        "sample": "I went to a village last spring. The bus was late, but I found a great bakery. Did I enjoy the day? Yes, I did."
+      },
+      "reading": {
+        "title": "用过去时讲完整旅行故事",
+        "text": "Dear Jo, our first hike didn’t go as planned. It rained, so we visited a small museum first. Later the sky cleared. We took a short walk and saw the valley before sunset.",
+        "questions": [
+          {
+            "q": "What did they do when it rained?",
+            "options": [
+              "Walked in the valley",
+              "Visited a museum",
+              "Returned home"
+            ],
+            "answer": "Visited a museum"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 80–100 词的旅行明信片，包含时间、地点、三个事件和你的感受。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（过去式、did 问句和时间顺序综合）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w03d07q01",
+          "type": "choice",
+          "explanation": "Did 后用原形 go。",
+          "options": [
+            "go",
+            "went",
+            "going"
+          ],
+          "answer": "go",
+          "prompt": "Where did you ___ last spring?"
+        },
+        {
+          "id": "w03d07q02",
+          "type": "choice",
+          "explanation": "memorable 在本课中指难忘的。",
+          "options": [
+            "失望的",
+            "难忘的",
+            "最后"
+          ],
+          "answer": "难忘的",
+          "prompt": "What does “memorable” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

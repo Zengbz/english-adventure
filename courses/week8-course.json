@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 8,
+  "title": "Making Friends",
+  "level": "A2+",
+  "summary": "国际社交、兴趣交流、现在完成时入门。",
+  "objectives": [
+    "Start conversations and ask follow-up questions",
+    "Discuss experiences and specific past events",
+    "Invite someone and check details"
+  ],
+  "lessons": [
+    {
+      "day": 50,
+      "id": "w08d01",
+      "title": "Start a Conversation",
+      "subtitle": "用共同场景开启对话",
+      "minutes": 30,
+      "grammar": [
+        "Is this your first time ...?；开放式问句"
+      ],
+      "vocabulary": [
+        {
+          "word": "exchange",
+          "ipa": "/ɪksˈtʃeɪndʒ/",
+          "zh": "交流",
+          "example": "I’m here for the language exchange."
+        },
+        {
+          "word": "follow-up",
+          "ipa": "/ˈfɒləʊ ʌp/",
+          "zh": "追问",
+          "example": "Ask a follow-up question."
+        },
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "Have you ever studied abroad?"
+        }
+      ],
+      "listening": {
+        "title": "Start a Conversation",
+        "transcript": "Is this your first time at the exchange? Mine too. I’m here to practise Spanish. How did you hear about the group?",
+        "questions": [
+          {
+            "q": "What language does the speaker want to practise?",
+            "options": [
+              "Spanish",
+              "French",
+              "English"
+            ],
+            "answer": "Spanish"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用两种不同的开场白和一位新朋友说话，再问一句开放式问题。",
+        "sample": "Hi, is this your first time here? What brought you to the exchange?"
+      },
+      "reading": {
+        "title": "用共同场景开启对话",
+        "text": "New members meet by the door at 6:45. Pick up a name tag and join a group at seven. Tell your group which language you want to practise.",
+        "questions": [
+          {
+            "q": "When do new members meet by the door?",
+            "options": [
+              "7:00",
+              "6:45",
+              "7:15"
+            ],
+            "answer": "6:45"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 55–70 词欢迎新人，给出见面安排和一个可以回答的话题。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Is this your first time ...?；开放式问句）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d01q01",
+          "type": "choice",
+          "explanation": "What 提问常能引出更多信息。",
+          "options": [
+            "What brought you here?",
+            "Are you here?",
+            "Is it seven?"
+          ],
+          "answer": "What brought you here?",
+          "prompt": "Which question invites a longer answer?"
+        },
+        {
+          "id": "w08d01q02",
+          "type": "choice",
+          "explanation": "exchange 在本课中指交流。",
+          "options": [
+            "在国外",
+            "追问",
+            "交流"
+          ],
+          "answer": "交流",
+          "prompt": "What does “exchange” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "id": "w08d02",
+      "title": "Keep the Conversation Going",
+      "subtitle": "回应对方并接着追问",
+      "minutes": 30,
+      "grammar": [
+        "Really?；What do you like about ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "follow-up",
+          "ipa": "/ˈfɒləʊ ʌp/",
+          "zh": "追问",
+          "example": "Ask a follow-up question."
+        },
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "Have you ever studied abroad?"
+        },
+        {
+          "word": "try",
+          "ipa": "/traɪ/",
+          "zh": "尝试",
+          "example": "I’ve never tried skiing."
+        }
+      ],
+      "listening": {
+        "title": "Keep the Conversation Going",
+        "transcript": "I enjoy making games with friends. Really? What kind of games do you make? Mostly small puzzle games. We meet online once a week.",
+        "questions": [
+          {
+            "q": "What kind of games do they make?",
+            "options": [
+              "Racing games",
+              "Sports games",
+              "Puzzle games"
+            ],
+            "answer": "Puzzle games"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "听到对方说喜欢做游戏或旅行后，给一句回应，再追问两个细节。",
+        "sample": "That sounds fun. What kind of games do you make? How often do you meet?"
+      },
+      "reading": {
+        "title": "回应对方并接着追问",
+        "text": "Lina says she enjoys hiking. Omar asks where she usually goes. When she mentions a local park, he asks which trail she recommends for beginners.",
+        "questions": [
+          {
+            "q": "What does Omar ask for at the end?",
+            "options": [
+              "A bus timetable",
+              "A trail recommendation",
+              "A phone number"
+            ],
+            "answer": "A trail recommendation"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段 8 行聊天，至少有两次根据上句内容进行追问。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Really?；What do you like about ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d02q01",
+          "type": "choice",
+          "explanation": "追问应延续对方刚提到的话题。",
+          "options": [
+            "Where do you usually hike?",
+            "When does the flight leave?",
+            "Do you have the bill?"
+          ],
+          "answer": "Where do you usually hike?",
+          "prompt": "Which is a useful follow-up to “I enjoy hiking”?"
+        },
+        {
+          "id": "w08d02q02",
+          "type": "choice",
+          "explanation": "follow-up 在本课中指追问。",
+          "options": [
+            "尝试",
+            "追问",
+            "在国外"
+          ],
+          "answer": "追问",
+          "prompt": "What does “follow-up” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "id": "w08d03",
+      "title": "Have You Ever Been There?",
+      "subtitle": "问对方有没有某种经历",
+      "minutes": 30,
+      "grammar": [
+        "Have you ever + 过去分词?"
+      ],
+      "vocabulary": [
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "Have you ever studied abroad?"
+        },
+        {
+          "word": "follow-up",
+          "ipa": "/ˈfɒləʊ ʌp/",
+          "zh": "追问",
+          "example": "Ask a follow-up question."
+        },
+        {
+          "word": "exchange",
+          "ipa": "/ɪksˈtʃeɪndʒ/",
+          "zh": "交流",
+          "example": "I’m here for the language exchange."
+        }
+      ],
+      "listening": {
+        "title": "Have You Ever Been There?",
+        "transcript": "Have you ever been to Malaysia? Yes, I have. I went to Penang last year. I loved the night markets there.",
+        "questions": [
+          {
+            "q": "Where did the speaker go last year?",
+            "options": [
+              "Penang",
+              "Seoul",
+              "Tokyo"
+            ],
+            "answer": "Penang"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用 Have you ever 提三个旅行问题，再就一个回答用过去时追问。",
+        "sample": "Have you ever travelled alone? Where did you go?"
+      },
+      "reading": {
+        "title": "问对方有没有某种经历",
+        "text": "At the travel club, everyone asks a partner about past experiences. You can ask whether they have ever travelled alone or stayed with a host family.",
+        "questions": [
+          {
+            "q": "What is one suggested topic?",
+            "options": [
+              "Travelling alone",
+              "Choosing a job",
+              "Buying a house"
+            ],
+            "answer": "Travelling alone"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段对话，包含两个 Have you ever 问题和一个有具体时间的回答。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Have you ever + 过去分词?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d03q01",
+          "type": "choice",
+          "explanation": "Have you ever 后用过去分词 been。",
+          "options": [
+            "went",
+            "been",
+            "go"
+          ],
+          "answer": "been",
+          "prompt": "Have you ever ___ to Malaysia?"
+        },
+        {
+          "id": "w08d03q02",
+          "type": "choice",
+          "explanation": "abroad 在本课中指在国外。",
+          "options": [
+            "在国外",
+            "交流",
+            "追问"
+          ],
+          "answer": "在国外",
+          "prompt": "What does “abroad” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "id": "w08d04",
+      "title": "I’ve Never Tried It",
+      "subtitle": "说明有过或没有过的体验",
+      "minutes": 30,
+      "grammar": [
+        "have/has never + 过去分词；一般过去时补具体细节"
+      ],
+      "vocabulary": [
+        {
+          "word": "try",
+          "ipa": "/traɪ/",
+          "zh": "尝试",
+          "example": "I’ve never tried skiing."
+        },
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "Have you ever studied abroad?"
+        },
+        {
+          "word": "follow-up",
+          "ipa": "/ˈfɒləʊ ʌp/",
+          "zh": "追问",
+          "example": "Ask a follow-up question."
+        }
+      ],
+      "listening": {
+        "title": "I’ve Never Tried It",
+        "transcript": "I’ve never tried skiing, but I’ve been ice skating. I went skating with my sister last winter. We want to go again this year.",
+        "questions": [
+          {
+            "q": "What has the speaker never tried?",
+            "options": [
+              "Skiing",
+              "Winter travel",
+              "Ice skating"
+            ],
+            "answer": "Skiing"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "说两种你没尝试过的活动，以及一种尝试过的活动和具体时间。",
+        "sample": "I’ve never tried skiing. I’ve been ice skating. I went last winter."
+      },
+      "reading": {
+        "title": "说明有过或没有过的体验",
+        "text": "Aki has never joined a cooking class. His friend Jo has taken one before. She took a bread-making class in March and recommends it to beginners.",
+        "questions": [
+          {
+            "q": "What did Jo learn to make?",
+            "options": [
+              "Pasta",
+              "Bread",
+              "Soup"
+            ],
+            "answer": "Bread"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 65–80 词给活动搭子，交流做过、没做过以及想一起尝试的事。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（have/has never + 过去分词；一般过去时补具体细节）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d04q01",
+          "type": "choice",
+          "explanation": "Has never 后用过去分词 taken。",
+          "options": [
+            "take",
+            "taken",
+            "took"
+          ],
+          "answer": "taken",
+          "prompt": "She has never ___ a cooking class."
+        },
+        {
+          "id": "w08d04q02",
+          "type": "choice",
+          "explanation": "try 在本课中指尝试。",
+          "options": [
+            "在国外",
+            "追问",
+            "尝试"
+          ],
+          "answer": "尝试",
+          "prompt": "What does “try” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "id": "w08d05",
+      "title": "Would You Like to Join Us?",
+      "subtitle": "邀请、接受和礼貌婉拒",
+      "minutes": 30,
+      "grammar": [
+        "Would you like to + 动词原形?"
+      ],
+      "vocabulary": [
+        {
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "zh": "加入",
+          "example": "Would you like to join us?"
+        },
+        {
+          "word": "try",
+          "ipa": "/traɪ/",
+          "zh": "尝试",
+          "example": "I’ve never tried skiing."
+        },
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "Have you ever studied abroad?"
+        }
+      ],
+      "listening": {
+        "title": "Would You Like to Join Us?",
+        "transcript": "Would you like to join us for lunch on Saturday? I’d love to, but I’m working at noon. Are you free for coffee after three instead?",
+        "questions": [
+          {
+            "q": "What does the second speaker suggest?",
+            "options": [
+              "Dinner at seven",
+              "Coffee after three",
+              "Lunch at noon"
+            ],
+            "answer": "Coffee after three"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "邀请新朋友参加活动，然后练习接受和婉拒两种回答。",
+        "sample": "Would you like to join us? I’d love to, but I’m working. How about Sunday instead?"
+      },
+      "reading": {
+        "title": "邀请、接受和礼貌婉拒",
+        "text": "We’re meeting for board games on Thursday at seven. New players are welcome. Please reply by Wednesday so we can book enough seats.",
+        "questions": [
+          {
+            "q": "When should you reply?",
+            "options": [
+              "By Wednesday",
+              "By Friday",
+              "By Thursday evening"
+            ],
+            "answer": "By Wednesday"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一条 60–75 词的邀请，给出活动、日期、地点和回复截止时间。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Would you like to + 动词原形?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d05q01",
+          "type": "choice",
+          "explanation": "Would you like to 后用动词原形。",
+          "options": [
+            "to join",
+            "joined",
+            "joining"
+          ],
+          "answer": "to join",
+          "prompt": "Would you like ___ us for lunch?"
+        },
+        {
+          "id": "w08d05q02",
+          "type": "choice",
+          "explanation": "join 在本课中指加入。",
+          "options": [
+            "尝试",
+            "在国外",
+            "加入"
+          ],
+          "answer": "加入",
+          "prompt": "What does “join” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "id": "w08d06",
+      "title": "What Did You Mean?",
+      "subtitle": "请求重说或确认意思",
+      "minutes": 30,
+      "grammar": [
+        "Could you say that again?；Do you mean ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "ipa": "/ˈklærəfaɪ/",
+          "zh": "澄清",
+          "example": "Could you clarify the time?"
+        },
+        {
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "zh": "加入",
+          "example": "Would you like to join us?"
+        },
+        {
+          "word": "try",
+          "ipa": "/traɪ/",
+          "zh": "尝试",
+          "example": "I’ve never tried skiing."
+        }
+      ],
+      "listening": {
+        "title": "What Did You Mean?",
+        "transcript": "Let’s meet by the main hall at quarter to seven. Could you repeat the time? Of course, six forty-five, just outside the main hall.",
+        "questions": [
+          {
+            "q": "What time do they agree on?",
+            "options": [
+              "6:45",
+              "7:45",
+              "7:15"
+            ],
+            "answer": "6:45"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "请对方重复一个时刻，用自己的话确认位置，再询问一个陌生表达。",
+        "sample": "Could you say that again? Do you mean six forty-five outside the main hall?"
+      },
+      "reading": {
+        "title": "请求重说或确认意思",
+        "text": "The notice says to bring something to share. A member asks what that means. The organiser says food is welcome, but a story or a photo is also fine.",
+        "questions": [
+          {
+            "q": "What else can members bring besides food?",
+            "options": [
+              "A jacket or umbrella",
+              "A ticket or passport",
+              "A story or photo"
+            ],
+            "answer": "A story or photo"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词确认一个你没听清的活动安排。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Could you say that again?；Do you mean ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d06q01",
+          "type": "choice",
+          "explanation": "Do you mean ...? 用来核对理解。",
+          "options": [
+            "Would you like a drink?",
+            "Where are you from?",
+            "Do you mean outside the hall?"
+          ],
+          "answer": "Do you mean outside the hall?",
+          "prompt": "Which question checks your understanding?"
+        },
+        {
+          "id": "w08d06q02",
+          "type": "choice",
+          "explanation": "clarify 在本课中指澄清。",
+          "options": [
+            "澄清",
+            "尝试",
+            "加入"
+          ],
+          "answer": "澄清",
+          "prompt": "What does “clarify” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "id": "w08d07",
+      "title": "Weekly Challenge: Make a New Friend",
+      "subtitle": "完成开场、追问、邀约与确认",
+      "minutes": 30,
+      "grammar": [
+        "综合一般过去时、现在完成时和礼貌追问"
+      ],
+      "vocabulary": [
+        {
+          "word": "keep in touch",
+          "ipa": "/kiːp ɪn tʌtʃ/",
+          "zh": "保持联系",
+          "example": "Let’s keep in touch."
+        },
+        {
+          "word": "clarify",
+          "ipa": "/ˈklærəfaɪ/",
+          "zh": "澄清",
+          "example": "Could you clarify the time?"
+        },
+        {
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "zh": "加入",
+          "example": "Would you like to join us?"
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Make a New Friend",
+        "transcript": "I’m new to the city and I like photography. I’ve never been to the riverside market. Some friends are going there on Sunday, and you’re welcome to come.",
+        "questions": [
+          {
+            "q": "Where are the friends going on Sunday?",
+            "options": [
+              "A photo studio",
+              "The riverside market",
+              "The old station"
+            ],
+            "answer": "The riverside market"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "模拟两分钟聊天，先聊摄影，再问一次经历并确认集合时间。",
+        "sample": "I enjoy taking photos too. Have you ever joined a photo walk? Do you mean eleven outside the market?"
+      },
+      "reading": {
+        "title": "完成开场、追问、邀约与确认",
+        "text": "Photo walk: meet outside the market at eleven. Bring a camera or phone. The walk is free, but space is limited to twelve people. Send Jo a message to join.",
+        "questions": [
+          {
+            "q": "How can you sign up?",
+            "options": [
+              "Call the station",
+              "Send Jo a message",
+              "Pay at the entrance"
+            ],
+            "answer": "Send Jo a message"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词跟进这次见面，提到共同兴趣、问一个问题并确认活动。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（综合一般过去时、现在完成时和礼貌追问）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w08d07q01",
+          "type": "choice",
+          "explanation": "Have you ever 提问不限某个具体的过去时刻。",
+          "options": [
+            "Have you ever joined a photo walk?",
+            "Did you join one last Sunday?",
+            "Are you joining tomorrow?"
+          ],
+          "answer": "Have you ever joined a photo walk?",
+          "prompt": "Which question asks about experience without naming a time?"
+        },
+        {
+          "id": "w08d07q02",
+          "type": "choice",
+          "explanation": "keep in touch 在本课中指保持联系。",
+          "options": [
+            "加入",
+            "澄清",
+            "保持联系"
+          ],
+          "answer": "保持联系",
+          "prompt": "What does “keep in touch” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

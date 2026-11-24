@@ -1,5 +1,5 @@
-const CACHE='english-adventure-shell-v0.1.1';
-const SHELL=['./','./index.html','./styles.css?v=0.1.1','./manifest.webmanifest','./assets/icon.svg','./src/core.js?v=0.1.1','./src/progress.js?v=0.1.1','./src/ai-context.js?v=0.1.1','./src/ai-contracts.js?v=0.1.1','./src/deepseek.js?v=0.1.1','./src/app.js?v=0.1.1','./courses/catalog.json','./courses/roadmap.json','./courses/week1-course.json'];
+const CACHE='english-adventure-shell-v0.2.0';
+const SHELL=['./','./index.html','./styles.css?v=0.2.0','./manifest.webmanifest','./assets/icon.svg','./src/core.js?v=0.2.0','./src/progress.js?v=0.2.0','./src/ai-context.js?v=0.2.0','./src/ai-contracts.js?v=0.2.0','./src/deepseek.js?v=0.2.0','./src/app.js?v=0.2.0','./courses/catalog.json','./courses/roadmap.json','./courses/week1-course.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('english-adventure-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{const r=e.request,u=new URL(r.url);if(r.method!=='GET'||u.origin!==location.origin)return;if(u.pathname.includes('/courses/')){e.respondWith(fetch(r).then(res=>{if(res.ok){const copy=res.clone();caches.open(CACHE).then(c=>c.put(r,copy));}return res;}).catch(()=>caches.match(r)));return;}e.respondWith(caches.match(r).then(hit=>hit||fetch(r)));});

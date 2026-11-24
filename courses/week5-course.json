@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 5,
+  "title": "Food and Shopping",
+  "level": "A2+",
+  "summary": "点餐、购物、数量表达、价格和礼貌请求。",
+  "objectives": [
+    "Order food and ask about portions",
+    "Ask about size, payment and receipts",
+    "Resolve a return and stay within a budget"
+  ],
+  "lessons": [
+    {
+      "day": 29,
+      "id": "w05d01",
+      "title": "A Table for Two",
+      "subtitle": "进店、确认人数与等位",
+      "minutes": 30,
+      "grammar": [
+        "Could we have ...? 礼貌提出请求"
+      ],
+      "vocabulary": [
+        {
+          "word": "table",
+          "ipa": "/ˈteɪbl/",
+          "zh": "桌位",
+          "example": "Could we have a table for two?"
+        },
+        {
+          "word": "side",
+          "ipa": "/saɪd/",
+          "zh": "配菜",
+          "example": "I’d like rice on the side."
+        },
+        {
+          "word": "portion",
+          "ipa": "/ˈpɔːʃən/",
+          "zh": "一份",
+          "example": "We need two portions of rice."
+        }
+      ],
+      "listening": {
+        "title": "A Table for Two",
+        "transcript": "We have a table outside now. If you want to sit inside, the wait is twenty minutes. Could we take the outdoor table, please?",
+        "questions": [
+          {
+            "q": "Where will they sit?",
+            "options": [
+              "Outside",
+              "Inside",
+              "At the bar"
+            ],
+            "answer": "Outside"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "带一位朋友进店，询问双人桌、等位和室内座位。",
+        "sample": "Could we have a table for two inside? How long is the wait?"
+      },
+      "reading": {
+        "title": "进店、确认人数与等位",
+        "text": "Lunch starts at noon. Groups of six or more need a reservation. Smaller groups can ask for a table at the door.",
+        "questions": [
+          {
+            "q": "Who needs a reservation?",
+            "options": [
+              "Groups of at least six",
+              "All guests",
+              "Only pairs"
+            ],
+            "answer": "Groups of at least six"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一条短信给朋友，说明打算坐哪、等多久和见面地点。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Could we have ...? 礼貌提出请求）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d01q01",
+          "type": "choice",
+          "explanation": "Could 后接动词原形。",
+          "options": [
+            "having",
+            "has",
+            "have"
+          ],
+          "answer": "have",
+          "prompt": "Could we ___ a table for two?"
+        },
+        {
+          "id": "w05d01q02",
+          "type": "choice",
+          "explanation": "table 在本课中指桌位。",
+          "options": [
+            "桌位",
+            "配菜",
+            "一份"
+          ],
+          "answer": "桌位",
+          "prompt": "What does “table” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "id": "w05d02",
+      "title": "Ordering a Meal",
+      "subtitle": "点餐和说明需求",
+      "minutes": 30,
+      "grammar": [
+        "I’d like + 名词；Could I have ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "side",
+          "ipa": "/saɪd/",
+          "zh": "配菜",
+          "example": "I’d like rice on the side."
+        },
+        {
+          "word": "portion",
+          "ipa": "/ˈpɔːʃən/",
+          "zh": "一份",
+          "example": "We need two portions of rice."
+        },
+        {
+          "word": "fitting room",
+          "ipa": "/ˈfɪtɪŋ ruːm/",
+          "zh": "试衣间",
+          "example": "The fitting room is over there."
+        }
+      ],
+      "listening": {
+        "title": "Ordering a Meal",
+        "transcript": "I’d like the grilled fish with rice. Could I have the sauce on the side? And just water to drink, please.",
+        "questions": [
+          {
+            "q": "What should be served separately?",
+            "options": [
+              "The sauce",
+              "The fish",
+              "The rice"
+            ],
+            "answer": "The sauce"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "模拟点一份主菜、一份配菜和饮料，并问清酱汁能否分开。",
+        "sample": "I’d like the fish with rice. Could I have the sauce on the side, please?"
+      },
+      "reading": {
+        "title": "点餐和说明需求",
+        "text": "Lunch set: choose one main dish and one side. Water is included. Add soup for three pounds. Please tell your server about any food allergies.",
+        "questions": [
+          {
+            "q": "Which drink is included?",
+            "options": [
+              "Water",
+              "Juice",
+              "Tea"
+            ],
+            "answer": "Water"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一份英文点餐清单，用完整句子注明一项特殊要求。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I’d like + 名词；Could I have ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d02q01",
+          "type": "choice",
+          "explanation": "I’d like 是礼貌点餐句型。",
+          "options": [
+            "likes",
+            "like",
+            "liked"
+          ],
+          "answer": "like",
+          "prompt": "I’d ___ the soup, please."
+        },
+        {
+          "id": "w05d02q02",
+          "type": "choice",
+          "explanation": "side 在本课中指配菜。",
+          "options": [
+            "配菜",
+            "一份",
+            "试衣间"
+          ],
+          "answer": "配菜",
+          "prompt": "What does “side” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "id": "w05d03",
+      "title": "How Much Rice?",
+      "subtitle": "理解可数和不可数名词",
+      "minutes": 30,
+      "grammar": [
+        "how many + 复数，how much + 不可数名词"
+      ],
+      "vocabulary": [
+        {
+          "word": "portion",
+          "ipa": "/ˈpɔːʃən/",
+          "zh": "一份",
+          "example": "We need two portions of rice."
+        },
+        {
+          "word": "side",
+          "ipa": "/saɪd/",
+          "zh": "配菜",
+          "example": "I’d like rice on the side."
+        },
+        {
+          "word": "table",
+          "ipa": "/ˈteɪbl/",
+          "zh": "桌位",
+          "example": "Could we have a table for two?"
+        }
+      ],
+      "listening": {
+        "title": "How Much Rice?",
+        "transcript": "We need six eggs for the cake, but we only have four. There’s enough milk. Could you buy two eggs on your way home?",
+        "questions": [
+          {
+            "q": "What should the listener buy?",
+            "options": [
+              "Four eggs",
+              "Some milk",
+              "Two eggs"
+            ],
+            "answer": "Two eggs"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "就一次做饭练习问所需米、鸡蛋和水的量。",
+        "sample": "How much rice do we need? How many eggs should I buy?"
+      },
+      "reading": {
+        "title": "理解可数和不可数名词",
+        "text": "For two people, use one cup of rice, two carrots and a little oil. Add water before you heat the pot.",
+        "questions": [
+          {
+            "q": "How many carrots do you need?",
+            "options": [
+              "Three",
+              "One",
+              "Two"
+            ],
+            "answer": "Two"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一份双人购物清单，用量词说明三种食材的数量。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（how many + 复数，how much + 不可数名词）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d03q01",
+          "type": "choice",
+          "explanation": "Water 是不可数名词，用 how much。",
+          "options": [
+            "often",
+            "many",
+            "much"
+          ],
+          "answer": "much",
+          "prompt": "How ___ water do we need?"
+        },
+        {
+          "id": "w05d03q02",
+          "type": "choice",
+          "explanation": "portion 在本课中指一份。",
+          "options": [
+            "桌位",
+            "一份",
+            "配菜"
+          ],
+          "answer": "一份",
+          "prompt": "What does “portion” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "id": "w05d04",
+      "title": "Can I Try It On?",
+      "subtitle": "询问尺码、试穿和颜色",
+      "minutes": 30,
+      "grammar": [
+        "this/these 区分单复数；have ... in + 尺码或颜色"
+      ],
+      "vocabulary": [
+        {
+          "word": "fitting room",
+          "ipa": "/ˈfɪtɪŋ ruːm/",
+          "zh": "试衣间",
+          "example": "The fitting room is over there."
+        },
+        {
+          "word": "portion",
+          "ipa": "/ˈpɔːʃən/",
+          "zh": "一份",
+          "example": "We need two portions of rice."
+        },
+        {
+          "word": "side",
+          "ipa": "/saɪd/",
+          "zh": "配菜",
+          "example": "I’d like rice on the side."
+        }
+      ],
+      "listening": {
+        "title": "Can I Try It On?",
+        "transcript": "Do you have this jacket in medium? We only have black in medium, but there’s a blue one in large. Can I try the black one on?",
+        "questions": [
+          {
+            "q": "Which jacket does the shopper try?",
+            "options": [
+              "Blue large",
+              "Black medium",
+              "Blue medium"
+            ],
+            "answer": "Black medium"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "向店员询问另一种颜色、尺码和能否试穿。",
+        "sample": "Do you have these trousers in black? Can I try them on?"
+      },
+      "reading": {
+        "title": "询问尺码、试穿和颜色",
+        "text": "Sale trousers come in black and grey. Grey is available in small and medium. Black is available in medium and large. The fitting room closes at six.",
+        "questions": [
+          {
+            "q": "Which colour is available in large?",
+            "options": [
+              "Grey",
+              "Both colours",
+              "Black"
+            ],
+            "answer": "Black"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 45–60 词，向朋友比较两件衣服的颜色、尺码和选择理由。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（this/these 区分单复数；have ... in + 尺码或颜色）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d04q01",
+          "type": "choice",
+          "explanation": "Shoes 是复数，用 these。",
+          "options": [
+            "that",
+            "these",
+            "this"
+          ],
+          "answer": "these",
+          "prompt": "Can I try ___ shoes on?"
+        },
+        {
+          "id": "w05d04q02",
+          "type": "choice",
+          "explanation": "fitting room 在本课中指试衣间。",
+          "options": [
+            "配菜",
+            "试衣间",
+            "一份"
+          ],
+          "answer": "试衣间",
+          "prompt": "What does “fitting room” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "id": "w05d05",
+      "title": "The Bill, Please",
+      "subtitle": "确认账单与支付方式",
+      "minutes": 30,
+      "grammar": [
+        "Could we ...?；pay by card / pay in cash"
+      ],
+      "vocabulary": [
+        {
+          "word": "bill",
+          "ipa": "/bɪl/",
+          "zh": "账单",
+          "example": "Could we have the bill, please?"
+        },
+        {
+          "word": "fitting room",
+          "ipa": "/ˈfɪtɪŋ ruːm/",
+          "zh": "试衣间",
+          "example": "The fitting room is over there."
+        },
+        {
+          "word": "portion",
+          "ipa": "/ˈpɔːʃən/",
+          "zh": "一份",
+          "example": "We need two portions of rice."
+        }
+      ],
+      "listening": {
+        "title": "The Bill, Please",
+        "transcript": "Could we have the bill? We’d like to pay separately. That’s fine, but the card reader isn’t working today. Do you have cash?",
+        "questions": [
+          {
+            "q": "How can the customers pay?",
+            "options": [
+              "With a gift card",
+              "By card",
+              "In cash"
+            ],
+            "answer": "In cash"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "模拟结账，询问能否分开付、能否刷卡和是否含服务费。",
+        "sample": "Could we pay separately? Is service included?"
+      },
+      "reading": {
+        "title": "确认账单与支付方式",
+        "text": "This café accepts cash and cards. For groups of eight or more, a service charge is added. Ask the server before paying if you want separate bills.",
+        "questions": [
+          {
+            "q": "For which groups is service added?",
+            "options": [
+              "Eight or more people",
+              "All groups",
+              "Two or more people"
+            ],
+            "answer": "Eight or more people"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段结账对话，包含两笔金额与一种付款方式。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Could we ...?；pay by card / pay in cash）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d05q01",
+          "type": "choice",
+          "explanation": "刷卡说 pay by card。",
+          "options": [
+            "by",
+            "on",
+            "to"
+          ],
+          "answer": "by",
+          "prompt": "I’d like to pay ___ card."
+        },
+        {
+          "id": "w05d05q02",
+          "type": "choice",
+          "explanation": "bill 在本课中指账单。",
+          "options": [
+            "一份",
+            "试衣间",
+            "账单"
+          ],
+          "answer": "账单",
+          "prompt": "What does “bill” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "id": "w05d06",
+      "title": "I’d Like to Return This",
+      "subtitle": "说明退换货原因",
+      "minutes": 30,
+      "grammar": [
+        "I’d like to + 动词；because 给出理由"
+      ],
+      "vocabulary": [
+        {
+          "word": "receipt",
+          "ipa": "/rɪˈsiːt/",
+          "zh": "小票",
+          "example": "Keep your receipt for a return."
+        },
+        {
+          "word": "bill",
+          "ipa": "/bɪl/",
+          "zh": "账单",
+          "example": "Could we have the bill, please?"
+        },
+        {
+          "word": "fitting room",
+          "ipa": "/ˈfɪtɪŋ ruːm/",
+          "zh": "试衣间",
+          "example": "The fitting room is over there."
+        }
+      ],
+      "listening": {
+        "title": "I’d Like to Return This",
+        "transcript": "I bought these shoes yesterday, but they’re too tight. I have the receipt. Could I exchange them for a bigger size?",
+        "questions": [
+          {
+            "q": "Why does the customer want an exchange?",
+            "options": [
+              "The colour is wrong",
+              "The shoes are too tight",
+              "The shoes are damaged"
+            ],
+            "answer": "The shoes are too tight"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "模拟拿小票要求换大一码，并询问什么时候可以取。",
+        "sample": "I’d like to exchange these shoes because they’re too tight."
+      },
+      "reading": {
+        "title": "说明退换货原因",
+        "text": "You can return unused items within thirty days with your receipt. Gifts can be exchanged for another size, but cash refunds go to the original buyer only.",
+        "questions": [
+          {
+            "q": "What document is needed for a return?",
+            "options": [
+              "A gift card",
+              "The receipt",
+              "A passport"
+            ],
+            "answer": "The receipt"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词的退换申请，写明物品、购买时间、问题和想要的解决方式。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I’d like to + 动词；because 给出理由）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d06q01",
+          "type": "choice",
+          "explanation": "I’d like to 后接动词原形。",
+          "options": [
+            "returning",
+            "to return",
+            "returned"
+          ],
+          "answer": "to return",
+          "prompt": "I’d like ___ this shirt."
+        },
+        {
+          "id": "w05d06q02",
+          "type": "choice",
+          "explanation": "receipt 在本课中指小票。",
+          "options": [
+            "账单",
+            "小票",
+            "试衣间"
+          ],
+          "answer": "小票",
+          "prompt": "What does “receipt” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "id": "w05d07",
+      "title": "Weekly Challenge: Eat and Shop",
+      "subtitle": "同时完成点餐和购物任务",
+      "minutes": 30,
+      "grammar": [
+        "复习礼貌请求、数量和付款"
+      ],
+      "vocabulary": [
+        {
+          "word": "budget",
+          "ipa": "/ˈbʌdʒɪt/",
+          "zh": "预算",
+          "example": "Our lunch budget is twenty pounds."
+        },
+        {
+          "word": "receipt",
+          "ipa": "/rɪˈsiːt/",
+          "zh": "小票",
+          "example": "Keep your receipt for a return."
+        },
+        {
+          "word": "bill",
+          "ipa": "/bɪl/",
+          "zh": "账单",
+          "example": "Could we have the bill, please?"
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Eat and Shop",
+        "transcript": "The soup is six pounds and the sandwich is eight. We can share one dessert for four. Water is free, so we’ll spend eighteen pounds altogether.",
+        "questions": [
+          {
+            "q": "What is the total?",
+            "options": [
+              "Eighteen pounds",
+              "Twenty pounds",
+              "Fourteen pounds"
+            ],
+            "answer": "Eighteen pounds"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "你有 £20，口头为两人安排午餐，同时购买水瓶。说明取舍和总价。",
+        "sample": "Two sandwiches and a bottle cost twenty pounds. Could we have two sandwiches, please?"
+      },
+      "reading": {
+        "title": "同时完成点餐和购物任务",
+        "text": "Market lunch set: rice bowl £9, soup £5, or sandwich £7. Add a drink for £2. A reusable bottle costs £6 at the stall next door. Card payments accepted.",
+        "questions": [
+          {
+            "q": "What costs six pounds?",
+            "options": [
+              "Two drinks",
+              "A sandwich",
+              "A reusable bottle"
+            ],
+            "answer": "A reusable bottle"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 75–95 词，记录菜品数量、购物决定、总价和一句礼貌请求。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（复习礼貌请求、数量和付款）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w05d07q01",
+          "type": "choice",
+          "explanation": "Could you tell me ...? 可礼貌询问信息。",
+          "options": [
+            "Could you tell me the price?",
+            "I paid by card.",
+            "Where is the receipt?"
+          ],
+          "answer": "Could you tell me the price?",
+          "prompt": "Which request is polite and asks for the price?"
+        },
+        {
+          "id": "w05d07q02",
+          "type": "choice",
+          "explanation": "budget 在本课中指预算。",
+          "options": [
+            "预算",
+            "账单",
+            "小票"
+          ],
+          "answer": "预算",
+          "prompt": "What does “budget” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

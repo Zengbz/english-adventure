@@ -118,6 +118,596 @@
           "minutes": 30
         }
       ]
+    },
+    {
+      "week": 3,
+      "title": "Past Experiences",
+      "summary": "一般过去时、旅行经历、活动和感受。",
+      "level": "A2",
+      "file": "courses/week3-course.json",
+      "revision": "a31a4d07220a4c1f579fbda9652f8b758a23e8a2fd171567579b44f7aa1e380e",
+      "lessons": [
+        {
+          "day": 15,
+          "id": "w03d01",
+          "title": "A Weekend Away",
+          "subtitle": "用过去时讲周末旅行",
+          "minutes": 30
+        },
+        {
+          "day": 16,
+          "id": "w03d02",
+          "title": "What Did You Do?",
+          "subtitle": "常见不规则过去式",
+          "minutes": 30
+        },
+        {
+          "day": 17,
+          "id": "w03d03",
+          "title": "Did You Enjoy It?",
+          "subtitle": "用 did 追问经历",
+          "minutes": 30
+        },
+        {
+          "day": 18,
+          "id": "w03d04",
+          "title": "It Was Closed",
+          "subtitle": "描述意外和过去的状态",
+          "minutes": 30
+        },
+        {
+          "day": 19,
+          "id": "w03d05",
+          "title": "How Was It?",
+          "subtitle": "用感受形容词描述经历",
+          "minutes": 30
+        },
+        {
+          "day": 20,
+          "id": "w03d06",
+          "title": "First, Then, Finally",
+          "subtitle": "把旅行经历讲清楚",
+          "minutes": 30
+        },
+        {
+          "day": 21,
+          "id": "w03d07",
+          "title": "Weekly Challenge: My Last Trip",
+          "subtitle": "用过去时讲完整旅行故事",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Future Plans",
+      "summary": "will、be going to、日期安排和旅行计划。",
+      "level": "A2",
+      "file": "courses/week4-course.json",
+      "revision": "77bb716d70ec0fca80e522f86bd70cdd1fa45f26b1499088035f6742c14750f5",
+      "lessons": [
+        {
+          "day": 22,
+          "id": "w04d01",
+          "title": "What Are You Going to Do?",
+          "subtitle": "谈已经决定的计划",
+          "minutes": 30
+        },
+        {
+          "day": 23,
+          "id": "w04d02",
+          "title": "I’ll Help You",
+          "subtitle": "现场决定与主动帮助",
+          "minutes": 30
+        },
+        {
+          "day": 24,
+          "id": "w04d03",
+          "title": "Dates and Bookings",
+          "subtitle": "确认日期和预订",
+          "minutes": 30
+        },
+        {
+          "day": 25,
+          "id": "w04d04",
+          "title": "I’m Meeting Sam",
+          "subtitle": "用现在进行时描述已约定事项",
+          "minutes": 30
+        },
+        {
+          "day": 26,
+          "id": "w04d05",
+          "title": "Weather and Backup Plans",
+          "subtitle": "给出预测并准备备选",
+          "minutes": 30
+        },
+        {
+          "day": 27,
+          "id": "w04d06",
+          "title": "Can We Move It to Sunday?",
+          "subtitle": "协调行程、说明改约原因",
+          "minutes": 30
+        },
+        {
+          "day": 28,
+          "id": "w04d07",
+          "title": "Weekly Challenge: Plan a City Break",
+          "subtitle": "做一份可执行的短途出游安排",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Food and Shopping",
+      "summary": "点餐、购物、数量表达、价格和礼貌请求。",
+      "level": "A2+",
+      "file": "courses/week5-course.json",
+      "revision": "0e19bd10fa800c95b46a3c30508e16979b3678e7b7babd824932eef1eff9c41a",
+      "lessons": [
+        {
+          "day": 29,
+          "id": "w05d01",
+          "title": "A Table for Two",
+          "subtitle": "进店、确认人数与等位",
+          "minutes": 30
+        },
+        {
+          "day": 30,
+          "id": "w05d02",
+          "title": "Ordering a Meal",
+          "subtitle": "点餐和说明需求",
+          "minutes": 30
+        },
+        {
+          "day": 31,
+          "id": "w05d03",
+          "title": "How Much Rice?",
+          "subtitle": "理解可数和不可数名词",
+          "minutes": 30
+        },
+        {
+          "day": 32,
+          "id": "w05d04",
+          "title": "Can I Try It On?",
+          "subtitle": "询问尺码、试穿和颜色",
+          "minutes": 30
+        },
+        {
+          "day": 33,
+          "id": "w05d05",
+          "title": "The Bill, Please",
+          "subtitle": "确认账单与支付方式",
+          "minutes": 30
+        },
+        {
+          "day": 34,
+          "id": "w05d06",
+          "title": "I’d Like to Return This",
+          "subtitle": "说明退换货原因",
+          "minutes": 30
+        },
+        {
+          "day": 35,
+          "id": "w05d07",
+          "title": "Weekly Challenge: Eat and Shop",
+          "subtitle": "同时完成点餐和购物任务",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Transportation and Directions",
+      "summary": "机场、车站、问路、交通方式和情态动词。",
+      "level": "A2+",
+      "file": "courses/week6-course.json",
+      "revision": "38f75c4afd5772e4a07a6da55dabac0bdf04f88e944238bb36d02cdf6fbb0282",
+      "lessons": [
+        {
+          "day": 36,
+          "id": "w06d01",
+          "title": "At the Airport Counter",
+          "subtitle": "听懂值机柜台问题",
+          "minutes": 30
+        },
+        {
+          "day": 37,
+          "id": "w06d02",
+          "title": "Gate Change",
+          "subtitle": "听变更广播，找正确登机口",
+          "minutes": 30
+        },
+        {
+          "day": 38,
+          "id": "w06d03",
+          "title": "A Return Ticket",
+          "subtitle": "在车站买票和确认站台",
+          "minutes": 30
+        },
+        {
+          "day": 39,
+          "id": "w06d04",
+          "title": "Where Do I Get Off?",
+          "subtitle": "换乘和核对下车站",
+          "minutes": 30
+        },
+        {
+          "day": 40,
+          "id": "w06d05",
+          "title": "Is It Far from Here?",
+          "subtitle": "问路与听懂转弯地标",
+          "minutes": 30
+        },
+        {
+          "day": 41,
+          "id": "w06d06",
+          "title": "The Road Is Closed",
+          "subtitle": "理解交通限制和提替代方案",
+          "minutes": 30
+        },
+        {
+          "day": 42,
+          "id": "w06d07",
+          "title": "Weekly Challenge: Catch the Flight",
+          "subtitle": "综合处理换乘和航班变更",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Hotel and Travel",
+      "summary": "酒店预订、入住、比较选择和处理问题。",
+      "level": "A2+",
+      "file": "courses/week7-course.json",
+      "revision": "5118834c2e739871a4c7676eb91632be2cb38e4faa3189d274116983f77241c2",
+      "lessons": [
+        {
+          "day": 43,
+          "id": "w07d01",
+          "title": "Booking a Room",
+          "subtitle": "查询房型、空房与价格",
+          "minutes": 30
+        },
+        {
+          "day": 44,
+          "id": "w07d02",
+          "title": "Checking In",
+          "subtitle": "前台核对预订与入住须知",
+          "minutes": 30
+        },
+        {
+          "day": 45,
+          "id": "w07d03",
+          "title": "Which Room Is Better?",
+          "subtitle": "比较价格、噪声和位置",
+          "minutes": 30
+        },
+        {
+          "day": 46,
+          "id": "w07d04",
+          "title": "The Air Conditioning Isn’t Working",
+          "subtitle": "说清房间问题并请求处理",
+          "minutes": 30
+        },
+        {
+          "day": 47,
+          "id": "w07d05",
+          "title": "Is Breakfast Included?",
+          "subtitle": "核对费用与服务",
+          "minutes": 30
+        },
+        {
+          "day": 48,
+          "id": "w07d06",
+          "title": "Can You Keep Our Bags?",
+          "subtitle": "退房、寄存和取行李",
+          "minutes": 30
+        },
+        {
+          "day": 49,
+          "id": "w07d07",
+          "title": "Weekly Challenge: Handle a Hotel Stay",
+          "subtitle": "整合比较、入住和解决投诉",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Making Friends",
+      "summary": "国际社交、兴趣交流、现在完成时入门。",
+      "level": "A2+",
+      "file": "courses/week8-course.json",
+      "revision": "e316bdacef98bd24f853862faba8c5e08ffaa993804729eca41bda03f1c868a6",
+      "lessons": [
+        {
+          "day": 50,
+          "id": "w08d01",
+          "title": "Start a Conversation",
+          "subtitle": "用共同场景开启对话",
+          "minutes": 30
+        },
+        {
+          "day": 51,
+          "id": "w08d02",
+          "title": "Keep the Conversation Going",
+          "subtitle": "回应对方并接着追问",
+          "minutes": 30
+        },
+        {
+          "day": 52,
+          "id": "w08d03",
+          "title": "Have You Ever Been There?",
+          "subtitle": "问对方有没有某种经历",
+          "minutes": 30
+        },
+        {
+          "day": 53,
+          "id": "w08d04",
+          "title": "I’ve Never Tried It",
+          "subtitle": "说明有过或没有过的体验",
+          "minutes": 30
+        },
+        {
+          "day": 54,
+          "id": "w08d05",
+          "title": "Would You Like to Join Us?",
+          "subtitle": "邀请、接受和礼貌婉拒",
+          "minutes": 30
+        },
+        {
+          "day": 55,
+          "id": "w08d06",
+          "title": "What Did You Mean?",
+          "subtitle": "请求重说或确认意思",
+          "minutes": 30
+        },
+        {
+          "day": 56,
+          "id": "w08d07",
+          "title": "Weekly Challenge: Make a New Friend",
+          "subtitle": "完成开场、追问、邀约与确认",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Expressing Opinions",
+      "summary": "表达观点、赞同反对、解释原因和条件句。",
+      "level": "B1",
+      "file": "courses/week9-course.json",
+      "revision": "39367a57a0adb2dd8f5067583cc4095d9e22eae0a04c195094e9860e0264929d",
+      "lessons": [
+        {
+          "day": 57,
+          "id": "w09d01",
+          "title": "In My Opinion",
+          "subtitle": "表达观点并用例子支持",
+          "minutes": 30
+        },
+        {
+          "day": 58,
+          "id": "w09d02",
+          "title": "I See Your Point",
+          "subtitle": "礼貌表示部分赞同与不同意",
+          "minutes": 30
+        },
+        {
+          "day": 59,
+          "id": "w09d03",
+          "title": "Reasons and Results",
+          "subtitle": "区分原因与结果",
+          "minutes": 30
+        },
+        {
+          "day": 60,
+          "id": "w09d04",
+          "title": "If We Leave Earlier",
+          "subtitle": "用真实条件比较选择",
+          "minutes": 30
+        },
+        {
+          "day": 61,
+          "id": "w09d05",
+          "title": "An Imaginary Choice",
+          "subtitle": "讨论假设情境和偏好",
+          "minutes": 30
+        },
+        {
+          "day": 62,
+          "id": "w09d06",
+          "title": "A Fair Compromise",
+          "subtitle": "权衡双方需求并达成妥协",
+          "minutes": 30
+        },
+        {
+          "day": 63,
+          "id": "w09d07",
+          "title": "Weekly Challenge: Choose Together",
+          "subtitle": "以证据说服同伴并接受备选",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Culture and Society",
+      "summary": "文化差异、国家生活、被动语态和关系从句。",
+      "level": "B1",
+      "file": "courses/week10-course.json",
+      "revision": "efa0fd25f309a1efdf14c3c50411d4b305247fca531a0d6463f1a9493de53743",
+      "lessons": [
+        {
+          "day": 64,
+          "id": "w10d01",
+          "title": "Customs at the Table",
+          "subtitle": "用有保留的语气描述习俗",
+          "minutes": 30
+        },
+        {
+          "day": 65,
+          "id": "w10d02",
+          "title": "How Is It Made?",
+          "subtitle": "读懂制作流程的被动语态",
+          "minutes": 30
+        },
+        {
+          "day": 66,
+          "id": "w10d03",
+          "title": "When Was It Built?",
+          "subtitle": "了解地标背景",
+          "minutes": 30
+        },
+        {
+          "day": 67,
+          "id": "w10d04",
+          "title": "The People Who Keep It Going",
+          "subtitle": "用关系从句描述人物",
+          "minutes": 30
+        },
+        {
+          "day": 68,
+          "id": "w10d05",
+          "title": "A Place Where People Meet",
+          "subtitle": "用 where 和 that 解释社区空间",
+          "minutes": 30
+        },
+        {
+          "day": 69,
+          "id": "w10d06",
+          "title": "Comparing Everyday Life",
+          "subtitle": "比较生活方式并避免笼统概括",
+          "minutes": 30
+        },
+        {
+          "day": 70,
+          "id": "w10d07",
+          "title": "Weekly Challenge: Guide a Visitor",
+          "subtitle": "介绍地标、活动和一条家庭习惯",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Stories and Experiences",
+      "summary": "叙事、综合时态、经历描述和连贯表达。",
+      "level": "B1",
+      "file": "courses/week11-course.json",
+      "revision": "fe03fe52e80017bdaaa48777a3d7a6a5b41b5e6cefe09e21a65d0ec2a093a6ef",
+      "lessons": [
+        {
+          "day": 71,
+          "id": "w11d01",
+          "title": "Set the Scene",
+          "subtitle": "交代背景与打断事件",
+          "minutes": 30
+        },
+        {
+          "day": 72,
+          "id": "w11d02",
+          "title": "While We Were Waiting",
+          "subtitle": "描述同时进行的事",
+          "minutes": 30
+        },
+        {
+          "day": 73,
+          "id": "w11d03",
+          "title": "What Happened Before That?",
+          "subtitle": "回溯先发生的过去事件",
+          "minutes": 30
+        },
+        {
+          "day": 74,
+          "id": "w11d04",
+          "title": "Ask Me About the Trip",
+          "subtitle": "在经历与具体时间之间切换",
+          "minutes": 30
+        },
+        {
+          "day": 75,
+          "id": "w11d05",
+          "title": "Although It Was Raining",
+          "subtitle": "讲清困难、转折和结果",
+          "minutes": 30
+        },
+        {
+          "day": 76,
+          "id": "w11d06",
+          "title": "Tell It in Your Own Words",
+          "subtitle": "把对话转述成完整故事",
+          "minutes": 30
+        },
+        {
+          "day": 77,
+          "id": "w11d07",
+          "title": "Weekly Challenge: Tell a Story Worth Sharing",
+          "subtitle": "讲并写一段有起伏的故事",
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Real World English",
+      "summary": "旅行、社交、听说读写综合实战与阶段验收。",
+      "level": "B1",
+      "file": "courses/week12-course.json",
+      "revision": "fc28423197ff3772f05dbe0443ee1eec61f8b5cb9ea70918ee065198e61ced8f",
+      "lessons": [
+        {
+          "day": 78,
+          "id": "w12d01",
+          "title": "Arrive and Adapt",
+          "subtitle": "处理列车取消并确认新行程",
+          "minutes": 30
+        },
+        {
+          "day": 79,
+          "id": "w12d02",
+          "title": "Solve a Booking Problem",
+          "subtitle": "提出证据、需求和解决方案",
+          "minutes": 30
+        },
+        {
+          "day": 80,
+          "id": "w12d03",
+          "title": "Eat Out with a Group",
+          "subtitle": "协调预算和饮食选择",
+          "minutes": 30
+        },
+        {
+          "day": 81,
+          "id": "w12d04",
+          "title": "Meet, Listen and Follow Up",
+          "subtitle": "社交开场、核对细节及跟进",
+          "minutes": 30
+        },
+        {
+          "day": 82,
+          "id": "w12d05",
+          "title": "Explain the Trade-offs",
+          "subtitle": "根据材料给出有依据的建议",
+          "minutes": 30
+        },
+        {
+          "day": 83,
+          "id": "w12d06",
+          "title": "Handle a Plan Change",
+          "subtitle": "在活动取消后整理消息并协调行动",
+          "minutes": 30
+        },
+        {
+          "day": 84,
+          "id": "w12d07",
+          "title": "Final Challenge: A Weekend Abroad",
+          "subtitle": "综合测评：听通知、读方案、协商并写确认",
+          "minutes": 30
+        }
+      ]
     }
   ]
 }

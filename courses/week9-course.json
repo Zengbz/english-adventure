@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 9,
+  "title": "Expressing Opinions",
+  "level": "B1",
+  "summary": "表达观点、赞同反对、解释原因和条件句。",
+  "objectives": [
+    "Support an opinion with reasons and examples",
+    "Respond to disagreement politely",
+    "Compare choices and suggest a compromise"
+  ],
+  "lessons": [
+    {
+      "day": 57,
+      "id": "w09d01",
+      "title": "In My Opinion",
+      "subtitle": "表达观点并用例子支持",
+      "minutes": 30,
+      "grammar": [
+        "I think ... because ...；For example ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "convenient",
+          "ipa": "/kənˈviːniənt/",
+          "zh": "方便的",
+          "example": "I think trains are convenient."
+        },
+        {
+          "word": "point",
+          "ipa": "/pɔɪnt/",
+          "zh": "观点",
+          "example": "I see your point about the cost."
+        },
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "zh": "结果",
+          "example": "As a result, the queues were shorter."
+        }
+      ],
+      "listening": {
+        "title": "In My Opinion",
+        "transcript": "I prefer trains to coaches on long journeys. There’s more space to move around, and I can work at a table. Coaches are often cheaper, though.",
+        "questions": [
+          {
+            "q": "Why does the speaker prefer trains?",
+            "options": [
+              "Shorter journeys every time",
+              "Lower prices",
+              "More space and a place to work"
+            ],
+            "answer": "More space and a place to work"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "就旅游交通说出明确偏好、理由和一个具体例子。",
+        "sample": "I think trains are better on long trips because I can move around. For example, I can walk to another carriage."
+      },
+      "reading": {
+        "title": "表达观点并用例子支持",
+        "text": "Some visitors prefer a city pass because it includes transport and museums. Others buy separate tickets because they only plan to visit one museum.",
+        "questions": [
+          {
+            "q": "Who may prefer separate tickets?",
+            "options": [
+              "Visitors going to one museum",
+              "Visitors using all included museums",
+              "Everyone with a city pass"
+            ],
+            "answer": "Visitors going to one museum"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词推荐一种出行方式，同时承认它的一项缺点。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I think ... because ...；For example ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d01q01",
+          "type": "choice",
+          "explanation": "For example 用来引出具体例子。",
+          "options": [
+            "At first",
+            "For example",
+            "As a result"
+          ],
+          "answer": "For example",
+          "prompt": "Which phrase introduces an example?"
+        },
+        {
+          "id": "w09d01q02",
+          "type": "choice",
+          "explanation": "convenient 在本课中指方便的。",
+          "options": [
+            "结果",
+            "方便的",
+            "观点"
+          ],
+          "answer": "方便的",
+          "prompt": "What does “convenient” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "id": "w09d02",
+      "title": "I See Your Point",
+      "subtitle": "礼貌表示部分赞同与不同意",
+      "minutes": 30,
+      "grammar": [
+        "I see your point, but ...；I agree that ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "point",
+          "ipa": "/pɔɪnt/",
+          "zh": "观点",
+          "example": "I see your point about the cost."
+        },
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "zh": "结果",
+          "example": "As a result, the queues were shorter."
+        },
+        {
+          "word": "option",
+          "ipa": "/ˈɒpʃən/",
+          "zh": "选项",
+          "example": "We have two options for Saturday."
+        }
+      ],
+      "listening": {
+        "title": "I See Your Point",
+        "transcript": "I agree that the early train is cheaper, but it leaves before the first bus. If we take it, we’ll need a taxi. I’d rather pay a bit more for the later train.",
+        "questions": [
+          {
+            "q": "What problem does the early train cause?",
+            "options": [
+              "It is too expensive",
+              "They would need a taxi",
+              "It does not stop there"
+            ],
+            "answer": "They would need a taxi"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "先认可对方一条理由，再礼貌说明你的顾虑。",
+        "sample": "I see your point about the price, but the later train is easier to reach."
+      },
+      "reading": {
+        "title": "礼貌表示部分赞同与不同意",
+        "text": "Our team can work from home two days a week. Nadia likes the flexibility. Leon agrees it saves travel time, but he prefers to discuss new projects in person.",
+        "questions": [
+          {
+            "q": "Why does Leon prefer meeting in person?",
+            "options": [
+              "To avoid speaking to the team",
+              "To discuss new projects",
+              "To save travel time"
+            ],
+            "answer": "To discuss new projects"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段 8 行对话，双方各给理由并找出一个共同点。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I see your point, but ...；I agree that ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d02q01",
+          "type": "choice",
+          "explanation": "先认可对方观点，再用 but 引出分歧。",
+          "options": [
+            "I see your point, but ...",
+            "You are wrong.",
+            "That makes no sense."
+          ],
+          "answer": "I see your point, but ...",
+          "prompt": "Which phrase signals respectful disagreement?"
+        },
+        {
+          "id": "w09d02q02",
+          "type": "choice",
+          "explanation": "point 在本课中指观点。",
+          "options": [
+            "结果",
+            "观点",
+            "选项"
+          ],
+          "answer": "观点",
+          "prompt": "What does “point” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "id": "w09d03",
+      "title": "Reasons and Results",
+      "subtitle": "区分原因与结果",
+      "minutes": 30,
+      "grammar": [
+        "because 引出原因，so 引出结果"
+      ],
+      "vocabulary": [
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "zh": "结果",
+          "example": "As a result, the queues were shorter."
+        },
+        {
+          "word": "point",
+          "ipa": "/pɔɪnt/",
+          "zh": "观点",
+          "example": "I see your point about the cost."
+        },
+        {
+          "word": "convenient",
+          "ipa": "/kənˈviːniənt/",
+          "zh": "方便的",
+          "example": "I think trains are convenient."
+        }
+      ],
+      "listening": {
+        "title": "Reasons and Results",
+        "transcript": "The museum opened an extra gallery because the main room was crowded. As a result, visitors had more space and the queue moved faster.",
+        "questions": [
+          {
+            "q": "Why did the museum open the gallery?",
+            "options": [
+              "The main room was crowded",
+              "The queue was already empty",
+              "The tickets were expensive"
+            ],
+            "answer": "The main room was crowded"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "说明一个城市服务的改变，用 because 讲原因、用 so 讲结果。",
+        "sample": "The main room was crowded, so the museum opened an extra gallery."
+      },
+      "reading": {
+        "title": "区分原因与结果",
+        "text": "The city added a late bus to help night workers get home. More workers started using public transport, so fewer cars were parked near the hospital.",
+        "questions": [
+          {
+            "q": "What changed near the hospital?",
+            "options": [
+              "Bus tickets became free",
+              "Fewer cars were parked there",
+              "The hospital closed earlier"
+            ],
+            "answer": "Fewer cars were parked there"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词解释一个日常问题、采取的行动和结果。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（because 引出原因，so 引出结果）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d03q01",
+          "type": "choice",
+          "explanation": "前句给原因，so 引出结果。",
+          "options": [
+            "because",
+            "unless",
+            "so"
+          ],
+          "answer": "so",
+          "prompt": "The room was full, ___ we waited outside."
+        },
+        {
+          "id": "w09d03q02",
+          "type": "choice",
+          "explanation": "result 在本课中指结果。",
+          "options": [
+            "观点",
+            "结果",
+            "方便的"
+          ],
+          "answer": "结果",
+          "prompt": "What does “result” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "id": "w09d04",
+      "title": "If We Leave Earlier",
+      "subtitle": "用真实条件比较选择",
+      "minutes": 30,
+      "grammar": [
+        "If + 一般现在时，主句用 will 或 can"
+      ],
+      "vocabulary": [
+        {
+          "word": "option",
+          "ipa": "/ˈɒpʃən/",
+          "zh": "选项",
+          "example": "We have two options for Saturday."
+        },
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "zh": "结果",
+          "example": "As a result, the queues were shorter."
+        },
+        {
+          "word": "point",
+          "ipa": "/pɔɪnt/",
+          "zh": "观点",
+          "example": "I see your point about the cost."
+        }
+      ],
+      "listening": {
+        "title": "If We Leave Earlier",
+        "transcript": "If we leave at eight, we’ll avoid the traffic, but the café won’t be open. If we leave at nine, we can get coffee first, but the roads may be busier.",
+        "questions": [
+          {
+            "q": "What is an advantage of leaving at eight?",
+            "options": [
+              "Less traffic",
+              "A longer breakfast",
+              "More cafés open"
+            ],
+            "answer": "Less traffic"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "给出两种出发选择，每种说一个可能的结果和取舍。",
+        "sample": "If we leave at eight, we’ll avoid traffic. If we leave at nine, we can have breakfast first."
+      },
+      "reading": {
+        "title": "用真实条件比较选择",
+        "text": "If the group pays before Friday, the guide can offer a lower price. If fewer than six people sign up, the normal price applies. The tour lasts two hours either way.",
+        "questions": [
+          {
+            "q": "What happens if fewer than six sign up?",
+            "options": [
+              "The guide cancels the tour",
+              "The tour is shorter",
+              "The normal price applies"
+            ],
+            "answer": "The normal price applies"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词比较两个计划，每个计划包含一个条件和它的结果。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（If + 一般现在时，主句用 will 或 can）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d04q01",
+          "type": "choice",
+          "explanation": "开放的未来条件通常用一般现在时。",
+          "options": [
+            "paid",
+            "will pay",
+            "pay"
+          ],
+          "answer": "pay",
+          "prompt": "If they ___ before Friday, they’ll get a lower price."
+        },
+        {
+          "id": "w09d04q02",
+          "type": "choice",
+          "explanation": "option 在本课中指选项。",
+          "options": [
+            "选项",
+            "结果",
+            "观点"
+          ],
+          "answer": "选项",
+          "prompt": "What does “option” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 61,
+      "id": "w09d05",
+      "title": "An Imaginary Choice",
+      "subtitle": "讨论假设情境和偏好",
+      "minutes": 30,
+      "grammar": [
+        "If + 过去式，主句用 would + 原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "imagine",
+          "ipa": "/ɪˈmædʒɪn/",
+          "zh": "想象",
+          "example": "Imagine that you had a month off."
+        },
+        {
+          "word": "option",
+          "ipa": "/ˈɒpʃən/",
+          "zh": "选项",
+          "example": "We have two options for Saturday."
+        },
+        {
+          "word": "result",
+          "ipa": "/rɪˈzʌlt/",
+          "zh": "结果",
+          "example": "As a result, the queues were shorter."
+        }
+      ],
+      "listening": {
+        "title": "An Imaginary Choice",
+        "transcript": "If I had a month off, I’d travel by train across Europe. I’d spend a week in each city so I could get to know the place.",
+        "questions": [
+          {
+            "q": "How would the speaker travel?",
+            "options": [
+              "By plane",
+              "By coach",
+              "By train"
+            ],
+            "answer": "By train"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "假设你有一个月假期，谈选择、理由和想做的两件事。",
+        "sample": "If I had a month off, I’d visit three cities and travel by train."
+      },
+      "reading": {
+        "title": "讨论假设情境和偏好",
+        "text": "If the town had more space, Mia would build an outdoor cinema. Raj would choose a sports centre instead because it could be used all year.",
+        "questions": [
+          {
+            "q": "What would Raj choose?",
+            "options": [
+              "An outdoor cinema",
+              "A sports centre",
+              "A shopping centre"
+            ],
+            "answer": "A sports centre"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词回应「如果社区有空地，你会建什么」。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（If + 过去式，主句用 would + 原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d05q01",
+          "type": "choice",
+          "explanation": "假设当前条件不同，用 would 表示设想的结果。",
+          "options": [
+            "would",
+            "am",
+            "will"
+          ],
+          "answer": "would",
+          "prompt": "If I had more time, I ___ learn another language."
+        },
+        {
+          "id": "w09d05q02",
+          "type": "choice",
+          "explanation": "imagine 在本课中指想象。",
+          "options": [
+            "结果",
+            "选项",
+            "想象"
+          ],
+          "answer": "想象",
+          "prompt": "What does “imagine” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 62,
+      "id": "w09d06",
+      "title": "A Fair Compromise",
+      "subtitle": "权衡双方需求并达成妥协",
+      "minutes": 30,
+      "grammar": [
+        "on the one hand ... on the other hand ...；I suggest ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "compromise",
+          "ipa": "/ˈkɒmprəmaɪz/",
+          "zh": "折中办法",
+          "example": "We reached a compromise."
+        },
+        {
+          "word": "imagine",
+          "ipa": "/ɪˈmædʒɪn/",
+          "zh": "想象",
+          "example": "Imagine that you had a month off."
+        },
+        {
+          "word": "option",
+          "ipa": "/ˈɒpʃən/",
+          "zh": "选项",
+          "example": "We have two options for Saturday."
+        }
+      ],
+      "listening": {
+        "title": "A Fair Compromise",
+        "transcript": "One group wants a long walk, and the other wants time to shop. I suggest we walk together for an hour, then split into two groups before meeting for dinner.",
+        "questions": [
+          {
+            "q": "What will everyone do together first?",
+            "options": [
+              "Go shopping",
+              "Walk for an hour",
+              "Have dinner"
+            ],
+            "answer": "Walk for an hour"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "扮演组织者，先总结两方需求，再提出一个兼顾两方的方案。",
+        "sample": "On the one hand, we want to save money. On the other hand, we need a quiet room. I suggest staying outside the centre."
+      },
+      "reading": {
+        "title": "权衡双方需求并达成妥协",
+        "text": "Three friends are booking a room. One wants the cheapest room, and another needs a quiet place to work. A quiet room outside the centre is within budget, but it adds a bus ride.",
+        "questions": [
+          {
+            "q": "What is the drawback of the compromise?",
+            "options": [
+              "An extra bus ride",
+              "A higher price",
+              "More noise"
+            ],
+            "answer": "An extra bus ride"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词描述一个小组分歧、不同需求和折中方案。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（on the one hand ... on the other hand ...；I suggest ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d06q01",
+          "type": "choice",
+          "explanation": "Compromise 是各方调整要求后达成的折中方案。",
+          "options": [
+            "Meet some needs on both sides",
+            "Give one side everything",
+            "End discussion without a plan"
+          ],
+          "answer": "Meet some needs on both sides",
+          "prompt": "What does a compromise aim to do?"
+        },
+        {
+          "id": "w09d06q02",
+          "type": "choice",
+          "explanation": "compromise 在本课中指折中办法。",
+          "options": [
+            "想象",
+            "选项",
+            "折中办法"
+          ],
+          "answer": "折中办法",
+          "prompt": "What does “compromise” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 63,
+      "id": "w09d07",
+      "title": "Weekly Challenge: Choose Together",
+      "subtitle": "以证据说服同伴并接受备选",
+      "minutes": 30,
+      "grammar": [
+        "综合观点、让步及条件句"
+      ],
+      "vocabulary": [
+        {
+          "word": "priority",
+          "ipa": "/praɪˈɒrəti/",
+          "zh": "优先考虑的事",
+          "example": "Staying within budget is our priority."
+        },
+        {
+          "word": "compromise",
+          "ipa": "/ˈkɒmprəmaɪz/",
+          "zh": "折中办法",
+          "example": "We reached a compromise."
+        },
+        {
+          "word": "imagine",
+          "ipa": "/ɪˈmædʒɪn/",
+          "zh": "想象",
+          "example": "Imagine that you had a month off."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Choose Together",
+        "transcript": "The gallery trip costs twelve pounds and works in any weather. The garden trip costs eight, but the tickets cannot be moved to another day. I’d pick the gallery if the forecast looks bad.",
+        "questions": [
+          {
+            "q": "Which choice works in any weather?",
+            "options": [
+              "The garden",
+              "Neither trip",
+              "The gallery"
+            ],
+            "answer": "The gallery"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "为六人推荐一项活动，引用票价和天气条件，礼貌回应反对意见。",
+        "sample": "I see your point about the garden price, but six of us get the gallery discount. If it rains, I think the gallery is better."
+      },
+      "reading": {
+        "title": "以证据说服同伴并接受备选",
+        "text": "Our group has £10 per person. The gardens cost £8 and close at four. The gallery costs £12, but groups of six or more pay £10 each. Six people have confirmed.",
+        "questions": [
+          {
+            "q": "Can this group afford the gallery?",
+            "options": [
+              "Only if two people stay home",
+              "Yes, with the group discount",
+              "No, it costs £12 each"
+            ],
+            "answer": "Yes, with the group discount"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 100–120 词说明你给小组的建议、一个反方观点和备用方案。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（综合观点、让步及条件句）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w09d07q01",
+          "type": "choice",
+          "explanation": "If 连接条件，主句交代对应结果。",
+          "options": [
+            "If it rains, we’ll choose the gallery.",
+            "I like both places.",
+            "The garden closed yesterday."
+          ],
+          "answer": "If it rains, we’ll choose the gallery.",
+          "prompt": "Which sentence connects a recommendation to a condition?"
+        },
+        {
+          "id": "w09d07q02",
+          "type": "choice",
+          "explanation": "priority 在本课中指优先考虑的事。",
+          "options": [
+            "优先考虑的事",
+            "想象",
+            "折中办法"
+          ],
+          "answer": "优先考虑的事",
+          "prompt": "What does “priority” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

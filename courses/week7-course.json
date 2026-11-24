@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 7,
+  "title": "Hotel and Travel",
+  "level": "A2+",
+  "summary": "酒店预订、入住、比较选择和处理问题。",
+  "objectives": [
+    "Book and compare rooms",
+    "Check in and ask what is included",
+    "Report problems and arrange luggage storage"
+  ],
+  "lessons": [
+    {
+      "day": 43,
+      "id": "w07d01",
+      "title": "Booking a Room",
+      "subtitle": "查询房型、空房与价格",
+      "minutes": 30,
+      "grammar": [
+        "Is there ...?；Do you have ... available?"
+      ],
+      "vocabulary": [
+        {
+          "word": "available",
+          "ipa": "/əˈveɪləbl/",
+          "zh": "可订的",
+          "example": "Is a twin room available?"
+        },
+        {
+          "word": "deposit",
+          "ipa": "/dɪˈpɒzɪt/",
+          "zh": "押金",
+          "example": "Do I need to pay a deposit?"
+        },
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "zh": "安静的",
+          "example": "The room at the back is quieter."
+        }
+      ],
+      "listening": {
+        "title": "Booking a Room",
+        "transcript": "We have a double room on Friday and Saturday. A twin room is only available on Saturday. Breakfast costs eight pounds per guest.",
+        "questions": [
+          {
+            "q": "When is the twin room available?",
+            "options": [
+              "Friday only",
+              "Saturday only",
+              "Both nights"
+            ],
+            "answer": "Saturday only"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "打电话订两晚，问双床房、费用和早餐。",
+        "sample": "Do you have a twin room for two nights? Is breakfast included?"
+      },
+      "reading": {
+        "title": "查询房型、空房与价格",
+        "text": "River Hotel lists a double room with one large bed and a twin room with two beds. The room rate includes Wi-Fi, but breakfast is a separate charge.",
+        "questions": [
+          {
+            "q": "Which room has two beds?",
+            "options": [
+              "Both rooms",
+              "A twin room",
+              "A double room"
+            ],
+            "answer": "A twin room"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一封 60–75 词的订房询问，包含人数、日期、房型和两个问题。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Is there ...?；Do you have ... available?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d01q01",
+          "type": "choice",
+          "explanation": "Available 作形容词，表示可订。",
+          "options": [
+            "availability",
+            "available",
+            "availably"
+          ],
+          "answer": "available",
+          "prompt": "Is there a room ___ on Friday?"
+        },
+        {
+          "id": "w07d01q02",
+          "type": "choice",
+          "explanation": "available 在本课中指可订的。",
+          "options": [
+            "押金",
+            "安静的",
+            "可订的"
+          ],
+          "answer": "可订的",
+          "prompt": "What does “available” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "id": "w07d02",
+      "title": "Checking In",
+      "subtitle": "前台核对预订与入住须知",
+      "minutes": 30,
+      "grammar": [
+        "under the name ...；Do I need to ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "deposit",
+          "ipa": "/dɪˈpɒzɪt/",
+          "zh": "押金",
+          "example": "Do I need to pay a deposit?"
+        },
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "zh": "安静的",
+          "example": "The room at the back is quieter."
+        },
+        {
+          "word": "leak",
+          "ipa": "/liːk/",
+          "zh": "漏水",
+          "example": "There’s a leak under the sink."
+        }
+      ],
+      "listening": {
+        "title": "Checking In",
+        "transcript": "Welcome. I have your booking under Chen for two nights. Please show your passport. Breakfast is on the ground floor from seven to ten.",
+        "questions": [
+          {
+            "q": "Where is breakfast served?",
+            "options": [
+              "On the ground floor",
+              "On the second floor",
+              "In the lobby bar"
+            ],
+            "answer": "On the ground floor"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "扮演入住旅客，报姓名和住几晚，询问早餐和押金。",
+        "sample": "I have a booking under Chen for two nights. Do I need to pay a deposit?"
+      },
+      "reading": {
+        "title": "前台核对预订与入住须知",
+        "text": "Check-in starts at 3 p.m. A refundable deposit is required at check-in. Keep your key card away from your phone and return it before leaving.",
+        "questions": [
+          {
+            "q": "When do guests pay the deposit?",
+            "options": [
+              "At breakfast",
+              "At check-in",
+              "After leaving"
+            ],
+            "answer": "At check-in"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一条消息给同住人，转述入住信息、早餐时段和退房须知。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（under the name ...；Do I need to ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d02q01",
+          "type": "choice",
+          "explanation": "Under the name 表示以某人名义预订。",
+          "options": [
+            "under",
+            "in front of",
+            "over"
+          ],
+          "answer": "under",
+          "prompt": "I have a booking ___ the name Chen."
+        },
+        {
+          "id": "w07d02q02",
+          "type": "choice",
+          "explanation": "deposit 在本课中指押金。",
+          "options": [
+            "押金",
+            "漏水",
+            "安静的"
+          ],
+          "answer": "押金",
+          "prompt": "What does “deposit” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "id": "w07d03",
+      "title": "Which Room Is Better?",
+      "subtitle": "比较价格、噪声和位置",
+      "minutes": 30,
+      "grammar": [
+        "比较级 + than；more + 多音节形容词"
+      ],
+      "vocabulary": [
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "zh": "安静的",
+          "example": "The room at the back is quieter."
+        },
+        {
+          "word": "deposit",
+          "ipa": "/dɪˈpɒzɪt/",
+          "zh": "押金",
+          "example": "Do I need to pay a deposit?"
+        },
+        {
+          "word": "available",
+          "ipa": "/əˈveɪləbl/",
+          "zh": "可订的",
+          "example": "Is a twin room available?"
+        }
+      ],
+      "listening": {
+        "title": "Which Room Is Better?",
+        "transcript": "The street room is cheaper, but it’s noisier. The garden room is twenty pounds more per night. It’s quieter and has a bigger bathroom.",
+        "questions": [
+          {
+            "q": "Which room has a bigger bathroom?",
+            "options": [
+              "The garden room",
+              "Both rooms",
+              "The street room"
+            ],
+            "answer": "The garden room"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "比较两个房型，用两句比较级解释选择。",
+        "sample": "The garden room is quieter, but the street room is cheaper. I’d choose the garden room."
+      },
+      "reading": {
+        "title": "比较价格、噪声和位置",
+        "text": "Hotel A costs £65 and is a five-minute walk from the station. Hotel B costs £55 and is a twenty-minute walk away. Both have free Wi-Fi.",
+        "questions": [
+          {
+            "q": "Which hotel is closer to the station?",
+            "options": [
+              "Hotel B",
+              "Hotel A",
+              "They are equally close"
+            ],
+            "answer": "Hotel A"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 65–80 词比较两个住宿选择，给出两条理由。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（比较级 + than；more + 多音节形容词）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d03q01",
+          "type": "choice",
+          "explanation": "比较级后用 than 引出比较对象。",
+          "options": [
+            "then",
+            "as",
+            "than"
+          ],
+          "answer": "than",
+          "prompt": "The garden room is quieter ___ the street room."
+        },
+        {
+          "id": "w07d03q02",
+          "type": "choice",
+          "explanation": "quiet 在本课中指安静的。",
+          "options": [
+            "押金",
+            "可订的",
+            "安静的"
+          ],
+          "answer": "安静的",
+          "prompt": "What does “quiet” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "id": "w07d04",
+      "title": "The Air Conditioning Isn’t Working",
+      "subtitle": "说清房间问题并请求处理",
+      "minutes": 30,
+      "grammar": [
+        "isn’t working 描述当前故障；Could someone ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "leak",
+          "ipa": "/liːk/",
+          "zh": "漏水",
+          "example": "There’s a leak under the sink."
+        },
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "zh": "安静的",
+          "example": "The room at the back is quieter."
+        },
+        {
+          "word": "deposit",
+          "ipa": "/dɪˈpɒzɪt/",
+          "zh": "押金",
+          "example": "Do I need to pay a deposit?"
+        }
+      ],
+      "listening": {
+        "title": "The Air Conditioning Isn’t Working",
+        "transcript": "This is room 308. The air conditioning isn’t working, and the room is very warm. Could someone take a look before six? We’re going out at six thirty.",
+        "questions": [
+          {
+            "q": "What is the problem?",
+            "options": [
+              "The door is locked",
+              "The shower is cold",
+              "The air conditioning is broken"
+            ],
+            "answer": "The air conditioning is broken"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "向前台报告一个故障，给房号、问题、紧急程度和希望处理的时间。",
+        "sample": "I’m in room 308. The air conditioning isn’t working. Could someone look at it before six?"
+      },
+      "reading": {
+        "title": "说清房间问题并请求处理",
+        "text": "For problems after 10 p.m., call reception from your room. Describe the issue and give your room number. If there is a leak, please turn off the tap if you can.",
+        "questions": [
+          {
+            "q": "What information should you give?",
+            "options": [
+              "Your checkout date",
+              "Your room number",
+              "Your passport number"
+            ],
+            "answer": "Your room number"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 65–80 词给前台反映问题，明确希望维修还是换房。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（isn’t working 描述当前故障；Could someone ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d04q01",
+          "type": "choice",
+          "explanation": "Could 后接动词原形。",
+          "options": [
+            "take",
+            "takes",
+            "taking"
+          ],
+          "answer": "take",
+          "prompt": "Could someone ___ a look at it?"
+        },
+        {
+          "id": "w07d04q02",
+          "type": "choice",
+          "explanation": "leak 在本课中指漏水。",
+          "options": [
+            "押金",
+            "漏水",
+            "安静的"
+          ],
+          "answer": "漏水",
+          "prompt": "What does “leak” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "id": "w07d05",
+      "title": "Is Breakfast Included?",
+      "subtitle": "核对费用与服务",
+      "minutes": 30,
+      "grammar": [
+        "included in ...；How much extra ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "included",
+          "ipa": "/ɪnˈkluːdɪd/",
+          "zh": "包含在内",
+          "example": "Wi-Fi is included in the price."
+        },
+        {
+          "word": "leak",
+          "ipa": "/liːk/",
+          "zh": "漏水",
+          "example": "There’s a leak under the sink."
+        },
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "zh": "安静的",
+          "example": "The room at the back is quieter."
+        }
+      ],
+      "listening": {
+        "title": "Is Breakfast Included?",
+        "transcript": "Breakfast is included with your booking. Parking costs twelve pounds per night. You can use the hotel gym for free with your room key.",
+        "questions": [
+          {
+            "q": "Which service has an extra charge?",
+            "options": [
+              "Parking",
+              "The gym",
+              "Breakfast"
+            ],
+            "answer": "Parking"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "向酒店确认三项服务是否收费，并复述额外费用。",
+        "sample": "Is breakfast included? How much extra is parking for two nights?"
+      },
+      "reading": {
+        "title": "核对费用与服务",
+        "text": "Your booking includes breakfast for two, free Wi-Fi and late checkout at noon. Airport pickup is available for £25 per room. Please book it at least one day ahead.",
+        "questions": [
+          {
+            "q": "How much is airport pickup for one room?",
+            "options": [
+              "Free",
+              "£25",
+              "£50"
+            ],
+            "answer": "£25"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词为旅伴总结包含的服务和待支付费用。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（included in ...；How much extra ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d05q01",
+          "type": "choice",
+          "explanation": "Included in 表示包含在某个价格或套餐中。",
+          "options": [
+            "to",
+            "in",
+            "at"
+          ],
+          "answer": "in",
+          "prompt": "Breakfast is included ___ the room price."
+        },
+        {
+          "id": "w07d05q02",
+          "type": "choice",
+          "explanation": "included 在本课中指包含在内。",
+          "options": [
+            "安静的",
+            "包含在内",
+            "漏水"
+          ],
+          "answer": "包含在内",
+          "prompt": "What does “included” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "id": "w07d06",
+      "title": "Can You Keep Our Bags?",
+      "subtitle": "退房、寄存和取行李",
+      "minutes": 30,
+      "grammar": [
+        "Could you keep ... until ...?；pick ... up"
+      ],
+      "vocabulary": [
+        {
+          "word": "luggage",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "zh": "行李",
+          "example": "Can we leave our luggage here?"
+        },
+        {
+          "word": "included",
+          "ipa": "/ɪnˈkluːdɪd/",
+          "zh": "包含在内",
+          "example": "Wi-Fi is included in the price."
+        },
+        {
+          "word": "leak",
+          "ipa": "/liːk/",
+          "zh": "漏水",
+          "example": "There’s a leak under the sink."
+        }
+      ],
+      "listening": {
+        "title": "Can You Keep Our Bags?",
+        "transcript": "Our train leaves at seven. Can we leave our bags here after checkout? Certainly. Keep this ticket and show it to us when you pick them up.",
+        "questions": [
+          {
+            "q": "What must the guest show at pickup?",
+            "options": [
+              "A passport",
+              "A ticket",
+              "A train ticket"
+            ],
+            "answer": "A ticket"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "办理退房，说明几点取行李并问清凭证。",
+        "sample": "Could you keep our bags until six? What do we need to show when we pick them up?"
+      },
+      "reading": {
+        "title": "退房、寄存和取行李",
+        "text": "Checkout is at eleven. Luggage storage is free until eight in the evening. Keep valuables with you and collect bags from reception, not from the luggage room.",
+        "questions": [
+          {
+            "q": "Where should guests collect bags?",
+            "options": [
+              "At reception",
+              "At the station",
+              "At the luggage room"
+            ],
+            "answer": "At reception"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词告诉旅伴何时退房、如何寄存和去哪取。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Could you keep ... until ...?；pick ... up）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d06q01",
+          "type": "choice",
+          "explanation": "Until 表示寄存延续到六点。",
+          "options": [
+            "until",
+            "from",
+            "on"
+          ],
+          "answer": "until",
+          "prompt": "Could you keep our bags ___ six?"
+        },
+        {
+          "id": "w07d06q02",
+          "type": "choice",
+          "explanation": "luggage 在本课中指行李。",
+          "options": [
+            "包含在内",
+            "行李",
+            "漏水"
+          ],
+          "answer": "行李",
+          "prompt": "What does “luggage” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "id": "w07d07",
+      "title": "Weekly Challenge: Handle a Hotel Stay",
+      "subtitle": "整合比较、入住和解决投诉",
+      "minutes": 30,
+      "grammar": [
+        "比较级与礼貌请求综合"
+      ],
+      "vocabulary": [
+        {
+          "word": "solution",
+          "ipa": "/səˈluːʃən/",
+          "zh": "解决办法",
+          "example": "Could we find another solution?"
+        },
+        {
+          "word": "luggage",
+          "ipa": "/ˈlʌɡɪdʒ/",
+          "zh": "行李",
+          "example": "Can we leave our luggage here?"
+        },
+        {
+          "word": "included",
+          "ipa": "/ɪnˈkluːdɪd/",
+          "zh": "包含在内",
+          "example": "Wi-Fi is included in the price."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Handle a Hotel Stay",
+        "transcript": "The quiet room costs fifteen pounds more. It’s free tomorrow, but tonight we can offer a room away from the lift at the same price. Would that help?",
+        "questions": [
+          {
+            "q": "What can the hotel offer tonight?",
+            "options": [
+              "No replacement room",
+              "A room away from the lift",
+              "The quiet room for free"
+            ],
+            "answer": "A room away from the lift"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "从旅客角度礼貌说明噪音问题，比较两种方案并明确接受哪一个。",
+        "sample": "The room by the lift is noisy. Could we move to the room away from the lift tonight?"
+      },
+      "reading": {
+        "title": "整合比较、入住和解决投诉",
+        "text": "Booking summary: two nights in a street-facing double room. Breakfast included, parking £10 per night. Guests can change rooms subject to availability. Checkout is 11 a.m.",
+        "questions": [
+          {
+            "q": "Which item costs extra?",
+            "options": [
+              "Parking",
+              "The double bed",
+              "Breakfast"
+            ],
+            "answer": "Parking"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词给酒店，说明预订信息、困扰、两种方案和选择。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（比较级与礼貌请求综合）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w07d07q01",
+          "type": "choice",
+          "explanation": "Move to another room 表示换到另一间客房。",
+          "options": [
+            "Is breakfast included?",
+            "Could we move to another room?",
+            "Could you keep our bags?"
+          ],
+          "answer": "Could we move to another room?",
+          "prompt": "Which sentence requests a room change?"
+        },
+        {
+          "id": "w07d07q02",
+          "type": "choice",
+          "explanation": "solution 在本课中指解决办法。",
+          "options": [
+            "行李",
+            "包含在内",
+            "解决办法"
+          ],
+          "answer": "解决办法",
+          "prompt": "What does “solution” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

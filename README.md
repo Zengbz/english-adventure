@@ -4,7 +4,7 @@ A static, expandable PWA for 30-minute daily English learning. Course content is
 
 ## Current delivery
 - PWA shell, responsive learning path, week/day navigation.
-- Week 1 course package with seven lessons and integrated vocabulary, listening, speaking, reading, writing and quizzes.
+- 12 weekly packages with 84 lessons and integrated vocabulary, listening, speaking, reading, writing and quizzes.
 - `courses/catalog.json` generated from `courses/weekN-course.json` by `scripts/build.mjs`.
 - Local progress, XP, streak and JSON export.
 - Optional DeepSeek AI module with user-entered API Key saved in this browser.
@@ -12,7 +12,7 @@ A static, expandable PWA for 30-minute daily English learning. Course content is
 - GitHub Pages Actions workflow and basic course tests.
 
 ## Add a week
-1. Add `courses/week2-course.json` (or the next unused week number).
+1. Add the next unused weekly package, for example `courses/week13-course.json`.
 2. Keep exactly seven lessons per week. Use globally unique lesson IDs and quiz IDs.
 3. Run `node --test tests/*.test.cjs` and `node scripts/build.mjs`.
 4. Commit the new weekly JSON. GitHub Actions regenerates `courses/catalog.json` in the published artifact.
@@ -42,4 +42,4 @@ Create a dedicated GitHub repository for this PWA, push the project to its `main
 - Any context enabled by the user is sent to DeepSeek. The context preview lets the user inspect the payload before use.
 
 ## Important limitation of this first scaffold
-Week 1 is populated. Weeks 2–12 are intentionally not fabricated as empty or repetitive lessons; they will be added as independent weekly packages and validated before release. Speech recognition/pronunciation scoring is not included yet.
+The 12-week A2 to B1 roadmap is available in full. Listening playback uses the browser’s English text-to-speech voice. Speech recognition and pronunciation scoring are not included.

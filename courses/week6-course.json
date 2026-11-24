@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 6,
+  "title": "Transportation and Directions",
+  "level": "A2+",
+  "summary": "机场、车站、问路、交通方式和情态动词。",
+  "objectives": [
+    "Follow check-in and gate announcements",
+    "Buy tickets and follow directions",
+    "Choose another route when services change"
+  ],
+  "lessons": [
+    {
+      "day": 36,
+      "id": "w06d01",
+      "title": "At the Airport Counter",
+      "subtitle": "听懂值机柜台问题",
+      "minutes": 30,
+      "grammar": [
+        "Can I ...? 询问可否；need to + 原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "aisle",
+          "ipa": "/aɪl/",
+          "zh": "过道",
+          "example": "Can I have an aisle seat?"
+        },
+        {
+          "word": "boarding",
+          "ipa": "/ˈbɔːdɪŋ/",
+          "zh": "登机",
+          "example": "Boarding starts at six."
+        },
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "zh": "站台",
+          "example": "The train leaves from platform four."
+        }
+      ],
+      "listening": {
+        "title": "At the Airport Counter",
+        "transcript": "May I see your passport? Thank you. You can take this small bag on board, but you need to check in the large suitcase. Your gate opens at six.",
+        "questions": [
+          {
+            "q": "Which bag must be checked in?",
+            "options": [
+              "Both bags",
+              "The small bag",
+              "The large suitcase"
+            ],
+            "answer": "The large suitcase"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "扮演旅客，询问过道座、手提行李与登机口。",
+        "sample": "Can I have an aisle seat? Do I need to check in this bag?"
+      },
+      "reading": {
+        "title": "听懂值机柜台问题",
+        "text": "Flight 214 check-in closes at 17:20. Passengers with hand luggage only can go straight to security if they have an online boarding pass.",
+        "questions": [
+          {
+            "q": "Who can go straight to security?",
+            "options": [
+              "Only passengers with paper tickets",
+              "All passengers with suitcases",
+              "Passengers with hand luggage and an online boarding pass"
+            ],
+            "answer": "Passengers with hand luggage and an online boarding pass"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 50 词给旅伴说明值机时间、行李处理和安检。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Can I ...? 询问可否；need to + 原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d01q01",
+          "type": "choice",
+          "explanation": "Need to 后用原形。",
+          "options": [
+            "check",
+            "checking",
+            "checked"
+          ],
+          "answer": "check",
+          "prompt": "You need to ___ in the suitcase."
+        },
+        {
+          "id": "w06d01q02",
+          "type": "choice",
+          "explanation": "aisle 在本课中指过道。",
+          "options": [
+            "过道",
+            "登机",
+            "站台"
+          ],
+          "answer": "过道",
+          "prompt": "What does “aisle” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "id": "w06d02",
+      "title": "Gate Change",
+      "subtitle": "听变更广播，找正确登机口",
+      "minutes": 30,
+      "grammar": [
+        "has changed to ... 识别变更；please + 动词原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "boarding",
+          "ipa": "/ˈbɔːdɪŋ/",
+          "zh": "登机",
+          "example": "Boarding starts at six."
+        },
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "zh": "站台",
+          "example": "The train leaves from platform four."
+        },
+        {
+          "word": "transfer",
+          "ipa": "/ˈtrænsfɜː/",
+          "zh": "换乘",
+          "example": "The transfer takes five minutes."
+        }
+      ],
+      "listening": {
+        "title": "Gate Change",
+        "transcript": "Attention passengers for flight 214. The gate has changed from B12 to C4. Boarding starts in twenty minutes. Please follow the signs to area C.",
+        "questions": [
+          {
+            "q": "What is the new gate?",
+            "options": [
+              "B12",
+              "C4",
+              "C12"
+            ],
+            "answer": "C4"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "听完广播后向旅伴复述航班、新登机口和剩余时间。",
+        "sample": "Our flight now leaves from gate C4. Boarding starts in twenty minutes."
+      },
+      "reading": {
+        "title": "听变更广播，找正确登机口",
+        "text": "Flight 208 to Dublin is delayed. The new departure time is 19:45. Gate A6 stays the same. Check the screen again at 19:00 for the boarding time.",
+        "questions": [
+          {
+            "q": "When should you recheck the screen?",
+            "options": [
+              "19:45",
+              "19:00",
+              "18:45"
+            ],
+            "answer": "19:00"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一则 45–60 词的变更通知，区别登机和起飞。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（has changed to ... 识别变更；please + 动词原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d02q01",
+          "type": "choice",
+          "explanation": "礼貌指令可用 please + 动词原形。",
+          "options": [
+            "follows",
+            "follow",
+            "following"
+          ],
+          "answer": "follow",
+          "prompt": "Please ___ the signs to area C."
+        },
+        {
+          "id": "w06d02q02",
+          "type": "choice",
+          "explanation": "boarding 在本课中指登机。",
+          "options": [
+            "站台",
+            "换乘",
+            "登机"
+          ],
+          "answer": "登机",
+          "prompt": "What does “boarding” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "id": "w06d03",
+      "title": "A Return Ticket",
+      "subtitle": "在车站买票和确认站台",
+      "minutes": 30,
+      "grammar": [
+        "a ticket to ...；Does this train stop at ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "zh": "站台",
+          "example": "The train leaves from platform four."
+        },
+        {
+          "word": "boarding",
+          "ipa": "/ˈbɔːdɪŋ/",
+          "zh": "登机",
+          "example": "Boarding starts at six."
+        },
+        {
+          "word": "aisle",
+          "ipa": "/aɪl/",
+          "zh": "过道",
+          "example": "Can I have an aisle seat?"
+        }
+      ],
+      "listening": {
+        "title": "A Return Ticket",
+        "transcript": "A return to York, please. The direct train leaves at ten from platform four. Your ticket is valid on any train after nine thirty today.",
+        "questions": [
+          {
+            "q": "Which platform is the direct train on?",
+            "options": [
+              "Nine",
+              "Four",
+              "Ten"
+            ],
+            "answer": "Four"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "买当天往返票，问是否直达、站台和有效时段。",
+        "sample": "A return to York, please. Does this train stop at York? Which platform is it?"
+      },
+      "reading": {
+        "title": "在车站买票和确认站台",
+        "text": "Tickets to River Park: a single costs £4 and a same-day return costs £7. The express skips River Park. Take the local train from platform two.",
+        "questions": [
+          {
+            "q": "Which train stops at River Park?",
+            "options": [
+              "Both trains",
+              "The express train",
+              "The local train"
+            ],
+            "answer": "The local train"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 50–65 词告诉朋友买什么票、从哪里上车、何时回来。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（a ticket to ...；Does this train stop at ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d03q01",
+          "type": "choice",
+          "explanation": "目的地前用 to。",
+          "options": [
+            "on",
+            "at",
+            "to"
+          ],
+          "answer": "to",
+          "prompt": "A return ticket ___ York, please."
+        },
+        {
+          "id": "w06d03q02",
+          "type": "choice",
+          "explanation": "platform 在本课中指站台。",
+          "options": [
+            "登机",
+            "站台",
+            "过道"
+          ],
+          "answer": "站台",
+          "prompt": "What does “platform” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "id": "w06d04",
+      "title": "Where Do I Get Off?",
+      "subtitle": "换乘和核对下车站",
+      "minutes": 30,
+      "grammar": [
+        "get on/off；change at + 站名"
+      ],
+      "vocabulary": [
+        {
+          "word": "transfer",
+          "ipa": "/ˈtrænsfɜː/",
+          "zh": "换乘",
+          "example": "The transfer takes five minutes."
+        },
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "zh": "站台",
+          "example": "The train leaves from platform four."
+        },
+        {
+          "word": "boarding",
+          "ipa": "/ˈbɔːdɪŋ/",
+          "zh": "登机",
+          "example": "Boarding starts at six."
+        }
+      ],
+      "listening": {
+        "title": "Where Do I Get Off?",
+        "transcript": "Take line two to Central. Change there for line five. Get off at the second stop, which is called Park Road. The museum is next to the station.",
+        "questions": [
+          {
+            "q": "Where should you change lines?",
+            "options": [
+              "Park Road",
+              "Central",
+              "The museum"
+            ],
+            "answer": "Central"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "给一个第一次坐地铁的人说明上车线、换乘站和下车站。",
+        "sample": "Get on line two. Change at Central and get off at Park Road."
+      },
+      "reading": {
+        "title": "换乘和核对下车站",
+        "text": "Buses 12 and 16 both stop at City Hall. Bus 12 continues to North Station. Bus 16 goes to the harbour. To reach the harbour from City Hall, stay on bus 16.",
+        "questions": [
+          {
+            "q": "Which bus goes to the harbour?",
+            "options": [
+              "12",
+              "16",
+              "Both"
+            ],
+            "answer": "16"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一条三步换乘指引，每步说清路线或站名。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（get on/off；change at + 站名）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d04q01",
+          "type": "choice",
+          "explanation": "Get off 表示下车。",
+          "options": [
+            "off",
+            "on",
+            "over"
+          ],
+          "answer": "off",
+          "prompt": "We need to get ___ at Park Road to visit the museum."
+        },
+        {
+          "id": "w06d04q02",
+          "type": "choice",
+          "explanation": "transfer 在本课中指换乘。",
+          "options": [
+            "登机",
+            "换乘",
+            "站台"
+          ],
+          "answer": "换乘",
+          "prompt": "What does “transfer” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "id": "w06d05",
+      "title": "Is It Far from Here?",
+      "subtitle": "问路与听懂转弯地标",
+      "minutes": 30,
+      "grammar": [
+        "Turn left/right at ...；opposite / next to"
+      ],
+      "vocabulary": [
+        {
+          "word": "crossing",
+          "ipa": "/ˈkrɒsɪŋ/",
+          "zh": "人行横道",
+          "example": "Turn right at the crossing."
+        },
+        {
+          "word": "transfer",
+          "ipa": "/ˈtrænsfɜː/",
+          "zh": "换乘",
+          "example": "The transfer takes five minutes."
+        },
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːm/",
+          "zh": "站台",
+          "example": "The train leaves from platform four."
+        }
+      ],
+      "listening": {
+        "title": "Is It Far from Here?",
+        "transcript": "Go straight past the bank. Turn left at the crossing. The library is opposite the pharmacy. It takes about five minutes on foot.",
+        "questions": [
+          {
+            "q": "What is opposite the library?",
+            "options": [
+              "A station",
+              "A bank",
+              "A pharmacy"
+            ],
+            "answer": "A pharmacy"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "先问图书馆怎么走，再用两个地标复述路线。",
+        "sample": "Is the library far? So I turn left at the crossing and look opposite the pharmacy."
+      },
+      "reading": {
+        "title": "问路与听懂转弯地标",
+        "text": "From the station, walk along King Street for two blocks. Turn right at the café. The museum entrance is next to the bookshop, on the left.",
+        "questions": [
+          {
+            "q": "Where should you turn right?",
+            "options": [
+              "At the café",
+              "At the bookshop",
+              "At the station"
+            ],
+            "answer": "At the café"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 55–70 词指路信息，注明起点、转弯和目的地参照物。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Turn left/right at ...；opposite / next to）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d05q01",
+          "type": "choice",
+          "explanation": "Opposite 表示在对面。",
+          "options": [
+            "opposite",
+            "inside",
+            "under"
+          ],
+          "answer": "opposite",
+          "prompt": "The library is ___ the pharmacy, across the street."
+        },
+        {
+          "id": "w06d05q02",
+          "type": "choice",
+          "explanation": "crossing 在本课中指人行横道。",
+          "options": [
+            "站台",
+            "人行横道",
+            "换乘"
+          ],
+          "answer": "人行横道",
+          "prompt": "What does “crossing” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "id": "w06d06",
+      "title": "The Road Is Closed",
+      "subtitle": "理解交通限制和提替代方案",
+      "minutes": 30,
+      "grammar": [
+        "must / can’t 表示义务和限制；could 提建议"
+      ],
+      "vocabulary": [
+        {
+          "word": "diversion",
+          "ipa": "/daɪˈvɜːʃən/",
+          "zh": "改道",
+          "example": "Follow the diversion signs."
+        },
+        {
+          "word": "crossing",
+          "ipa": "/ˈkrɒsɪŋ/",
+          "zh": "人行横道",
+          "example": "Turn right at the crossing."
+        },
+        {
+          "word": "transfer",
+          "ipa": "/ˈtrænsfɜː/",
+          "zh": "换乘",
+          "example": "The transfer takes five minutes."
+        }
+      ],
+      "listening": {
+        "title": "The Road Is Closed",
+        "transcript": "The bridge is closed today. You can’t cross on foot. You could take bus eight from Market Street. It stops on the other side of the river.",
+        "questions": [
+          {
+            "q": "What alternative is offered?",
+            "options": [
+              "A boat",
+              "A short walk across the bridge",
+              "Bus eight"
+            ],
+            "answer": "Bus eight"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "给旅伴解释什么路走不了、必须用哪个入口，以及一个替代方案。",
+        "sample": "We can’t cross the bridge. We could take bus eight instead."
+      },
+      "reading": {
+        "title": "理解交通限制和提替代方案",
+        "text": "The south entrance is closed from Monday to Wednesday. Visitors must use the north entrance on Green Road. Step-free access is available there.",
+        "questions": [
+          {
+            "q": "Which entrance is step-free during the closure?",
+            "options": [
+              "The north entrance",
+              "Neither entrance",
+              "The south entrance"
+            ],
+            "answer": "The north entrance"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词转述改道通知，补上替代路线和站点。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（must / can’t 表示义务和限制；could 提建议）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d06q01",
+          "type": "choice",
+          "explanation": "Must 在这里表示必须。",
+          "options": [
+            "might not",
+            "used to",
+            "must"
+          ],
+          "answer": "must",
+          "prompt": "Visitors ___ use the north entrance during the closure."
+        },
+        {
+          "id": "w06d06q02",
+          "type": "choice",
+          "explanation": "diversion 在本课中指改道。",
+          "options": [
+            "换乘",
+            "人行横道",
+            "改道"
+          ],
+          "answer": "改道",
+          "prompt": "What does “diversion” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "id": "w06d07",
+      "title": "Weekly Challenge: Catch the Flight",
+      "subtitle": "综合处理换乘和航班变更",
+      "minutes": 30,
+      "grammar": [
+        "复习指令、时间、地点和备选交通"
+      ],
+      "vocabulary": [
+        {
+          "word": "departure",
+          "ipa": "/dɪˈpɑːtʃə/",
+          "zh": "出发",
+          "example": "Check the departure time again."
+        },
+        {
+          "word": "diversion",
+          "ipa": "/daɪˈvɜːʃən/",
+          "zh": "改道",
+          "example": "Follow the diversion signs."
+        },
+        {
+          "word": "crossing",
+          "ipa": "/ˈkrɒsɪŋ/",
+          "zh": "人行横道",
+          "example": "Turn right at the crossing."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Catch the Flight",
+        "transcript": "The airport train is cancelled. The replacement bus leaves from the north exit at 14:10 and takes forty minutes. Your flight still departs at sixteen thirty.",
+        "questions": [
+          {
+            "q": "Where is the replacement bus?",
+            "options": [
+              "At platform four",
+              "At the north exit",
+              "At the south exit"
+            ],
+            "answer": "At the north exit"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "按广播和通知口头说明改坐什么、预计何时到机场、值机最晚几点。",
+        "sample": "We need the 14:10 bus from the north exit. We’ll arrive at 14:50. Check-in closes at 15:30."
+      },
+      "reading": {
+        "title": "综合处理换乘和航班变更",
+        "text": "Airport notice: check-in for flight 520 closes at 15:30. Boarding at gate D3 starts at 15:55. Passengers should go to security after check-in.",
+        "questions": [
+          {
+            "q": "When does check-in close?",
+            "options": [
+              "16:30",
+              "15:30",
+              "15:55"
+            ],
+            "answer": "15:30"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 80–100 词给迟到的旅伴，说明乘车、值机、登机和备用办法。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（复习指令、时间、地点和备选交通）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w06d07q01",
+          "type": "choice",
+          "explanation": "Get on 表示上公共交通工具。",
+          "options": [
+            "drop off",
+            "get off",
+            "get on"
+          ],
+          "answer": "get on",
+          "prompt": "Which verb means 上车?"
+        },
+        {
+          "id": "w06d07q02",
+          "type": "choice",
+          "explanation": "departure 在本课中指出发。",
+          "options": [
+            "改道",
+            "人行横道",
+            "出发"
+          ],
+          "answer": "出发",
+          "prompt": "What does “departure” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

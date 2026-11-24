@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 4,
+  "title": "Future Plans",
+  "level": "A2",
+  "summary": "will、be going to、日期安排和旅行计划。",
+  "objectives": [
+    "Explain plans and existing arrangements",
+    "Confirm dates, times and bookings",
+    "Prepare a backup and propose a new time"
+  ],
+  "lessons": [
+    {
+      "day": 22,
+      "id": "w04d01",
+      "title": "What Are You Going to Do?",
+      "subtitle": "谈已经决定的计划",
+      "minutes": 30,
+      "grammar": [
+        "be going to + 动词原形"
+      ],
+      "vocabulary": [
+        {
+          "word": "plan",
+          "ipa": "/plæn/",
+          "zh": "计划",
+          "example": "I’m going to plan a short trip."
+        },
+        {
+          "word": "carry",
+          "ipa": "/ˈkæri/",
+          "zh": "搬；提",
+          "example": "I’ll carry your bag."
+        },
+        {
+          "word": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "zh": "预订",
+          "example": "I have a reservation for two nights."
+        }
+      ],
+      "listening": {
+        "title": "What Are You Going to Do?",
+        "transcript": "I’m going to visit my cousin in May. We’re going to stay near the lake. On Saturday we’re going to hire bikes.",
+        "questions": [
+          {
+            "q": "What are they going to hire?",
+            "options": [
+              "A boat",
+              "A car",
+              "Bikes"
+            ],
+            "answer": "Bikes"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "说出下个月已经决定要做的三件事。",
+        "sample": "I’m going to visit a friend. We’re going to cook dinner and watch a film."
+      },
+      "reading": {
+        "title": "谈已经决定的计划",
+        "text": "Our group is going to visit Seoul in June. Two people are going to arrive on Friday, and I’m going to join them on Saturday. We’re going to meet for lunch.",
+        "questions": [
+          {
+            "q": "When is the writer going to arrive?",
+            "options": [
+              "Friday",
+              "Sunday",
+              "Saturday"
+            ],
+            "answer": "Saturday"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 50–65 词介绍一个已经决定的周末计划。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（be going to + 动词原形）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d01q01",
+          "type": "choice",
+          "explanation": "She 对应 is。",
+          "options": [
+            "are",
+            "am",
+            "is"
+          ],
+          "answer": "is",
+          "prompt": "She ___ going to stay here."
+        },
+        {
+          "id": "w04d01q02",
+          "type": "choice",
+          "explanation": "plan 在本课中指计划。",
+          "options": [
+            "搬；提",
+            "计划",
+            "预订"
+          ],
+          "answer": "计划",
+          "prompt": "What does “plan” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "id": "w04d02",
+      "title": "I’ll Help You",
+      "subtitle": "现场决定与主动帮助",
+      "minutes": 30,
+      "grammar": [
+        "will + 动词原形；I’ll 表示当场决定"
+      ],
+      "vocabulary": [
+        {
+          "word": "carry",
+          "ipa": "/ˈkæri/",
+          "zh": "搬；提",
+          "example": "I’ll carry your bag."
+        },
+        {
+          "word": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "zh": "预订",
+          "example": "I have a reservation for two nights."
+        },
+        {
+          "word": "arrangement",
+          "ipa": "/əˈreɪndʒmənt/",
+          "zh": "安排",
+          "example": "We have an arrangement for Friday."
+        }
+      ],
+      "listening": {
+        "title": "I’ll Help You",
+        "transcript": "Oh, the lift is out of order. Your bag looks heavy. I’ll carry it upstairs for you. Please take the smaller bag.",
+        "questions": [
+          {
+            "q": "What does the speaker offer to do?",
+            "options": [
+              "Carry the heavy bag",
+              "Fix the lift",
+              "Call a taxi"
+            ],
+            "answer": "Carry the heavy bag"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "模拟朋友遇到三个小麻烦，每次用 I’ll 提供一个帮助。",
+        "sample": "You can’t find the address? I’ll look it up for you."
+      },
+      "reading": {
+        "title": "现场决定与主动帮助",
+        "text": "A: We don’t have enough chairs. B: I’ll ask the café next door. A: Thanks! I’ll move the tables while you do that.",
+        "questions": [
+          {
+            "q": "Who will ask the café?",
+            "options": [
+              "Speaker B",
+              "Both speakers",
+              "Speaker A"
+            ],
+            "answer": "Speaker B"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写六行双人对话，写出两个当场作出的决定。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（will + 动词原形；I’ll 表示当场决定）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d02q01",
+          "type": "choice",
+          "explanation": "Will 后用动词原形。",
+          "options": [
+            "call",
+            "calling",
+            "called"
+          ],
+          "answer": "call",
+          "prompt": "I’ll ___ the hotel now."
+        },
+        {
+          "id": "w04d02q02",
+          "type": "choice",
+          "explanation": "carry 在本课中指搬；提。",
+          "options": [
+            "安排",
+            "预订",
+            "搬；提"
+          ],
+          "answer": "搬；提",
+          "prompt": "What does “carry” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "id": "w04d03",
+      "title": "Dates and Bookings",
+      "subtitle": "确认日期和预订",
+      "minutes": 30,
+      "grammar": [
+        "on + 日期；from ... to ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "zh": "预订",
+          "example": "I have a reservation for two nights."
+        },
+        {
+          "word": "carry",
+          "ipa": "/ˈkæri/",
+          "zh": "搬；提",
+          "example": "I’ll carry your bag."
+        },
+        {
+          "word": "plan",
+          "ipa": "/plæn/",
+          "zh": "计划",
+          "example": "I’m going to plan a short trip."
+        }
+      ],
+      "listening": {
+        "title": "Dates and Bookings",
+        "transcript": "Your room is booked from the ninth to the eleventh of June. You can check in after three on the ninth. Breakfast is included.",
+        "questions": [
+          {
+            "q": "What is the arrival date?",
+            "options": [
+              "3 June",
+              "11 June",
+              "9 June"
+            ],
+            "answer": "9 June"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "读出两个旅行日期和一个预约时刻，再请对方复述。",
+        "sample": "My reservation is from the ninth to the eleventh of June. Can you confirm the dates?"
+      },
+      "reading": {
+        "title": "确认日期和预订",
+        "text": "Your museum tickets are for the fifteenth of July. The morning tour starts at 10:30. Please arrive fifteen minutes early and show this email at the entrance.",
+        "questions": [
+          {
+            "q": "By what time should you arrive?",
+            "options": [
+              "10:30",
+              "10:45",
+              "10:15"
+            ],
+            "answer": "10:15"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一条消息，确认到达日、离开日和入住时刻。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（on + 日期；from ... to ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d03q01",
+          "type": "choice",
+          "explanation": "具体日期前用 on。",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "answer": "on",
+          "prompt": "We arrive ___ 9 June."
+        },
+        {
+          "id": "w04d03q02",
+          "type": "choice",
+          "explanation": "reservation 在本课中指预订。",
+          "options": [
+            "预订",
+            "搬；提",
+            "计划"
+          ],
+          "answer": "预订",
+          "prompt": "What does “reservation” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "id": "w04d04",
+      "title": "I’m Meeting Sam",
+      "subtitle": "用现在进行时描述已约定事项",
+      "minutes": 30,
+      "grammar": [
+        "be + -ing 加未来时间表示已安排"
+      ],
+      "vocabulary": [
+        {
+          "word": "arrangement",
+          "ipa": "/əˈreɪndʒmənt/",
+          "zh": "安排",
+          "example": "We have an arrangement for Friday."
+        },
+        {
+          "word": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "zh": "预订",
+          "example": "I have a reservation for two nights."
+        },
+        {
+          "word": "carry",
+          "ipa": "/ˈkæri/",
+          "zh": "搬；提",
+          "example": "I’ll carry your bag."
+        }
+      ],
+      "listening": {
+        "title": "I’m Meeting Sam",
+        "transcript": "I’m meeting Sam at the airport tomorrow. Her flight lands at four. We’re having dinner with Jo at seven, so I’m going straight to the restaurant after we drop off her bags.",
+        "questions": [
+          {
+            "q": "What is arranged for seven?",
+            "options": [
+              "Dinner with Jo",
+              "Dropping off the bags",
+              "Meeting Sam at the airport"
+            ],
+            "answer": "Dinner with Jo"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用三个已约好的活动说明周末安排，带上时间和地点。",
+        "sample": "I’m meeting Sam at the station at four. We’re having dinner at seven."
+      },
+      "reading": {
+        "title": "用现在进行时描述已约定事项",
+        "text": "I’m taking the early train on Friday. Ana is picking me up at the station at nine. We’re staying at her family’s house for the weekend.",
+        "questions": [
+          {
+            "q": "Who is meeting the writer at the station?",
+            "options": [
+              "Sam",
+              "The writer’s family",
+              "Ana"
+            ],
+            "answer": "Ana"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 55–70 词把已约定的周五行程发给朋友。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（be + -ing 加未来时间表示已安排）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d04q01",
+          "type": "choice",
+          "explanation": "Be + -ing 可以说明已有的未来安排。",
+          "options": [
+            "met",
+            "meeting",
+            "meet"
+          ],
+          "answer": "meeting",
+          "prompt": "We are ___ Jo at seven tonight."
+        },
+        {
+          "id": "w04d04q02",
+          "type": "choice",
+          "explanation": "arrangement 在本课中指安排。",
+          "options": [
+            "搬；提",
+            "预订",
+            "安排"
+          ],
+          "answer": "安排",
+          "prompt": "What does “arrangement” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "id": "w04d05",
+      "title": "Weather and Backup Plans",
+      "subtitle": "给出预测并准备备选",
+      "minutes": 30,
+      "grammar": [
+        "I think it’ll ...；If + 现在时，主句用 will"
+      ],
+      "vocabulary": [
+        {
+          "word": "forecast",
+          "ipa": "/ˈfɔːkɑːst/",
+          "zh": "天气预报",
+          "example": "The forecast says it’ll rain."
+        },
+        {
+          "word": "arrangement",
+          "ipa": "/əˈreɪndʒmənt/",
+          "zh": "安排",
+          "example": "We have an arrangement for Friday."
+        },
+        {
+          "word": "reservation",
+          "ipa": "/ˌrezəˈveɪʃən/",
+          "zh": "预订",
+          "example": "I have a reservation for two nights."
+        }
+      ],
+      "listening": {
+        "title": "Weather and Backup Plans",
+        "transcript": "I think it’ll rain tomorrow morning. If it rains, we’ll visit the indoor market. If it clears in the afternoon, we’ll walk by the river.",
+        "questions": [
+          {
+            "q": "Where will they go if it rains?",
+            "options": [
+              "The indoor market",
+              "The river",
+              "The station"
+            ],
+            "answer": "The indoor market"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "为一次户外活动说出一个预测和两个根据天气调整的方案。",
+        "sample": "I think it’ll rain. If it rains, we’ll go to the museum."
+      },
+      "reading": {
+        "title": "给出预测并准备备选",
+        "text": "The outdoor tour runs in light rain. If the wind is strong, the guide will cancel the tour. In that case, take your ticket to the desk for a refund.",
+        "questions": [
+          {
+            "q": "When will the tour be cancelled?",
+            "options": [
+              "If the wind is strong",
+              "Whenever it is cloudy",
+              "If it rains lightly"
+            ],
+            "answer": "If the wind is strong"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 55–70 词告诉旅伴天气和备用安排。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I think it’ll ...；If + 现在时，主句用 will）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d05q01",
+          "type": "choice",
+          "explanation": "这里用 will 表达条件成立时的未来结果。",
+          "options": [
+            "did",
+            "are",
+            "will"
+          ],
+          "answer": "will",
+          "prompt": "If it rains, we ___ visit the museum."
+        },
+        {
+          "id": "w04d05q02",
+          "type": "choice",
+          "explanation": "forecast 在本课中指天气预报。",
+          "options": [
+            "天气预报",
+            "预订",
+            "安排"
+          ],
+          "answer": "天气预报",
+          "prompt": "What does “forecast” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "id": "w04d06",
+      "title": "Can We Move It to Sunday?",
+      "subtitle": "协调行程、说明改约原因",
+      "minutes": 30,
+      "grammar": [
+        "Can we move ... to ...?；I’m afraid ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "ipa": "/ˌriːˈʃedjuːl/",
+          "zh": "改期",
+          "example": "Can we reschedule our tour?"
+        },
+        {
+          "word": "forecast",
+          "ipa": "/ˈfɔːkɑːst/",
+          "zh": "天气预报",
+          "example": "The forecast says it’ll rain."
+        },
+        {
+          "word": "arrangement",
+          "ipa": "/əˈreɪndʒmənt/",
+          "zh": "安排",
+          "example": "We have an arrangement for Friday."
+        }
+      ],
+      "listening": {
+        "title": "Can We Move It to Sunday?",
+        "transcript": "I’m afraid I can’t make it on Saturday. Can we move our walk to Sunday morning? I’m free after nine, but I’m having lunch with my sister at twelve.",
+        "questions": [
+          {
+            "q": "When can the speaker meet on Sunday?",
+            "options": [
+              "After lunch",
+              "Before nine",
+              "Between nine and noon"
+            ],
+            "answer": "Between nine and noon"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "扮演需要改约的旅客，解释原因并提出两个替代时间。",
+        "sample": "I’m afraid I can’t make it on Saturday. Can we move the tour to Sunday or Monday?"
+      },
+      "reading": {
+        "title": "协调行程、说明改约原因",
+        "text": "Hi Lin, the guide can only move our tour to Monday at ten. My train leaves at eleven, so that’s too late for me. Could we ask for a refund or choose Sunday’s shorter tour?",
+        "questions": [
+          {
+            "q": "Why can’t the writer take the Monday tour?",
+            "options": [
+              "The tour is cancelled",
+              "Their train leaves at eleven",
+              "They have lunch at ten"
+            ],
+            "answer": "Their train leaves at eleven"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 60–75 词给活动组织者，说明原订时间、新时间和改约原因。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（Can we move ... to ...?；I’m afraid ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d06q01",
+          "type": "choice",
+          "explanation": "Move something to a day 表示改到那天。",
+          "options": [
+            "by",
+            "at",
+            "to"
+          ],
+          "answer": "to",
+          "prompt": "Can we move the tour ___ Sunday?"
+        },
+        {
+          "id": "w04d06q02",
+          "type": "choice",
+          "explanation": "reschedule 在本课中指改期。",
+          "options": [
+            "改期",
+            "安排",
+            "天气预报"
+          ],
+          "answer": "改期",
+          "prompt": "What does “reschedule” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "id": "w04d07",
+      "title": "Weekly Challenge: Plan a City Break",
+      "subtitle": "做一份可执行的短途出游安排",
+      "minutes": 30,
+      "grammar": [
+        "综合 going to、已约安排和条件句"
+      ],
+      "vocabulary": [
+        {
+          "word": "itinerary",
+          "ipa": "/aɪˈtɪnərəri/",
+          "zh": "行程",
+          "example": "Here’s our itinerary for Sunday."
+        },
+        {
+          "word": "reschedule",
+          "ipa": "/ˌriːˈʃedjuːl/",
+          "zh": "改期",
+          "example": "Can we reschedule our tour?"
+        },
+        {
+          "word": "forecast",
+          "ipa": "/ˈfɔːkɑːst/",
+          "zh": "天气预报",
+          "example": "The forecast says it’ll rain."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Plan a City Break",
+        "transcript": "The train arrives at nine fifteen. We’re meeting Mei at the station at ten. We’re going to have lunch near the museum. If the museum is full, we’ll visit the market instead.",
+        "questions": [
+          {
+            "q": "What is the backup activity?",
+            "options": [
+              "Meeting Mei",
+              "Taking a train",
+              "Visiting the market"
+            ],
+            "answer": "Visiting the market"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用 90 秒向旅伴确认到站、见面、午饭、备用活动和离开时间。",
+        "sample": "We’re meeting Mei at ten. We’re going to see the museum. If it’s full, we’ll visit the market."
+      },
+      "reading": {
+        "title": "做一份可执行的短途出游安排",
+        "text": "Saturday: the museum requires tickets from 11 a.m. The market closes at 4 p.m. The airport bus leaves the station at 5:30 p.m. Allow 20 minutes to walk back to the station.",
+        "questions": [
+          {
+            "q": "When does the airport bus leave?",
+            "options": [
+              "11:00 a.m.",
+              "5:30 p.m.",
+              "4:00 p.m."
+            ],
+            "answer": "5:30 p.m."
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 80–100 词行程短信，带至少四个时间点和一个备选方案。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（综合 going to、已约安排和条件句）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w04d07q01",
+          "type": "choice",
+          "explanation": "进行时加未来时刻可表示已约定的安排。",
+          "options": [
+            "I’ll help you now.",
+            "We’re meeting Mei at ten.",
+            "We met Mei yesterday."
+          ],
+          "answer": "We’re meeting Mei at ten.",
+          "prompt": "Which sentence describes an existing arrangement?"
+        },
+        {
+          "id": "w04d07q02",
+          "type": "choice",
+          "explanation": "itinerary 在本课中指行程。",
+          "options": [
+            "改期",
+            "天气预报",
+            "行程"
+          ],
+          "answer": "行程",
+          "prompt": "What does “itinerary” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 10,
+  "title": "Culture and Society",
+  "level": "B1",
+  "summary": "文化差异、国家生活、被动语态和关系从句。",
+  "objectives": [
+    "Describe customs without generalising",
+    "Describe processes and history in the passive",
+    "Use relative clauses to identify people and places"
+  ],
+  "lessons": [
+    {
+      "day": 64,
+      "id": "w10d01",
+      "title": "Customs at the Table",
+      "subtitle": "用有保留的语气描述习俗",
+      "minutes": 30,
+      "grammar": [
+        "In some families ...；usually / often / may"
+      ],
+      "vocabulary": [
+        {
+          "word": "custom",
+          "ipa": "/ˈkʌstəm/",
+          "zh": "习俗",
+          "example": "It’s a custom in some families."
+        },
+        {
+          "word": "clay",
+          "ipa": "/kleɪ/",
+          "zh": "黏土",
+          "example": "The bowls are made from clay."
+        },
+        {
+          "word": "restore",
+          "ipa": "/rɪˈstɔː/",
+          "zh": "修复",
+          "example": "The theatre was restored in 2015."
+        }
+      ],
+      "listening": {
+        "title": "Customs at the Table",
+        "transcript": "In my family, guests usually wait for the host to start eating. Some of my friends do things differently, so when I visit someone new, I watch what the host does.",
+        "questions": [
+          {
+            "q": "What does the speaker do when visiting someone new?",
+            "options": [
+              "Always starts eating first",
+              "Watches the host",
+              "Brings a full meal"
+            ],
+            "answer": "Watches the host"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "向来访者介绍你家的一条习惯，再礼貌问对方家里怎么做。",
+        "sample": "In my family, we usually leave shoes by the door. What do you do at home?"
+      },
+      "reading": {
+        "title": "用有保留的语气描述习俗",
+        "text": "This family asks guests to leave shoes by the door. At other homes in the area, people keep their shoes on. If you’re unsure, ask your host when you arrive.",
+        "questions": [
+          {
+            "q": "What should an unsure guest do?",
+            "options": [
+              "Wait outside",
+              "Ask the host",
+              "Assume shoes stay on"
+            ],
+            "answer": "Ask the host"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词比较两个家庭习惯，避免把习惯说成人人都遵守。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（In some families ...；usually / often / may）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d01q01",
+          "type": "choice",
+          "explanation": "In some families 明确限制说法的范围。",
+          "options": [
+            "In some families, guests wait.",
+            "Nobody does that.",
+            "Every family does the same thing."
+          ],
+          "answer": "In some families, guests wait.",
+          "prompt": "Which statement allows for variation?"
+        },
+        {
+          "id": "w10d01q02",
+          "type": "choice",
+          "explanation": "custom 在本课中指习俗。",
+          "options": [
+            "习俗",
+            "黏土",
+            "修复"
+          ],
+          "answer": "习俗",
+          "prompt": "What does “custom” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 65,
+      "id": "w10d02",
+      "title": "How Is It Made?",
+      "subtitle": "读懂制作流程的被动语态",
+      "minutes": 30,
+      "grammar": [
+        "现在时被动：am/is/are + 过去分词"
+      ],
+      "vocabulary": [
+        {
+          "word": "clay",
+          "ipa": "/kleɪ/",
+          "zh": "黏土",
+          "example": "The bowls are made from clay."
+        },
+        {
+          "word": "restore",
+          "ipa": "/rɪˈstɔː/",
+          "zh": "修复",
+          "example": "The theatre was restored in 2015."
+        },
+        {
+          "word": "volunteer",
+          "ipa": "/ˌvɒlənˈtɪə/",
+          "zh": "志愿者",
+          "example": "She is a volunteer who helps new visitors."
+        }
+      ],
+      "listening": {
+        "title": "How Is It Made?",
+        "transcript": "These bowls are made from local clay. They are shaped by hand and left to dry for two days. Then they are heated in a large oven.",
+        "questions": [
+          {
+            "q": "How long do the bowls dry?",
+            "options": [
+              "Two days",
+              "A week",
+              "Two hours"
+            ],
+            "answer": "Two days"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用被动语态向访客说明一种食物或物品的三个制作步骤。",
+        "sample": "The bowls are shaped by hand. They are left to dry. Then they are heated in an oven."
+      },
+      "reading": {
+        "title": "读懂制作流程的被动语态",
+        "text": "At the workshop, tea leaves are picked by hand. They are dried on bamboo trays and packed when they are cool. Visitors can watch the packing at three.",
+        "questions": [
+          {
+            "q": "When are the leaves packed?",
+            "options": [
+              "When they are cool",
+              "While still wet",
+              "Before drying"
+            ],
+            "answer": "When they are cool"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词解释一种熟悉物品的制作过程。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（现在时被动：am/is/are + 过去分词）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d02q01",
+          "type": "choice",
+          "explanation": "复数主语 bowls 的现在时被动用 are。",
+          "options": [
+            "are",
+            "have",
+            "is"
+          ],
+          "answer": "are",
+          "prompt": "The bowls ___ made from clay."
+        },
+        {
+          "id": "w10d02q02",
+          "type": "choice",
+          "explanation": "clay 在本课中指黏土。",
+          "options": [
+            "修复",
+            "黏土",
+            "志愿者"
+          ],
+          "answer": "黏土",
+          "prompt": "What does “clay” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 66,
+      "id": "w10d03",
+      "title": "When Was It Built?",
+      "subtitle": "了解地标背景",
+      "minutes": 30,
+      "grammar": [
+        "过去时被动：was/were + 过去分词"
+      ],
+      "vocabulary": [
+        {
+          "word": "restore",
+          "ipa": "/rɪˈstɔː/",
+          "zh": "修复",
+          "example": "The theatre was restored in 2015."
+        },
+        {
+          "word": "clay",
+          "ipa": "/kleɪ/",
+          "zh": "黏土",
+          "example": "The bowls are made from clay."
+        },
+        {
+          "word": "custom",
+          "ipa": "/ˈkʌstəm/",
+          "zh": "习俗",
+          "example": "It’s a custom in some families."
+        }
+      ],
+      "listening": {
+        "title": "When Was It Built?",
+        "transcript": "The bridge was built in 1890. It was damaged in a flood in 1952 and repaired the following year. Today it is used by cyclists and walkers.",
+        "questions": [
+          {
+            "q": "When was it repaired?",
+            "options": [
+              "1952",
+              "1890",
+              "1953"
+            ],
+            "answer": "1953"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "像导游一样介绍一个地标，给出建造时间、变化和今天的用途。",
+        "sample": "The bridge was built in 1890. It was repaired in 1953. Today people use it to cycle across the river."
+      },
+      "reading": {
+        "title": "了解地标背景",
+        "text": "The town library was opened in 1930. It was closed for repairs in 2018 and reopened two years later. The reading room still has its original windows.",
+        "questions": [
+          {
+            "q": "When did the library reopen?",
+            "options": [
+              "2020",
+              "2018",
+              "1930"
+            ],
+            "answer": "2020"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词介绍一个地标，至少用两个过去时被动句。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（过去时被动：was/were + 过去分词）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d03q01",
+          "type": "choice",
+          "explanation": "单数主语配 was，表示过去发生的被动动作。",
+          "options": [
+            "is",
+            "was",
+            "were"
+          ],
+          "answer": "was",
+          "prompt": "The theatre ___ restored in 2015."
+        },
+        {
+          "id": "w10d03q02",
+          "type": "choice",
+          "explanation": "restore 在本课中指修复。",
+          "options": [
+            "习俗",
+            "修复",
+            "黏土"
+          ],
+          "answer": "修复",
+          "prompt": "What does “restore” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 67,
+      "id": "w10d04",
+      "title": "The People Who Keep It Going",
+      "subtitle": "用关系从句描述人物",
+      "minutes": 30,
+      "grammar": [
+        "who 引导限定性关系从句，修饰人"
+      ],
+      "vocabulary": [
+        {
+          "word": "volunteer",
+          "ipa": "/ˌvɒlənˈtɪə/",
+          "zh": "志愿者",
+          "example": "She is a volunteer who helps new visitors."
+        },
+        {
+          "word": "restore",
+          "ipa": "/rɪˈstɔː/",
+          "zh": "修复",
+          "example": "The theatre was restored in 2015."
+        },
+        {
+          "word": "clay",
+          "ipa": "/kleɪ/",
+          "zh": "黏土",
+          "example": "The bowls are made from clay."
+        }
+      ],
+      "listening": {
+        "title": "The People Who Keep It Going",
+        "transcript": "The people who run this repair café are volunteers. Nia teaches visitors how to fix lamps. Dan welcomes new guests and helps them find the right table.",
+        "questions": [
+          {
+            "q": "What does Nia teach?",
+            "options": [
+              "How to fix lamps",
+              "How to open a café",
+              "How to find a table"
+            ],
+            "answer": "How to fix lamps"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "介绍两位活动志愿者，用 who 补充说明各自职责。",
+        "sample": "Nia is a volunteer who teaches people to fix lamps. Dan is the person who welcomes guests."
+      },
+      "reading": {
+        "title": "用关系从句描述人物",
+        "text": "The group needs people who can speak more than one language. These volunteers welcome visitors at the festival entrance and answer simple questions about the programme.",
+        "questions": [
+          {
+            "q": "Where will volunteers welcome visitors?",
+            "options": [
+              "In the kitchen",
+              "At the entrance",
+              "On the stage"
+            ],
+            "answer": "At the entrance"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 85–105 词为社区活动介绍两名人员和他们能提供的帮助。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（who 引导限定性关系从句，修饰人）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d04q01",
+          "type": "choice",
+          "explanation": "人作先行词，从句用 who。",
+          "options": [
+            "who",
+            "when",
+            "where"
+          ],
+          "answer": "who",
+          "prompt": "We need people ___ can answer visitors’ questions."
+        },
+        {
+          "id": "w10d04q02",
+          "type": "choice",
+          "explanation": "volunteer 在本课中指志愿者。",
+          "options": [
+            "修复",
+            "黏土",
+            "志愿者"
+          ],
+          "answer": "志愿者",
+          "prompt": "What does “volunteer” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 68,
+      "id": "w10d05",
+      "title": "A Place Where People Meet",
+      "subtitle": "用 where 和 that 解释社区空间",
+      "minutes": 30,
+      "grammar": [
+        "where 修饰地点；that 可修饰事物"
+      ],
+      "vocabulary": [
+        {
+          "word": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "zh": "社区",
+          "example": "Our community has a shared garden."
+        },
+        {
+          "word": "volunteer",
+          "ipa": "/ˌvɒlənˈtɪə/",
+          "zh": "志愿者",
+          "example": "She is a volunteer who helps new visitors."
+        },
+        {
+          "word": "restore",
+          "ipa": "/rɪˈstɔː/",
+          "zh": "修复",
+          "example": "The theatre was restored in 2015."
+        }
+      ],
+      "listening": {
+        "title": "A Place Where People Meet",
+        "transcript": "The community garden is a place where neighbours can grow food together. There’s a shed that holds the tools. New members can borrow tools for free.",
+        "questions": [
+          {
+            "q": "Where are the tools kept?",
+            "options": [
+              "In the shed",
+              "In the café",
+              "At home"
+            ],
+            "answer": "In the shed"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用一个 where 从句描述你常去的地方，再用 that 介绍里面的一样东西。",
+        "sample": "The library is a place where people can study. It has a screen that shows local events."
+      },
+      "reading": {
+        "title": "用 where 和 that 解释社区空间",
+        "text": "The old market is a place where local cooks sell lunch. It also has a noticeboard that lists free classes and events. Most stalls open from Tuesday to Saturday.",
+        "questions": [
+          {
+            "q": "What does the noticeboard list?",
+            "options": [
+              "Free classes and events",
+              "Food prices",
+              "Train times"
+            ],
+            "answer": "Free classes and events"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词向新邻居介绍一个社区空间和两项用途。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（where 修饰地点；that 可修饰事物）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d05q01",
+          "type": "choice",
+          "explanation": "Where 表示在这个地点做某事。",
+          "options": [
+            "when",
+            "who",
+            "where"
+          ],
+          "answer": "where",
+          "prompt": "This is the garden ___ we grow vegetables."
+        },
+        {
+          "id": "w10d05q02",
+          "type": "choice",
+          "explanation": "community 在本课中指社区。",
+          "options": [
+            "志愿者",
+            "社区",
+            "修复"
+          ],
+          "answer": "社区",
+          "prompt": "What does “community” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 69,
+      "id": "w10d06",
+      "title": "Comparing Everyday Life",
+      "subtitle": "比较生活方式并避免笼统概括",
+      "minutes": 30,
+      "grammar": [
+        "while / whereas 连接对照信息"
+      ],
+      "vocabulary": [
+        {
+          "word": "whereas",
+          "ipa": "/weərˈæz/",
+          "zh": "而；相比之下",
+          "example": "I walk to work, whereas my brother drives."
+        },
+        {
+          "word": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "zh": "社区",
+          "example": "Our community has a shared garden."
+        },
+        {
+          "word": "volunteer",
+          "ipa": "/ˌvɒlənˈtɪə/",
+          "zh": "志愿者",
+          "example": "She is a volunteer who helps new visitors."
+        }
+      ],
+      "listening": {
+        "title": "Comparing Everyday Life",
+        "transcript": "In my old neighbourhood, most shops closed before seven. In my new neighbourhood, several stay open until ten. My schedule is the same, but shopping after work is easier now.",
+        "questions": [
+          {
+            "q": "What is easier in the new neighbourhood?",
+            "options": [
+              "Shopping after work",
+              "Finding a new job",
+              "Getting up early"
+            ],
+            "answer": "Shopping after work"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "比较你熟悉的两个地方的一项生活安排，说共同点和差异。",
+        "sample": "My old neighbourhood had early closing times, whereas shops here stay open later."
+      },
+      "reading": {
+        "title": "比较生活方式并避免笼统概括",
+        "text": "The two towns run libraries differently. Hilltown opens its library on Sundays, while Brookfield opens late on Thursdays. Both offer free classes once a month.",
+        "questions": [
+          {
+            "q": "What do both libraries offer?",
+            "options": [
+              "Late Thursday opening",
+              "Monthly free classes",
+              "Sunday opening"
+            ],
+            "answer": "Monthly free classes"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词比较两个地方的交通、店铺营业或社区服务。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（while / whereas 连接对照信息）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d06q01",
+          "type": "choice",
+          "explanation": "Whereas 用于对照两件不同的事。",
+          "options": [
+            "so",
+            "whereas",
+            "because"
+          ],
+          "answer": "whereas",
+          "prompt": "Hilltown opens on Sundays, ___ Brookfield opens late on Thursdays."
+        },
+        {
+          "id": "w10d06q02",
+          "type": "choice",
+          "explanation": "whereas 在本课中指而；相比之下。",
+          "options": [
+            "而；相比之下",
+            "志愿者",
+            "社区"
+          ],
+          "answer": "而；相比之下",
+          "prompt": "What does “whereas” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 70,
+      "id": "w10d07",
+      "title": "Weekly Challenge: Guide a Visitor",
+      "subtitle": "介绍地标、活动和一条家庭习惯",
+      "minutes": 30,
+      "grammar": [
+        "综合被动语态、关系从句和有保留的描述"
+      ],
+      "vocabulary": [
+        {
+          "word": "heritage",
+          "ipa": "/ˈherɪtɪdʒ/",
+          "zh": "文化遗产",
+          "example": "The walk explores the town’s heritage."
+        },
+        {
+          "word": "whereas",
+          "ipa": "/weərˈæz/",
+          "zh": "而；相比之下",
+          "example": "I walk to work, whereas my brother drives."
+        },
+        {
+          "word": "community",
+          "ipa": "/kəˈmjuːnəti/",
+          "zh": "社区",
+          "example": "Our community has a shared garden."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Guide a Visitor",
+        "transcript": "The old station was built in 1910 and is now used as a community centre. A volunteer who grew up nearby leads a free tour at eleven. Bring a light jacket because part of the tour is outside.",
+        "questions": [
+          {
+            "q": "Who leads the tour?",
+            "options": [
+              "A volunteer who grew up nearby",
+              "The station manager",
+              "A visiting musician"
+            ],
+            "answer": "A volunteer who grew up nearby"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "为朋友做两分钟口头导览，介绍旧车站、维修活动，再提醒一条访客习惯。",
+        "sample": "The station was built in 1910. It’s now a place where neighbours meet. At two you can bring a small item to the repair café."
+      },
+      "reading": {
+        "title": "介绍地标、活动和一条家庭习惯",
+        "text": "On Saturdays, the centre hosts a repair café at two. The café is a place where visitors bring small broken items. Repairs are free, but a donation is welcome.",
+        "questions": [
+          {
+            "q": "What should visitors bring if they want help?",
+            "options": [
+              "Their own donation receipt",
+              "A small broken item",
+              "A paid ticket"
+            ],
+            "answer": "A small broken item"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 100–120 词欢迎来访者，说明历史、今日活动、集合时间和一条礼貌提示。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（综合被动语态、关系从句和有保留的描述）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w10d07q01",
+          "type": "choice",
+          "explanation": "Was built 是过去时被动结构。",
+          "options": [
+            "The station was built in 1910.",
+            "They built the station in 1910.",
+            "The station opens at ten."
+          ],
+          "answer": "The station was built in 1910.",
+          "prompt": "Which sentence uses the past passive?"
+        },
+        {
+          "id": "w10d07q02",
+          "type": "choice",
+          "explanation": "heritage 在本课中指文化遗产。",
+          "options": [
+            "文化遗产",
+            "而；相比之下",
+            "社区"
+          ],
+          "answer": "文化遗产",
+          "prompt": "What does “heritage” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

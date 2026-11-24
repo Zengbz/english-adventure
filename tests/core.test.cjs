@@ -1,6 +1,20 @@
 const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
 test('week 1 package contains seven unique lessons and valid quiz IDs',()=>{const p=JSON.parse(fs.readFileSync(path.join(__dirname,'../courses/week1-course.json'),'utf8'));assert.equal(p.schemaVersion,1);assert.equal(p.lessons.length,7);const days=new Set(p.lessons.map(x=>x.id));assert.equal(days.size,7);const ids=p.lessons.flatMap(x=>x.quiz.map(q=>q.id));assert.equal(new Set(ids).size,ids.length);for(const l of p.lessons){assert.ok(l.listening.transcript);assert.ok(l.speaking.prompt);assert.ok(l.reading.text);assert.ok(l.writing.prompt);}});
-test('every choice question answer exists in options',()=>{const p=JSON.parse(fs.readFileSync(path.join(__dirname,'../courses/week1-course.json'),'utf8'));for(const l of p.lessons)for(const q of [...l.quiz,...l.listening.questions,...l.reading.questions])assert.ok(q.options.includes(q.answer),q.id||q.q);});
+test('all published lessons have four skills and one correct option per question',()=>{
+  const courseDir=path.join(__dirname,'../courses');
+  const files=fs.readdirSync(courseDir).filter(name=>/^week[1-9]\d*-course\.json$/.test(name));
+  for(const file of files){
+    const pack=JSON.parse(fs.readFileSync(path.join(courseDir,file),'utf8'));
+    assert.equal(pack.lessons.length,7,file);
+    for(const lesson of pack.lessons){
+      assert.equal(lesson.minutes,30,lesson.id);
+      assert.ok(lesson.listening.transcript&&lesson.speaking.prompt&&lesson.reading.text&&lesson.writing.prompt,lesson.id);
+      for(const q of [...lesson.quiz,...lesson.listening.questions,...lesson.reading.questions]){
+        assert.equal(q.options.filter(option=>option===q.answer).length,1,q.id||q.q);
+      }
+    }
+  }
+});
 test('AI settings survive reload, connection tests do not save keys, and clear removes settings',async()=>{
   const vm=require('node:vm');
   const src=fs.readFileSync(path.join(__dirname,'../src/deepseek.js'),'utf8');

@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 12,
+  "title": "Real World English",
+  "level": "B1",
+  "summary": "旅行、社交、听说读写综合实战与阶段验收。",
+  "objectives": [
+    "Combine travel and social communication skills",
+    "Use time, prices and evidence to choose a plan",
+    "Complete an integrated listening, reading, speaking and writing task"
+  ],
+  "lessons": [
+    {
+      "day": 78,
+      "id": "w12d01",
+      "title": "Arrive and Adapt",
+      "subtitle": "处理列车取消并确认新行程",
+      "minutes": 30,
+      "grammar": [
+        "用礼貌确认句与条件句整理方案"
+      ],
+      "vocabulary": [
+        {
+          "word": "replacement",
+          "ipa": "/rɪˈpleɪsmənt/",
+          "zh": "替代的；替代品",
+          "example": "Where is the replacement bus?"
+        },
+        {
+          "word": "confirmation",
+          "ipa": "/ˌkɒnfəˈmeɪʃən/",
+          "zh": "确认信息",
+          "example": "Here’s my booking confirmation."
+        },
+        {
+          "word": "vegetarian",
+          "ipa": "/ˌvedʒəˈteəriən/",
+          "zh": "素食的",
+          "example": "Is this soup vegetarian?"
+        }
+      ],
+      "listening": {
+        "title": "Arrive and Adapt",
+        "transcript": "The ten o’clock train is cancelled. Your ticket is valid on the 10:40 train. If you prefer, there’s a replacement bus at 10:20 from the main entrance. The bus takes ninety minutes.",
+        "questions": [
+          {
+            "q": "When does the replacement bus leave?",
+            "options": [
+              "10:00",
+              "10:40",
+              "10:20"
+            ],
+            "answer": "10:20"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "选择列车或巴士，向旅伴说明时间和抵达酒店后的安排。",
+        "sample": "Let’s take the 10:40 train. We’ll reach the hotel at about 11:45 and wait in the lobby."
+      },
+      "reading": {
+        "title": "处理列车取消并确认新行程",
+        "text": "The 10:40 train arrives at 11:30. Hotel luggage storage opens at noon. It takes fifteen minutes to walk from the station to the hotel. Guests can use the lobby while they wait.",
+        "questions": [
+          {
+            "q": "What can guests do before noon?",
+            "options": [
+              "Wait in the lobby",
+              "Store luggage before it opens",
+              "Check in immediately"
+            ],
+            "answer": "Wait in the lobby"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词给旅伴，比较两种方案并给出抵达预估。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（用礼貌确认句与条件句整理方案）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d01q01",
+          "type": "choice",
+          "explanation": "Use this ticket on ... 指在另一班车上使用原票。",
+          "options": [
+            "Can I use this ticket on the later train?",
+            "Where is your luggage?",
+            "Is the lobby open?"
+          ],
+          "answer": "Can I use this ticket on the later train?",
+          "prompt": "Which question confirms ticket validity?"
+        },
+        {
+          "id": "w12d01q02",
+          "type": "choice",
+          "explanation": "replacement 在本课中指替代的；替代品。",
+          "options": [
+            "确认信息",
+            "素食的",
+            "替代的；替代品"
+          ],
+          "answer": "替代的；替代品",
+          "prompt": "What does “replacement” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 79,
+      "id": "w12d02",
+      "title": "Solve a Booking Problem",
+      "subtitle": "提出证据、需求和解决方案",
+      "minutes": 30,
+      "grammar": [
+        "I booked ... but ...；Would it be possible to ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "confirmation",
+          "ipa": "/ˌkɒnfəˈmeɪʃən/",
+          "zh": "确认信息",
+          "example": "Here’s my booking confirmation."
+        },
+        {
+          "word": "vegetarian",
+          "ipa": "/ˌvedʒəˈteəriən/",
+          "zh": "素食的",
+          "example": "Is this soup vegetarian?"
+        },
+        {
+          "word": "recommendation",
+          "ipa": "/ˌrekəmenˈdeɪʃən/",
+          "zh": "推荐",
+          "example": "Thanks for the recommendation."
+        }
+      ],
+      "listening": {
+        "title": "Solve a Booking Problem",
+        "transcript": "I booked a twin room, but this room only has one bed. I have the confirmation here. We can offer a twin room after two, or bring an extra bed to this room now.",
+        "questions": [
+          {
+            "q": "When is a twin room available?",
+            "options": [
+              "Immediately",
+              "Tomorrow only",
+              "After two"
+            ],
+            "answer": "After two"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用预订内容说明问题，礼貌比较两个处理方案，明确给出选择。",
+        "sample": "I booked a twin room, but this room has one bed. Could we leave our bags here and take the twin room after two?"
+      },
+      "reading": {
+        "title": "提出证据、需求和解决方案",
+        "text": "Booking email: twin room, two nights, breakfast for both guests. A different room type can be offered only if the guest agrees. Guests can store bags at reception while waiting.",
+        "questions": [
+          {
+            "q": "Whose agreement is needed for a different room type?",
+            "options": [
+              "The tour guide’s",
+              "The guest’s",
+              "The second hotel’s"
+            ],
+            "answer": "The guest’s"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 100–120 词给前台，说明邮件确认内容、现场问题和期望处理。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（I booked ... but ...；Would it be possible to ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d02q01",
+          "type": "choice",
+          "explanation": "Would it be possible to ...? 可委婉提出请求。",
+          "options": [
+            "You must give me any room.",
+            "I moved yesterday.",
+            "Would it be possible to move to a twin room?"
+          ],
+          "answer": "Would it be possible to move to a twin room?",
+          "prompt": "Which sentence politely asks for a change?"
+        },
+        {
+          "id": "w12d02q02",
+          "type": "choice",
+          "explanation": "confirmation 在本课中指确认信息。",
+          "options": [
+            "推荐",
+            "确认信息",
+            "素食的"
+          ],
+          "answer": "确认信息",
+          "prompt": "What does “confirmation” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 80,
+      "id": "w12d03",
+      "title": "Eat Out with a Group",
+      "subtitle": "协调预算和饮食选择",
+      "minutes": 30,
+      "grammar": [
+        "could / would 表达建议；确认对方需求"
+      ],
+      "vocabulary": [
+        {
+          "word": "vegetarian",
+          "ipa": "/ˌvedʒəˈteəriən/",
+          "zh": "素食的",
+          "example": "Is this soup vegetarian?"
+        },
+        {
+          "word": "confirmation",
+          "ipa": "/ˌkɒnfəˈmeɪʃən/",
+          "zh": "确认信息",
+          "example": "Here’s my booking confirmation."
+        },
+        {
+          "word": "replacement",
+          "ipa": "/rɪˈpleɪsmənt/",
+          "zh": "替代的；替代品",
+          "example": "Where is the replacement bus?"
+        }
+      ],
+      "listening": {
+        "title": "Eat Out with a Group",
+        "transcript": "We’re four people with a total budget of forty pounds. Two of us want a vegetarian meal. The vegetable noodles are eight pounds, and the fish with rice is twelve. Water is free.",
+        "questions": [
+          {
+            "q": "How many people want a vegetarian meal?",
+            "options": [
+              "Two",
+              "Four",
+              "One"
+            ],
+            "answer": "Two"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "口头提出一个不超预算的四人组合，并向店员确认素食选项。",
+        "sample": "We could order two vegetable noodles and two plates of fish. That’s forty pounds. Could you confirm the noodles are vegetarian?"
+      },
+      "reading": {
+        "title": "协调预算和饮食选择",
+        "text": "Menu: vegetable noodles £8, fish with rice £12, and rice bowls £7. Some rice bowls contain meat. Ask the server which toppings are vegetarian. A pot of tea to share costs £4.",
+        "questions": [
+          {
+            "q": "What should guests ask about rice bowls?",
+            "options": [
+              "When the kitchen closes",
+              "Whether they come with tea",
+              "Which toppings are vegetarian"
+            ],
+            "answer": "Which toppings are vegetarian"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 100–120 词总结菜单选择、总价和你还需要确认的一项信息。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（could / would 表达建议；确认对方需求）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d03q01",
+          "type": "choice",
+          "explanation": "Could you confirm ...? 用于核实关键信息。",
+          "options": [
+            "The noodles were tasty.",
+            "Could you confirm that the noodles are vegetarian?",
+            "We booked a twin room."
+          ],
+          "answer": "Could you confirm that the noodles are vegetarian?",
+          "prompt": "Which is a request for confirmation?"
+        },
+        {
+          "id": "w12d03q02",
+          "type": "choice",
+          "explanation": "vegetarian 在本课中指素食的。",
+          "options": [
+            "确认信息",
+            "替代的；替代品",
+            "素食的"
+          ],
+          "answer": "素食的",
+          "prompt": "What does “vegetarian” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 81,
+      "id": "w12d04",
+      "title": "Meet, Listen and Follow Up",
+      "subtitle": "社交开场、核对细节及跟进",
+      "minutes": 30,
+      "grammar": [
+        "复习开放式追问与 Have you ever ...?"
+      ],
+      "vocabulary": [
+        {
+          "word": "recommendation",
+          "ipa": "/ˌrekəmenˈdeɪʃən/",
+          "zh": "推荐",
+          "example": "Thanks for the recommendation."
+        },
+        {
+          "word": "vegetarian",
+          "ipa": "/ˌvedʒəˈteəriən/",
+          "zh": "素食的",
+          "example": "Is this soup vegetarian?"
+        },
+        {
+          "word": "confirmation",
+          "ipa": "/ˌkɒnfəˈmeɪʃən/",
+          "zh": "确认信息",
+          "example": "Here’s my booking confirmation."
+        }
+      ],
+      "listening": {
+        "title": "Meet, Listen and Follow Up",
+        "transcript": "I moved here last year and joined a Sunday running club. We meet at eight thirty by the park café. This week we’re starting at the north gate because the café is closed.",
+        "questions": [
+          {
+            "q": "Where are they meeting this week?",
+            "options": [
+              "The park café",
+              "The station",
+              "The north gate"
+            ],
+            "answer": "The north gate"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "主动开启对话，问一次体验和一次细节，复述本周集合点并确认路线。",
+        "sample": "Have you ever tried the longer route? I’d prefer the shorter one. Do you mean eight thirty at the north gate?"
+      },
+      "reading": {
+        "title": "社交开场、核对细节及跟进",
+        "text": "The Sunday running group welcomes visitors. There are two routes: three kilometres at an easy pace and six kilometres at a faster pace. Tell the organiser which route you prefer.",
+        "questions": [
+          {
+            "q": "Which route is slower?",
+            "options": [
+              "The three-kilometre route",
+              "The six-kilometre route",
+              "They are the same pace"
+            ],
+            "answer": "The three-kilometre route"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 95–115 词回访新朋友，提起话题、确认路线并问一个后续问题。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（复习开放式追问与 Have you ever ...?）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d04q01",
+          "type": "choice",
+          "explanation": "Do you mean ...? 用于核对听到的地点等信息。",
+          "options": [
+            "Did you run last Sunday?",
+            "Would you like water?",
+            "Do you mean the north gate this week?"
+          ],
+          "answer": "Do you mean the north gate this week?",
+          "prompt": "Which sentence checks a changed location?"
+        },
+        {
+          "id": "w12d04q02",
+          "type": "choice",
+          "explanation": "recommendation 在本课中指推荐。",
+          "options": [
+            "确认信息",
+            "推荐",
+            "素食的"
+          ],
+          "answer": "推荐",
+          "prompt": "What does “recommendation” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 82,
+      "id": "w12d05",
+      "title": "Explain the Trade-offs",
+      "subtitle": "根据材料给出有依据的建议",
+      "minutes": 30,
+      "grammar": [
+        "although / whereas 取舍；if 给出替代"
+      ],
+      "vocabulary": [
+        {
+          "word": "trade-off",
+          "ipa": "/ˈtreɪd ɒf/",
+          "zh": "取舍",
+          "example": "There’s a trade-off between cost and time."
+        },
+        {
+          "word": "recommendation",
+          "ipa": "/ˌrekəmenˈdeɪʃən/",
+          "zh": "推荐",
+          "example": "Thanks for the recommendation."
+        },
+        {
+          "word": "vegetarian",
+          "ipa": "/ˌvedʒəˈteəriən/",
+          "zh": "素食的",
+          "example": "Is this soup vegetarian?"
+        }
+      ],
+      "listening": {
+        "title": "Explain the Trade-offs",
+        "transcript": "The ferry tour is cheaper, but the last trip ends at six. The walking tour costs more and ends at four. Since our train leaves at five thirty, I’d choose the walking tour.",
+        "questions": [
+          {
+            "q": "Why does the speaker prefer the walking tour?",
+            "options": [
+              "It is cheaper",
+              "It includes a ferry ride",
+              "It finishes before their train"
+            ],
+            "answer": "It finishes before their train"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "比较票价、结束时间和路线，向伙伴解释哪一项优先并提出备选。",
+        "sample": "Although the ferry is cheaper, it finishes too late. If the train time changes, we can think about it again."
+      },
+      "reading": {
+        "title": "根据材料给出有依据的建议",
+        "text": "Ferry tour £10, 4–6 p.m.; walking tour £16, 2–4 p.m. The walking tour ends near the station. Ferry tickets can be refunded up to one day before departure.",
+        "questions": [
+          {
+            "q": "Which tour ends near the station?",
+            "options": [
+              "The walking tour",
+              "Both tours",
+              "The ferry tour"
+            ],
+            "answer": "The walking tour"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 105–125 词给小组建议，引用至少两个事实，回应一个反方理由。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（although / whereas 取舍；if 给出替代）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d05q01",
+          "type": "choice",
+          "explanation": "Although 可先承认缺点，再提出选择。",
+          "options": [
+            "Although it costs more, I’d choose the walking tour.",
+            "The ferry leaves at four.",
+            "Why is the price higher?"
+          ],
+          "answer": "Although it costs more, I’d choose the walking tour.",
+          "prompt": "Which sentence acknowledges a drawback before a choice?"
+        },
+        {
+          "id": "w12d05q02",
+          "type": "choice",
+          "explanation": "trade-off 在本课中指取舍。",
+          "options": [
+            "取舍",
+            "推荐",
+            "素食的"
+          ],
+          "answer": "取舍",
+          "prompt": "What does “trade-off” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 83,
+      "id": "w12d06",
+      "title": "Handle a Plan Change",
+      "subtitle": "在活动取消后整理消息并协调行动",
+      "minutes": 30,
+      "grammar": [
+        "用 reported speech 转述；条件句确认替代计划"
+      ],
+      "vocabulary": [
+        {
+          "word": "cancelled",
+          "ipa": "/ˈkænsəld/",
+          "zh": "已取消的",
+          "example": "The evening walk was cancelled."
+        },
+        {
+          "word": "trade-off",
+          "ipa": "/ˈtreɪd ɒf/",
+          "zh": "取舍",
+          "example": "There’s a trade-off between cost and time."
+        },
+        {
+          "word": "recommendation",
+          "ipa": "/ˌrekəmenˈdeɪʃən/",
+          "zh": "推荐",
+          "example": "Thanks for the recommendation."
+        }
+      ],
+      "listening": {
+        "title": "Handle a Plan Change",
+        "transcript": "The organiser said the evening walk was cancelled because of the wind. The indoor talk starts at seven in the library. She asked us to use the West Street entrance.",
+        "questions": [
+          {
+            "q": "Which entrance should people use?",
+            "options": [
+              "The main café door",
+              "The river entrance",
+              "The West Street entrance"
+            ],
+            "answer": "The West Street entrance"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "把更改通知转述给朋友，指出什么时间到最稳妥，并准备满座时的备选。",
+        "sample": "The organiser said the walk was cancelled. Let’s get to the library at six thirty. If it’s full, we’ll get coffee nearby."
+      },
+      "reading": {
+        "title": "在活动取消后整理消息并协调行动",
+        "text": "Tonight’s library talk is free, but there are only thirty seats. Doors open at 6:30. People who booked the walk get priority until 6:45. After that, anyone can take a free seat.",
+        "questions": [
+          {
+            "q": "Until when do booked visitors get priority?",
+            "options": [
+              "7:00",
+              "6:30",
+              "6:45"
+            ],
+            "answer": "6:45"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 105–125 词的群聊通知，包含取消原因、门口、优先时段和备选。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（用 reported speech 转述；条件句确认替代计划）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d06q01",
+          "type": "choice",
+          "explanation": "Say 后可接一个完整从句。",
+          "options": [
+            "She said the walk was cancelled.",
+            "She told the walk cancelled.",
+            "She said the walk cancel."
+          ],
+          "answer": "She said the walk was cancelled.",
+          "prompt": "What is a natural way to report the news?"
+        },
+        {
+          "id": "w12d06q02",
+          "type": "choice",
+          "explanation": "cancelled 在本课中指已取消的。",
+          "options": [
+            "取舍",
+            "推荐",
+            "已取消的"
+          ],
+          "answer": "已取消的",
+          "prompt": "What does “cancelled” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 84,
+      "id": "w12d07",
+      "title": "Final Challenge: A Weekend Abroad",
+      "subtitle": "综合测评：听通知、读方案、协商并写确认",
+      "minutes": 30,
+      "grammar": [
+        "整合时间、礼貌请求、观点理由和条件句"
+      ],
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "ipa": "/kənˈfɜːm/",
+          "zh": "确认",
+          "example": "Could you confirm our new booking?"
+        },
+        {
+          "word": "cancelled",
+          "ipa": "/ˈkænsəld/",
+          "zh": "已取消的",
+          "example": "The evening walk was cancelled."
+        },
+        {
+          "word": "trade-off",
+          "ipa": "/ˈtreɪd ɒf/",
+          "zh": "取舍",
+          "example": "There’s a trade-off between cost and time."
+        }
+      ],
+      "listening": {
+        "title": "Final Challenge: A Weekend Abroad",
+        "transcript": "Your train now arrives at eleven twenty. The hotel can hold your bag from noon, but the room won’t be ready until three. Lin can meet at two if you’re free, or at four after you check in.",
+        "questions": [
+          {
+            "q": "When will the room be ready?",
+            "options": [
+              "Three",
+              "Four",
+              "Noon"
+            ],
+            "answer": "Three"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "做两分钟任务：先给酒店打电话确认寄存，再与 Lin 敲定活动，解释取舍并给出天气备选。",
+        "sample": "Could you keep my bag from noon? Lin, let’s meet at four. If we book by noon, the museum is within budget. If it stays dry, the free walk is another option."
+      },
+      "reading": {
+        "title": "综合测评：听通知、读方案、协商并写确认",
+        "text": "City events: the market closes at 3 p.m. The museum is open until 6 p.m. Tickets are £12; book by noon online for a £9 ticket. Lin has a budget of £10. A free walk starts at 4:30 if it stays dry.",
+        "questions": [
+          {
+            "q": "How can Lin afford the museum?",
+            "options": [
+              "Buy after 3 p.m.",
+              "Book online by noon",
+              "Pay at the door"
+            ],
+            "answer": "Book online by noon"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 120–150 词作为结课任务：给 Lin 发一封完整确认消息，使用至少三个材料细节并提出备选。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（整合时间、礼貌请求、观点理由和条件句）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w12d07q01",
+          "type": "choice",
+          "explanation": "提前订票只需 £9，且符合预订截止时间。",
+          "options": [
+            "Pay £12 at the museum door.",
+            "Book the £9 museum ticket online by noon.",
+            "Go to the market after four."
+          ],
+          "answer": "Book the £9 museum ticket online by noon.",
+          "prompt": "Which plan respects Lin’s budget and the stated rules?"
+        },
+        {
+          "id": "w12d07q02",
+          "type": "choice",
+          "explanation": "confirm 在本课中指确认。",
+          "options": [
+            "确认",
+            "已取消的",
+            "取舍"
+          ],
+          "answer": "确认",
+          "prompt": "What does “confirm” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}

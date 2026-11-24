@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "week": 11,
+  "title": "Stories and Experiences",
+  "level": "B1",
+  "summary": "叙事、综合时态、经历描述和连贯表达。",
+  "objectives": [
+    "Set a scene and order past events",
+    "Connect obstacles, decisions and outcomes",
+    "Retell what others said"
+  ],
+  "lessons": [
+    {
+      "day": 71,
+      "id": "w11d01",
+      "title": "Set the Scene",
+      "subtitle": "交代背景与打断事件",
+      "minutes": 30,
+      "grammar": [
+        "过去进行时表示背景；when + 一般过去时引出事件"
+      ],
+      "vocabulary": [
+        {
+          "word": "suddenly",
+          "ipa": "/ˈsʌdənli/",
+          "zh": "突然",
+          "example": "Suddenly, the lights went out."
+        },
+        {
+          "word": "meanwhile",
+          "ipa": "/ˈmiːnwaɪl/",
+          "zh": "与此同时",
+          "example": "Meanwhile, Jo was looking for help."
+        },
+        {
+          "word": "already",
+          "ipa": "/ɔːlˈredi/",
+          "zh": "已经",
+          "example": "The train had already left."
+        }
+      ],
+      "listening": {
+        "title": "Set the Scene",
+        "transcript": "We were eating outside when the lights went out. The owner brought candles, so we stayed at our table. The music stopped for a minute and then started again.",
+        "questions": [
+          {
+            "q": "What were they doing when the lights went out?",
+            "options": [
+              "Walking home",
+              "Listening to the owner",
+              "Eating outside"
+            ],
+            "answer": "Eating outside"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用背景、打断事件和结果讲一段一分钟的小故事。",
+        "sample": "We were eating outside when the lights went out. The owner brought candles, so we stayed."
+      },
+      "reading": {
+        "title": "交代背景与打断事件",
+        "text": "I was waiting for a bus when I saw a dog running alone. A woman was looking for it near the park. I pointed towards the station, and she found it there.",
+        "questions": [
+          {
+            "q": "Where did the woman find the dog?",
+            "options": [
+              "Near the station",
+              "On the bus",
+              "In the park"
+            ],
+            "answer": "Near the station"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词讲一件突发小事，写清当时在做什么。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（过去进行时表示背景；when + 一般过去时引出事件）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d01q01",
+          "type": "choice",
+          "explanation": "When 从句用 went 表示打断背景的过去事件。",
+          "options": [
+            "were going to go",
+            "go",
+            "went"
+          ],
+          "answer": "went",
+          "prompt": "We were eating when the lights ___ out."
+        },
+        {
+          "id": "w11d01q02",
+          "type": "choice",
+          "explanation": "suddenly 在本课中指突然。",
+          "options": [
+            "与此同时",
+            "已经",
+            "突然"
+          ],
+          "answer": "突然",
+          "prompt": "What does “suddenly” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 72,
+      "id": "w11d02",
+      "title": "While We Were Waiting",
+      "subtitle": "描述同时进行的事",
+      "minutes": 30,
+      "grammar": [
+        "while 可连接同时进行的过去动作"
+      ],
+      "vocabulary": [
+        {
+          "word": "meanwhile",
+          "ipa": "/ˈmiːnwaɪl/",
+          "zh": "与此同时",
+          "example": "Meanwhile, Jo was looking for help."
+        },
+        {
+          "word": "already",
+          "ipa": "/ɔːlˈredi/",
+          "zh": "已经",
+          "example": "The train had already left."
+        },
+        {
+          "word": "experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "zh": "经历",
+          "example": "It was my first experience of travelling alone."
+        }
+      ],
+      "listening": {
+        "title": "While We Were Waiting",
+        "transcript": "While I was checking the bus times, my sister was calling the hotel. We both stopped when the driver announced that the bus was leaving.",
+        "questions": [
+          {
+            "q": "Who was calling the hotel?",
+            "options": [
+              "The speaker",
+              "The speaker’s sister",
+              "The driver"
+            ],
+            "answer": "The speaker’s sister"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "讲清同一时间两个人在做的不同事情，然后交代发生了什么。",
+        "sample": "While I was checking the times, my sister was calling the hotel. Then the driver called us."
+      },
+      "reading": {
+        "title": "描述同时进行的事",
+        "text": "While Nia was working on a level, Lee was testing the controls. At noon Lee found a problem. They fixed it together before the afternoon meeting.",
+        "questions": [
+          {
+            "q": "What was Lee testing?",
+            "options": [
+              "The music",
+              "The dialogue",
+              "The controls"
+            ],
+            "answer": "The controls"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 90–110 词，用两个角色的不同动作讲一次共同解决问题的经历。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（while 可连接同时进行的过去动作）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d02q01",
+          "type": "choice",
+          "explanation": "两个同时进行的过去动作都可以用过去进行时。",
+          "options": [
+            "was testing",
+            "is testing",
+            "has tested"
+          ],
+          "answer": "was testing",
+          "prompt": "While Nia was working, Lee ___ the controls."
+        },
+        {
+          "id": "w11d02q02",
+          "type": "choice",
+          "explanation": "meanwhile 在本课中指与此同时。",
+          "options": [
+            "与此同时",
+            "经历",
+            "已经"
+          ],
+          "answer": "与此同时",
+          "prompt": "What does “meanwhile” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 73,
+      "id": "w11d03",
+      "title": "What Happened Before That?",
+      "subtitle": "回溯先发生的过去事件",
+      "minutes": 30,
+      "grammar": [
+        "had + 过去分词表示过去某个时点之前的事"
+      ],
+      "vocabulary": [
+        {
+          "word": "already",
+          "ipa": "/ɔːlˈredi/",
+          "zh": "已经",
+          "example": "The train had already left."
+        },
+        {
+          "word": "meanwhile",
+          "ipa": "/ˈmiːnwaɪl/",
+          "zh": "与此同时",
+          "example": "Meanwhile, Jo was looking for help."
+        },
+        {
+          "word": "suddenly",
+          "ipa": "/ˈsʌdənli/",
+          "zh": "突然",
+          "example": "Suddenly, the lights went out."
+        }
+      ],
+      "listening": {
+        "title": "What Happened Before That?",
+        "transcript": "When we reached the platform, the train had already left. We’d read yesterday’s timetable by mistake. Luckily, there was another train in twenty minutes.",
+        "questions": [
+          {
+            "q": "What had they read by mistake?",
+            "options": [
+              "Tomorrow’s weather report",
+              "A bus ticket",
+              "Yesterday’s timetable"
+            ],
+            "answer": "Yesterday’s timetable"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "先说你发现了什么，再回溯之前发生的事，让听者明白因果。",
+        "sample": "When I arrived, the train had already left. I’d read the wrong timetable."
+      },
+      "reading": {
+        "title": "回溯先发生的过去事件",
+        "text": "Lea arrived at the flat at nine. Her friend had left a key with the neighbour, so Lea could get in even though nobody was at home.",
+        "questions": [
+          {
+            "q": "Who had the key when Lea arrived?",
+            "options": [
+              "Lea’s friend",
+              "The neighbour",
+              "Lea"
+            ],
+            "answer": "The neighbour"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 95–115 词讲一次因早先疏忽造成的意外，写清两个事件的先后。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（had + 过去分词表示过去某个时点之前的事）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d03q01",
+          "type": "choice",
+          "explanation": "Had 后用过去分词 left。",
+          "options": [
+            "leaves",
+            "left",
+            "leave"
+          ],
+          "answer": "left",
+          "prompt": "The train had already ___ when we arrived."
+        },
+        {
+          "id": "w11d03q02",
+          "type": "choice",
+          "explanation": "already 在本课中指已经。",
+          "options": [
+            "与此同时",
+            "已经",
+            "突然"
+          ],
+          "answer": "已经",
+          "prompt": "What does “already” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 74,
+      "id": "w11d04",
+      "title": "Ask Me About the Trip",
+      "subtitle": "在经历与具体时间之间切换",
+      "minutes": 30,
+      "grammar": [
+        "现在完成时问体验；一般过去时追问细节"
+      ],
+      "vocabulary": [
+        {
+          "word": "experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "zh": "经历",
+          "example": "It was my first experience of travelling alone."
+        },
+        {
+          "word": "already",
+          "ipa": "/ɔːlˈredi/",
+          "zh": "已经",
+          "example": "The train had already left."
+        },
+        {
+          "word": "meanwhile",
+          "ipa": "/ˈmiːnwaɪl/",
+          "zh": "与此同时",
+          "example": "Meanwhile, Jo was looking for help."
+        }
+      ],
+      "listening": {
+        "title": "Ask Me About the Trip",
+        "transcript": "Have you ever taken a night train? Yes, I took one to Vienna in April. I shared a cabin with two people and slept for about five hours.",
+        "questions": [
+          {
+            "q": "How long did the speaker sleep?",
+            "options": [
+              "About five hours",
+              "All day",
+              "About two hours"
+            ],
+            "answer": "About five hours"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "先问对方有没有坐过夜车，再追问时间、目的地和印象。",
+        "sample": "Have you ever taken a night train? Where did you go, and what was it like?"
+      },
+      "reading": {
+        "title": "在经历与具体时间之间切换",
+        "text": "Rita has joined several walking tours. Her favourite was in Porto last spring. The guide showed the group a small shop that sold old maps.",
+        "questions": [
+          {
+            "q": "What did the shop sell?",
+            "options": [
+              "Old maps",
+              "Local food",
+              "Train tickets"
+            ],
+            "answer": "Old maps"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写一段 8–10 行采访，区分泛指的体验和有明确时间的旅行细节。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（现在完成时问体验；一般过去时追问细节）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d04q01",
+          "type": "choice",
+          "explanation": "Last year 给出已结束的具体时间，用一般过去时。",
+          "options": [
+            "take",
+            "have taken",
+            "took"
+          ],
+          "answer": "took",
+          "prompt": "I ___ one in April last year."
+        },
+        {
+          "id": "w11d04q02",
+          "type": "choice",
+          "explanation": "experience 在本课中指经历。",
+          "options": [
+            "与此同时",
+            "已经",
+            "经历"
+          ],
+          "answer": "经历",
+          "prompt": "What does “experience” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 75,
+      "id": "w11d05",
+      "title": "Although It Was Raining",
+      "subtitle": "讲清困难、转折和结果",
+      "minutes": 30,
+      "grammar": [
+        "although 引出让步；however 连接转折"
+      ],
+      "vocabulary": [
+        {
+          "word": "unexpected",
+          "ipa": "/ˌʌnɪkˈspektɪd/",
+          "zh": "意外的",
+          "example": "We had an unexpected delay."
+        },
+        {
+          "word": "experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "zh": "经历",
+          "example": "It was my first experience of travelling alone."
+        },
+        {
+          "word": "already",
+          "ipa": "/ɔːlˈredi/",
+          "zh": "已经",
+          "example": "The train had already left."
+        }
+      ],
+      "listening": {
+        "title": "Although It Was Raining",
+        "transcript": "Although it was raining, we stayed for the outdoor concert. The crowd moved under the trees. The musicians kept playing, and we ended up staying until the last song.",
+        "questions": [
+          {
+            "q": "Why did people move under the trees?",
+            "options": [
+              "Because the stage moved",
+              "Because the show had finished",
+              "Because it was raining"
+            ],
+            "answer": "Because it was raining"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "讲一个遇到困难却有好结果的故事，包含 although 或 however。",
+        "sample": "Although it was raining, we stayed. We moved under the trees and enjoyed the music."
+      },
+      "reading": {
+        "title": "讲清困难、转折和结果",
+        "text": "The path looked easy on the map. However, part of it was closed after a storm. We took a longer path and arrived just before sunset.",
+        "questions": [
+          {
+            "q": "What caused the closure?",
+            "options": [
+              "Heavy traffic",
+              "A storm",
+              "A concert"
+            ],
+            "answer": "A storm"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 95–115 词游记，包含原预期、障碍、行动和结局。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（although 引出让步；however 连接转折）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d05q01",
+          "type": "choice",
+          "explanation": "Although 表示尽管有这个困难，后面的事仍然发生。",
+          "options": [
+            "Although",
+            "So",
+            "Then"
+          ],
+          "answer": "Although",
+          "prompt": "___ it was raining, we stayed for the concert."
+        },
+        {
+          "id": "w11d05q02",
+          "type": "choice",
+          "explanation": "unexpected 在本课中指意外的。",
+          "options": [
+            "意外的",
+            "经历",
+            "已经"
+          ],
+          "answer": "意外的",
+          "prompt": "What does “unexpected” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 76,
+      "id": "w11d06",
+      "title": "Tell It in Your Own Words",
+      "subtitle": "把对话转述成完整故事",
+      "minutes": 30,
+      "grammar": [
+        "said (that) ...；told + 人 + (that) ..."
+      ],
+      "vocabulary": [
+        {
+          "word": "report",
+          "ipa": "/rɪˈpɔːt/",
+          "zh": "转述；报告",
+          "example": "I reported what the guide said."
+        },
+        {
+          "word": "unexpected",
+          "ipa": "/ˌʌnɪkˈspektɪd/",
+          "zh": "意外的",
+          "example": "We had an unexpected delay."
+        },
+        {
+          "word": "experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "zh": "经历",
+          "example": "It was my first experience of travelling alone."
+        }
+      ],
+      "listening": {
+        "title": "Tell It in Your Own Words",
+        "transcript": "The driver told us that the next bus would arrive in ten minutes. At the café, I told Ana about the delay and said we still had time to visit the park.",
+        "questions": [
+          {
+            "q": "Who gave the information about the next bus?",
+            "options": [
+              "The driver",
+              "Ana",
+              "The café owner"
+            ],
+            "answer": "The driver"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用自己的话转述两个人说过的事，分别练习 said 和 told。",
+        "sample": "The driver told us that the bus would arrive in ten minutes. I said we still had time."
+      },
+      "reading": {
+        "title": "把对话转述成完整故事",
+        "text": "Mo said that the room was ready. The receptionist told him that the key was at the desk. He messaged his sister with both details.",
+        "questions": [
+          {
+            "q": "Where was the key?",
+            "options": [
+              "In the room",
+              "With his sister",
+              "At the desk"
+            ],
+            "answer": "At the desk"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 95–115 词转述一次服务人员和同伴的交流。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（said (that) ...；told + 人 + (that) ...）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d06q01",
+          "type": "choice",
+          "explanation": "Tell 可以直接接人作宾语。",
+          "options": [
+            "spoke",
+            "said",
+            "told"
+          ],
+          "answer": "told",
+          "prompt": "The driver ___ us that the bus was late."
+        },
+        {
+          "id": "w11d06q02",
+          "type": "choice",
+          "explanation": "report 在本课中指转述；报告。",
+          "options": [
+            "经历",
+            "意外的",
+            "转述；报告"
+          ],
+          "answer": "转述；报告",
+          "prompt": "What does “report” mean in this lesson?"
+        }
+      ]
+    },
+    {
+      "day": 77,
+      "id": "w11d07",
+      "title": "Weekly Challenge: Tell a Story Worth Sharing",
+      "subtitle": "讲并写一段有起伏的故事",
+      "minutes": 30,
+      "grammar": [
+        "综合背景、先后、转折与转述"
+      ],
+      "vocabulary": [
+        {
+          "word": "turning point",
+          "ipa": "/ˈtɜːnɪŋ pɔɪnt/",
+          "zh": "转折点",
+          "example": "Finding the key was the turning point."
+        },
+        {
+          "word": "report",
+          "ipa": "/rɪˈpɔːt/",
+          "zh": "转述；报告",
+          "example": "I reported what the guide said."
+        },
+        {
+          "word": "unexpected",
+          "ipa": "/ˌʌnɪkˈspektɪd/",
+          "zh": "意外的",
+          "example": "We had an unexpected delay."
+        }
+      ],
+      "listening": {
+        "title": "Weekly Challenge: Tell a Story Worth Sharing",
+        "transcript": "We were walking back to the guesthouse when we realised we’d lost our key. A shopkeeper said the tourist desk had a box for lost items. We checked, and someone had already handed it in.",
+        "questions": [
+          {
+            "q": "Where did they find the key?",
+            "options": [
+              "At the shop",
+              "At the tourist desk",
+              "At the guesthouse"
+            ],
+            "answer": "At the tourist desk"
+          }
+        ]
+      },
+      "speaking": {
+        "prompt": "用两分钟讲一个遗失物品的故事，包含背景、先发生的事、一句转述和结局。",
+        "sample": "We were walking back when we realised we’d lost our key. A shopkeeper told us about the tourist desk. Someone had already handed it in."
+      },
+      "reading": {
+        "title": "讲并写一段有起伏的故事",
+        "text": "Message from Jo: I found a blue bag by the station while I was waiting for a friend. I gave it to the ticket clerk. The clerk said the owner had already called to ask about it.",
+        "questions": [
+          {
+            "q": "Who received the bag from Jo?",
+            "options": [
+              "The ticket clerk",
+              "The owner",
+              "Jo’s friend"
+            ],
+            "answer": "The ticket clerk"
+          }
+        ]
+      },
+      "writing": {
+        "prompt": "写 110–135 词的故事，给出背景、问题、转折点和结果。",
+        "checklist": [
+          "我完成了题目要求的每一项信息。",
+          "我检查了本课表达（综合背景、先后、转折与转述）。",
+          "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w11d07q01",
+          "type": "choice",
+          "explanation": "Had left 可回溯到叙事时点之前。",
+          "options": [
+            "We had left the key on a bench.",
+            "We are opening the door.",
+            "We will call reception."
+          ],
+          "answer": "We had left the key on a bench.",
+          "prompt": "Which clause gives an earlier cause?"
+        },
+        {
+          "id": "w11d07q02",
+          "type": "choice",
+          "explanation": "turning point 在本课中指转折点。",
+          "options": [
+            "意外的",
+            "转述；报告",
+            "转折点"
+          ],
+          "answer": "转折点",
+          "prompt": "What does “turning point” mean in this lesson?"
+        }
+      ]
+    }
+  ]
+}
