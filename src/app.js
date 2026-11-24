@@ -14,25 +14,51 @@
       }catch(e){toast(e.message);}
     };document.querySelectorAll('.open-week').forEach(b=>b.onclick=()=>openWeek(Number(b.dataset.week)));}
   async function openWeek(n){try{const entry=catalog.weeks.find(w=>w.week===n);if(!entry)throw new Error('Week not found.');weeks[n]=await EnglishCore.loadWeek(entry);const pack=weeks[n];app.innerHTML=`<div class="lesson-head"><button class="back" id="home-back">← Learning path</button><span class="pill">${pack.level} · 7 lessons</span></div><section class="lesson-card"><p class="eyebrow">WEEK ${String(n).padStart(2,'0')}</p><h1>${esc(pack.title)}</h1><p>${esc(pack.summary)}</p><div class="week-grid">${pack.lessons.map(l=>{const d=EnglishProgress.day(l.id);return `<article class="week-card"><div class="week-meta"><span>DAY ${l.day}</span><span class="pill ${d.completed?'green':''}">${d.completed?'Completed':'30 min'}</span></div><h3>${esc(l.title)}</h3><p>${esc(l.subtitle)}</p><button class="button secondary open-day" data-day="${l.id}">${d.completed?'Review lesson':'Start lesson'} →</button></article>`;}).join('')}</div></section>`;$('home-back').onclick=renderHome;document.querySelectorAll('.open-day').forEach(b=>b.onclick=()=>openLesson(pack.lessons.find(l=>l.id===b.dataset.day),pack.level));}catch(e){toast(e.message);}}
-  function openLesson(l,level){activeLesson=l;const d=EnglishProgress.day(l.id);const words=l.vocabulary.map(v=>`<div class="word"><b>${esc(v.word)}</b><span>${esc(v.ipa)} · ${esc(v.zh)}</span><span><i>${esc(v.example)}</i></span></div>`).join('');app.innerHTML=`<div class="lesson-head"><button class="back" id="week-back">← Back to week</button><span class="pill">DAY ${l.day} · ${l.minutes} MIN</span></div><section class="lesson-card"><p class="eyebrow">DAILY LESSON · ${esc(level)}</p><h1>${esc(l.title)}</h1><p>${esc(l.subtitle)}</p><h2>1. Vocabulary · 5 min</h2><div class="word-grid">${words}</div><h2>2. Grammar focus</h2><ul>${l.grammar.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h2>3. Listening · 8 min</h2><div class="task"><b>${esc(l.listening.title)}</b><button type="button" id="play-listening" class="button secondary">Play listening</button><details id="listening-transcript"><summary>Show transcript</summary><p>${esc(l.listening.transcript)}</p></details>${l.listening.questions.map((q,i)=>questionHTML(q,`listen-${i}`)).join('')}</div><h2>4. Speaking · 7 min</h2><div class="task"><p>${esc(l.speaking.prompt)}</p><details><summary>Show sample answer</summary><p>${esc(l.speaking.sample)}</p></details><textarea id="speaking-answer" rows="2" placeholder="Type your response, or start with the AI conversation partner…"></textarea><button id="start-speaking" class="button secondary">Practise with AI conversation partner</button><div id="speaking-ai-answer"></div></div><h2>5. Reading · 5 min</h2><div class="task"><b>${esc(l.reading.title)}</b><p>${esc(l.reading.text)}</p>${l.reading.questions.map((q,i)=>questionHTML(q,`read-${i}`)).join('')}</div><h2>6. Writing · 5 min</h2><div class="task"><p>${esc(l.writing.prompt)}</p><textarea id="writing-answer" rows="4" placeholder="Write your answer in English…"></textarea><ul>${l.writing.checklist.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><button id="check-writing" class="button secondary">Ask AI to review writing</button></div><h2>7. Daily quiz</h2>${l.quiz.map((q,i)=>questionHTML(q,q.id)).join('')}<div class="lesson-actions"><button class="button primary" id="finish-day">Complete lesson</button><button class="button secondary" id="ask-ai">Ask AI teacher</button></div><div class="ai-box"><h3>AI English Teacher</h3><p>可根据当前课程、学生档案和学习记录提供解释。需要先在设置中配置自己的 DeepSeek API Key。</p><textarea id="ai-question" rows="2" placeholder="Ask about a word, grammar point, or real-life situation…"></textarea><button id="send-ai" class="button secondary">Send to DeepSeek</button><div id="ai-answer"></div></div></section>`;
+  function openLesson(l,level){activeLesson=l;const d=EnglishProgress.day(l.id);const words=l.vocabulary.map(v=>`<div class="word"><b>${esc(v.word)}</b><span>${esc(v.ipa)} · ${esc(v.zh)}</span><span><i>${esc(v.example)}</i></span></div>`).join('');app.innerHTML=`<div class="lesson-head"><button class="back" id="week-back">← Back to week</button><span class="pill">DAY ${l.day} · ${l.minutes} MIN</span></div><section class="lesson-card"><p class="eyebrow">DAILY LESSON · ${esc(level)}</p><h1>${esc(l.title)}</h1><p>${esc(l.subtitle)}</p><h2>1. Vocabulary · 5 min</h2><div class="word-grid">${words}</div><h2>2. Grammar focus</h2><ul>${l.grammar.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h2>3. Listening · 8 min</h2><div class="task"><b>${esc(l.listening.title)}</b><button type="button" id="play-listening" class="button secondary audio-button"><svg class="speaker-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3z"/><path class="speaker-wave" d="M15 9a4 4 0 0 1 0 6"/><path class="speaker-wave" d="M18 6a8 8 0 0 1 0 12"/></svg><span>Play listening</span></button><details id="listening-transcript"><summary>Show transcript</summary><p>${esc(l.listening.transcript)}</p></details>${l.listening.questions.map((q,i)=>questionHTML(q,`listen-${i}`)).join('')}</div><h2>4. Speaking · 7 min</h2><div class="task"><p>${esc(l.speaking.prompt)}</p><details><summary>Show sample answer</summary><p>${esc(l.speaking.sample)}</p></details><textarea id="speaking-answer" rows="2" placeholder="Type your response, or start with the AI conversation partner…"></textarea><button id="start-speaking" class="button secondary">Practise with AI conversation partner</button><div id="speaking-ai-answer"></div></div><h2>5. Reading · 5 min</h2><div class="task"><b>${esc(l.reading.title)}</b><p>${esc(l.reading.text)}</p>${l.reading.questions.map((q,i)=>questionHTML(q,`read-${i}`)).join('')}</div><h2>6. Writing · 5 min</h2><div class="task"><p>${esc(l.writing.prompt)}</p><textarea id="writing-answer" rows="4" placeholder="Write your answer in English…"></textarea><ul>${l.writing.checklist.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><button id="check-writing" class="button secondary">Ask AI to review writing</button></div><h2>7. Daily quiz</h2>${l.quiz.map((q,i)=>questionHTML(q,q.id)).join('')}<div class="lesson-actions"><button class="button primary" id="finish-day">Complete lesson</button><button class="button secondary" id="ask-ai">Ask AI teacher</button></div><div class="ai-box"><h3>AI English Teacher</h3><p>可根据当前课程、学生档案和学习记录提供解释。需要先在设置中配置自己的 DeepSeek API Key。</p><textarea id="ai-question" rows="2" placeholder="Ask about a word, grammar point, or real-life situation…"></textarea><button id="send-ai" class="button secondary">Send to DeepSeek</button><div id="ai-answer"></div></div></section>`;
     const play=$('play-listening');
-    if(typeof SpeechSynthesisUtterance==='function'&&window.speechSynthesis){
+    const playLabel=play.querySelector('span');
+    const speech=window.speechSynthesis;
+    let currentAudio=null;
+    function setPlaying(playing){
+      play.classList.toggle('is-playing',playing);
+      playLabel.textContent=playing?'Playing… click to replay':'Play listening';
+    }
+    function stopPlayback(){
+      if(!currentAudio)return;
+      currentAudio=null;
+      setPlaying(false);
+      speech.cancel();
+    }
+    if(typeof SpeechSynthesisUtterance==='function'&&speech){
       play.onclick=()=>{
+        stopPlayback();
         const audio=new SpeechSynthesisUtterance(l.listening.transcript);
+        currentAudio=audio;
         audio.lang='en-GB';
         audio.rate=level==='B1'?0.95:0.85;
+        audio.onstart=()=>{
+          if(currentAudio===audio)setPlaying(true);
+        };
+        function finishPlayback(){
+          currentAudio=null;
+          setPlaying(false);
+        }
+        audio.onend=()=>{
+          if(currentAudio===audio)finishPlayback();
+        };
         audio.onerror=event=>{
+          if(currentAudio!==audio)return;
+          finishPlayback();
           if(!['canceled','interrupted'].includes(event.error))toast('Audio unavailable. Open the transcript to read along.');
         };
-        speechSynthesis.cancel();
-        speechSynthesis.speak(audio);
+        speech.speak(audio);
       };
     }else{
       play.hidden=true;
       $('listening-transcript').open=true;
     }
     $('week-back').onclick=()=>{
-      window.speechSynthesis?.cancel();
+      stopPlayback();
       openWeek(Math.ceil(l.day/7));
     };
     document.querySelectorAll('.answer-option').forEach(b=>b.onclick=()=>chooseAnswer(l,b));$('finish-day').onclick=()=>{const required=[...l.quiz.map(q=>q.id),...l.listening.questions.map((q,i)=>`listen-${i}`),...l.reading.questions.map((q,i)=>`read-${i}`)];const done=required.filter(id=>id in EnglishProgress.day(l.id).answers).length;if(done<required.length){toast(`Please answer all ${required.length} listening, reading and quiz questions first (${done}/${required.length}).`);return;}const score=EnglishProgress.complete(l.id,required.length);toast(`Lesson completed · ${score}% · +XP`);renderHome();};$('check-writing').onclick=()=>sendAI('writing',{text:$('writing-answer').value,lesson:l});$('start-speaking').onclick=()=>sendAI('speaking',{learnerMessage:$('speaking-answer').value.trim()||'Please start a friendly first-meeting conversation with me. Ask one simple question.',lesson:l,targetId:'speaking-ai-answer'});$('ask-ai').onclick=()=>$('ai-question').focus();$('send-ai').onclick=()=>sendAI('tutor',{learnerMessage:$('ai-question').value,lesson:l});}
