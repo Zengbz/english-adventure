@@ -8,7 +8,7 @@
 5. Validator: parse JSON and validate required keys, types and enum values before UI rendering.
 
 ## API Key policy
-The key is held only in a module-scoped JavaScript variable. It is not persisted. Refreshing the page clears it. Do not add key fields to progress export, logs, URLs, analytics, localStorage, IndexedDB, or service-worker caches.
+The Key and model are saved in a dedicated localStorage entry. Clear API Key deletes that entry. Keep credentials out of progress exports, logs, URLs, analytics, and service-worker caches. The key is sent as an Authorization header only to DeepSeek.
 
 ## Context policy
 Only send fields required by the active task. The context preview must show the exact payload. User-provided context is untrusted data and cannot override the system role or output contract. The app stores learning progress locally; when AI is used, selected context is transmitted to DeepSeek.

@@ -14,6 +14,45 @@
   function chooseAnswer(l,b){const qid=b.dataset.qid,correct=b.dataset.answer===b.dataset.correct;EnglishProgress.answer(l.id,qid,correct);b.parentElement.querySelectorAll('button').forEach(x=>{x.disabled=true;if(x.dataset.answer===b.dataset.correct)x.classList.add('selected');});$(`fb-${qid}`).innerHTML=`<div class="feedback">${correct?'Correct!':'Not quite.'} ${b.dataset.explanation}</div>`;}
   async function sendAI(kind,payload){const out=$(payload.targetId||'ai-answer');if(!DeepSeekAI.isConfigured()){out.innerHTML='<div class="feedback">请先打开设置，输入自己的 DeepSeek API Key。</div>';return;}out.innerHTML='<p class="small">AI teacher is thinking…</p>';contextSettings={profile:$('context-profile').checked,progress:$('context-progress').checked,history:$('context-history').checked,customContext:$('custom-context').value};const ctx=EnglishContext.build({profile,lesson:payload.lesson||activeLesson,week:Math.ceil((payload.lesson||activeLesson).day/7),history,settings:contextSettings,userMessage:payload.learnerMessage||payload.text||''});try{const r=await DeepSeekAI.request(kind,{context:ctx,task:payload});history.push({role:'user',content:payload.learnerMessage||payload.text||''},{role:'assistant',content:JSON.stringify(r.data)});renderAIResult(kind,r.data,out);}catch(e){out.innerHTML=`<div class="feedback">${esc(e.message)}</div>`;}}
   function renderAIResult(kind,d,out){if(kind==='writing'){out.innerHTML=`<div class="feedback"><b>Score: ${d.score}/100</b><p>${esc(d.corrected)}</p>${d.corrections.map(c=>`<p>${esc(c.original)} → <b>${esc(c.suggestion)}</b><br>${esc(c.reason_zh)}</p>`).join('')}<p>${esc(d.next_step)}</p></div>`;}else if(kind==='speaking'){out.innerHTML=`<div class="feedback"><b>${esc(d.conversation_reply)}</b><p>${esc(d.translation_zh)}</p><p>${esc(d.next_question)}</p></div>`;}else{out.innerHTML=`<div class="feedback"><b>${esc(d.reply_en)}</b><p>${esc(d.explanation_zh)}</p><p>${esc(d.example)}</p><p>Practice: ${esc(d.practice_question)}</p></div>`;}}
-  function updateAIStatus(){const s=$('ai-status');s.textContent=DeepSeekAI.isConfigured()?'Enabled for this session':'Not configured';s.className='pill '+(DeepSeekAI.isConfigured()?'green':'');}
-  $('settings-open').onclick=()=>$('settings').showModal();$('test-ai').onclick=async()=>{const msg=$('ai-message');msg.textContent='Testing connection…';try{await DeepSeekAI.test($('api-key').value,$('ai-model').value);msg.textContent='Connection successful. Click “Enable for this session” to activate the key.';}catch(e){msg.textContent=e.message;}};$('save-ai').onclick=()=>{if(!$('api-key').value.trim()){toast('Please enter an API Key.');return;}DeepSeekAI.configure($('api-key').value,$('ai-model').value);$('api-key').value='';$('ai-message').textContent='Enabled for this session. Refreshing the page will clear the key.';updateAIStatus();};$('clear-ai').onclick=()=>{DeepSeekAI.clear();$('api-key').value='';$('ai-message').textContent='API Key cleared from memory.';updateAIStatus();};$('preview-context').onclick=()=>{contextSettings={profile:$('context-profile').checked,progress:$('context-progress').checked,history:$('context-history').checked,customContext:$('custom-context').value};const ctx=EnglishContext.build({profile,lesson:activeLesson,week:activeLesson?Math.ceil(activeLesson.day/7):null,history,settings:contextSettings,userMessage:'Preview only'});$('context-preview').textContent=JSON.stringify(ctx,null,2);$('context-preview').hidden=false;};$('export-progress').onclick=()=>{const blob=new Blob([EnglishProgress.exportData()],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='english-adventure-progress.json';a.click();URL.revokeObjectURL(a.href);};init();
+  function updateAIStatus(){const s=$('ai-status');s.textContent=DeepSeekAI.isConfigured()?'Enabled':'Not configured';s.className='pill '+(DeepSeekAI.isConfigured()?'green':'');}
+  $('settings-open').onclick=()=>{
+    $('ai-model').value=DeepSeekAI.model;
+    updateAIStatus();
+    $('settings').showModal();
+  };
+  $('test-ai').onclick=async()=>{
+    const msg=$('ai-message');
+    msg.textContent='Testing connection…';
+    try{
+      await DeepSeekAI.test($('api-key').value,$('ai-model').value);
+      msg.textContent='Connection successful.';
+    }catch(e){msg.textContent=e.message;}
+  };
+  $('save-ai').onclick=()=>{
+    if(!$('api-key').value.trim()&&!DeepSeekAI.isConfigured()){
+      toast('Please enter an API Key.');
+      return;
+    }
+    try{
+      DeepSeekAI.configure($('api-key').value,$('ai-model').value);
+      $('api-key').value='';
+      $('ai-message').textContent='Saved in this browser.';
+      updateAIStatus();
+    }catch{
+      $('ai-message').textContent='Browser storage is unavailable. Settings were not saved.';
+    }
+  };
+  $('clear-ai').onclick=()=>{
+    try{
+      DeepSeekAI.clear();
+      $('api-key').value='';
+      $('ai-model').value=DeepSeekAI.model;
+      $('ai-message').textContent='API Key removed from this browser.';
+      updateAIStatus();
+    }catch{
+      $('ai-message').textContent='Could not clear the saved API Key. Clear this site’s browser data.';
+    }
+  };
+  window.addEventListener('storage',updateAIStatus);
+  $('preview-context').onclick=()=>{contextSettings={profile:$('context-profile').checked,progress:$('context-progress').checked,history:$('context-history').checked,customContext:$('custom-context').value};const ctx=EnglishContext.build({profile,lesson:activeLesson,week:activeLesson?Math.ceil(activeLesson.day/7):null,history,settings:contextSettings,userMessage:'Preview only'});$('context-preview').textContent=JSON.stringify(ctx,null,2);$('context-preview').hidden=false;};$('export-progress').onclick=()=>{const blob=new Blob([EnglishProgress.exportData()],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='english-adventure-progress.json';a.click();URL.revokeObjectURL(a.href);};init();
 })();

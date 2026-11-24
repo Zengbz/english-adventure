@@ -1,12 +1,36 @@
 (() => {
-  // Deliberately memory-only. Never write this key to any browser storage.
-  let sessionKey='';
-  let model='deepseek-flash';
+  const storageKey='english-adventure.deepseek';
+  const defaultModel='deepseek-flash';
   const endpoint='https://api.deepseek.com/chat/completions';
-  function configure(key,nextModel){sessionKey=String(key||'').trim();model=nextModel||'deepseek-flash';}
-  function clear(){sessionKey='';}
-  function isConfigured(){return Boolean(sessionKey);}
-  async function request(kind,payload,{signal}={}){
+  let settings={key:'',model:defaultModel};
+
+  function readSettings(){
+    try{
+      const saved=JSON.parse(localStorage.getItem(storageKey));
+      return typeof saved?.key==='string' ? saved : null;
+    }catch{return null;}
+  }
+  settings=readSettings()||settings;
+
+  function configure(key,nextModel){
+    const next={key:String(key||'').trim()||settings.key,model:nextModel||defaultModel};
+    if(!next.key)throw new Error('Please enter an API Key.');
+    localStorage.setItem(storageKey,JSON.stringify(next));
+    settings=next;
+  }
+  function clear(){
+    localStorage.removeItem(storageKey);
+    settings={key:'',model:defaultModel};
+  }
+  window.addEventListener('storage',event=>{
+    if(event.key!==null&&event.key!==storageKey)return;
+    settings=readSettings()||{key:'',model:defaultModel};
+  });
+
+  async function request(kind,payload,options){
+    return send(kind,payload,options,settings);
+  }
+  async function send(kind,payload,{signal}={}, {key:sessionKey,model}){
     if(!sessionKey)throw new Error('请先在设置中输入 DeepSeek API Key。');
     const requestId='ea-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,8);
     const prompt=await EnglishAIContracts.buildPrompt(kind,requestId);
@@ -16,6 +40,10 @@
     const data=await response.json();const content=data?.choices?.[0]?.message?.content;if(!content||!content.trim())throw new Error('模型返回空内容，请重试。');let parsed;try{parsed=JSON.parse(content);}catch(_){throw new Error('模型返回的JSON无法解析。');}
     return {data:EnglishAIContracts.validate(kind,parsed,requestId),usage:data.usage||null,model:data.model||model,requestId};
   }
-  async function test(key,nextModel){const previous=sessionKey,previousModel=model;configure(key,nextModel);try{await request('tutor',{learnerMessage:'Return a short A2 tutor greeting and one simple practice question.'});return true;}finally{sessionKey=previous;model=previousModel;}}
-  window.DeepSeekAI={configure,clear,isConfigured,request,test,get model(){return model;}};
+  async function test(key,nextModel){
+    await send('tutor',{learnerMessage:'Return a short A2 tutor greeting and one simple practice question.'},undefined,
+      {key:String(key||'').trim()||settings.key,model:nextModel||settings.model});
+    return true;
+  }
+  window.DeepSeekAI={configure,clear,isConfigured:()=>Boolean(settings.key),request,test,get model(){return settings.model;}};
 })();

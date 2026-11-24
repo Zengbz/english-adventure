@@ -7,7 +7,7 @@ A static, expandable PWA for 30-minute daily English learning. Course content is
 - Week 1 course package with seven lessons and integrated vocabulary, listening, speaking, reading, writing and quizzes.
 - `courses/catalog.json` generated from `courses/weekN-course.json` by `scripts/build.mjs`.
 - Local progress, XP, streak and JSON export.
-- Optional DeepSeek AI module with user-entered API Key held in runtime memory only.
+- Optional DeepSeek AI module with user-entered API Key saved in this browser.
 - AI context builder, task-specific prompts and response validation.
 - GitHub Pages Actions workflow and basic course tests.
 
@@ -36,7 +36,7 @@ Create a dedicated GitHub repository for this PWA, push the project to its `main
 ## DeepSeek API Key handling
 - No developer key is included.
 - The user enters their own key in Settings.
-- The key exists only in JavaScript runtime memory and is cleared on refresh/close.
+- Save on this device stores the key and model in this browser’s localStorage. Clear API Key removes them.
 - It is never written to LocalStorage, IndexedDB, cache, or course files.
 - Requests go from the browser to DeepSeek's official API endpoint. Browser CORS support must be verified on the deployed origin; if direct browser requests are blocked, add a stateless relay that does not persist or log the Authorization header.
 - Any context enabled by the user is sent to DeepSeek. The context preview lets the user inspect the payload before use.
