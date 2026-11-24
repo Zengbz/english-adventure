@@ -37,6 +37,74 @@
           "ipa": "/ˈplætfɔːm/",
           "zh": "站台",
           "example": "The train leaves from platform four."
+        },
+        {
+          "word": "airport",
+          "zh": "机场"
+        },
+        {
+          "word": "flight",
+          "zh": "航班"
+        },
+        {
+          "word": "passport",
+          "zh": "护照"
+        },
+        {
+          "word": "gate",
+          "zh": "登机口"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "security",
+          "zh": "安检"
+        },
+        {
+          "word": "fare",
+          "zh": "票价"
+        },
+        {
+          "word": "single",
+          "zh": "单程票"
+        },
+        {
+          "word": "return",
+          "zh": "往返票"
+        },
+        {
+          "word": "direct",
+          "zh": "直达的"
+        },
+        {
+          "word": "transfer",
+          "zh": "换乘"
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "crossing",
+          "zh": "人行横道"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "The large suitcase"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s transport briefing at the station information desk. It begins at 15 fifteen in the Hill Room and lasts 25 minutes. Admission costs 9 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Monday",
+                "Wednesday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "15:45",
+                "14:15",
+                "15:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Oak Room",
+                "Maple Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "25 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£9",
+              "options": [
+                "£9",
+                "£11",
+                "£13"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "26",
+                "22",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Jo",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "扮演旅客，询问过道座、手提行李与登机口。",
-        "sample": "Can I have an aisle seat? Do I need to check in this bag?"
+        "sample": "Can I have an aisle seat? Do I need to check in this bag?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「At the Airport Counter」的场景。用到 aisle，并给一个具体细节。",
+            "checklist": [
+              "与 At the Airport Counter 场景有关",
+              "使用 aisle",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Hill Room",
+              "费用是 £9"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "听懂值机柜台问题",
@@ -71,7 +258,49 @@
             ],
             "answer": "Passengers with hand luggage and an online boarding pass"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "13:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 50 词给旅伴说明值机时间、行李处理和安检。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Can I ...? 询问可否；need to + 原形）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「At the Airport Counter」的英语消息，使用 aisle 并补充一个具体细节。",
+            "checklist": [
+              "使用 aisle",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 15:15",
+              "房间是 Hill Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「At the Airport Counter」场景中的选择与理由，尽量运用本课语法（Can I ...? 询问可否；need to + 原形）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/ˈtrænsfɜː/",
           "zh": "换乘",
           "example": "The transfer takes five minutes."
+        },
+        {
+          "word": "aisle",
+          "zh": "过道"
+        },
+        {
+          "word": "gate",
+          "zh": "登机口"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "security",
+          "zh": "安检"
+        },
+        {
+          "word": "fare",
+          "zh": "票价"
+        },
+        {
+          "word": "single",
+          "zh": "单程票"
+        },
+        {
+          "word": "return",
+          "zh": "往返票"
+        },
+        {
+          "word": "direct",
+          "zh": "直达的"
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "crossing",
+          "zh": "人行横道"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "C4"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s transport briefing at the station information desk. It begins at 16 fifteen in the Oak Room and lasts 35 minutes. Admission costs 11 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "15:15",
+                "16:15",
+                "16:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Oak Room",
+                "Blue Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£11",
+              "options": [
+                "£13",
+                "£11",
+                "£15"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "26",
+                "24",
+                "28"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Nina",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "听完广播后向旅伴复述航班、新登机口和剩余时间。",
-        "sample": "Our flight now leaves from gate C4. Boarding starts in twenty minutes."
+        "sample": "Our flight now leaves from gate C4. Boarding starts in twenty minutes.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Gate Change」的场景。用到 boarding，并给一个具体细节。",
+            "checklist": [
+              "与 Gate Change 场景有关",
+              "使用 boarding",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Oak Room",
+              "费用是 £11"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "听变更广播，找正确登机口",
@@ -169,7 +617,49 @@
             ],
             "answer": "19:00"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 14:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "14:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一则 45–60 词的变更通知，区别登机和起飞。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（has changed to ... 识别变更；please + 动词原形）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Gate Change」的英语消息，使用 boarding 并补充一个具体细节。",
+            "checklist": [
+              "使用 boarding",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 16:15",
+              "房间是 Oak Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Gate Change」场景中的选择与理由，尽量运用本课语法（has changed to ... 识别变更；please + 动词原形）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/aɪl/",
           "zh": "过道",
           "example": "Can I have an aisle seat?"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "security",
+          "zh": "安检"
+        },
+        {
+          "word": "fare",
+          "zh": "票价"
+        },
+        {
+          "word": "single",
+          "zh": "单程票"
+        },
+        {
+          "word": "return",
+          "zh": "往返票"
+        },
+        {
+          "word": "direct",
+          "zh": "直达的"
+        },
+        {
+          "word": "transfer",
+          "zh": "换乘"
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "crossing",
+          "zh": "人行横道"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
+        },
+        {
+          "word": "diversion",
+          "zh": "改道"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "Four"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s transport briefing at the station information desk. It begins at 9 fifteen in the Maple Room and lasts 45 minutes. Admission costs 13 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Thursday",
+                "Friday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "08:15",
+                "09:45",
+                "09:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Maple Room",
+                "Blue Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£13",
+              "options": [
+                "£13",
+                "£15",
+                "£17"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "14",
+                "10",
+                "12"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "South",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Leo",
+                "Maya",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "买当天往返票，问是否直达、站台和有效时段。",
-        "sample": "A return to York, please. Does this train stop at York? Which platform is it?"
+        "sample": "A return to York, please. Does this train stop at York? Which platform is it?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「A Return Ticket」的场景。用到 platform，并给一个具体细节。",
+            "checklist": [
+              "与 A Return Ticket 场景有关",
+              "使用 platform",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Maple Room",
+              "费用是 £13"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "在车站买票和确认站台",
@@ -267,7 +976,49 @@
             ],
             "answer": "The local train"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 16:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "17:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 50–65 词告诉朋友买什么票、从哪里上车、何时回来。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（a ticket to ...；Does this train stop at ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「A Return Ticket」的英语消息，使用 platform 并补充一个具体细节。",
+            "checklist": [
+              "使用 platform",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 09:15",
+              "房间是 Maple Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「A Return Ticket」场景中的选择与理由，尽量运用本课语法（a ticket to ...；Does this train stop at ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/ˈbɔːdɪŋ/",
           "zh": "登机",
           "example": "Boarding starts at six."
+        },
+        {
+          "word": "fare",
+          "zh": "票价"
+        },
+        {
+          "word": "single",
+          "zh": "单程票"
+        },
+        {
+          "word": "return",
+          "zh": "往返票"
+        },
+        {
+          "word": "direct",
+          "zh": "直达的"
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "crossing",
+          "zh": "人行横道"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
+        },
+        {
+          "word": "diversion",
+          "zh": "改道"
+        },
+        {
+          "word": "airport",
+          "zh": "机场"
+        },
+        {
+          "word": "flight",
+          "zh": "航班"
+        },
+        {
+          "word": "passport",
+          "zh": "护照"
+        },
+        {
+          "word": "aisle",
+          "zh": "过道"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "Central"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s transport briefing at the station information desk. It begins at 10 fifteen in the Blue Room and lasts 55 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "10:15",
+                "09:15",
+                "10:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Garden Room",
+                "Blue Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "75 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£4",
+              "options": [
+                "£6",
+                "£4",
+                "£8"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "14",
+                "12",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Leo",
+                "Nina",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "给一个第一次坐地铁的人说明上车线、换乘站和下车站。",
-        "sample": "Get on line two. Change at Central and get off at Park Road."
+        "sample": "Get on line two. Change at Central and get off at Park Road.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Where Do I Get Off?」的场景。用到 transfer，并给一个具体细节。",
+            "checklist": [
+              "与 Where Do I Get Off? 场景有关",
+              "使用 transfer",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Blue Room",
+              "费用是 £4"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "换乘和核对下车站",
@@ -365,7 +1335,49 @@
             ],
             "answer": "16"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "11:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一条三步换乘指引，每步说清路线或站名。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（get on/off；change at + 站名）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Where Do I Get Off?」的英语消息，使用 transfer 并补充一个具体细节。",
+            "checklist": [
+              "使用 transfer",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 10:15",
+              "房间是 Blue Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Where Do I Get Off?」场景中的选择与理由，尽量运用本课语法（get on/off；change at + 站名）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/ˈplætfɔːm/",
           "zh": "站台",
           "example": "The train leaves from platform four."
+        },
+        {
+          "word": "return",
+          "zh": "往返票"
+        },
+        {
+          "word": "direct",
+          "zh": "直达的"
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
+        },
+        {
+          "word": "diversion",
+          "zh": "改道"
+        },
+        {
+          "word": "airport",
+          "zh": "机场"
+        },
+        {
+          "word": "flight",
+          "zh": "航班"
+        },
+        {
+          "word": "passport",
+          "zh": "护照"
+        },
+        {
+          "word": "aisle",
+          "zh": "过道"
+        },
+        {
+          "word": "boarding",
+          "zh": "登机"
+        },
+        {
+          "word": "gate",
+          "zh": "登机口"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "A pharmacy"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s transport briefing at the station information desk. It begins at 11 fifteen in the Green Room and lasts 25 minutes. Admission costs 6 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Saturday",
+                "Friday",
+                "Sunday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "11:15",
+                "10:15",
+                "11:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "Garden Room",
+                "River Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "25 minutes",
+                "45 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£6",
+              "options": [
+                "£10",
+                "£6",
+                "£8"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "16",
+                "14",
+                "18"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Omar",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "先问图书馆怎么走，再用两个地标复述路线。",
-        "sample": "Is the library far? So I turn left at the crossing and look opposite the pharmacy."
+        "sample": "Is the library far? So I turn left at the crossing and look opposite the pharmacy.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Is It Far from Here?」的场景。用到 crossing，并给一个具体细节。",
+            "checklist": [
+              "与 Is It Far from Here? 场景有关",
+              "使用 crossing",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Green Room",
+              "费用是 £6"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "问路与听懂转弯地标",
@@ -463,7 +1694,49 @@
             ],
             "answer": "At the café"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 14:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "13:00",
+                "15:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 55–70 词指路信息，注明起点、转弯和目的地参照物。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Turn left/right at ...；opposite / next to）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Is It Far from Here?」的英语消息，使用 crossing 并补充一个具体细节。",
+            "checklist": [
+              "使用 crossing",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 11:15",
+              "房间是 Green Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Is It Far from Here?」场景中的选择与理由，尽量运用本课语法（Turn left/right at ...；opposite / next to）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/ˈtrænsfɜː/",
           "zh": "换乘",
           "example": "The transfer takes five minutes."
+        },
+        {
+          "word": "station",
+          "zh": "车站"
+        },
+        {
+          "word": "harbour",
+          "zh": "港口"
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
+        },
+        {
+          "word": "airport",
+          "zh": "机场"
+        },
+        {
+          "word": "flight",
+          "zh": "航班"
+        },
+        {
+          "word": "passport",
+          "zh": "护照"
+        },
+        {
+          "word": "aisle",
+          "zh": "过道"
+        },
+        {
+          "word": "boarding",
+          "zh": "登机"
+        },
+        {
+          "word": "gate",
+          "zh": "登机口"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "security",
+          "zh": "安检"
+        },
+        {
+          "word": "platform",
+          "zh": "站台"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "Bus eight"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s transport briefing at the station information desk. It begins at 12 fifteen in the Garden Room and lasts 35 minutes. Admission costs 8 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Sunday",
+                "Monday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:15",
+                "11:15",
+                "12:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "River Room",
+                "Hill Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£8",
+              "options": [
+                "£12",
+                "£8",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "16",
+                "18",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "East",
+                "North",
+                "West"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Sofia",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "给旅伴解释什么路走不了、必须用哪个入口，以及一个替代方案。",
-        "sample": "We can’t cross the bridge. We could take bus eight instead."
+        "sample": "We can’t cross the bridge. We could take bus eight instead.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「The Road Is Closed」的场景。用到 diversion，并给一个具体细节。",
+            "checklist": [
+              "与 The Road Is Closed 场景有关",
+              "使用 diversion",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Garden Room",
+              "费用是 £8"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "理解交通限制和提替代方案",
@@ -561,7 +2053,49 @@
             ],
             "answer": "The north entrance"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 16:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "15:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 60–75 词转述改道通知，补上替代路线和站点。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（must / can’t 表示义务和限制；could 提建议）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「The Road Is Closed」的英语消息，使用 diversion 并补充一个具体细节。",
+            "checklist": [
+              "使用 diversion",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 12:15",
+              "房间是 Garden Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「The Road Is Closed」场景中的选择与理由，尽量运用本课语法（must / can’t 表示义务和限制；could 提建议）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/ˈkrɒsɪŋ/",
           "zh": "人行横道",
           "example": "Turn right at the crossing."
+        },
+        {
+          "word": "opposite",
+          "zh": "对面"
+        },
+        {
+          "word": "entrance",
+          "zh": "入口"
+        },
+        {
+          "word": "exit",
+          "zh": "出口"
+        },
+        {
+          "word": "cancelled",
+          "zh": "已取消的"
+        },
+        {
+          "word": "replacement",
+          "zh": "替代的"
+        },
+        {
+          "word": "airport",
+          "zh": "机场"
+        },
+        {
+          "word": "flight",
+          "zh": "航班"
+        },
+        {
+          "word": "passport",
+          "zh": "护照"
+        },
+        {
+          "word": "aisle",
+          "zh": "过道"
+        },
+        {
+          "word": "boarding",
+          "zh": "登机"
+        },
+        {
+          "word": "gate",
+          "zh": "登机口"
+        },
+        {
+          "word": "suitcase",
+          "zh": "行李箱"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "security",
+          "zh": "安检"
+        },
+        {
+          "word": "platform",
+          "zh": "站台"
+        },
+        {
+          "word": "fare",
+          "zh": "票价"
+        },
+        {
+          "word": "single",
+          "zh": "单程票"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "At the north exit"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s transport briefing at the station information desk. It begins at 13 fifteen in the River Room and lasts 45 minutes. Admission costs 10 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Tuesday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "12:15",
+                "13:45",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "River Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "45 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£12",
+                "£14",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "22",
+                "18",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Maya",
+                "Eli",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "按广播和通知口头说明改坐什么、预计何时到机场、值机最晚几点。",
-        "sample": "We need the 14:10 bus from the north exit. We’ll arrive at 14:50. Check-in closes at 15:30."
+        "sample": "We need the 14:10 bus from the north exit. We’ll arrive at 14:50. Check-in closes at 15:30.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Catch the Flight」的场景。用到 departure，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Catch the Flight 场景有关",
+              "使用 departure",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 station information desk 的 transport briefing。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 River Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 transport briefing。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "综合处理换乘和航班变更",
@@ -659,7 +2412,49 @@
             ],
             "answer": "15:30"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Transport briefing booking notice. Book online before 12:00. Collect your ticket at the station information desk information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "12:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 80–100 词给迟到的旅伴，说明乘车、值机、登机和备用办法。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（复习指令、时间、地点和备选交通）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Catch the Flight」的英语消息，使用 departure 并补充一个具体细节。",
+            "checklist": [
+              "使用 departure",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 transport briefing，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 13:15",
+              "房间是 River Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Catch the Flight」场景中的选择与理由，尽量运用本课语法（复习指令、时间、地点和备选交通）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

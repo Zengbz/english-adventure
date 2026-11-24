@@ -7,7 +7,7 @@
       "summary": "建立自我介绍能力：个人信息、家庭、职业、兴趣和简单日常表达。",
       "level": "A2",
       "file": "courses/week1-course.json",
-      "revision": "0acd83c4580aa0a32ae5494643cd060628d463b161b7986f37426cf1f8a13ca1",
+      "revision": "0bf0e75a059767d4144e6ddc745713e3510928798527f7491e0bbb8fffe44072",
       "lessons": [
         {
           "day": 1,
@@ -66,7 +66,7 @@
       "summary": "作息、时间、频率副词、日常习惯和生活安排。",
       "level": "A2",
       "file": "courses/week2-course.json",
-      "revision": "05a191fdde340c16cfeac5d4e3b5266192e2e74b5f95cc5faf0e99318a154deb",
+      "revision": "be11cfa5ea7daaf6e3c06e1ccf335326d8b8a7052d3ebb42fe9898ea94d88f44",
       "lessons": [
         {
           "day": 8,
@@ -125,7 +125,7 @@
       "summary": "一般过去时、旅行经历、活动和感受。",
       "level": "A2",
       "file": "courses/week3-course.json",
-      "revision": "a31a4d07220a4c1f579fbda9652f8b758a23e8a2fd171567579b44f7aa1e380e",
+      "revision": "97b03ef5eec804c7d09d444b9c6444bfb4961c5060a1137af98f27570e1d1563",
       "lessons": [
         {
           "day": 15,
@@ -184,7 +184,7 @@
       "summary": "will、be going to、日期安排和旅行计划。",
       "level": "A2",
       "file": "courses/week4-course.json",
-      "revision": "77bb716d70ec0fca80e522f86bd70cdd1fa45f26b1499088035f6742c14750f5",
+      "revision": "f43bfbe2c4c9e2bd844db1dfd29a225087603f0de6ada1991c1a44eca3f481ea",
       "lessons": [
         {
           "day": 22,
@@ -243,7 +243,7 @@
       "summary": "点餐、购物、数量表达、价格和礼貌请求。",
       "level": "A2+",
       "file": "courses/week5-course.json",
-      "revision": "0e19bd10fa800c95b46a3c30508e16979b3678e7b7babd824932eef1eff9c41a",
+      "revision": "992802317b077e501844fd467982c329fce78876464607a36b65e2a24c09275b",
       "lessons": [
         {
           "day": 29,
@@ -302,7 +302,7 @@
       "summary": "机场、车站、问路、交通方式和情态动词。",
       "level": "A2+",
       "file": "courses/week6-course.json",
-      "revision": "38f75c4afd5772e4a07a6da55dabac0bdf04f88e944238bb36d02cdf6fbb0282",
+      "revision": "731020b2f7217ec714e70bba14995ac261ddc901422a35b09eccaabf547e315d",
       "lessons": [
         {
           "day": 36,
@@ -361,7 +361,7 @@
       "summary": "酒店预订、入住、比较选择和处理问题。",
       "level": "A2+",
       "file": "courses/week7-course.json",
-      "revision": "5118834c2e739871a4c7676eb91632be2cb38e4faa3189d274116983f77241c2",
+      "revision": "bcc435ccf81522a845d198475e73d1c187f8f4f2c611241b5225146fb01492d4",
       "lessons": [
         {
           "day": 43,
@@ -420,7 +420,7 @@
       "summary": "国际社交、兴趣交流、现在完成时入门。",
       "level": "A2+",
       "file": "courses/week8-course.json",
-      "revision": "e316bdacef98bd24f853862faba8c5e08ffaa993804729eca41bda03f1c868a6",
+      "revision": "3a9568772cca2cf3314899f1d3cd1217c37a13048323da221db1fe4b7354d38b",
       "lessons": [
         {
           "day": 50,
@@ -479,7 +479,7 @@
       "summary": "表达观点、赞同反对、解释原因和条件句。",
       "level": "B1",
       "file": "courses/week9-course.json",
-      "revision": "39367a57a0adb2dd8f5067583cc4095d9e22eae0a04c195094e9860e0264929d",
+      "revision": "2a2c549d5cfb9b4616e51ad77ff04f6500a0d87488445a85a029f82738dcbd75",
       "lessons": [
         {
           "day": 57,
@@ -538,7 +538,7 @@
       "summary": "文化差异、国家生活、被动语态和关系从句。",
       "level": "B1",
       "file": "courses/week10-course.json",
-      "revision": "efa0fd25f309a1efdf14c3c50411d4b305247fca531a0d6463f1a9493de53743",
+      "revision": "da6b8dab419d48c7fa3d5324cb6fb41a94e8b6f42851b65090ac9a60d3959186",
       "lessons": [
         {
           "day": 64,
@@ -597,7 +597,7 @@
       "summary": "叙事、综合时态、经历描述和连贯表达。",
       "level": "B1",
       "file": "courses/week11-course.json",
-      "revision": "fe03fe52e80017bdaaa48777a3d7a6a5b41b5e6cefe09e21a65d0ec2a093a6ef",
+      "revision": "36e21437e5ea90ea8b60b12485cd4c0623af7ed8d5a623689a2f7112beda56ee",
       "lessons": [
         {
           "day": 71,
@@ -656,7 +656,7 @@
       "summary": "旅行、社交、听说读写综合实战与阶段验收。",
       "level": "B1",
       "file": "courses/week12-course.json",
-      "revision": "fc28423197ff3772f05dbe0443ee1eec61f8b5cb9ea70918ee065198e61ced8f",
+      "revision": "10ccb51c042195d15491c3cfb0c540024322d9202c738feb2cda0e6eb269dcc7",
       "lessons": [
         {
           "day": 78,

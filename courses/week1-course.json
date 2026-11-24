@@ -4,14 +4,2667 @@
   "title": "About Me",
   "summary": "建立自我介绍能力：个人信息、家庭、职业、兴趣和简单日常表达。",
   "level": "A2",
-  "objectives": ["Introduce yourself", "Ask and answer personal questions", "Use the present simple in short conversations"],
+  "objectives": [
+    "Introduce yourself",
+    "Ask and answer personal questions",
+    "Use the present simple in short conversations"
+  ],
   "lessons": [
-    {"day":1,"id":"w01d01","title":"Could You Introduce Yourself?","subtitle":"姓名、国家、职业与学习目标","minutes":30,"grammar":["be动词 am/is/are","一般现在时第一人称"],"vocabulary":[{"word":"introduce","ipa":"/ˌɪntrəˈduːs/","zh":"介绍","example":"Let me introduce myself."},{"word":"country","ipa":"/ˈkʌntri/","zh":"国家","example":"I am from China."},{"word":"occupation","ipa":"/ˌɒkjʊˈpeɪʃən/","zh":"职业","example":"What is your occupation?"},{"word":"hobby","ipa":"/ˈhɒbi/","zh":"爱好","example":"My hobby is fishing."},{"word":"interested","ipa":"/ˈɪntrəstɪd/","zh":"感兴趣的","example":"I am interested in languages."}],"listening":{"title":"Meeting someone new","transcript":"Hi, I'm Alex. I'm from Canada, and I work as a designer. I enjoy travelling and learning languages. What about you?","questions":[{"q":"Where is Alex from?","options":["Canada","Australia","China"],"answer":"Canada"},{"q":"What does Alex do?","options":["A teacher","A designer","A programmer"],"answer":"A designer"}]},"speaking":{"prompt":"Introduce yourself in 3–5 sentences. Include your country, job, hobbies and reason for learning English.","sample":"Hi, I'm from China. I work as a game programmer. I enjoy travelling and learning languages. I'm learning English because I want to communicate with people from different countries."},"reading":{"title":"A short introduction","text":"Hello! My name is Emma. I am from the UK, but I live in Singapore. I work in a hotel. In my free time, I enjoy reading and swimming. I am learning Chinese because I want to talk to more people when I travel.","questions":[{"q":"Where does Emma live?","options":["The UK","Singapore","Canada"],"answer":"Singapore"},{"q":"Why is Emma learning Chinese?","options":["For her job","To talk to more people when travelling","To study history"],"answer":"To talk to more people when travelling"}]},"writing":{"prompt":"Write 3–5 sentences to introduce yourself.","checklist":["I included where I am from.","I described my job or daily role.","I mentioned one hobby.","I explained why I am learning English."]},"quiz":[{"id":"w01d01q01","type":"choice","prompt":"Choose the correct sentence.","options":["I am from China.","I is from China.","I are from China."],"answer":"I am from China.","explanation":"I搭配am。"},{"id":"w01d01q02","type":"choice","prompt":"What does 'hobby' mean?","options":["职业","爱好","国家"],"answer":"爱好","explanation":"Hobby表示业余爱好。"},{"id":"w01d01q03","type":"choice","prompt":"Complete: She ___ a teacher.","options":["am","is","are"],"answer":"is","explanation":"She搭配is。"},{"id":"w01d01q04","type":"choice","prompt":"Choose the natural expression.","options":["interested in music","interested on music","interesting in music"],"answer":"interested in music","explanation":"固定搭配是be interested in。"},{"id":"w01d01q05","type":"choice","prompt":"Which question asks about someone's country?","options":["Where are you from?","How old are you?","What do you do?"],"answer":"Where are you from?","explanation":"Where are you from?用于询问来自哪里。"}]},
-    {"day":2,"id":"w01d02","title":"Family and Friends","subtitle":"介绍家人、朋友与关系","minutes":30,"grammar":["形容词性物主代词 my/your/his/her","have/has"],"vocabulary":[{"word":"relative","ipa":"/ˈrelətɪv/","zh":"亲戚","example":"I have many relatives."},{"word":"parents","ipa":"/ˈpeərənts/","zh":"父母","example":"My parents live in China."},{"word":"married","ipa":"/ˈmærid/","zh":"已婚的","example":"My sister is married."},{"word":"friendly","ipa":"/ˈfrendli/","zh":"友好的","example":"My friends are friendly."},{"word":"colleague","ipa":"/ˈkɒliːɡ/","zh":"同事","example":"He is my colleague."}],"listening":{"title":"Talking about family","transcript":"I have a small family. My parents live near me. I have one younger brother. He is a student, and he is very friendly.","questions":[{"q":"How many brothers does the speaker have?","options":["One","Two","None"],"answer":"One"}]},"speaking":{"prompt":"Describe two people in your family or among your friends.","sample":"I have a small family. My brother is younger than me. He is friendly and enjoys football."},"reading":{"title":"My best friend","text":"My best friend is Daniel. He is my colleague. We work in the same office. He is patient and friendly. At weekends, we sometimes go hiking together.","questions":[{"q":"Where do Daniel and the writer work?","options":["In the same office","At a school","In a hotel"],"answer":"In the same office"}]},"writing":{"prompt":"Write four sentences about a family member or friend.","checklist":["I used my/his/her correctly.","I used have or has correctly.","I included one personality adjective."]},"quiz":[{"id":"w01d02q01","type":"choice","prompt":"Complete: ___ name is Anna.","options":["Her","She","Hers"],"answer":"Her","explanation":"名词前使用形容词性物主代词her。"},{"id":"w01d02q02","type":"choice","prompt":"Complete: He ___ two sisters.","options":["have","has","is have"],"answer":"has","explanation":"第三人称单数使用has。"},{"id":"w01d02q03","type":"choice","prompt":"What is a colleague?","options":["同事","邻居","亲戚"],"answer":"同事","explanation":"Colleague表示同事。"}]},
-    {"day":3,"id":"w01d03","title":"Jobs and Daily Roles","subtitle":"谈论职业、工作内容与日常职责","minutes":30,"grammar":["一般现在时第三人称单数","What do you do?"],"vocabulary":[{"word":"programmer","ipa":"/ˈprəʊɡræmə/","zh":"程序员","example":"I am a game programmer."},{"word":"designer","ipa":"/dɪˈzaɪnə/","zh":"设计师","example":"She is a designer."},{"word":"engineer","ipa":"/ˌendʒɪˈnɪə/","zh":"工程师","example":"He works as an engineer."},{"word":"manage","ipa":"/ˈmænɪdʒ/","zh":"管理","example":"I manage a small team."},{"word":"project","ipa":"/ˈprɒdʒekt/","zh":"项目","example":"We are working on a new project."}],"listening":{"title":"What do you do?","transcript":"I'm a software engineer. I work for a small company. I write code, fix problems and work with designers. I enjoy my job because I like solving problems.","questions":[{"q":"What is the speaker's job?","options":["Software engineer","Designer","Teacher"],"answer":"Software engineer"}]},"speaking":{"prompt":"Explain what you do at work or what you study. Give two examples of daily tasks.","sample":"I work as a game programmer. I write code and solve technical problems. I also work with artists and designers."},"reading":{"title":"A busy day at work","text":"Mia is a project manager. She plans tasks, talks to clients and helps her team. She starts work at nine and usually finishes at six.","questions":[{"q":"What does Mia do?","options":["Project manager","Doctor","Student"],"answer":"Project manager"}]},"writing":{"prompt":"Write 4–5 sentences about your job, studies or daily role.","checklist":["I used the present simple.","I described at least two tasks.","I used because to explain an opinion."]},"quiz":[{"id":"w01d03q01","type":"choice","prompt":"Complete: She ___ code every day.","options":["write","writes","writing"],"answer":"writes","explanation":"一般现在时第三人称单数，动词通常加-s。"},{"id":"w01d03q02","type":"choice","prompt":"Which question asks about a job?","options":["What do you do?","Where are you?","Who are you with?"],"answer":"What do you do?","explanation":"这是询问职业的常见表达。"},{"id":"w01d03q03","type":"choice","prompt":"What does 'project' mean?","options":["项目","会议","同事"],"answer":"项目","explanation":"Project表示项目。"}]},
-    {"day":4,"id":"w01d04","title":"Hobbies and Interests","subtitle":"谈论兴趣、频率与喜欢的活动","minutes":30,"grammar":["like/love/enjoy + 名词或动名词","频率副词 usually/sometimes/never"],"vocabulary":[{"word":"outdoors","ipa":"/ˌaʊtˈdɔːz/","zh":"户外","example":"I enjoy spending time outdoors."},{"word":"activity","ipa":"/ækˈtɪvəti/","zh":"活动","example":"Fishing is a relaxing activity."},{"word":"collect","ipa":"/kəˈlekt/","zh":"收集","example":"I collect old books."},{"word":"relaxing","ipa":"/rɪˈlæksɪŋ/","zh":"令人放松的","example":"Music is relaxing."},{"word":"prefer","ipa":"/prɪˈfɜː/","zh":"更喜欢","example":"I prefer travelling by train."}],"listening":{"title":"Free-time activities","transcript":"In my free time, I usually listen to music. I sometimes go fishing with my friends. I prefer outdoor activities because they help me relax.","questions":[{"q":"What does the speaker usually do?","options":["Listen to music","Watch films","Cook"],"answer":"Listen to music"}]},"speaking":{"prompt":"Talk about two hobbies. Say how often you do them and why you enjoy them.","sample":"I enjoy fishing because it helps me relax. I sometimes go fishing at weekends. I also like listening to music."},"reading":{"title":"A new hobby","text":"Tom recently started taking photos. He usually takes pictures when he travels. He prefers nature because he enjoys being outdoors.","questions":[{"q":"What does Tom prefer to photograph?","options":["Nature","Cars","Food"],"answer":"Nature"}]},"writing":{"prompt":"Write a short paragraph about your hobbies.","checklist":["I named two activities.","I used a frequency adverb.","I explained why I enjoy them."]},"quiz":[{"id":"w01d04q01","type":"choice","prompt":"Choose the correct form: I enjoy ___.","options":["swim","swimming","to swimming"],"answer":"swimming","explanation":"Enjoy后面通常接动名词。"},{"id":"w01d04q02","type":"choice","prompt":"Which word means 更喜欢?","options":["prefer","collect","relax"],"answer":"prefer","explanation":"Prefer表示更喜欢。"},{"id":"w01d04q03","type":"choice","prompt":"Which adverb means 有时?","options":["never","sometimes","always"],"answer":"sometimes","explanation":"Sometimes表示有时。"}]},
-    {"day":5,"id":"w01d05","title":"A Typical Day","subtitle":"描述作息、时间和日常习惯","minutes":30,"grammar":["一般现在时综合","时间介词 at/in/on"],"vocabulary":[{"word":"routine","ipa":"/ruːˈtiːn/","zh":"日常惯例","example":"My morning routine is simple."},{"word":"commute","ipa":"/kəˈmjuːt/","zh":"通勤","example":"I commute by bus."},{"word":"usually","ipa":"/ˈjuːʒuəli/","zh":"通常","example":"I usually get up at seven."},{"word":"appointment","ipa":"/əˈpɔɪntmənt/","zh":"预约；约会","example":"I have an appointment at three."},{"word":"weekday","ipa":"/ˈwiːkdeɪ/","zh":"工作日","example":"I work on weekdays."}],"listening":{"title":"My weekday","transcript":"I usually get up at seven. I have breakfast at half past seven and leave home at eight. I take the bus to work. In the evening, I cook dinner and read for a while.","questions":[{"q":"How does the speaker go to work?","options":["By bus","By car","On foot"],"answer":"By bus"}]},"speaking":{"prompt":"Describe a normal weekday from morning to evening.","sample":"I usually get up at seven. I have breakfast and go to work. In the evening, I relax and read a book."},"reading":{"title":"A different schedule","text":"Lena works from home three days a week. On the other two days, she takes a train to the office. She usually starts work at eight thirty.","questions":[{"q":"How many days does Lena work from home?","options":["Three","Two","Five"],"answer":"Three"}]},"writing":{"prompt":"Write five sentences about your weekday routine.","checklist":["I used at/in/on correctly.","I put events in time order.","I used usually or sometimes."]},"quiz":[{"id":"w01d05q01","type":"choice","prompt":"Choose: I get up ___ 7 a.m.","options":["in","at","on"],"answer":"at","explanation":"具体时刻前使用at。"},{"id":"w01d05q02","type":"choice","prompt":"Choose: I work ___ weekdays.","options":["on","at","in"],"answer":"on","explanation":"Weekdays前常用on。"},{"id":"w01d05q03","type":"choice","prompt":"What does 'commute' mean?","options":["通勤","休息","预约"],"answer":"通勤","explanation":"Commute指往返工作地点的通勤。"}]},
-    {"day":6,"id":"w01d06","title":"Review: About Me","subtitle":"整合个人信息、职业、兴趣与日常表达","minutes":30,"grammar":["be动词与一般现在时综合","第三人称单数复习"],"vocabulary":[{"word":"describe","ipa":"/dɪˈskraɪb/","zh":"描述","example":"Can you describe your daily life?"},{"word":"similar","ipa":"/ˈsɪmələ/","zh":"相似的","example":"Our hobbies are similar."},{"word":"different","ipa":"/ˈdɪfrənt/","zh":"不同的","example":"We have different jobs."},{"word":"both","ipa":"/bəʊθ/","zh":"两者都","example":"We both enjoy travelling."},{"word":"because","ipa":"/bɪˈkɒz/","zh":"因为","example":"I study English because I like travelling."}],"listening":{"title":"Two new friends","transcript":"Hi, I'm Sam. I work in a hospital. I enjoy cycling and reading. This is my friend Lucy. She is a teacher, and she loves travelling. We both like learning about other cultures.","questions":[{"q":"Where does Sam work?","options":["In a hospital","In a school","In a hotel"],"answer":"In a hospital"}]},"speaking":{"prompt":"Give a 60–90 second introduction. Include personal details, work, hobbies and daily routine.","sample":"Hello, I'm ... I'm from ... I work as ... In my free time, I enjoy ... I usually ... I'm learning English because ..."},"reading":{"title":"Different lives, shared interests","text":"People can have different jobs and routines but still share interests. Some people enjoy sport, while others prefer music or reading. Talking about hobbies is a friendly way to start a conversation.","questions":[{"q":"Why are hobbies useful in a conversation?","options":["They help people start talking","They replace introductions","They are always the same"],"answer":"They help people start talking"}]},"writing":{"prompt":"Write a 70–90 word introduction about yourself.","checklist":["I included personal details.","I connected ideas with and/but/because.","I checked verb forms."]},"quiz":[{"id":"w01d06q01","type":"choice","prompt":"Choose: Lucy ___ travelling.","options":["love","loves","loving"],"answer":"loves","explanation":"第三人称单数使用loves。"},{"id":"w01d06q02","type":"choice","prompt":"Which word connects a reason?","options":["because","although","before"],"answer":"because","explanation":"Because用于引出原因。"},{"id":"w01d06q03","type":"choice","prompt":"Choose: We ___ like music.","options":["both","each","every"],"answer":"both","explanation":"We both表示我们两人都。"}]},
-    {"day":7,"id":"w01d07","title":"Weekly Challenge: Meet a New Friend","subtitle":"完成一段真实的初次见面交流","minutes":30,"grammar":["第一周综合语法复习"],"vocabulary":[{"word":"pleased","ipa":"/pliːzd/","zh":"高兴的","example":"Pleased to meet you."},{"word":"originally","ipa":"/əˈrɪdʒənəli/","zh":"原本；最初","example":"Where are you originally from?"},{"word":"abroad","ipa":"/əˈbrɔːd/","zh":"在国外","example":"I enjoy travelling abroad."},{"word":"conversation","ipa":"/ˌkɒnvəˈseɪʃən/","zh":"对话","example":"We had a nice conversation."},{"word":"perhaps","ipa":"/pəˈhæps/","zh":"也许","example":"Perhaps we can have coffee."}],"listening":{"title":"At a language exchange","transcript":"Hi! Is this your first time here? My name is Daniel. I'm from Ireland, but I live in Tokyo now. I work as an English teacher. What do you do?","questions":[{"q":"Where is Daniel from?","options":["Ireland","Japan","Canada"],"answer":"Ireland"},{"q":"Where does he live now?","options":["Tokyo","London","Dublin"],"answer":"Tokyo"}]},"speaking":{"prompt":"Role-play meeting an international friend. Ask their name, where they are from, what they do and what they enjoy.","sample":"Hi, I'm ... Nice to meet you. Where are you from? What do you do? What do you like doing in your free time?"},"reading":{"title":"A language exchange evening","text":"A language exchange is a friendly place to practise languages. People introduce themselves, talk about their interests and help each other learn. You do not need perfect English. Asking questions and listening carefully are more important.","questions":[{"q":"What is important at a language exchange?","options":["Perfect grammar only","Asking questions and listening","Speaking as fast as possible"],"answer":"Asking questions and listening"}]},"writing":{"prompt":"Write a short message to a new international friend. Introduce yourself and ask two questions.","checklist":["I greeted the person.","I introduced myself.","I asked two natural questions."]},"quiz":[{"id":"w01d07q01","type":"choice","prompt":"Choose a friendly greeting when meeting someone.","options":["Nice to meet you.","See you yesterday.","I am agree."],"answer":"Nice to meet you.","explanation":"Nice to meet you是初次见面的自然表达。"},{"id":"w01d07q02","type":"choice","prompt":"Choose the correct question about someone's job.","options":["What do you do?","What are you do?","How do you job?"],"answer":"What do you do?","explanation":"What do you do?是常用职业询问方式。"},{"id":"w01d07q03","type":"choice","prompt":"Choose the correct sentence.","options":["I enjoy travelling.","I enjoy travel.","I enjoying to travel."],"answer":"I enjoy travelling.","explanation":"Enjoy后使用动名词。"}]}
+    {
+      "day": 1,
+      "id": "w01d01",
+      "title": "Could You Introduce Yourself?",
+      "subtitle": "姓名、国家、职业与学习目标",
+      "minutes": 30,
+      "grammar": [
+        "be动词 am/is/are",
+        "一般现在时第一人称"
+      ],
+      "vocabulary": [
+        {
+          "word": "introduce",
+          "ipa": "/ˌɪntrəˈduːs/",
+          "zh": "介绍",
+          "example": "Let me introduce myself."
+        },
+        {
+          "word": "country",
+          "ipa": "/ˈkʌntri/",
+          "zh": "国家",
+          "example": "I am from China."
+        },
+        {
+          "word": "occupation",
+          "ipa": "/ˌɒkjʊˈpeɪʃən/",
+          "zh": "职业",
+          "example": "What is your occupation?"
+        },
+        {
+          "word": "hobby",
+          "ipa": "/ˈhɒbi/",
+          "zh": "爱好",
+          "example": "My hobby is fishing."
+        },
+        {
+          "word": "interested",
+          "ipa": "/ˈɪntrəstɪd/",
+          "zh": "感兴趣的",
+          "example": "I am interested in languages."
+        },
+        {
+          "word": "name",
+          "zh": "姓名"
+        },
+        {
+          "word": "nickname",
+          "zh": "昵称"
+        },
+        {
+          "word": "hometown",
+          "zh": "家乡"
+        },
+        {
+          "word": "neighbour",
+          "zh": "邻居"
+        },
+        {
+          "word": "parents",
+          "zh": "父母"
+        },
+        {
+          "word": "partner",
+          "zh": "伴侣"
+        },
+        {
+          "word": "cousin",
+          "zh": "堂表亲"
+        },
+        {
+          "word": "friend",
+          "zh": "朋友"
+        },
+        {
+          "word": "colleague",
+          "zh": "同事"
+        },
+        {
+          "word": "designer",
+          "zh": "设计师"
+        },
+        {
+          "word": "engineer",
+          "zh": "工程师"
+        },
+        {
+          "word": "project",
+          "zh": "项目"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "outdoors",
+          "zh": "户外"
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        }
+      ],
+      "listening": {
+        "title": "Meeting someone new",
+        "transcript": "Hi, I'm Alex. I'm from Canada, and I work as a designer. I enjoy travelling and learning languages. What about you?",
+        "questions": [
+          {
+            "q": "Where is Alex from?",
+            "options": [
+              "Canada",
+              "Australia",
+              "China"
+            ],
+            "answer": "Canada"
+          },
+          {
+            "q": "What does Alex do?",
+            "options": [
+              "A teacher",
+              "A designer",
+              "A programmer"
+            ],
+            "answer": "A designer"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s welcome session at the community centre. It begins at 10 fifteen in the Maple Room and lasts 25 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Leo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "09:15",
+                "10:45",
+                "10:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Green Room",
+                "Blue Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "35 minutes",
+                "25 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£4",
+              "options": [
+                "£4",
+                "£8",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "14",
+                "12",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "East",
+                "North",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Introduce yourself in 3–5 sentences. Include your country, job, hobbies and reason for learning English.",
+        "sample": "Hi, I'm from China. I work as a game programmer. I enjoy travelling and learning languages. I'm learning English because I want to communicate with people from different countries.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Could You Introduce Yourself?」的场景。用到 introduce，并给一个具体细节。",
+            "checklist": [
+              "与 Could You Introduce Yourself? 场景有关",
+              "使用 introduce",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Maple Room",
+              "费用是 £4"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "A short introduction",
+        "text": "Hello! My name is Emma. I am from the UK, but I live in Singapore. I work in a hotel. In my free time, I enjoy reading and swimming. I am learning Chinese because I want to talk to more people when I travel.",
+        "questions": [
+          {
+            "q": "Where does Emma live?",
+            "options": [
+              "The UK",
+              "Singapore",
+              "Canada"
+            ],
+            "answer": "Singapore"
+          },
+          {
+            "q": "Why is Emma learning Chinese?",
+            "options": [
+              "For her job",
+              "To talk to more people when travelling",
+              "To study history"
+            ],
+            "answer": "To talk to more people when travelling"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "12:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write 3–5 sentences to introduce yourself.",
+        "checklist": [
+          "I included where I am from.",
+          "I described my job or daily role.",
+          "I mentioned one hobby.",
+          "I explained why I am learning English."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Could You Introduce Yourself?」的英语消息，使用 introduce 并补充一个具体细节。",
+            "checklist": [
+              "使用 introduce",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 10:15",
+              "房间是 Maple Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Could You Introduce Yourself?」场景中的选择与理由，尽量运用本课语法（be动词 am/is/are；一般现在时第一人称）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d01q01",
+          "type": "choice",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I am from China.",
+            "I is from China.",
+            "I are from China."
+          ],
+          "answer": "I am from China.",
+          "explanation": "I搭配am。"
+        },
+        {
+          "id": "w01d01q02",
+          "type": "choice",
+          "prompt": "What does 'hobby' mean?",
+          "options": [
+            "职业",
+            "爱好",
+            "国家"
+          ],
+          "answer": "爱好",
+          "explanation": "Hobby表示业余爱好。"
+        },
+        {
+          "id": "w01d01q03",
+          "type": "choice",
+          "prompt": "Complete: She ___ a teacher.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "is",
+          "explanation": "She搭配is。"
+        },
+        {
+          "id": "w01d01q04",
+          "type": "choice",
+          "prompt": "Choose the natural expression.",
+          "options": [
+            "interested in music",
+            "interested on music",
+            "interesting in music"
+          ],
+          "answer": "interested in music",
+          "explanation": "固定搭配是be interested in。"
+        },
+        {
+          "id": "w01d01q05",
+          "type": "choice",
+          "prompt": "Which question asks about someone's country?",
+          "options": [
+            "Where are you from?",
+            "How old are you?",
+            "What do you do?"
+          ],
+          "answer": "Where are you from?",
+          "explanation": "Where are you from?用于询问来自哪里。"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "id": "w01d02",
+      "title": "Family and Friends",
+      "subtitle": "介绍家人、朋友与关系",
+      "minutes": 30,
+      "grammar": [
+        "形容词性物主代词 my/your/his/her",
+        "have/has"
+      ],
+      "vocabulary": [
+        {
+          "word": "relative",
+          "ipa": "/ˈrelətɪv/",
+          "zh": "亲戚",
+          "example": "I have many relatives."
+        },
+        {
+          "word": "parents",
+          "ipa": "/ˈpeərənts/",
+          "zh": "父母",
+          "example": "My parents live in China."
+        },
+        {
+          "word": "married",
+          "ipa": "/ˈmærid/",
+          "zh": "已婚的",
+          "example": "My sister is married."
+        },
+        {
+          "word": "friendly",
+          "ipa": "/ˈfrendli/",
+          "zh": "友好的",
+          "example": "My friends are friendly."
+        },
+        {
+          "word": "colleague",
+          "ipa": "/ˈkɒliːɡ/",
+          "zh": "同事",
+          "example": "He is my colleague."
+        },
+        {
+          "word": "hometown",
+          "zh": "家乡"
+        },
+        {
+          "word": "country",
+          "zh": "国家"
+        },
+        {
+          "word": "neighbour",
+          "zh": "邻居"
+        },
+        {
+          "word": "partner",
+          "zh": "伴侣"
+        },
+        {
+          "word": "cousin",
+          "zh": "堂表亲"
+        },
+        {
+          "word": "friend",
+          "zh": "朋友"
+        },
+        {
+          "word": "occupation",
+          "zh": "职业"
+        },
+        {
+          "word": "designer",
+          "zh": "设计师"
+        },
+        {
+          "word": "engineer",
+          "zh": "工程师"
+        },
+        {
+          "word": "project",
+          "zh": "项目"
+        },
+        {
+          "word": "hobby",
+          "zh": "爱好"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "outdoors",
+          "zh": "户外"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        }
+      ],
+      "listening": {
+        "title": "Talking about family",
+        "transcript": "I have a small family. My parents live near me. I have one younger brother. He is a student, and he is very friendly.",
+        "questions": [
+          {
+            "q": "How many brothers does the speaker have?",
+            "options": [
+              "One",
+              "Two",
+              "None"
+            ],
+            "answer": "One"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s welcome session at the community centre. It begins at 11 fifteen in the Blue Room and lasts 35 minutes. Admission costs 6 pounds and there are 14 places. Please come in through the south entrance and ask for Nina. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Tuesday",
+                "Thursday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "11:45",
+                "11:15",
+                "10:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Green Room",
+                "Garden Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "55 minutes",
+                "45 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£6",
+              "options": [
+                "£10",
+                "£8",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "16",
+                "14",
+                "18"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Maya",
+                "Nina",
+                "Leo"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Describe two people in your family or among your friends.",
+        "sample": "I have a small family. My brother is younger than me. He is friendly and enjoys football.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Family and Friends」的场景。用到 relative，并给一个具体细节。",
+            "checklist": [
+              "与 Family and Friends 场景有关",
+              "使用 relative",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Blue Room",
+              "费用是 £6"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "My best friend",
+        "text": "My best friend is Daniel. He is my colleague. We work in the same office. He is patient and friendly. At weekends, we sometimes go hiking together.",
+        "questions": [
+          {
+            "q": "Where do Daniel and the writer work?",
+            "options": [
+              "In the same office",
+              "At a school",
+              "In a hotel"
+            ],
+            "answer": "In the same office"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 14:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "14:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write four sentences about a family member or friend.",
+        "checklist": [
+          "I used my/his/her correctly.",
+          "I used have or has correctly.",
+          "I included one personality adjective."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Family and Friends」的英语消息，使用 relative 并补充一个具体细节。",
+            "checklist": [
+              "使用 relative",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 11:15",
+              "房间是 Blue Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Family and Friends」场景中的选择与理由，尽量运用本课语法（形容词性物主代词 my/your/his/her；have/has）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d02q01",
+          "type": "choice",
+          "prompt": "Complete: ___ name is Anna.",
+          "options": [
+            "Her",
+            "She",
+            "Hers"
+          ],
+          "answer": "Her",
+          "explanation": "名词前使用形容词性物主代词her。"
+        },
+        {
+          "id": "w01d02q02",
+          "type": "choice",
+          "prompt": "Complete: He ___ two sisters.",
+          "options": [
+            "have",
+            "has",
+            "is have"
+          ],
+          "answer": "has",
+          "explanation": "第三人称单数使用has。"
+        },
+        {
+          "id": "w01d02q03",
+          "type": "choice",
+          "prompt": "What is a colleague?",
+          "options": [
+            "同事",
+            "邻居",
+            "亲戚"
+          ],
+          "answer": "同事",
+          "explanation": "Colleague表示同事。"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "id": "w01d03",
+      "title": "Jobs and Daily Roles",
+      "subtitle": "谈论职业、工作内容与日常职责",
+      "minutes": 30,
+      "grammar": [
+        "一般现在时第三人称单数",
+        "What do you do?"
+      ],
+      "vocabulary": [
+        {
+          "word": "programmer",
+          "ipa": "/ˈprəʊɡræmə/",
+          "zh": "程序员",
+          "example": "I am a game programmer."
+        },
+        {
+          "word": "designer",
+          "ipa": "/dɪˈzaɪnə/",
+          "zh": "设计师",
+          "example": "She is a designer."
+        },
+        {
+          "word": "engineer",
+          "ipa": "/ˌendʒɪˈnɪə/",
+          "zh": "工程师",
+          "example": "He works as an engineer."
+        },
+        {
+          "word": "manage",
+          "ipa": "/ˈmænɪdʒ/",
+          "zh": "管理",
+          "example": "I manage a small team."
+        },
+        {
+          "word": "project",
+          "ipa": "/ˈprɒdʒekt/",
+          "zh": "项目",
+          "example": "We are working on a new project."
+        },
+        {
+          "word": "parents",
+          "zh": "父母"
+        },
+        {
+          "word": "partner",
+          "zh": "伴侣"
+        },
+        {
+          "word": "cousin",
+          "zh": "堂表亲"
+        },
+        {
+          "word": "friend",
+          "zh": "朋友"
+        },
+        {
+          "word": "colleague",
+          "zh": "同事"
+        },
+        {
+          "word": "occupation",
+          "zh": "职业"
+        },
+        {
+          "word": "hobby",
+          "zh": "爱好"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "outdoors",
+          "zh": "户外"
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        },
+        {
+          "word": "usually",
+          "zh": "通常"
+        },
+        {
+          "word": "both",
+          "zh": "两者都"
+        },
+        {
+          "word": "because",
+          "zh": "因为"
+        }
+      ],
+      "listening": {
+        "title": "What do you do?",
+        "transcript": "I'm a software engineer. I work for a small company. I write code, fix problems and work with designers. I enjoy my job because I like solving problems.",
+        "questions": [
+          {
+            "q": "What is the speaker's job?",
+            "options": [
+              "Software engineer",
+              "Designer",
+              "Teacher"
+            ],
+            "answer": "Software engineer"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s welcome session at the community centre. It begins at 12 fifteen in the Green Room and lasts 45 minutes. Admission costs 8 pounds and there are 16 places. Please come in through the west entrance and ask for Omar. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Thursday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "11:15",
+                "12:45",
+                "12:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "Green Room",
+                "River Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "55 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£8",
+              "options": [
+                "£12",
+                "£8",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "18",
+                "16",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "North",
+                "East",
+                "West"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Omar",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Explain what you do at work or what you study. Give two examples of daily tasks.",
+        "sample": "I work as a game programmer. I write code and solve technical problems. I also work with artists and designers.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Jobs and Daily Roles」的场景。用到 programmer，并给一个具体细节。",
+            "checklist": [
+              "与 Jobs and Daily Roles 场景有关",
+              "使用 programmer",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Green Room",
+              "费用是 £8"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "A busy day at work",
+        "text": "Mia is a project manager. She plans tasks, talks to clients and helps her team. She starts work at nine and usually finishes at six.",
+        "questions": [
+          {
+            "q": "What does Mia do?",
+            "options": [
+              "Project manager",
+              "Doctor",
+              "Student"
+            ],
+            "answer": "Project manager"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 16:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "17:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write 4–5 sentences about your job, studies or daily role.",
+        "checklist": [
+          "I used the present simple.",
+          "I described at least two tasks.",
+          "I used because to explain an opinion."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Jobs and Daily Roles」的英语消息，使用 programmer 并补充一个具体细节。",
+            "checklist": [
+              "使用 programmer",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 12:15",
+              "房间是 Green Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Jobs and Daily Roles」场景中的选择与理由，尽量运用本课语法（一般现在时第三人称单数；What do you do?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d03q01",
+          "type": "choice",
+          "prompt": "Complete: She ___ code every day.",
+          "options": [
+            "write",
+            "writes",
+            "writing"
+          ],
+          "answer": "writes",
+          "explanation": "一般现在时第三人称单数，动词通常加-s。"
+        },
+        {
+          "id": "w01d03q02",
+          "type": "choice",
+          "prompt": "Which question asks about a job?",
+          "options": [
+            "What do you do?",
+            "Where are you?",
+            "Who are you with?"
+          ],
+          "answer": "What do you do?",
+          "explanation": "这是询问职业的常见表达。"
+        },
+        {
+          "id": "w01d03q03",
+          "type": "choice",
+          "prompt": "What does 'project' mean?",
+          "options": [
+            "项目",
+            "会议",
+            "同事"
+          ],
+          "answer": "项目",
+          "explanation": "Project表示项目。"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "id": "w01d04",
+      "title": "Hobbies and Interests",
+      "subtitle": "谈论兴趣、频率与喜欢的活动",
+      "minutes": 30,
+      "grammar": [
+        "like/love/enjoy + 名词或动名词",
+        "频率副词 usually/sometimes/never"
+      ],
+      "vocabulary": [
+        {
+          "word": "outdoors",
+          "ipa": "/ˌaʊtˈdɔːz/",
+          "zh": "户外",
+          "example": "I enjoy spending time outdoors."
+        },
+        {
+          "word": "activity",
+          "ipa": "/ækˈtɪvəti/",
+          "zh": "活动",
+          "example": "Fishing is a relaxing activity."
+        },
+        {
+          "word": "collect",
+          "ipa": "/kəˈlekt/",
+          "zh": "收集",
+          "example": "I collect old books."
+        },
+        {
+          "word": "relaxing",
+          "ipa": "/rɪˈlæksɪŋ/",
+          "zh": "令人放松的",
+          "example": "Music is relaxing."
+        },
+        {
+          "word": "prefer",
+          "ipa": "/prɪˈfɜː/",
+          "zh": "更喜欢",
+          "example": "I prefer travelling by train."
+        },
+        {
+          "word": "friend",
+          "zh": "朋友"
+        },
+        {
+          "word": "colleague",
+          "zh": "同事"
+        },
+        {
+          "word": "occupation",
+          "zh": "职业"
+        },
+        {
+          "word": "designer",
+          "zh": "设计师"
+        },
+        {
+          "word": "engineer",
+          "zh": "工程师"
+        },
+        {
+          "word": "project",
+          "zh": "项目"
+        },
+        {
+          "word": "hobby",
+          "zh": "爱好"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        },
+        {
+          "word": "usually",
+          "zh": "通常"
+        },
+        {
+          "word": "both",
+          "zh": "两者都"
+        },
+        {
+          "word": "because",
+          "zh": "因为"
+        },
+        {
+          "word": "name",
+          "zh": "姓名"
+        }
+      ],
+      "listening": {
+        "title": "Free-time activities",
+        "transcript": "In my free time, I usually listen to music. I sometimes go fishing with my friends. I prefer outdoor activities because they help me relax.",
+        "questions": [
+          {
+            "q": "What does the speaker usually do?",
+            "options": [
+              "Listen to music",
+              "Watch films",
+              "Cook"
+            ],
+            "answer": "Listen to music"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s welcome session at the community centre. It begins at 13 fifteen in the Garden Room and lasts 55 minutes. Admission costs 10 pounds and there are 18 places. Please come in through the north entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Saturday",
+                "Thursday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "12:15",
+                "13:45",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "Garden Room",
+                "River Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "75 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£12",
+                "£10",
+                "£14"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "20",
+                "18",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Sofia",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Talk about two hobbies. Say how often you do them and why you enjoy them.",
+        "sample": "I enjoy fishing because it helps me relax. I sometimes go fishing at weekends. I also like listening to music.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Hobbies and Interests」的场景。用到 outdoors，并给一个具体细节。",
+            "checklist": [
+              "与 Hobbies and Interests 场景有关",
+              "使用 outdoors",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Garden Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "A new hobby",
+        "text": "Tom recently started taking photos. He usually takes pictures when he travels. He prefers nature because he enjoys being outdoors.",
+        "questions": [
+          {
+            "q": "What does Tom prefer to photograph?",
+            "options": [
+              "Nature",
+              "Cars",
+              "Food"
+            ],
+            "answer": "Nature"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "11:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write a short paragraph about your hobbies.",
+        "checklist": [
+          "I named two activities.",
+          "I used a frequency adverb.",
+          "I explained why I enjoy them."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Hobbies and Interests」的英语消息，使用 outdoors 并补充一个具体细节。",
+            "checklist": [
+              "使用 outdoors",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 13:15",
+              "房间是 Garden Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Hobbies and Interests」场景中的选择与理由，尽量运用本课语法（like/love/enjoy + 名词或动名词；频率副词 usually/sometimes/never）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d04q01",
+          "type": "choice",
+          "prompt": "Choose the correct form: I enjoy ___.",
+          "options": [
+            "swim",
+            "swimming",
+            "to swimming"
+          ],
+          "answer": "swimming",
+          "explanation": "Enjoy后面通常接动名词。"
+        },
+        {
+          "id": "w01d04q02",
+          "type": "choice",
+          "prompt": "Which word means 更喜欢?",
+          "options": [
+            "prefer",
+            "collect",
+            "relax"
+          ],
+          "answer": "prefer",
+          "explanation": "Prefer表示更喜欢。"
+        },
+        {
+          "id": "w01d04q03",
+          "type": "choice",
+          "prompt": "Which adverb means 有时?",
+          "options": [
+            "never",
+            "sometimes",
+            "always"
+          ],
+          "answer": "sometimes",
+          "explanation": "Sometimes表示有时。"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "id": "w01d05",
+      "title": "A Typical Day",
+      "subtitle": "描述作息、时间和日常习惯",
+      "minutes": 30,
+      "grammar": [
+        "一般现在时综合",
+        "时间介词 at/in/on"
+      ],
+      "vocabulary": [
+        {
+          "word": "routine",
+          "ipa": "/ruːˈtiːn/",
+          "zh": "日常惯例",
+          "example": "My morning routine is simple."
+        },
+        {
+          "word": "commute",
+          "ipa": "/kəˈmjuːt/",
+          "zh": "通勤",
+          "example": "I commute by bus."
+        },
+        {
+          "word": "usually",
+          "ipa": "/ˈjuːʒuəli/",
+          "zh": "通常",
+          "example": "I usually get up at seven."
+        },
+        {
+          "word": "appointment",
+          "ipa": "/əˈpɔɪntmənt/",
+          "zh": "预约；约会",
+          "example": "I have an appointment at three."
+        },
+        {
+          "word": "weekday",
+          "ipa": "/ˈwiːkdeɪ/",
+          "zh": "工作日",
+          "example": "I work on weekdays."
+        },
+        {
+          "word": "designer",
+          "zh": "设计师"
+        },
+        {
+          "word": "engineer",
+          "zh": "工程师"
+        },
+        {
+          "word": "project",
+          "zh": "项目"
+        },
+        {
+          "word": "hobby",
+          "zh": "爱好"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "outdoors",
+          "zh": "户外"
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        },
+        {
+          "word": "both",
+          "zh": "两者都"
+        },
+        {
+          "word": "because",
+          "zh": "因为"
+        },
+        {
+          "word": "name",
+          "zh": "姓名"
+        },
+        {
+          "word": "nickname",
+          "zh": "昵称"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "hometown",
+          "zh": "家乡"
+        }
+      ],
+      "listening": {
+        "title": "My weekday",
+        "transcript": "I usually get up at seven. I have breakfast at half past seven and leave home at eight. I take the bus to work. In the evening, I cook dinner and read for a while.",
+        "questions": [
+          {
+            "q": "How does the speaker go to work?",
+            "options": [
+              "By bus",
+              "By car",
+              "On foot"
+            ],
+            "answer": "By bus"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s welcome session at the community centre. It begins at 14 fifteen in the River Room and lasts 25 minutes. Admission costs 12 pounds and there are 20 places. Please come in through the east entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Saturday",
+                "Sunday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:15",
+                "13:15",
+                "14:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "Oak Room",
+                "Hill Room",
+                "River Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "35 minutes",
+                "25 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£12",
+                "£14",
+                "£16"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "22",
+                "24",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Eli",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Describe a normal weekday from morning to evening.",
+        "sample": "I usually get up at seven. I have breakfast and go to work. In the evening, I relax and read a book.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「A Typical Day」的场景。用到 routine，并给一个具体细节。",
+            "checklist": [
+              "与 A Typical Day 场景有关",
+              "使用 routine",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 River Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "A different schedule",
+        "text": "Lena works from home three days a week. On the other two days, she takes a train to the office. She usually starts work at eight thirty.",
+        "questions": [
+          {
+            "q": "How many days does Lena work from home?",
+            "options": [
+              "Three",
+              "Two",
+              "Five"
+            ],
+            "answer": "Three"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 14:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "13:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write five sentences about your weekday routine.",
+        "checklist": [
+          "I used at/in/on correctly.",
+          "I put events in time order.",
+          "I used usually or sometimes."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「A Typical Day」的英语消息，使用 routine 并补充一个具体细节。",
+            "checklist": [
+              "使用 routine",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 14:15",
+              "房间是 River Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「A Typical Day」场景中的选择与理由，尽量运用本课语法（一般现在时综合；时间介词 at/in/on）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d05q01",
+          "type": "choice",
+          "prompt": "Choose: I get up ___ 7 a.m.",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "answer": "at",
+          "explanation": "具体时刻前使用at。"
+        },
+        {
+          "id": "w01d05q02",
+          "type": "choice",
+          "prompt": "Choose: I work ___ weekdays.",
+          "options": [
+            "on",
+            "at",
+            "in"
+          ],
+          "answer": "on",
+          "explanation": "Weekdays前常用on。"
+        },
+        {
+          "id": "w01d05q03",
+          "type": "choice",
+          "prompt": "What does 'commute' mean?",
+          "options": [
+            "通勤",
+            "休息",
+            "预约"
+          ],
+          "answer": "通勤",
+          "explanation": "Commute指往返工作地点的通勤。"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "id": "w01d06",
+      "title": "Review: About Me",
+      "subtitle": "整合个人信息、职业、兴趣与日常表达",
+      "minutes": 30,
+      "grammar": [
+        "be动词与一般现在时综合",
+        "第三人称单数复习"
+      ],
+      "vocabulary": [
+        {
+          "word": "describe",
+          "ipa": "/dɪˈskraɪb/",
+          "zh": "描述",
+          "example": "Can you describe your daily life?"
+        },
+        {
+          "word": "similar",
+          "ipa": "/ˈsɪmələ/",
+          "zh": "相似的",
+          "example": "Our hobbies are similar."
+        },
+        {
+          "word": "different",
+          "ipa": "/ˈdɪfrənt/",
+          "zh": "不同的",
+          "example": "We have different jobs."
+        },
+        {
+          "word": "both",
+          "ipa": "/bəʊθ/",
+          "zh": "两者都",
+          "example": "We both enjoy travelling."
+        },
+        {
+          "word": "because",
+          "ipa": "/bɪˈkɒz/",
+          "zh": "因为",
+          "example": "I study English because I like travelling."
+        },
+        {
+          "word": "hobby",
+          "zh": "爱好"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "outdoors",
+          "zh": "户外"
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        },
+        {
+          "word": "usually",
+          "zh": "通常"
+        },
+        {
+          "word": "name",
+          "zh": "姓名"
+        },
+        {
+          "word": "nickname",
+          "zh": "昵称"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "hometown",
+          "zh": "家乡"
+        },
+        {
+          "word": "country",
+          "zh": "国家"
+        },
+        {
+          "word": "neighbour",
+          "zh": "邻居"
+        },
+        {
+          "word": "parents",
+          "zh": "父母"
+        },
+        {
+          "word": "partner",
+          "zh": "伴侣"
+        }
+      ],
+      "listening": {
+        "title": "Two new friends",
+        "transcript": "Hi, I'm Sam. I work in a hospital. I enjoy cycling and reading. This is my friend Lucy. She is a teacher, and she loves travelling. We both like learning about other cultures.",
+        "questions": [
+          {
+            "q": "Where does Sam work?",
+            "options": [
+              "In a hospital",
+              "In a school",
+              "In a hotel"
+            ],
+            "answer": "In a hospital"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s welcome session at the community centre. It begins at 15 fifteen in the Hill Room and lasts 35 minutes. Admission costs 3 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "14:15",
+                "15:15",
+                "15:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Oak Room",
+                "Hill Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "55 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£7",
+                "£5",
+                "£3"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "24",
+                "22",
+                "26"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Leo",
+                "Maya",
+                "Jo"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Give a 60–90 second introduction. Include personal details, work, hobbies and daily routine.",
+        "sample": "Hello, I'm ... I'm from ... I work as ... In my free time, I enjoy ... I usually ... I'm learning English because ...",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Review: About Me」的场景。用到 describe，并给一个具体细节。",
+            "checklist": [
+              "与 Review: About Me 场景有关",
+              "使用 describe",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Hill Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "Different lives, shared interests",
+        "text": "People can have different jobs and routines but still share interests. Some people enjoy sport, while others prefer music or reading. Talking about hobbies is a friendly way to start a conversation.",
+        "questions": [
+          {
+            "q": "Why are hobbies useful in a conversation?",
+            "options": [
+              "They help people start talking",
+              "They replace introductions",
+              "They are always the same"
+            ],
+            "answer": "They help people start talking"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 16:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "16:00",
+                "15:00",
+                "17:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write a 70–90 word introduction about yourself.",
+        "checklist": [
+          "I included personal details.",
+          "I connected ideas with and/but/because.",
+          "I checked verb forms."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Review: About Me」的英语消息，使用 describe 并补充一个具体细节。",
+            "checklist": [
+              "使用 describe",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 15:15",
+              "房间是 Hill Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Review: About Me」场景中的选择与理由，尽量运用本课语法（be动词与一般现在时综合；第三人称单数复习）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d06q01",
+          "type": "choice",
+          "prompt": "Choose: Lucy ___ travelling.",
+          "options": [
+            "love",
+            "loves",
+            "loving"
+          ],
+          "answer": "loves",
+          "explanation": "第三人称单数使用loves。"
+        },
+        {
+          "id": "w01d06q02",
+          "type": "choice",
+          "prompt": "Which word connects a reason?",
+          "options": [
+            "because",
+            "although",
+            "before"
+          ],
+          "answer": "because",
+          "explanation": "Because用于引出原因。"
+        },
+        {
+          "id": "w01d06q03",
+          "type": "choice",
+          "prompt": "Choose: We ___ like music.",
+          "options": [
+            "both",
+            "each",
+            "every"
+          ],
+          "answer": "both",
+          "explanation": "We both表示我们两人都。"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "id": "w01d07",
+      "title": "Weekly Challenge: Meet a New Friend",
+      "subtitle": "完成一段真实的初次见面交流",
+      "minutes": 30,
+      "grammar": [
+        "第一周综合语法复习"
+      ],
+      "vocabulary": [
+        {
+          "word": "pleased",
+          "ipa": "/pliːzd/",
+          "zh": "高兴的",
+          "example": "Pleased to meet you."
+        },
+        {
+          "word": "originally",
+          "ipa": "/əˈrɪdʒənəli/",
+          "zh": "原本；最初",
+          "example": "Where are you originally from?"
+        },
+        {
+          "word": "abroad",
+          "ipa": "/əˈbrɔːd/",
+          "zh": "在国外",
+          "example": "I enjoy travelling abroad."
+        },
+        {
+          "word": "conversation",
+          "ipa": "/ˌkɒnvəˈseɪʃən/",
+          "zh": "对话",
+          "example": "We had a nice conversation."
+        },
+        {
+          "word": "perhaps",
+          "ipa": "/pəˈhæps/",
+          "zh": "也许",
+          "example": "Perhaps we can have coffee."
+        },
+        {
+          "word": "friendly",
+          "zh": "友好的"
+        },
+        {
+          "word": "patient",
+          "zh": "耐心的"
+        },
+        {
+          "word": "personal",
+          "zh": "个人的"
+        },
+        {
+          "word": "usually",
+          "zh": "通常"
+        },
+        {
+          "word": "both",
+          "zh": "两者都"
+        },
+        {
+          "word": "because",
+          "zh": "因为"
+        },
+        {
+          "word": "name",
+          "zh": "姓名"
+        },
+        {
+          "word": "nickname",
+          "zh": "昵称"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "hometown",
+          "zh": "家乡"
+        },
+        {
+          "word": "country",
+          "zh": "国家"
+        },
+        {
+          "word": "neighbour",
+          "zh": "邻居"
+        },
+        {
+          "word": "parents",
+          "zh": "父母"
+        },
+        {
+          "word": "partner",
+          "zh": "伴侣"
+        },
+        {
+          "word": "cousin",
+          "zh": "堂表亲"
+        }
+      ],
+      "listening": {
+        "title": "At a language exchange",
+        "transcript": "Hi! Is this your first time here? My name is Daniel. I'm from Ireland, but I live in Tokyo now. I work as an English teacher. What do you do?",
+        "questions": [
+          {
+            "q": "Where is Daniel from?",
+            "options": [
+              "Ireland",
+              "Japan",
+              "Canada"
+            ],
+            "answer": "Ireland"
+          },
+          {
+            "q": "Where does he live now?",
+            "options": [
+              "Tokyo",
+              "London",
+              "Dublin"
+            ],
+            "answer": "Tokyo"
+          }
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s welcome session at the community centre. It begins at 16 fifteen in the Oak Room and lasts 45 minutes. Admission costs 5 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Tuesday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "16:15",
+                "16:45",
+                "15:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Blue Room",
+                "Maple Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£5",
+              "options": [
+                "£5",
+                "£9",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "28",
+                "26",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "East",
+                "North",
+                "West"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            }
+          ]
+        }
+      },
+      "speaking": {
+        "prompt": "Role-play meeting an international friend. Ask their name, where they are from, what they do and what they enjoy.",
+        "sample": "Hi, I'm ... Nice to meet you. Where are you from? What do you do? What do you like doing in your free time?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Meet a New Friend」的场景。用到 pleased，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Meet a New Friend 场景有关",
+              "使用 pleased",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 community centre 的 welcome session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Oak Room",
+              "费用是 £5"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 welcome session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
+      },
+      "reading": {
+        "title": "A language exchange evening",
+        "text": "A language exchange is a friendly place to practise languages. People introduce themselves, talk about their interests and help each other learn. You do not need perfect English. Asking questions and listening carefully are more important.",
+        "questions": [
+          {
+            "q": "What is important at a language exchange?",
+            "options": [
+              "Perfect grammar only",
+              "Asking questions and listening",
+              "Speaking as fast as possible"
+            ],
+            "answer": "Asking questions and listening"
+          }
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Welcome session booking notice. Book online before 12:00. Collect your ticket at the community centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "11:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the exit",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
+      },
+      "writing": {
+        "prompt": "Write a short message to a new international friend. Introduce yourself and ask two questions.",
+        "checklist": [
+          "I greeted the person.",
+          "I introduced myself.",
+          "I asked two natural questions."
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Meet a New Friend」的英语消息，使用 pleased 并补充一个具体细节。",
+            "checklist": [
+              "使用 pleased",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 welcome session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 16:15",
+              "房间是 Oak Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Meet a New Friend」场景中的选择与理由，尽量运用本课语法（第一周综合语法复习）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
+        ]
+      },
+      "quiz": [
+        {
+          "id": "w01d07q01",
+          "type": "choice",
+          "prompt": "Choose a friendly greeting when meeting someone.",
+          "options": [
+            "Nice to meet you.",
+            "See you yesterday.",
+            "I am agree."
+          ],
+          "answer": "Nice to meet you.",
+          "explanation": "Nice to meet you是初次见面的自然表达。"
+        },
+        {
+          "id": "w01d07q02",
+          "type": "choice",
+          "prompt": "Choose the correct question about someone's job.",
+          "options": [
+            "What do you do?",
+            "What are you do?",
+            "How do you job?"
+          ],
+          "answer": "What do you do?",
+          "explanation": "What do you do?是常用职业询问方式。"
+        },
+        {
+          "id": "w01d07q03",
+          "type": "choice",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I enjoy travelling.",
+            "I enjoy travel.",
+            "I enjoying to travel."
+          ],
+          "answer": "I enjoy travelling.",
+          "explanation": "Enjoy后使用动名词。"
+        }
+      ]
+    }
   ]
 }

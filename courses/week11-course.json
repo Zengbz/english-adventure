@@ -37,6 +37,74 @@
           "ipa": "/ɔːlˈredi/",
           "zh": "已经",
           "example": "The train had already left."
+        },
+        {
+          "word": "story",
+          "zh": "故事"
+        },
+        {
+          "word": "scene",
+          "zh": "场景"
+        },
+        {
+          "word": "background",
+          "zh": "背景"
+        },
+        {
+          "word": "event",
+          "zh": "事件"
+        },
+        {
+          "word": "mistake",
+          "zh": "错误"
+        },
+        {
+          "word": "realise",
+          "zh": "意识到"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "cabin",
+          "zh": "包厢"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "however",
+          "zh": "然而"
+        },
+        {
+          "word": "obstacle",
+          "zh": "障碍"
+        },
+        {
+          "word": "report",
+          "zh": "转述"
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "Eating outside"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s storytelling session at the local theatre. It begins at 12 fifteen in the Garden Room and lasts 25 minutes. Admission costs 3 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Wednesday",
+                "Monday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:45",
+                "12:15",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "River Room",
+                "Garden Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "25 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£5",
+                "£3",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "16",
+                "20",
+                "18"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Sofia",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用背景、打断事件和结果讲一段一分钟的小故事。",
-        "sample": "We were eating outside when the lights went out. The owner brought candles, so we stayed."
+        "sample": "We were eating outside when the lights went out. The owner brought candles, so we stayed.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Set the Scene」的场景。用到 suddenly，并给一个具体细节。",
+            "checklist": [
+              "与 Set the Scene 场景有关",
+              "使用 suddenly",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Garden Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "交代背景与打断事件",
@@ -71,7 +258,49 @@
             ],
             "answer": "Near the station"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "12:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词讲一件突发小事，写清当时在做什么。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（过去进行时表示背景；when + 一般过去时引出事件）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Set the Scene」的英语消息，使用 suddenly 并补充一个具体细节。",
+            "checklist": [
+              "使用 suddenly",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 12:15",
+              "房间是 Garden Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Set the Scene」场景中的选择与理由，尽量运用本课语法（过去进行时表示背景；when + 一般过去时引出事件）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/ɪkˈspɪəriəns/",
           "zh": "经历",
           "example": "It was my first experience of travelling alone."
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "event",
+          "zh": "事件"
+        },
+        {
+          "word": "mistake",
+          "zh": "错误"
+        },
+        {
+          "word": "realise",
+          "zh": "意识到"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "cabin",
+          "zh": "包厢"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "however",
+          "zh": "然而"
+        },
+        {
+          "word": "obstacle",
+          "zh": "障碍"
+        },
+        {
+          "word": "report",
+          "zh": "转述"
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "The speaker’s sister"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s storytelling session at the local theatre. It begins at 13 fifteen in the River Room and lasts 35 minutes. Admission costs 5 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Wednesday",
+                "Tuesday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "13:45",
+                "12:15",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "River Room",
+                "Hill Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "45 minutes",
+                "35 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£5",
+              "options": [
+                "£5",
+                "£9",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "22",
+                "18",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "South",
+                "East",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Leo",
+                "Eli",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "讲清同一时间两个人在做的不同事情，然后交代发生了什么。",
-        "sample": "While I was checking the times, my sister was calling the hotel. Then the driver called us."
+        "sample": "While I was checking the times, my sister was calling the hotel. Then the driver called us.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「While We Were Waiting」的场景。用到 meanwhile，并给一个具体细节。",
+            "checklist": [
+              "与 While We Were Waiting 场景有关",
+              "使用 meanwhile",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 River Room",
+              "费用是 £5"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "描述同时进行的事",
@@ -169,7 +617,49 @@
             ],
             "answer": "The controls"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 14:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "14:00",
+                "13:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词，用两个角色的不同动作讲一次共同解决问题的经历。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（while 可连接同时进行的过去动作）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「While We Were Waiting」的英语消息，使用 meanwhile 并补充一个具体细节。",
+            "checklist": [
+              "使用 meanwhile",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 13:15",
+              "房间是 River Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「While We Were Waiting」场景中的选择与理由，尽量运用本课语法（while 可连接同时进行的过去动作）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/ˈsʌdənli/",
           "zh": "突然",
           "example": "Suddenly, the lights went out."
+        },
+        {
+          "word": "event",
+          "zh": "事件"
+        },
+        {
+          "word": "mistake",
+          "zh": "错误"
+        },
+        {
+          "word": "realise",
+          "zh": "意识到"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "cabin",
+          "zh": "包厢"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "however",
+          "zh": "然而"
+        },
+        {
+          "word": "obstacle",
+          "zh": "障碍"
+        },
+        {
+          "word": "report",
+          "zh": "转述"
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "Yesterday’s timetable"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s storytelling session at the local theatre. It begins at 14 fifteen in the Hill Room and lasts 45 minutes. Admission costs 7 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Thursday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:45",
+                "14:15",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£7",
+              "options": [
+                "£11",
+                "£9",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "24",
+                "22",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "South",
+                "East",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Maya",
+                "Leo",
+                "Jo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "先说你发现了什么，再回溯之前发生的事，让听者明白因果。",
-        "sample": "When I arrived, the train had already left. I’d read the wrong timetable."
+        "sample": "When I arrived, the train had already left. I’d read the wrong timetable.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「What Happened Before That?」的场景。用到 already，并给一个具体细节。",
+            "checklist": [
+              "与 What Happened Before That? 场景有关",
+              "使用 already",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Hill Room",
+              "费用是 £7"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "回溯先发生的过去事件",
@@ -267,7 +976,49 @@
             ],
             "answer": "The neighbour"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 16:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "17:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 95–115 词讲一次因早先疏忽造成的意外，写清两个事件的先后。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（had + 过去分词表示过去某个时点之前的事）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「What Happened Before That?」的英语消息，使用 already 并补充一个具体细节。",
+            "checklist": [
+              "使用 already",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 14:15",
+              "房间是 Hill Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「What Happened Before That?」场景中的选择与理由，尽量运用本课语法（had + 过去分词表示过去某个时点之前的事）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/ˈmiːnwaɪl/",
           "zh": "与此同时",
           "example": "Meanwhile, Jo was looking for help."
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "cabin",
+          "zh": "包厢"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "however",
+          "zh": "然而"
+        },
+        {
+          "word": "obstacle",
+          "zh": "障碍"
+        },
+        {
+          "word": "report",
+          "zh": "转述"
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
+        },
+        {
+          "word": "sequence",
+          "zh": "顺序"
+        },
+        {
+          "word": "story",
+          "zh": "故事"
+        },
+        {
+          "word": "scene",
+          "zh": "场景"
+        },
+        {
+          "word": "background",
+          "zh": "背景"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "About five hours"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s storytelling session at the local theatre. It begins at 15 fifteen in the Oak Room and lasts 55 minutes. Admission costs 9 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Friday",
+                "Saturday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "15:45",
+                "15:15",
+                "14:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Oak Room",
+                "Maple Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "75 minutes",
+                "55 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£9",
+              "options": [
+                "£13",
+                "£9",
+                "£11"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "26",
+                "22",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "South",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Nina",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "先问对方有没有坐过夜车，再追问时间、目的地和印象。",
-        "sample": "Have you ever taken a night train? Where did you go, and what was it like?"
+        "sample": "Have you ever taken a night train? Where did you go, and what was it like?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Ask Me About the Trip」的场景。用到 experience，并给一个具体细节。",
+            "checklist": [
+              "与 Ask Me About the Trip 场景有关",
+              "使用 experience",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Oak Room",
+              "费用是 £9"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "在经历与具体时间之间切换",
@@ -365,7 +1335,49 @@
             ],
             "answer": "Old maps"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "13:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一段 8–10 行采访，区分泛指的体验和有明确时间的旅行细节。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（现在完成时问体验；一般过去时追问细节）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Ask Me About the Trip」的英语消息，使用 experience 并补充一个具体细节。",
+            "checklist": [
+              "使用 experience",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 15:15",
+              "房间是 Oak Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Ask Me About the Trip」场景中的选择与理由，尽量运用本课语法（现在完成时问体验；一般过去时追问细节）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/ɔːlˈredi/",
           "zh": "已经",
           "example": "The train had already left."
+        },
+        {
+          "word": "however",
+          "zh": "然而"
+        },
+        {
+          "word": "obstacle",
+          "zh": "障碍"
+        },
+        {
+          "word": "report",
+          "zh": "转述"
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
+        },
+        {
+          "word": "sequence",
+          "zh": "顺序"
+        },
+        {
+          "word": "story",
+          "zh": "故事"
+        },
+        {
+          "word": "scene",
+          "zh": "场景"
+        },
+        {
+          "word": "background",
+          "zh": "背景"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "meanwhile",
+          "zh": "同时"
+        },
+        {
+          "word": "event",
+          "zh": "事件"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "Because it was raining"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s storytelling session at the local theatre. It begins at 16 fifteen in the Maple Room and lasts 25 minutes. Admission costs 11 pounds and there are 24 places. Please come in through the west entrance and ask for Leo. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "16:15",
+                "15:15",
+                "16:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Blue Room",
+                "Green Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "25 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£11",
+              "options": [
+                "£13",
+                "£15",
+                "£11"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "24",
+                "28",
+                "26"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "North",
+                "West",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Maya",
+                "Leo",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "讲一个遇到困难却有好结果的故事，包含 although 或 however。",
-        "sample": "Although it was raining, we stayed. We moved under the trees and enjoyed the music."
+        "sample": "Although it was raining, we stayed. We moved under the trees and enjoyed the music.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Although It Was Raining」的场景。用到 unexpected，并给一个具体细节。",
+            "checklist": [
+              "与 Although It Was Raining 场景有关",
+              "使用 unexpected",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Maple Room",
+              "费用是 £11"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "讲清困难、转折和结果",
@@ -463,7 +1694,49 @@
             ],
             "answer": "A storm"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 14:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "13:00",
+                "14:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 95–115 词游记，包含原预期、障碍、行动和结局。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（although 引出让步；however 连接转折）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Although It Was Raining」的英语消息，使用 unexpected 并补充一个具体细节。",
+            "checklist": [
+              "使用 unexpected",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 16:15",
+              "房间是 Maple Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Although It Was Raining」场景中的选择与理由，尽量运用本课语法（although 引出让步；however 连接转折）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/ɪkˈspɪəriəns/",
           "zh": "经历",
           "example": "It was my first experience of travelling alone."
+        },
+        {
+          "word": "announce",
+          "zh": "宣布"
+        },
+        {
+          "word": "explain",
+          "zh": "解释"
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
+        },
+        {
+          "word": "sequence",
+          "zh": "顺序"
+        },
+        {
+          "word": "story",
+          "zh": "故事"
+        },
+        {
+          "word": "scene",
+          "zh": "场景"
+        },
+        {
+          "word": "background",
+          "zh": "背景"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "meanwhile",
+          "zh": "同时"
+        },
+        {
+          "word": "already",
+          "zh": "已经"
+        },
+        {
+          "word": "event",
+          "zh": "事件"
+        },
+        {
+          "word": "mistake",
+          "zh": "错误"
+        },
+        {
+          "word": "realise",
+          "zh": "意识到"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "The driver"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s storytelling session at the local theatre. It begins at 9 fifteen in the Blue Room and lasts 35 minutes. Admission costs 13 pounds and there are 10 places. Please come in through the north entrance and ask for Nina. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "08:15",
+                "09:15",
+                "09:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Garden Room",
+                "Blue Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "55 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£13",
+              "options": [
+                "£15",
+                "£17",
+                "£13"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "10",
+                "12",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Nina",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用自己的话转述两个人说过的事，分别练习 said 和 told。",
-        "sample": "The driver told us that the bus would arrive in ten minutes. I said we still had time."
+        "sample": "The driver told us that the bus would arrive in ten minutes. I said we still had time.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Tell It in Your Own Words」的场景。用到 report，并给一个具体细节。",
+            "checklist": [
+              "与 Tell It in Your Own Words 场景有关",
+              "使用 report",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Blue Room",
+              "费用是 £13"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "把对话转述成完整故事",
@@ -561,7 +2053,49 @@
             ],
             "answer": "At the desk"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 16:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "16:00",
+                "17:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 95–115 词转述一次服务人员和同伴的交流。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（said (that) ...；told + 人 + (that) ...）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Tell It in Your Own Words」的英语消息，使用 report 并补充一个具体细节。",
+            "checklist": [
+              "使用 report",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 09:15",
+              "房间是 Blue Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Tell It in Your Own Words」场景中的选择与理由，尽量运用本课语法（said (that) ...；told + 人 + (that) ...）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/ˌʌnɪkˈspektɪd/",
           "zh": "意外的",
           "example": "We had an unexpected delay."
+        },
+        {
+          "word": "detail",
+          "zh": "细节"
+        },
+        {
+          "word": "outcome",
+          "zh": "结果"
+        },
+        {
+          "word": "luckily",
+          "zh": "幸运的是"
+        },
+        {
+          "word": "eventually",
+          "zh": "最终"
+        },
+        {
+          "word": "witness",
+          "zh": "目击者"
+        },
+        {
+          "word": "sequence",
+          "zh": "顺序"
+        },
+        {
+          "word": "story",
+          "zh": "故事"
+        },
+        {
+          "word": "scene",
+          "zh": "场景"
+        },
+        {
+          "word": "background",
+          "zh": "背景"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "meanwhile",
+          "zh": "同时"
+        },
+        {
+          "word": "already",
+          "zh": "已经"
+        },
+        {
+          "word": "event",
+          "zh": "事件"
+        },
+        {
+          "word": "mistake",
+          "zh": "错误"
+        },
+        {
+          "word": "realise",
+          "zh": "意识到"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "At the tourist desk"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s storytelling session at the local theatre. It begins at 10 fifteen in the Green Room and lasts 45 minutes. Admission costs 4 pounds and there are 12 places. Please come in through the east entrance and ask for Omar. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Tuesday",
+                "Sunday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "10:15",
+                "10:45",
+                "09:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "River Room",
+                "Green Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£4",
+              "options": [
+                "£6",
+                "£4",
+                "£8"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "12",
+                "16",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Omar",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用两分钟讲一个遗失物品的故事，包含背景、先发生的事、一句转述和结局。",
-        "sample": "We were walking back when we realised we’d lost our key. A shopkeeper told us about the tourist desk. Someone had already handed it in."
+        "sample": "We were walking back when we realised we’d lost our key. A shopkeeper told us about the tourist desk. Someone had already handed it in.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Tell a Story Worth Sharing」的场景。用到 turning point，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Tell a Story Worth Sharing 场景有关",
+              "使用 turning point",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 local theatre 的 storytelling session。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Green Room",
+              "费用是 £4"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 storytelling session。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "讲并写一段有起伏的故事",
@@ -659,7 +2412,49 @@
             ],
             "answer": "The ticket clerk"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Storytelling session booking notice. Book online before 12:00. Collect your ticket at the local theatre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "11:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the exit",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 110–135 词的故事，给出背景、问题、转折点和结果。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（综合背景、先后、转折与转述）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Tell a Story Worth Sharing」的英语消息，使用 turning point 并补充一个具体细节。",
+            "checklist": [
+              "使用 turning point",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 storytelling session，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 10:15",
+              "房间是 Green Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Tell a Story Worth Sharing」场景中的选择与理由，尽量运用本课语法（综合背景、先后、转折与转述）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

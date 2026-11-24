@@ -42,4 +42,4 @@ Create a dedicated GitHub repository for this PWA, push the project to its `main
 - Any context enabled by the user is sent to DeepSeek. The context preview lets the user inspect the payload before use.
 
 ## Important limitation of this first scaffold
-The 12-week A2 to B1 roadmap is available in full. Listening playback uses the browser’s English text-to-speech voice. Speech recognition and pronunciation scoring are not included.
+The 12-week A2 to B1 roadmap is available in full. Listening playback uses the browser’s English text-to-speech voice. Speaking practice sends recordings to DeepSeek ASR when requested, then obtains feedback and a task score based on the returned transcript.

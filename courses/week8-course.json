@@ -37,6 +37,74 @@
           "ipa": "/əˈbrɔːd/",
           "zh": "在国外",
           "example": "Have you ever studied abroad?"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "conversation",
+          "zh": "对话"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "try",
+          "zh": "尝试"
+        },
+        {
+          "word": "invite",
+          "zh": "邀请"
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
+        },
+        {
+          "word": "decline",
+          "zh": "婉拒"
+        },
+        {
+          "word": "join",
+          "zh": "加入"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
+        },
+        {
+          "word": "welcome",
+          "zh": "欢迎"
+        },
+        {
+          "word": "member",
+          "zh": "成员"
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "clarify",
+          "zh": "澄清"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "Spanish"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s language exchange at the language café. It begins at 9 fifteen in the Maple Room and lasts 25 minutes. Admission costs 11 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Wednesday",
+                "Tuesday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "08:15",
+                "09:15",
+                "09:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Maple Room",
+                "Green Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "25 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£11",
+              "options": [
+                "£15",
+                "£11",
+                "£13"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "12",
+                "10",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "South",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Leo",
+                "Nina",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用两种不同的开场白和一位新朋友说话，再问一句开放式问题。",
-        "sample": "Hi, is this your first time here? What brought you to the exchange?"
+        "sample": "Hi, is this your first time here? What brought you to the exchange?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Start a Conversation」的场景。用到 exchange，并给一个具体细节。",
+            "checklist": [
+              "与 Start a Conversation 场景有关",
+              "使用 exchange",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Maple Room",
+              "费用是 £11"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用共同场景开启对话",
@@ -71,7 +258,49 @@
             ],
             "answer": "6:45"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "11:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 55–70 词欢迎新人，给出见面安排和一个可以回答的话题。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Is this your first time ...?；开放式问句）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Start a Conversation」的英语消息，使用 exchange 并补充一个具体细节。",
+            "checklist": [
+              "使用 exchange",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 09:15",
+              "房间是 Maple Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Start a Conversation」场景中的选择与理由，尽量运用本课语法（Is this your first time ...?；开放式问句）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/traɪ/",
           "zh": "尝试",
           "example": "I’ve never tried skiing."
+        },
+        {
+          "word": "conversation",
+          "zh": "对话"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "invite",
+          "zh": "邀请"
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
+        },
+        {
+          "word": "decline",
+          "zh": "婉拒"
+        },
+        {
+          "word": "join",
+          "zh": "加入"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
+        },
+        {
+          "word": "welcome",
+          "zh": "欢迎"
+        },
+        {
+          "word": "member",
+          "zh": "成员"
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "clarify",
+          "zh": "澄清"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "Puzzle games"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s language exchange at the language café. It begins at 10 fifteen in the Blue Room and lasts 35 minutes. Admission costs 13 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "10:45",
+                "09:15",
+                "10:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Blue Room",
+                "Green Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£13",
+              "options": [
+                "£13",
+                "£15",
+                "£17"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "14",
+                "12",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Leo",
+                "Maya",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "听到对方说喜欢做游戏或旅行后，给一句回应，再追问两个细节。",
-        "sample": "That sounds fun. What kind of games do you make? How often do you meet?"
+        "sample": "That sounds fun. What kind of games do you make? How often do you meet?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Keep the Conversation Going」的场景。用到 follow-up，并给一个具体细节。",
+            "checklist": [
+              "与 Keep the Conversation Going 场景有关",
+              "使用 follow-up",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Blue Room",
+              "费用是 £13"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "回应对方并接着追问",
@@ -169,7 +617,49 @@
             ],
             "answer": "A trail recommendation"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 14:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "13:00",
+                "15:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一段 8 行聊天，至少有两次根据上句内容进行追问。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Really?；What do you like about ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Keep the Conversation Going」的英语消息，使用 follow-up 并补充一个具体细节。",
+            "checklist": [
+              "使用 follow-up",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 10:15",
+              "房间是 Blue Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Keep the Conversation Going」场景中的选择与理由，尽量运用本课语法（Really?；What do you like about ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/ɪksˈtʃeɪndʒ/",
           "zh": "交流",
           "example": "I’m here for the language exchange."
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "try",
+          "zh": "尝试"
+        },
+        {
+          "word": "invite",
+          "zh": "邀请"
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
+        },
+        {
+          "word": "decline",
+          "zh": "婉拒"
+        },
+        {
+          "word": "join",
+          "zh": "加入"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
+        },
+        {
+          "word": "welcome",
+          "zh": "欢迎"
+        },
+        {
+          "word": "member",
+          "zh": "成员"
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "clarify",
+          "zh": "澄清"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "Penang"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s language exchange at the language café. It begins at 11 fifteen in the Green Room and lasts 45 minutes. Admission costs 4 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Thursday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "11:15",
+                "10:15",
+                "11:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "Garden Room",
+                "Green Room",
+                "River Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£4",
+              "options": [
+                "£4",
+                "£8",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "16",
+                "18",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Leo",
+                "Maya",
+                "Omar"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用 Have you ever 提三个旅行问题，再就一个回答用过去时追问。",
-        "sample": "Have you ever travelled alone? Where did you go?"
+        "sample": "Have you ever travelled alone? Where did you go?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Have You Ever Been There?」的场景。用到 abroad，并给一个具体细节。",
+            "checklist": [
+              "与 Have You Ever Been There? 场景有关",
+              "使用 abroad",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Green Room",
+              "费用是 £4"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "问对方有没有某种经历",
@@ -267,7 +976,49 @@
             ],
             "answer": "Travelling alone"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 16:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "16:00",
+                "17:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一段对话，包含两个 Have you ever 问题和一个有具体时间的回答。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Have you ever + 过去分词?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Have You Ever Been There?」的英语消息，使用 abroad 并补充一个具体细节。",
+            "checklist": [
+              "使用 abroad",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 11:15",
+              "房间是 Green Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Have You Ever Been There?」场景中的选择与理由，尽量运用本课语法（Have you ever + 过去分词?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/ˈfɒləʊ ʌp/",
           "zh": "追问",
           "example": "Ask a follow-up question."
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
+        },
+        {
+          "word": "decline",
+          "zh": "婉拒"
+        },
+        {
+          "word": "join",
+          "zh": "加入"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
+        },
+        {
+          "word": "welcome",
+          "zh": "欢迎"
+        },
+        {
+          "word": "member",
+          "zh": "成员"
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "clarify",
+          "zh": "澄清"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
+        },
+        {
+          "word": "share",
+          "zh": "分享"
+        },
+        {
+          "word": "exchange",
+          "zh": "交流"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "Skiing"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s language exchange at the language café. It begins at 12 fifteen in the Garden Room and lasts 55 minutes. Admission costs 6 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Saturday",
+                "Thursday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:45",
+                "11:15",
+                "12:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "Garden Room",
+                "Hill Room",
+                "River Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "75 minutes",
+                "65 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£6",
+              "options": [
+                "£10",
+                "£8",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "20",
+                "18",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Maya",
+                "Leo",
+                "Sofia"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "说两种你没尝试过的活动，以及一种尝试过的活动和具体时间。",
-        "sample": "I’ve never tried skiing. I’ve been ice skating. I went last winter."
+        "sample": "I’ve never tried skiing. I’ve been ice skating. I went last winter.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「I’ve Never Tried It」的场景。用到 try，并给一个具体细节。",
+            "checklist": [
+              "与 I’ve Never Tried It 场景有关",
+              "使用 try",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Garden Room",
+              "费用是 £6"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "说明有过或没有过的体验",
@@ -365,7 +1335,49 @@
             ],
             "answer": "Bread"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "11:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 65–80 词给活动搭子，交流做过、没做过以及想一起尝试的事。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（have/has never + 过去分词；一般过去时补具体细节）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「I’ve Never Tried It」的英语消息，使用 try 并补充一个具体细节。",
+            "checklist": [
+              "使用 try",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 12:15",
+              "房间是 Garden Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「I’ve Never Tried It」场景中的选择与理由，尽量运用本课语法（have/has never + 过去分词；一般过去时补具体细节）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/əˈbrɔːd/",
           "zh": "在国外",
           "example": "Have you ever studied abroad?"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
+        },
+        {
+          "word": "welcome",
+          "zh": "欢迎"
+        },
+        {
+          "word": "member",
+          "zh": "成员"
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "clarify",
+          "zh": "澄清"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
+        },
+        {
+          "word": "share",
+          "zh": "分享"
+        },
+        {
+          "word": "exchange",
+          "zh": "交流"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "conversation",
+          "zh": "对话"
+        },
+        {
+          "word": "follow-up",
+          "zh": "追问"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "Coffee after three"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s language exchange at the language café. It begins at 13 fifteen in the River Room and lasts 25 minutes. Admission costs 8 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "12:15",
+                "13:15",
+                "13:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "River Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "25 minutes",
+                "45 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£8",
+              "options": [
+                "£8",
+                "£10",
+                "£12"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "22",
+                "20",
+                "18"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Leo",
+                "Eli",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "邀请新朋友参加活动，然后练习接受和婉拒两种回答。",
-        "sample": "Would you like to join us? I’d love to, but I’m working. How about Sunday instead?"
+        "sample": "Would you like to join us? I’d love to, but I’m working. How about Sunday instead?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Would You Like to Join Us?」的场景。用到 join，并给一个具体细节。",
+            "checklist": [
+              "与 Would You Like to Join Us? 场景有关",
+              "使用 join",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 River Room",
+              "费用是 £8"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "邀请、接受和礼貌婉拒",
@@ -463,7 +1694,49 @@
             ],
             "answer": "By Wednesday"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 14:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "13:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一条 60–75 词的邀请，给出活动、日期、地点和回复截止时间。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Would you like to + 动词原形?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Would You Like to Join Us?」的英语消息，使用 join 并补充一个具体细节。",
+            "checklist": [
+              "使用 join",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 13:15",
+              "房间是 River Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Would You Like to Join Us?」场景中的选择与理由，尽量运用本课语法（Would you like to + 动词原形?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/traɪ/",
           "zh": "尝试",
           "example": "I’ve never tried skiing."
+        },
+        {
+          "word": "group",
+          "zh": "小组"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "repeat",
+          "zh": "重复"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
+        },
+        {
+          "word": "share",
+          "zh": "分享"
+        },
+        {
+          "word": "exchange",
+          "zh": "交流"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "conversation",
+          "zh": "对话"
+        },
+        {
+          "word": "follow-up",
+          "zh": "追问"
+        },
+        {
+          "word": "abroad",
+          "zh": "在国外"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "invite",
+          "zh": "邀请"
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "6:45"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s language exchange at the language café. It begins at 14 fifteen in the Hill Room and lasts 35 minutes. Admission costs 10 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Monday",
+                "Saturday",
+                "Sunday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:45",
+                "13:15",
+                "14:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Oak Room",
+                "Hill Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "45 minutes",
+                "35 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£10",
+                "£14",
+                "£12"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "24",
+                "20",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Leo",
+                "Jo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "请对方重复一个时刻，用自己的话确认位置，再询问一个陌生表达。",
-        "sample": "Could you say that again? Do you mean six forty-five outside the main hall?"
+        "sample": "Could you say that again? Do you mean six forty-five outside the main hall?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「What Did You Mean?」的场景。用到 clarify，并给一个具体细节。",
+            "checklist": [
+              "与 What Did You Mean? 场景有关",
+              "使用 clarify",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Hill Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "请求重说或确认意思",
@@ -561,7 +2053,49 @@
             ],
             "answer": "A story or photo"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 16:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "16:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By cheque",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 60–75 词确认一个你没听清的活动安排。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Could you say that again?；Do you mean ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「What Did You Mean?」的英语消息，使用 clarify 并补充一个具体细节。",
+            "checklist": [
+              "使用 clarify",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 14:15",
+              "房间是 Hill Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「What Did You Mean?」场景中的选择与理由，尽量运用本课语法（Could you say that again?；Do you mean ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/dʒɔɪn/",
           "zh": "加入",
           "example": "Would you like to join us?"
+        },
+        {
+          "word": "confirm",
+          "zh": "确认"
+        },
+        {
+          "word": "photography",
+          "zh": "摄影"
+        },
+        {
+          "word": "beginner",
+          "zh": "初学者"
+        },
+        {
+          "word": "contact",
+          "zh": "联系方式"
+        },
+        {
+          "word": "share",
+          "zh": "分享"
+        },
+        {
+          "word": "exchange",
+          "zh": "交流"
+        },
+        {
+          "word": "introduce",
+          "zh": "介绍"
+        },
+        {
+          "word": "interest",
+          "zh": "兴趣"
+        },
+        {
+          "word": "conversation",
+          "zh": "对话"
+        },
+        {
+          "word": "follow-up",
+          "zh": "追问"
+        },
+        {
+          "word": "abroad",
+          "zh": "在国外"
+        },
+        {
+          "word": "experience",
+          "zh": "经历"
+        },
+        {
+          "word": "try",
+          "zh": "尝试"
+        },
+        {
+          "word": "invite",
+          "zh": "邀请"
+        },
+        {
+          "word": "accept",
+          "zh": "接受"
+        },
+        {
+          "word": "decline",
+          "zh": "婉拒"
+        },
+        {
+          "word": "organiser",
+          "zh": "组织者"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "The riverside market"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s language exchange at the language café. It begins at 15 fifteen in the Oak Room and lasts 45 minutes. Admission costs 12 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "15:15",
+                "15:45",
+                "14:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "45 minutes",
+                "65 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£14",
+                "£12",
+                "£16"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "26",
+                "22",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "South",
+                "East",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Nina",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "模拟两分钟聊天，先聊摄影，再问一次经历并确认集合时间。",
-        "sample": "I enjoy taking photos too. Have you ever joined a photo walk? Do you mean eleven outside the market?"
+        "sample": "I enjoy taking photos too. Have you ever joined a photo walk? Do you mean eleven outside the market?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Make a New Friend」的场景。用到 keep in touch，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Make a New Friend 场景有关",
+              "使用 keep in touch",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 language café 的 language exchange。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Oak Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 language exchange。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "完成开场、追问、邀约与确认",
@@ -659,7 +2412,49 @@
             ],
             "answer": "Send Jo a message"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Language exchange booking notice. Book online before 12:00. Collect your ticket at the language café information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "11:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词跟进这次见面，提到共同兴趣、问一个问题并确认活动。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（综合一般过去时、现在完成时和礼貌追问）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Make a New Friend」的英语消息，使用 keep in touch 并补充一个具体细节。",
+            "checklist": [
+              "使用 keep in touch",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 language exchange，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 15:15",
+              "房间是 Oak Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Make a New Friend」场景中的选择与理由，尽量运用本课语法（综合一般过去时、现在完成时和礼貌追问）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

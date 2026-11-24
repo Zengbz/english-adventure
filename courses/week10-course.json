@@ -37,6 +37,74 @@
           "ipa": "/rɪˈstɔː/",
           "zh": "修复",
           "example": "The theatre was restored in 2015."
+        },
+        {
+          "word": "host",
+          "zh": "主人"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
+        },
+        {
+          "word": "local",
+          "zh": "当地的"
+        },
+        {
+          "word": "region",
+          "zh": "地区"
+        },
+        {
+          "word": "heritage",
+          "zh": "文化遗产"
+        },
+        {
+          "word": "shape",
+          "zh": "塑形"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
+        },
+        {
+          "word": "landmark",
+          "zh": "地标"
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
+        },
+        {
+          "word": "volunteer",
+          "zh": "志愿者"
+        },
+        {
+          "word": "festival",
+          "zh": "节庆"
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "community",
+          "zh": "社区"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "Watches the host"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s culture tour at the heritage centre. It begins at 11 fifteen in the Green Room and lasts 25 minutes. Admission costs 13 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Wednesday",
+                "Tuesday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "11:45",
+                "10:15",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "River Room",
+                "Garden Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "35 minutes",
+                "25 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£13",
+              "options": [
+                "£15",
+                "£13",
+                "£17"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "16",
+                "18",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Maya",
+                "Leo",
+                "Omar"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "向来访者介绍你家的一条习惯，再礼貌问对方家里怎么做。",
-        "sample": "In my family, we usually leave shoes by the door. What do you do at home?"
+        "sample": "In my family, we usually leave shoes by the door. What do you do at home?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Customs at the Table」的场景。用到 custom，并给一个具体细节。",
+            "checklist": [
+              "与 Customs at the Table 场景有关",
+              "使用 custom",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Green Room",
+              "费用是 £13"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用有保留的语气描述习俗",
@@ -71,7 +258,49 @@
             ],
             "answer": "Ask the host"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 12:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "13:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词比较两个家庭习惯，避免把习惯说成人人都遵守。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（In some families ...；usually / often / may）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Customs at the Table」的英语消息，使用 custom 并补充一个具体细节。",
+            "checklist": [
+              "使用 custom",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 11:15",
+              "房间是 Green Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Customs at the Table」场景中的选择与理由，尽量运用本课语法（In some families ...；usually / often / may）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/ˌvɒlənˈtɪə/",
           "zh": "志愿者",
           "example": "She is a volunteer who helps new visitors."
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
+        },
+        {
+          "word": "local",
+          "zh": "当地的"
+        },
+        {
+          "word": "region",
+          "zh": "地区"
+        },
+        {
+          "word": "heritage",
+          "zh": "文化遗产"
+        },
+        {
+          "word": "shape",
+          "zh": "塑形"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
+        },
+        {
+          "word": "landmark",
+          "zh": "地标"
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
+        },
+        {
+          "word": "festival",
+          "zh": "节庆"
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "community",
+          "zh": "社区"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "whereas",
+          "zh": "相比之下"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "Two days"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s culture tour at the heritage centre. It begins at 12 fifteen in the Garden Room and lasts 35 minutes. Admission costs 4 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Wednesday",
+                "Tuesday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "11:15",
+                "12:15",
+                "12:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "Hill Room",
+                "Garden Room",
+                "River Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "45 minutes",
+                "55 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£4",
+              "options": [
+                "£8",
+                "£4",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "20",
+                "18",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Sofia",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用被动语态向访客说明一种食物或物品的三个制作步骤。",
-        "sample": "The bowls are shaped by hand. They are left to dry. Then they are heated in an oven."
+        "sample": "The bowls are shaped by hand. They are left to dry. Then they are heated in an oven.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「How Is It Made?」的场景。用到 clay，并给一个具体细节。",
+            "checklist": [
+              "与 How Is It Made? 场景有关",
+              "使用 clay",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Garden Room",
+              "费用是 £4"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "读懂制作流程的被动语态",
@@ -169,7 +617,49 @@
             ],
             "answer": "When they are cool"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 14:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "14:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词解释一种熟悉物品的制作过程。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（现在时被动：am/is/are + 过去分词）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「How Is It Made?」的英语消息，使用 clay 并补充一个具体细节。",
+            "checklist": [
+              "使用 clay",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 12:15",
+              "房间是 Garden Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「How Is It Made?」场景中的选择与理由，尽量运用本课语法（现在时被动：am/is/are + 过去分词）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/ˈkʌstəm/",
           "zh": "习俗",
           "example": "It’s a custom in some families."
+        },
+        {
+          "word": "heritage",
+          "zh": "文化遗产"
+        },
+        {
+          "word": "shape",
+          "zh": "塑形"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
+        },
+        {
+          "word": "landmark",
+          "zh": "地标"
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
+        },
+        {
+          "word": "volunteer",
+          "zh": "志愿者"
+        },
+        {
+          "word": "festival",
+          "zh": "节庆"
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "community",
+          "zh": "社区"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "whereas",
+          "zh": "相比之下"
+        },
+        {
+          "word": "variety",
+          "zh": "多样性"
+        },
+        {
+          "word": "host",
+          "zh": "主人"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "1953"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s culture tour at the heritage centre. It begins at 13 fifteen in the River Room and lasts 45 minutes. Admission costs 6 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "13:15",
+                "13:45",
+                "12:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "Oak Room",
+                "River Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£6",
+              "options": [
+                "£10",
+                "£6",
+                "£8"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "18",
+                "20",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Maya",
+                "Eli",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "像导游一样介绍一个地标，给出建造时间、变化和今天的用途。",
-        "sample": "The bridge was built in 1890. It was repaired in 1953. Today people use it to cycle across the river."
+        "sample": "The bridge was built in 1890. It was repaired in 1953. Today people use it to cycle across the river.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「When Was It Built?」的场景。用到 restore，并给一个具体细节。",
+            "checklist": [
+              "与 When Was It Built? 场景有关",
+              "使用 restore",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 River Room",
+              "费用是 £6"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "了解地标背景",
@@ -267,7 +976,49 @@
             ],
             "answer": "2020"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 16:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "16:00",
+                "17:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词介绍一个地标，至少用两个过去时被动句。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（过去时被动：was/were + 过去分词）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「When Was It Built?」的英语消息，使用 restore 并补充一个具体细节。",
+            "checklist": [
+              "使用 restore",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 13:15",
+              "房间是 River Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「When Was It Built?」场景中的选择与理由，尽量运用本课语法（过去时被动：was/were + 过去分词）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/kleɪ/",
           "zh": "黏土",
           "example": "The bowls are made from clay."
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
+        },
+        {
+          "word": "landmark",
+          "zh": "地标"
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
+        },
+        {
+          "word": "festival",
+          "zh": "节庆"
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "community",
+          "zh": "社区"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "whereas",
+          "zh": "相比之下"
+        },
+        {
+          "word": "variety",
+          "zh": "多样性"
+        },
+        {
+          "word": "custom",
+          "zh": "习俗"
+        },
+        {
+          "word": "host",
+          "zh": "主人"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "How to fix lamps"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s culture tour at the heritage centre. It begins at 14 fifteen in the Hill Room and lasts 55 minutes. Admission costs 8 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Friday",
+                "Saturday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:45",
+                "13:15",
+                "14:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "65 minutes",
+                "75 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£8",
+              "options": [
+                "£8",
+                "£12",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "24",
+                "22",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Leo",
+                "Maya",
+                "Jo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "介绍两位活动志愿者，用 who 补充说明各自职责。",
-        "sample": "Nia is a volunteer who teaches people to fix lamps. Dan is the person who welcomes guests."
+        "sample": "Nia is a volunteer who teaches people to fix lamps. Dan is the person who welcomes guests.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「The People Who Keep It Going」的场景。用到 volunteer，并给一个具体细节。",
+            "checklist": [
+              "与 The People Who Keep It Going 场景有关",
+              "使用 volunteer",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Hill Room",
+              "费用是 £8"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用关系从句描述人物",
@@ -365,7 +1335,49 @@
             ],
             "answer": "At the entrance"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 12:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "11:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词为社区活动介绍两名人员和他们能提供的帮助。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（who 引导限定性关系从句，修饰人）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「The People Who Keep It Going」的英语消息，使用 volunteer 并补充一个具体细节。",
+            "checklist": [
+              "使用 volunteer",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 14:15",
+              "房间是 Hill Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「The People Who Keep It Going」场景中的选择与理由，尽量运用本课语法（who 引导限定性关系从句，修饰人）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/rɪˈstɔː/",
           "zh": "修复",
           "example": "The theatre was restored in 2015."
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
+        },
+        {
+          "word": "festival",
+          "zh": "节庆"
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "whereas",
+          "zh": "相比之下"
+        },
+        {
+          "word": "variety",
+          "zh": "多样性"
+        },
+        {
+          "word": "custom",
+          "zh": "习俗"
+        },
+        {
+          "word": "host",
+          "zh": "主人"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
+        },
+        {
+          "word": "local",
+          "zh": "当地的"
+        },
+        {
+          "word": "region",
+          "zh": "地区"
+        },
+        {
+          "word": "heritage",
+          "zh": "文化遗产"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "In the shed"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s culture tour at the heritage centre. It begins at 15 fifteen in the Oak Room and lasts 25 minutes. Admission costs 10 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "15:15",
+                "14:15",
+                "15:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Maple Room",
+                "Blue Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "35 minutes",
+                "25 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£14",
+                "£12",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "26",
+                "24",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "South",
+                "East",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Leo",
+                "Maya",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用一个 where 从句描述你常去的地方，再用 that 介绍里面的一样东西。",
-        "sample": "The library is a place where people can study. It has a screen that shows local events."
+        "sample": "The library is a place where people can study. It has a screen that shows local events.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「A Place Where People Meet」的场景。用到 community，并给一个具体细节。",
+            "checklist": [
+              "与 A Place Where People Meet 场景有关",
+              "使用 community",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Oak Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用 where 和 that 解释社区空间",
@@ -463,7 +1694,49 @@
             ],
             "answer": "Free classes and events"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 14:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "14:00",
+                "15:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词向新邻居介绍一个社区空间和两项用途。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（where 修饰地点；that 可修饰事物）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「A Place Where People Meet」的英语消息，使用 community 并补充一个具体细节。",
+            "checklist": [
+              "使用 community",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 15:15",
+              "房间是 Oak Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「A Place Where People Meet」场景中的选择与理由，尽量运用本课语法（where 修饰地点；that 可修饰事物）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/ˌvɒlənˈtɪə/",
           "zh": "志愿者",
           "example": "She is a volunteer who helps new visitors."
+        },
+        {
+          "word": "programme",
+          "zh": "节目安排"
+        },
+        {
+          "word": "neighbourhood",
+          "zh": "街区"
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "variety",
+          "zh": "多样性"
+        },
+        {
+          "word": "custom",
+          "zh": "习俗"
+        },
+        {
+          "word": "host",
+          "zh": "主人"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
+        },
+        {
+          "word": "local",
+          "zh": "当地的"
+        },
+        {
+          "word": "region",
+          "zh": "地区"
+        },
+        {
+          "word": "heritage",
+          "zh": "文化遗产"
+        },
+        {
+          "word": "clay",
+          "zh": "黏土"
+        },
+        {
+          "word": "shape",
+          "zh": "塑形"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "Shopping after work"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s culture tour at the heritage centre. It begins at 16 fifteen in the Maple Room and lasts 35 minutes. Admission costs 12 pounds and there are 24 places. Please come in through the west entrance and ask for Leo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "16:45",
+                "15:15",
+                "16:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Green Room",
+                "Maple Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "55 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£16",
+                "£12",
+                "£14"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "28",
+                "26",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "North",
+                "West",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Nina",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "比较你熟悉的两个地方的一项生活安排，说共同点和差异。",
-        "sample": "My old neighbourhood had early closing times, whereas shops here stay open later."
+        "sample": "My old neighbourhood had early closing times, whereas shops here stay open later.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Comparing Everyday Life」的场景。用到 whereas，并给一个具体细节。",
+            "checklist": [
+              "与 Comparing Everyday Life 场景有关",
+              "使用 whereas",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Maple Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "比较生活方式并避免笼统概括",
@@ -561,7 +2053,49 @@
             ],
             "answer": "Monthly free classes"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 16:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "16:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Sunday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词比较两个地方的交通、店铺营业或社区服务。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（while / whereas 连接对照信息）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Comparing Everyday Life」的英语消息，使用 whereas 并补充一个具体细节。",
+            "checklist": [
+              "使用 whereas",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 16:15",
+              "房间是 Maple Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Comparing Everyday Life」场景中的选择与理由，尽量运用本课语法（while / whereas 连接对照信息）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/kəˈmjuːnəti/",
           "zh": "社区",
           "example": "Our community has a shared garden."
+        },
+        {
+          "word": "noticeboard",
+          "zh": "公告栏"
+        },
+        {
+          "word": "workshop",
+          "zh": "工作坊"
+        },
+        {
+          "word": "donation",
+          "zh": "捐款"
+        },
+        {
+          "word": "repair",
+          "zh": "修理"
+        },
+        {
+          "word": "variety",
+          "zh": "多样性"
+        },
+        {
+          "word": "custom",
+          "zh": "习俗"
+        },
+        {
+          "word": "host",
+          "zh": "主人"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "habit",
+          "zh": "习惯"
+        },
+        {
+          "word": "local",
+          "zh": "当地的"
+        },
+        {
+          "word": "region",
+          "zh": "地区"
+        },
+        {
+          "word": "clay",
+          "zh": "黏土"
+        },
+        {
+          "word": "shape",
+          "zh": "塑形"
+        },
+        {
+          "word": "tray",
+          "zh": "托盘"
+        },
+        {
+          "word": "restore",
+          "zh": "修复"
+        },
+        {
+          "word": "landmark",
+          "zh": "地标"
+        },
+        {
+          "word": "original",
+          "zh": "原有的"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "A volunteer who grew up nearby"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s culture tour at the heritage centre. It begins at 9 fifteen in the Blue Room and lasts 45 minutes. Admission costs 3 pounds and there are 10 places. Please come in through the north entrance and ask for Nina. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Monday",
+                "Sunday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "09:45",
+                "09:15",
+                "08:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Blue Room",
+                "Garden Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "45 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£5",
+                "£3",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "12",
+                "14",
+                "10"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a notebook",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Leo",
+                "Nina",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "为朋友做两分钟口头导览，介绍旧车站、维修活动，再提醒一条访客习惯。",
-        "sample": "The station was built in 1910. It’s now a place where neighbours meet. At two you can bring a small item to the repair café."
+        "sample": "The station was built in 1910. It’s now a place where neighbours meet. At two you can bring a small item to the repair café.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Guide a Visitor」的场景。用到 heritage，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Guide a Visitor 场景有关",
+              "使用 heritage",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 heritage centre 的 culture tour。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Blue Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 culture tour。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "介绍地标、活动和一条家庭习惯",
@@ -659,7 +2412,49 @@
             ],
             "answer": "A small broken item"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Culture tour booking notice. Book online before 12:00. Collect your ticket at the heritage centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "13:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the exit",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 100–120 词欢迎来访者，说明历史、今日活动、集合时间和一条礼貌提示。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（综合被动语态、关系从句和有保留的描述）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Guide a Visitor」的英语消息，使用 heritage 并补充一个具体细节。",
+            "checklist": [
+              "使用 heritage",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 culture tour，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 09:15",
+              "房间是 Blue Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Guide a Visitor」场景中的选择与理由，尽量运用本课语法（综合被动语态、关系从句和有保留的描述）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

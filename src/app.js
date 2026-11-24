@@ -14,57 +14,99 @@
       }catch(e){toast(e.message);}
     };document.querySelectorAll('.open-week').forEach(b=>b.onclick=()=>openWeek(Number(b.dataset.week)));}
   async function openWeek(n){try{const entry=catalog.weeks.find(w=>w.week===n);if(!entry)throw new Error('Week not found.');weeks[n]=await EnglishCore.loadWeek(entry);const pack=weeks[n];app.innerHTML=`<div class="lesson-head"><button class="back" id="home-back">← Learning path</button><span class="pill">${pack.level} · 7 lessons</span></div><section class="lesson-card"><p class="eyebrow">WEEK ${String(n).padStart(2,'0')}</p><h1>${esc(pack.title)}</h1><p>${esc(pack.summary)}</p><div class="week-grid">${pack.lessons.map(l=>{const d=EnglishProgress.day(l.id);return `<article class="week-card"><div class="week-meta"><span>DAY ${l.day}</span><span class="pill ${d.completed?'green':''}">${d.completed?'Completed':'30 min'}</span></div><h3>${esc(l.title)}</h3><p>${esc(l.subtitle)}</p><button class="button secondary open-day" data-day="${l.id}">${d.completed?'Review lesson':'Start lesson'} →</button></article>`;}).join('')}</div></section>`;$('home-back').onclick=renderHome;document.querySelectorAll('.open-day').forEach(b=>b.onclick=()=>openLesson(pack.lessons.find(l=>l.id===b.dataset.day),pack.level));}catch(e){toast(e.message);}}
-  function openLesson(l,level){activeLesson=l;const d=EnglishProgress.day(l.id);const words=l.vocabulary.map(v=>`<div class="word"><b>${esc(v.word)}</b><span>${esc(v.ipa)} · ${esc(v.zh)}</span><span><i>${esc(v.example)}</i></span></div>`).join('');app.innerHTML=`<div class="lesson-head"><button class="back" id="week-back">← Back to week</button><span class="pill">DAY ${l.day} · ${l.minutes} MIN</span></div><section class="lesson-card"><p class="eyebrow">DAILY LESSON · ${esc(level)}</p><h1>${esc(l.title)}</h1><p>${esc(l.subtitle)}</p><h2>1. Vocabulary · 5 min</h2><div class="word-grid">${words}</div><h2>2. Grammar focus</h2><ul>${l.grammar.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h2>3. Listening · 8 min</h2><div class="task"><b>${esc(l.listening.title)}</b><button type="button" id="play-listening" class="button secondary audio-button"><svg class="speaker-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3z"/><path class="speaker-wave" d="M15 9a4 4 0 0 1 0 6"/><path class="speaker-wave" d="M18 6a8 8 0 0 1 0 12"/></svg><span>Play listening</span></button><details id="listening-transcript"><summary>Show transcript</summary><p>${esc(l.listening.transcript)}</p></details>${l.listening.questions.map((q,i)=>questionHTML(q,`listen-${i}`)).join('')}</div><h2>4. Speaking · 7 min</h2><div class="task"><p>${esc(l.speaking.prompt)}</p><details><summary>Show sample answer</summary><p>${esc(l.speaking.sample)}</p></details><textarea id="speaking-answer" rows="2" placeholder="Type your response, or start with the AI conversation partner…"></textarea><button id="start-speaking" class="button secondary">Practise with AI conversation partner</button><div id="speaking-ai-answer"></div></div><h2>5. Reading · 5 min</h2><div class="task"><b>${esc(l.reading.title)}</b><p>${esc(l.reading.text)}</p>${l.reading.questions.map((q,i)=>questionHTML(q,`read-${i}`)).join('')}</div><h2>6. Writing · 5 min</h2><div class="task"><p>${esc(l.writing.prompt)}</p><textarea id="writing-answer" rows="4" placeholder="Write your answer in English…"></textarea><ul>${l.writing.checklist.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><button id="check-writing" class="button secondary">Ask AI to review writing</button></div><h2>7. Daily quiz</h2>${l.quiz.map((q,i)=>questionHTML(q,q.id)).join('')}<div class="lesson-actions"><button class="button primary" id="finish-day">Complete lesson</button><button class="button secondary" id="ask-ai">Ask AI teacher</button></div><div class="ai-box"><h3>AI English Teacher</h3><p>可根据当前课程、学生档案和学习记录提供解释。需要先在设置中配置自己的 DeepSeek API Key。</p><textarea id="ai-question" rows="2" placeholder="Ask about a word, grammar point, or real-life situation…"></textarea><button id="send-ai" class="button secondary">Send to DeepSeek</button><div id="ai-answer"></div></div></section>`;
-    const play=$('play-listening');
-    const playLabel=play.querySelector('span');
+  const speakerIcon='<svg class="speaker-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3z"/><path class="speaker-wave" d="M15 9a4 4 0 0 1 0 6"/><path class="speaker-wave" d="M18 6a8 8 0 0 1 0 12"/></svg>';
+  function practiceTasks(kind,base){
+    const tasks=[base,...(base.practice||[])];
+    return tasks.map((task,i)=>`<div class="task practice-task" data-index="${i}">
+      <h3>${i+1}. ${esc(task.prompt)}</h3>
+      ${task.sample?`<details><summary>Show sample answer</summary><p>${esc(task.sample)}</p></details>`:''}
+      ${task.checklist?`<ul>${task.checklist.map(item=>`<li>${esc(item)}</li>`).join('')}</ul>`:''}
+      ${kind==='oral'?'<div class="button-row"><button type="button" class="button secondary record-answer">录音</button><button type="button" class="button secondary grade-audio" disabled>发送录音并评分</button></div><p class="record-status" role="status"></p>':
+        `<textarea rows="3" aria-label="Writing answer ${i+1}" placeholder="Write your answer in English…"></textarea><button type="button" class="button secondary grade-writing">Ask AI to review writing</button>`}
+      <div class="practice-feedback" aria-live="polite"></div>
+    </div>`).join('');
+  }
+  function followUpQuestions(section,prefix){
+    return section.questions.map((q,i)=>questionHTML(q,`${prefix}-extra-${i}`)).join('');
+  }
+  function openLesson(l,level){activeLesson=l;const d=EnglishProgress.day(l.id);const words=l.vocabulary.map(v=>`<div class="word"><button type="button" class="button secondary audio-button word-audio" data-audio="${esc(v.word)}" aria-label="Play ${esc(v.word)}">${speakerIcon}<b>${esc(v.word)}</b></button><span>${v.ipa?esc(v.ipa)+' · ':''}${esc(v.zh)}</span>${v.example?`<span><i>${esc(v.example)}</i></span>`:''}</div>`).join('');app.innerHTML=`<div class="lesson-head"><button class="back" id="week-back">← Back to week</button><span class="pill">DAY ${l.day} · ${l.minutes} MIN</span></div><section class="lesson-card"><p class="eyebrow">DAILY LESSON · ${esc(level)}</p><h1>${esc(l.title)}</h1><p>${esc(l.subtitle)}</p><h2>1. Vocabulary</h2><div class="word-grid">${words}</div><h2>2. Grammar focus</h2><ul>${l.grammar.map(g=>`<li>${esc(g)}</li>`).join('')}</ul><h2>3. Listening</h2><div class="task"><b>${esc(l.listening.title)}</b><button type="button" data-audio="${esc(l.listening.transcript)}" class="button secondary audio-button">${speakerIcon}<span>Play listening</span></button><details class="listening-transcript"><summary>Show transcript</summary><p>${esc(l.listening.transcript)}</p></details>${l.listening.questions.map((q,i)=>questionHTML(q,`listen-${i}`)).join('')}</div>${l.listening.followUp?`<div class="task"><b>${esc(l.listening.followUp.title)}</b><button type="button" data-audio="${esc(l.listening.followUp.transcript)}" class="button secondary audio-button">${speakerIcon}<span>Play announcement</span></button><details class="listening-transcript"><summary>Show transcript</summary><p>${esc(l.listening.followUp.transcript)}</p></details>${followUpQuestions(l.listening.followUp,'listen')}</div>`:''}<h2>4. Speaking</h2><p>录音只在点击评分后发送给 DeepSeek。评分依据转写内容。</p><section id="oral-practice">${practiceTasks('oral',l.speaking)}</section><details class="task"><summary>Practise a conversation with AI</summary><textarea id="conversation-answer" aria-label="Conversation reply" rows="2"></textarea><button type="button" id="conversation-send" class="button secondary">Send reply</button><div id="conversation-feedback" aria-live="polite"></div></details><h2>5. Reading</h2><div class="task"><b>${esc(l.reading.title)}</b><p>${esc(l.reading.text)}</p>${l.reading.questions.map((q,i)=>questionHTML(q,`read-${i}`)).join('')}</div>${l.reading.followUp?`<div class="task"><b>${esc(l.reading.followUp.title)}</b><p>${esc(l.reading.followUp.text)}</p>${followUpQuestions(l.reading.followUp,'read')}</div>`:''}<h2>6. Writing</h2><section id="writing-practice">${practiceTasks('writing',l.writing)}</section><h2>7. Daily quiz</h2>${l.quiz.map((q,i)=>questionHTML(q,q.id)).join('')}<div class="lesson-actions"><button class="button primary" id="finish-day">Complete lesson</button><button class="button secondary" id="ask-ai">Ask AI teacher</button></div><div class="ai-box"><h3>AI English Teacher</h3><p>可根据当前课程、学生档案和学习记录提供解释。需要先在设置中配置自己的 DeepSeek API Key。</p><textarea id="ai-question" rows="2" placeholder="Ask about a word, grammar point, or real-life situation…"></textarea><button id="send-ai" class="button secondary">Send to DeepSeek</button><div id="ai-answer"></div></div></section>`;
     const speech=window.speechSynthesis;
-    let currentAudio=null;
-    function setPlaying(playing){
-      play.classList.toggle('is-playing',playing);
-      playLabel.textContent=playing?'Playing… click to replay':'Play listening';
-    }
+    let playback=null;
     function stopPlayback(){
-      if(!currentAudio)return;
-      currentAudio=null;
-      setPlaying(false);
+      if(!playback)return;
+      playback.button.classList.remove('is-playing');
+      playback=null;
       speech.cancel();
     }
-    if(typeof SpeechSynthesisUtterance==='function'&&speech){
-      play.onclick=()=>{
+    for(const button of app.querySelectorAll('[data-audio]')){
+      if(!speech||typeof SpeechSynthesisUtterance!=='function'){button.disabled=true;continue;}
+      button.onclick=()=>{
         stopPlayback();
-        const audio=new SpeechSynthesisUtterance(l.listening.transcript);
-        currentAudio=audio;
+        const audio=new SpeechSynthesisUtterance(button.dataset.audio);
+        const current={audio,button};
+        playback=current;
         audio.lang='en-GB';
         audio.rate=level==='B1'?0.95:0.85;
         audio.onstart=()=>{
-          if(currentAudio===audio)setPlaying(true);
+          if(playback===current)button.classList.add('is-playing');
         };
-        function finishPlayback(){
-          currentAudio=null;
-          setPlaying(false);
-        }
         audio.onend=()=>{
-          if(currentAudio===audio)finishPlayback();
+          if(playback!==current)return;
+          playback=null;
+          button.classList.remove('is-playing');
         };
         audio.onerror=event=>{
-          if(currentAudio!==audio)return;
-          finishPlayback();
-          if(!['canceled','interrupted'].includes(event.error))toast('Audio unavailable. Open the transcript to read along.');
+          if(playback!==current)return;
+          audio.onend();
+          if(!['interrupted','canceled'].includes(event.error))toast('Audio unavailable.');
         };
         speech.speak(audio);
       };
-    }else{
-      play.hidden=true;
-      $('listening-transcript').open=true;
+    }
+    if(!speech||typeof SpeechSynthesisUtterance!=='function'){
+      app.querySelectorAll('.listening-transcript').forEach(details=>details.open=true);
+    }
+    const oralTasks=[l.speaking,...(l.speaking.practice||[])];
+    const stopRecording=EnglishRecording.bind($('oral-practice'),async(card,audio)=>{
+      const transcript=await DeepSeekAI.transcribe(audio);
+      if(!card.isConnected)return;
+      const task=oralTasks[Number(card.dataset.index)];
+      const out=card.querySelector('.practice-feedback');
+      out.innerHTML=`<p><b>DeepSeek 转写</b> ${esc(transcript)}</p>`;
+      const result=await DeepSeekAI.request('oral',{
+        prompt:task.prompt,checklist:task.checklist||[],transcript,level
+      });
+      const d=result.data;
+      out.insertAdjacentHTML('beforeend',`<div class="feedback"><b>完成度 ${d.completion}% · ${d.score}/100</b><p>${esc(d.feedback_zh)}</p><p>${esc(d.improved_en)}</p></div>`);
+    },stopPlayback);
+    $('conversation-send').onclick=()=>sendAI('speaking',{
+      learnerMessage:$('conversation-answer').value.trim()||'Start a short practice conversation related to this lesson.',
+      lesson:l
+    },$('conversation-feedback'));
+    const writingTasks=[l.writing,...(l.writing.practice||[])];
+    for(const button of app.querySelectorAll('.grade-writing')){
+      button.onclick=async()=>{
+        const card=button.closest('.practice-task');
+        const text=card.querySelector('textarea').value.trim();
+        if(!text){toast('Please write your answer first.');return;}
+        const task=writingTasks[Number(card.dataset.index)];
+        button.disabled=true;
+        try{await sendAI('writing',{text,prompt:task.prompt,checklist:task.checklist,lesson:l},card.querySelector('.practice-feedback'));}
+        finally{button.disabled=false;}
+      };
+    }
+    function leaveLesson(){
+      stopPlayback();
+      stopRecording();
     }
     $('week-back').onclick=()=>{
-      stopPlayback();
+      leaveLesson();
       openWeek(Math.ceil(l.day/7));
     };
-    document.querySelectorAll('.answer-option').forEach(b=>b.onclick=()=>chooseAnswer(l,b));$('finish-day').onclick=()=>{const required=[...l.quiz.map(q=>q.id),...l.listening.questions.map((q,i)=>`listen-${i}`),...l.reading.questions.map((q,i)=>`read-${i}`)];const done=required.filter(id=>id in EnglishProgress.day(l.id).answers).length;if(done<required.length){toast(`Please answer all ${required.length} listening, reading and quiz questions first (${done}/${required.length}).`);return;}const score=EnglishProgress.complete(l.id,required.length);toast(`Lesson completed · ${score}% · +XP`);renderHome();};$('check-writing').onclick=()=>sendAI('writing',{text:$('writing-answer').value,lesson:l});$('start-speaking').onclick=()=>sendAI('speaking',{learnerMessage:$('speaking-answer').value.trim()||'Please start a friendly first-meeting conversation with me. Ask one simple question.',lesson:l,targetId:'speaking-ai-answer'});$('ask-ai').onclick=()=>$('ai-question').focus();$('send-ai').onclick=()=>sendAI('tutor',{learnerMessage:$('ai-question').value,lesson:l});}
+    document.querySelectorAll('.answer-option').forEach(b=>b.onclick=()=>chooseAnswer(l,b));$('finish-day').onclick=()=>{const required=[...l.quiz.map(q=>q.id),...l.listening.questions.map((q,i)=>`listen-${i}`),...l.reading.questions.map((q,i)=>`read-${i}`),...(l.listening.followUp?.questions||[]).map((q,i)=>`listen-extra-${i}`),...(l.reading.followUp?.questions||[]).map((q,i)=>`read-extra-${i}`)];const done=required.filter(id=>id in EnglishProgress.day(l.id).answers).length;if(done<required.length){toast(`Please answer all ${required.length} listening, reading and quiz questions first (${done}/${required.length}).`);return;}const score=EnglishProgress.complete(l.id,required.length);leaveLesson();toast(`Lesson completed · ${score}% · +XP`);renderHome();};$('ask-ai').onclick=()=>$('ai-question').focus();$('send-ai').onclick=()=>sendAI('tutor',{learnerMessage:$('ai-question').value,lesson:l});}
   function questionHTML(q,id){return `<div class="task"><label>${esc(q.prompt??q.q)}</label><div class="options">${q.options.map(o=>`<button class="option answer-option" data-qid="${esc(id)}" data-answer="${esc(o)}" data-correct="${esc(q.answer)}" data-explanation="${esc(q.explanation||'Review the correct answer.')}">${esc(o)}</button>`).join('')}</div><div class="answer-feedback" id="fb-${esc(id)}"></div></div>`;}
   function chooseAnswer(l,b){const qid=b.dataset.qid,correct=b.dataset.answer===b.dataset.correct;EnglishProgress.answer(l.id,qid,correct);b.parentElement.querySelectorAll('button').forEach(x=>{x.disabled=true;if(x.dataset.answer===b.dataset.correct)x.classList.add('selected');});$(`fb-${qid}`).innerHTML=`<div class="feedback">${correct?'Correct!':'Not quite.'} ${b.dataset.explanation}</div>`;}
-  async function sendAI(kind,payload){const out=$(payload.targetId||'ai-answer');if(!DeepSeekAI.isConfigured()){out.innerHTML='<div class="feedback">请先打开设置，输入自己的 DeepSeek API Key。</div>';return;}out.innerHTML='<p class="small">AI teacher is thinking…</p>';contextSettings={profile:$('context-profile').checked,progress:$('context-progress').checked,history:$('context-history').checked,customContext:$('custom-context').value};const ctx=EnglishContext.build({profile,lesson:payload.lesson||activeLesson,week:Math.ceil((payload.lesson||activeLesson).day/7),history,settings:contextSettings,userMessage:payload.learnerMessage||payload.text||''});try{const r=await DeepSeekAI.request(kind,{context:ctx,task:payload});history.push({role:'user',content:payload.learnerMessage||payload.text||''},{role:'assistant',content:JSON.stringify(r.data)});renderAIResult(kind,r.data,out);}catch(e){out.innerHTML=`<div class="feedback">${esc(e.message)}</div>`;}}
+  async function sendAI(kind,payload,out=$('ai-answer')){if(!DeepSeekAI.isConfigured()){out.innerHTML='<div class="feedback">请先打开设置，输入自己的 DeepSeek API Key。</div>';return;}out.innerHTML='<p class="small">AI teacher is thinking…</p>';contextSettings={profile:$('context-profile').checked,progress:$('context-progress').checked,history:$('context-history').checked,customContext:$('custom-context').value};const ctx=EnglishContext.build({profile,lesson:payload.lesson||activeLesson,week:Math.ceil((payload.lesson||activeLesson).day/7),history,settings:contextSettings,userMessage:payload.learnerMessage||payload.text||''});try{const r=await DeepSeekAI.request(kind,{context:ctx,task:payload});history.push({role:'user',content:payload.learnerMessage||payload.text||''},{role:'assistant',content:JSON.stringify(r.data)});renderAIResult(kind,r.data,out);}catch(e){out.innerHTML=`<div class="feedback">${esc(e.message)}</div>`;}}
   function renderAIResult(kind,d,out){if(kind==='writing'){out.innerHTML=`<div class="feedback"><b>Score: ${d.score}/100</b><p>${esc(d.corrected)}</p>${d.corrections.map(c=>`<p>${esc(c.original)} → <b>${esc(c.suggestion)}</b><br>${esc(c.reason_zh)}</p>`).join('')}<p>${esc(d.next_step)}</p></div>`;}else if(kind==='speaking'){out.innerHTML=`<div class="feedback"><b>${esc(d.conversation_reply)}</b><p>${esc(d.translation_zh)}</p><p>${esc(d.next_question)}</p></div>`;}else{out.innerHTML=`<div class="feedback"><b>${esc(d.reply_en)}</b><p>${esc(d.explanation_zh)}</p><p>${esc(d.example)}</p><p>Practice: ${esc(d.practice_question)}</p></div>`;}}
   function updateAIStatus(){const s=$('ai-status');s.textContent=DeepSeekAI.isConfigured()?'Enabled':'Not configured';s.className='pill '+(DeepSeekAI.isConfigured()?'green':'');}
   $('settings-open').onclick=()=>{

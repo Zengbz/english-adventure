@@ -45,5 +45,17 @@
       {key:String(key||'').trim()||settings.key,model:nextModel||settings.model});
     return true;
   }
-  window.DeepSeekAI={configure,clear,isConfigured:()=>Boolean(settings.key),request,test,get model(){return settings.model;}};
+  async function transcribe(audio){
+    if(!settings.key)throw new Error('请先设置 DeepSeek API Key。');
+    const form=new FormData();
+    form.append('file',audio,audio.type.startsWith('audio/ogg')?'answer.ogg':'answer.wav');
+    const response=await fetch('https://api.deepseek.com/v1/tools/asr',{
+      method:'POST',headers:{Authorization:`Bearer ${settings.key}`},body:form
+    });
+    if(!response.ok)throw new Error(`DeepSeek 语音识别失败（HTTP ${response.status}）。`);
+    const {text}=await response.json();
+    if(typeof text!=='string'||!text.trim())throw new Error('DeepSeek 没有识别到可评分的内容。');
+    return text.trim();
+  }
+  window.DeepSeekAI={configure,clear,transcribe,isConfigured:()=>Boolean(settings.key),request,test,get model(){return settings.model;}};
 })();

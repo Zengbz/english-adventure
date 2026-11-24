@@ -37,6 +37,74 @@
           "ipa": "/rɪˈzʌlt/",
           "zh": "结果",
           "example": "As a result, the queues were shorter."
+        },
+        {
+          "word": "opinion",
+          "zh": "意见"
+        },
+        {
+          "word": "reason",
+          "zh": "理由"
+        },
+        {
+          "word": "example",
+          "zh": "例子"
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
+        },
+        {
+          "word": "drawback",
+          "zh": "缺点"
+        },
+        {
+          "word": "option",
+          "zh": "选项"
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
+        },
+        {
+          "word": "suggest",
+          "zh": "建议"
+        },
+        {
+          "word": "agree",
+          "zh": "同意"
+        },
+        {
+          "word": "disagree",
+          "zh": "不同意"
+        },
+        {
+          "word": "otherwise",
+          "zh": "否则"
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "imagine",
+          "zh": "想象"
+        },
+        {
+          "word": "compromise",
+          "zh": "折中方案"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "More space and a place to work"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s group discussion at the town hall. It begins at 10 fifteen in the Blue Room and lasts 25 minutes. Admission costs 12 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Monday",
+                "Tuesday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "10:15",
+                "09:15",
+                "10:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Green Room",
+                "Garden Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "25 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£16",
+                "£12",
+                "£14"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "16",
+                "14",
+                "12"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Maya",
+                "Nina",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "就旅游交通说出明确偏好、理由和一个具体例子。",
-        "sample": "I think trains are better on long trips because I can move around. For example, I can walk to another carriage."
+        "sample": "I think trains are better on long trips because I can move around. For example, I can walk to another carriage.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「In My Opinion」的场景。用到 convenient，并给一个具体细节。",
+            "checklist": [
+              "与 In My Opinion 场景有关",
+              "使用 convenient",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Blue Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "表达观点并用例子支持",
@@ -71,7 +258,49 @@
             ],
             "answer": "Visitors going to one museum"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 12:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "12:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词推荐一种出行方式，同时承认它的一项缺点。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（I think ... because ...；For example ...）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「In My Opinion」的英语消息，使用 convenient 并补充一个具体细节。",
+            "checklist": [
+              "使用 convenient",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 10:15",
+              "房间是 Blue Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「In My Opinion」场景中的选择与理由，尽量运用本课语法（I think ... because ...；For example ...）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/ˈɒpʃən/",
           "zh": "选项",
           "example": "We have two options for Saturday."
+        },
+        {
+          "word": "example",
+          "zh": "例子"
+        },
+        {
+          "word": "convenient",
+          "zh": "方便的"
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
+        },
+        {
+          "word": "drawback",
+          "zh": "缺点"
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
+        },
+        {
+          "word": "suggest",
+          "zh": "建议"
+        },
+        {
+          "word": "agree",
+          "zh": "同意"
+        },
+        {
+          "word": "disagree",
+          "zh": "不同意"
+        },
+        {
+          "word": "otherwise",
+          "zh": "否则"
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "imagine",
+          "zh": "想象"
+        },
+        {
+          "word": "compromise",
+          "zh": "折中方案"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "They would need a taxi"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s group discussion at the town hall. It begins at 11 fifteen in the Green Room and lasts 35 minutes. Admission costs 3 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Thursday",
+                "Wednesday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "11:45",
+                "10:15",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "Green Room",
+                "Garden Room",
+                "River Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£3",
+                "£7",
+                "£5"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "18",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Maya",
+                "Omar",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "先认可对方一条理由，再礼貌说明你的顾虑。",
-        "sample": "I see your point about the price, but the later train is easier to reach."
+        "sample": "I see your point about the price, but the later train is easier to reach.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「I See Your Point」的场景。用到 point，并给一个具体细节。",
+            "checklist": [
+              "与 I See Your Point 场景有关",
+              "使用 point",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Green Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "礼貌表示部分赞同与不同意",
@@ -169,7 +617,49 @@
             ],
             "answer": "To discuss new projects"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 14:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "13:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一段 8 行对话，双方各给理由并找出一个共同点。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（I see your point, but ...；I agree that ...）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「I See Your Point」的英语消息，使用 point 并补充一个具体细节。",
+            "checklist": [
+              "使用 point",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 11:15",
+              "房间是 Green Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「I See Your Point」场景中的选择与理由，尽量运用本课语法（I see your point, but ...；I agree that ...）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/kənˈviːniənt/",
           "zh": "方便的",
           "example": "I think trains are convenient."
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
+        },
+        {
+          "word": "drawback",
+          "zh": "缺点"
+        },
+        {
+          "word": "option",
+          "zh": "选项"
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
+        },
+        {
+          "word": "suggest",
+          "zh": "建议"
+        },
+        {
+          "word": "agree",
+          "zh": "同意"
+        },
+        {
+          "word": "disagree",
+          "zh": "不同意"
+        },
+        {
+          "word": "otherwise",
+          "zh": "否则"
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "imagine",
+          "zh": "想象"
+        },
+        {
+          "word": "compromise",
+          "zh": "折中方案"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
+        },
+        {
+          "word": "consider",
+          "zh": "考虑"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "The main room was crowded"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s group discussion at the town hall. It begins at 12 fifteen in the Garden Room and lasts 45 minutes. Admission costs 5 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:45",
+                "12:15",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "River Room",
+                "Garden Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "45 minutes",
+                "55 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£5",
+              "options": [
+                "£5",
+                "£9",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "20",
+                "18",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "East",
+                "North",
+                "West"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Sofia",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "说明一个城市服务的改变，用 because 讲原因、用 so 讲结果。",
-        "sample": "The main room was crowded, so the museum opened an extra gallery."
+        "sample": "The main room was crowded, so the museum opened an extra gallery.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Reasons and Results」的场景。用到 result，并给一个具体细节。",
+            "checklist": [
+              "与 Reasons and Results 场景有关",
+              "使用 result",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Garden Room",
+              "费用是 £5"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "区分原因与结果",
@@ -267,7 +976,49 @@
             ],
             "answer": "Fewer cars were parked there"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 16:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "16:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词解释一个日常问题、采取的行动和结果。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（because 引出原因，so 引出结果）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Reasons and Results」的英语消息，使用 result 并补充一个具体细节。",
+            "checklist": [
+              "使用 result",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 12:15",
+              "房间是 Garden Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Reasons and Results」场景中的选择与理由，尽量运用本课语法（because 引出原因，so 引出结果）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/pɔɪnt/",
           "zh": "观点",
           "example": "I see your point about the cost."
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
+        },
+        {
+          "word": "suggest",
+          "zh": "建议"
+        },
+        {
+          "word": "agree",
+          "zh": "同意"
+        },
+        {
+          "word": "disagree",
+          "zh": "不同意"
+        },
+        {
+          "word": "otherwise",
+          "zh": "否则"
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "imagine",
+          "zh": "想象"
+        },
+        {
+          "word": "compromise",
+          "zh": "折中方案"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
+        },
+        {
+          "word": "consider",
+          "zh": "考虑"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "opinion",
+          "zh": "意见"
+        },
+        {
+          "word": "reason",
+          "zh": "理由"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "Less traffic"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s group discussion at the town hall. It begins at 13 fifteen in the River Room and lasts 55 minutes. Admission costs 7 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Friday",
+                "Thursday",
+                "Saturday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "12:15",
+                "13:45",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "River Room",
+                "Hill Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "65 minutes",
+                "55 minutes",
+                "75 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£7",
+              "options": [
+                "£7",
+                "£9",
+                "£11"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "18",
+                "20",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Leo",
+                "Eli",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "给出两种出发选择，每种说一个可能的结果和取舍。",
-        "sample": "If we leave at eight, we’ll avoid traffic. If we leave at nine, we can have breakfast first."
+        "sample": "If we leave at eight, we’ll avoid traffic. If we leave at nine, we can have breakfast first.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「If We Leave Earlier」的场景。用到 option，并给一个具体细节。",
+            "checklist": [
+              "与 If We Leave Earlier 场景有关",
+              "使用 option",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 River Room",
+              "费用是 £7"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用真实条件比较选择",
@@ -365,7 +1335,49 @@
             ],
             "answer": "The normal price applies"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 12:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "13:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词比较两个计划，每个计划包含一个条件和它的结果。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（If + 一般现在时，主句用 will 或 can）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「If We Leave Earlier」的英语消息，使用 option 并补充一个具体细节。",
+            "checklist": [
+              "使用 option",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 13:15",
+              "房间是 River Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「If We Leave Earlier」场景中的选择与理由，尽量运用本课语法（If + 一般现在时，主句用 will 或 can）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/rɪˈzʌlt/",
           "zh": "结果",
           "example": "As a result, the queues were shorter."
+        },
+        {
+          "word": "agree",
+          "zh": "同意"
+        },
+        {
+          "word": "disagree",
+          "zh": "不同意"
+        },
+        {
+          "word": "otherwise",
+          "zh": "否则"
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "compromise",
+          "zh": "折中方案"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
+        },
+        {
+          "word": "consider",
+          "zh": "考虑"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "opinion",
+          "zh": "意见"
+        },
+        {
+          "word": "point",
+          "zh": "观点"
+        },
+        {
+          "word": "reason",
+          "zh": "理由"
+        },
+        {
+          "word": "example",
+          "zh": "例子"
+        },
+        {
+          "word": "convenient",
+          "zh": "方便的"
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "By train"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s group discussion at the town hall. It begins at 14 fifteen in the Hill Room and lasts 25 minutes. Admission costs 9 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:15",
+                "14:45",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Maple Room",
+                "Hill Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "25 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£9",
+              "options": [
+                "£13",
+                "£11",
+                "£9"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "20",
+                "22",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Maya",
+                "Jo",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "假设你有一个月假期，谈选择、理由和想做的两件事。",
-        "sample": "If I had a month off, I’d visit three cities and travel by train."
+        "sample": "If I had a month off, I’d visit three cities and travel by train.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「An Imaginary Choice」的场景。用到 imagine，并给一个具体细节。",
+            "checklist": [
+              "与 An Imaginary Choice 场景有关",
+              "使用 imagine",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Hill Room",
+              "费用是 £9"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "讨论假设情境和偏好",
@@ -463,7 +1694,49 @@
             ],
             "answer": "A sports centre"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 14:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "13:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词回应「如果社区有空地，你会建什么」。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（If + 过去式，主句用 would + 原形）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「An Imaginary Choice」的英语消息，使用 imagine 并补充一个具体细节。",
+            "checklist": [
+              "使用 imagine",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 14:15",
+              "房间是 Hill Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「An Imaginary Choice」场景中的选择与理由，尽量运用本课语法（If + 过去式，主句用 would + 原形）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/ˈɒpʃən/",
           "zh": "选项",
           "example": "We have two options for Saturday."
+        },
+        {
+          "word": "although",
+          "zh": "虽然"
+        },
+        {
+          "word": "priority",
+          "zh": "优先事项"
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
+        },
+        {
+          "word": "consider",
+          "zh": "考虑"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "opinion",
+          "zh": "意见"
+        },
+        {
+          "word": "point",
+          "zh": "观点"
+        },
+        {
+          "word": "reason",
+          "zh": "理由"
+        },
+        {
+          "word": "example",
+          "zh": "例子"
+        },
+        {
+          "word": "result",
+          "zh": "结果"
+        },
+        {
+          "word": "convenient",
+          "zh": "方便的"
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
+        },
+        {
+          "word": "drawback",
+          "zh": "缺点"
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "Walk for an hour"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s group discussion at the town hall. It begins at 15 fifteen in the Oak Room and lasts 35 minutes. Admission costs 11 pounds and there are 22 places. Please come in through the south entrance and ask for Maya. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Monday",
+                "Saturday",
+                "Sunday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "14:15",
+                "15:45",
+                "15:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Oak Room",
+                "Blue Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "55 minutes",
+                "45 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£11",
+              "options": [
+                "£15",
+                "£11",
+                "£13"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "24",
+                "22",
+                "26"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Maya",
+                "Nina",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "扮演组织者，先总结两方需求，再提出一个兼顾两方的方案。",
-        "sample": "On the one hand, we want to save money. On the other hand, we need a quiet room. I suggest staying outside the centre."
+        "sample": "On the one hand, we want to save money. On the other hand, we need a quiet room. I suggest staying outside the centre.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「A Fair Compromise」的场景。用到 compromise，并给一个具体细节。",
+            "checklist": [
+              "与 A Fair Compromise 场景有关",
+              "使用 compromise",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Oak Room",
+              "费用是 £11"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "权衡双方需求并达成妥协",
@@ -561,7 +2053,49 @@
             ],
             "answer": "An extra bus ride"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 16:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "15:00",
+                "16:00",
+                "17:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 90–110 词描述一个小组分歧、不同需求和折中方案。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（on the one hand ... on the other hand ...；I suggest ...）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「A Fair Compromise」的英语消息，使用 compromise 并补充一个具体细节。",
+            "checklist": [
+              "使用 compromise",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 15:15",
+              "房间是 Oak Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「A Fair Compromise」场景中的选择与理由，尽量运用本课语法（on the one hand ... on the other hand ...；I suggest ...）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/ɪˈmædʒɪn/",
           "zh": "想象",
           "example": "Imagine that you had a month off."
+        },
+        {
+          "word": "budget",
+          "zh": "预算"
+        },
+        {
+          "word": "flexibility",
+          "zh": "灵活性"
+        },
+        {
+          "word": "compare",
+          "zh": "比较"
+        },
+        {
+          "word": "consider",
+          "zh": "考虑"
+        },
+        {
+          "word": "recommend",
+          "zh": "推荐"
+        },
+        {
+          "word": "opinion",
+          "zh": "意见"
+        },
+        {
+          "word": "point",
+          "zh": "观点"
+        },
+        {
+          "word": "reason",
+          "zh": "理由"
+        },
+        {
+          "word": "example",
+          "zh": "例子"
+        },
+        {
+          "word": "result",
+          "zh": "结果"
+        },
+        {
+          "word": "convenient",
+          "zh": "方便的"
+        },
+        {
+          "word": "advantage",
+          "zh": "优点"
+        },
+        {
+          "word": "drawback",
+          "zh": "缺点"
+        },
+        {
+          "word": "option",
+          "zh": "选项"
+        },
+        {
+          "word": "choice",
+          "zh": "选择"
+        },
+        {
+          "word": "prefer",
+          "zh": "更喜欢"
+        },
+        {
+          "word": "suggest",
+          "zh": "建议"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "The gallery"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s group discussion at the town hall. It begins at 16 fifteen in the Maple Room and lasts 45 minutes. Admission costs 13 pounds and there are 24 places. Please come in through the west entrance and ask for Leo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Tuesday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "15:15",
+                "16:45",
+                "16:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Blue Room",
+                "Green Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£13",
+              "options": [
+                "£13",
+                "£17",
+                "£15"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "26",
+                "28",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Maya",
+                "Leo",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "为六人推荐一项活动，引用票价和天气条件，礼貌回应反对意见。",
-        "sample": "I see your point about the garden price, but six of us get the gallery discount. If it rains, I think the gallery is better."
+        "sample": "I see your point about the garden price, but six of us get the gallery discount. If it rains, I think the gallery is better.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Choose Together」的场景。用到 priority，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Choose Together 场景有关",
+              "使用 priority",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 town hall 的 group discussion。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Maple Room",
+              "费用是 £13"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 group discussion。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "以证据说服同伴并接受备选",
@@ -659,7 +2412,49 @@
             ],
             "answer": "Yes, with the group discount"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Group discussion booking notice. Book online before 12:00. Collect your ticket at the town hall information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "13:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 100–120 词说明你给小组的建议、一个反方观点和备用方案。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（综合观点、让步及条件句）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Choose Together」的英语消息，使用 priority 并补充一个具体细节。",
+            "checklist": [
+              "使用 priority",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 group discussion，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 16:15",
+              "房间是 Maple Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Choose Together」场景中的选择与理由，尽量运用本课语法（综合观点、让步及条件句）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

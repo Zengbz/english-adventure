@@ -37,6 +37,74 @@
           "ipa": "/ˈkwaɪət/",
           "zh": "安静的",
           "example": "The room at the back is quieter."
+        },
+        {
+          "word": "booking",
+          "zh": "预订"
+        },
+        {
+          "word": "double",
+          "zh": "双人房"
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
+        },
+        {
+          "word": "reception",
+          "zh": "前台"
+        },
+        {
+          "word": "floor",
+          "zh": "楼层"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯"
+        },
+        {
+          "word": "lobby",
+          "zh": "大堂"
+        },
+        {
+          "word": "noisy",
+          "zh": "吵闹的"
+        },
+        {
+          "word": "included",
+          "zh": "包含的"
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
+        },
+        {
+          "word": "gym",
+          "zh": "健身房"
+        },
+        {
+          "word": "leak",
+          "zh": "漏水"
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "Saturday only"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s travel talk at the hotel lobby. It begins at 16 fifteen in the Oak Room and lasts 25 minutes. Admission costs 10 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Tuesday",
+                "Monday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "16:15",
+                "16:45",
+                "15:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "25 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£12",
+                "£14",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "26",
+                "28",
+                "24"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "North",
+                "West",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Maya",
+                "Leo",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "打电话订两晚，问双床房、费用和早餐。",
-        "sample": "Do you have a twin room for two nights? Is breakfast included?"
+        "sample": "Do you have a twin room for two nights? Is breakfast included?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Booking a Room」的场景。用到 available，并给一个具体细节。",
+            "checklist": [
+              "与 Booking a Room 场景有关",
+              "使用 available",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Oak Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "查询房型、空房与价格",
@@ -71,7 +258,49 @@
             ],
             "answer": "A twin room"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 12:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "12:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the information desk",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一封 60–75 词的订房询问，包含人数、日期、房型和两个问题。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Is there ...?；Do you have ... available?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Booking a Room」的英语消息，使用 available 并补充一个具体细节。",
+            "checklist": [
+              "使用 available",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 16:15",
+              "房间是 Oak Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Booking a Room」场景中的选择与理由，尽量运用本课语法（Is there ...?；Do you have ... available?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/liːk/",
           "zh": "漏水",
           "example": "There’s a leak under the sink."
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
+        },
+        {
+          "word": "reception",
+          "zh": "前台"
+        },
+        {
+          "word": "floor",
+          "zh": "楼层"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯"
+        },
+        {
+          "word": "lobby",
+          "zh": "大堂"
+        },
+        {
+          "word": "noisy",
+          "zh": "吵闹的"
+        },
+        {
+          "word": "included",
+          "zh": "包含的"
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
+        },
+        {
+          "word": "gym",
+          "zh": "健身房"
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "solution",
+          "zh": "解决办法"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "On the ground floor"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s travel talk at the hotel lobby. It begins at 9 fifteen in the Maple Room and lasts 35 minutes. Admission costs 12 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Thursday",
+                "Tuesday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "09:45",
+                "09:15",
+                "08:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Green Room",
+                "Blue Room",
+                "Maple Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£16",
+                "£12",
+                "£14"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "10",
+                "14",
+                "12"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "North",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Maya",
+                "Nina",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "扮演入住旅客，报姓名和住几晚，询问早餐和押金。",
-        "sample": "I have a booking under Chen for two nights. Do I need to pay a deposit?"
+        "sample": "I have a booking under Chen for two nights. Do I need to pay a deposit?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Checking In」的场景。用到 deposit，并给一个具体细节。",
+            "checklist": [
+              "与 Checking In 场景有关",
+              "使用 deposit",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Maple Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "前台核对预订与入住须知",
@@ -169,7 +617,49 @@
             ],
             "answer": "At check-in"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 14:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "14:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一条消息给同住人，转述入住信息、早餐时段和退房须知。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（under the name ...；Do I need to ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Checking In」的英语消息，使用 deposit 并补充一个具体细节。",
+            "checklist": [
+              "使用 deposit",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 09:15",
+              "房间是 Maple Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Checking In」场景中的选择与理由，尽量运用本课语法（under the name ...；Do I need to ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/əˈveɪləbl/",
           "zh": "可订的",
           "example": "Is a twin room available?"
+        },
+        {
+          "word": "floor",
+          "zh": "楼层"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯"
+        },
+        {
+          "word": "lobby",
+          "zh": "大堂"
+        },
+        {
+          "word": "noisy",
+          "zh": "吵闹的"
+        },
+        {
+          "word": "included",
+          "zh": "包含的"
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
+        },
+        {
+          "word": "gym",
+          "zh": "健身房"
+        },
+        {
+          "word": "leak",
+          "zh": "漏水"
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "solution",
+          "zh": "解决办法"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "The garden room"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s travel talk at the hotel lobby. It begins at 10 fifteen in the Blue Room and lasts 45 minutes. Admission costs 3 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "09:15",
+                "10:15",
+                "10:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Garden Room",
+                "Green Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "55 minutes",
+                "65 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£3",
+                "£5",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "East",
+                "North",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a reusable bottle",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Leo",
+                "Maya",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "比较两个房型，用两句比较级解释选择。",
-        "sample": "The garden room is quieter, but the street room is cheaper. I’d choose the garden room."
+        "sample": "The garden room is quieter, but the street room is cheaper. I’d choose the garden room.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Which Room Is Better?」的场景。用到 quiet，并给一个具体细节。",
+            "checklist": [
+              "与 Which Room Is Better? 场景有关",
+              "使用 quiet",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 Blue Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "比较价格、噪声和位置",
@@ -267,7 +976,49 @@
             ],
             "answer": "Hotel A"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 16:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "16:00",
+                "17:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the exit",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 65–80 词比较两个住宿选择，给出两条理由。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（比较级 + than；more + 多音节形容词）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Which Room Is Better?」的英语消息，使用 quiet 并补充一个具体细节。",
+            "checklist": [
+              "使用 quiet",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 10:15",
+              "房间是 Blue Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Which Room Is Better?」场景中的选择与理由，尽量运用本课语法（比较级 + than；more + 多音节形容词）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/dɪˈpɒzɪt/",
           "zh": "押金",
           "example": "Do I need to pay a deposit?"
+        },
+        {
+          "word": "noisy",
+          "zh": "吵闹的"
+        },
+        {
+          "word": "included",
+          "zh": "包含的"
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
+        },
+        {
+          "word": "gym",
+          "zh": "健身房"
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "solution",
+          "zh": "解决办法"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "booking",
+          "zh": "预订"
+        },
+        {
+          "word": "available",
+          "zh": "可预订的"
+        },
+        {
+          "word": "double",
+          "zh": "双人房"
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "The air conditioning is broken"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s travel talk at the hotel lobby. It begins at 11 fifteen in the Green Room and lasts 55 minutes. Admission costs 5 pounds and there are 14 places. Please come in through the south entrance and ask for Omar. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Thursday",
+                "Saturday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "11:15",
+              "options": [
+                "10:15",
+                "11:15",
+                "11:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "Garden Room",
+                "River Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "55 minutes",
+                "75 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£5",
+              "options": [
+                "£7",
+                "£9",
+                "£5"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "14",
+              "options": [
+                "14",
+                "16",
+                "18"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Omar",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "向前台报告一个故障，给房号、问题、紧急程度和希望处理的时间。",
-        "sample": "I’m in room 308. The air conditioning isn’t working. Could someone look at it before six?"
+        "sample": "I’m in room 308. The air conditioning isn’t working. Could someone look at it before six?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「The Air Conditioning Isn’t Working」的场景。用到 leak，并给一个具体细节。",
+            "checklist": [
+              "与 The Air Conditioning Isn’t Working 场景有关",
+              "使用 leak",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Green Room",
+              "费用是 £5"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "说清房间问题并请求处理",
@@ -365,7 +1335,49 @@
             ],
             "answer": "Your room number"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 12:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "11:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 65–80 词给前台反映问题，明确希望维修还是换房。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（isn’t working 描述当前故障；Could someone ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「The Air Conditioning Isn’t Working」的英语消息，使用 leak 并补充一个具体细节。",
+            "checklist": [
+              "使用 leak",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 11:15",
+              "房间是 Green Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「The Air Conditioning Isn’t Working」场景中的选择与理由，尽量运用本课语法（isn’t working 描述当前故障；Could someone ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/ˈkwaɪət/",
           "zh": "安静的",
           "example": "The room at the back is quieter."
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
+        },
+        {
+          "word": "gym",
+          "zh": "健身房"
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "luggage",
+          "zh": "行李"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "solution",
+          "zh": "解决办法"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "booking",
+          "zh": "预订"
+        },
+        {
+          "word": "available",
+          "zh": "可预订的"
+        },
+        {
+          "word": "double",
+          "zh": "双人房"
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
+        },
+        {
+          "word": "deposit",
+          "zh": "押金"
+        },
+        {
+          "word": "reception",
+          "zh": "前台"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "Parking"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s travel talk at the hotel lobby. It begins at 12 fifteen in the Garden Room and lasts 25 minutes. Admission costs 7 pounds and there are 16 places. Please come in through the west entrance and ask for Sofia. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:45",
+                "12:15",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "Hill Room",
+                "River Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "25 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£7",
+              "options": [
+                "£9",
+                "£11",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "20",
+                "18",
+                "16"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "West",
+                "East",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Leo",
+                "Sofia",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "向酒店确认三项服务是否收费，并复述额外费用。",
-        "sample": "Is breakfast included? How much extra is parking for two nights?"
+        "sample": "Is breakfast included? How much extra is parking for two nights?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Is Breakfast Included?」的场景。用到 included，并给一个具体细节。",
+            "checklist": [
+              "与 Is Breakfast Included? 场景有关",
+              "使用 included",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Garden Room",
+              "费用是 £7"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "核对费用与服务",
@@ -463,7 +1694,49 @@
             ],
             "answer": "£25"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 14:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "14:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Friday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 60–75 词为旅伴总结包含的服务和待支付费用。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（included in ...；How much extra ...?）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Is Breakfast Included?」的英语消息，使用 included 并补充一个具体细节。",
+            "checklist": [
+              "使用 included",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 12:15",
+              "房间是 Garden Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Is Breakfast Included?」场景中的选择与理由，尽量运用本课语法（included in ...；How much extra ...?）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/liːk/",
           "zh": "漏水",
           "example": "There’s a leak under the sink."
+        },
+        {
+          "word": "repair",
+          "zh": "维修"
+        },
+        {
+          "word": "checkout",
+          "zh": "退房"
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "solution",
+          "zh": "解决办法"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "booking",
+          "zh": "预订"
+        },
+        {
+          "word": "available",
+          "zh": "可预订的"
+        },
+        {
+          "word": "double",
+          "zh": "双人房"
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
+        },
+        {
+          "word": "deposit",
+          "zh": "押金"
+        },
+        {
+          "word": "reception",
+          "zh": "前台"
+        },
+        {
+          "word": "floor",
+          "zh": "楼层"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯"
+        },
+        {
+          "word": "lobby",
+          "zh": "大堂"
+        },
+        {
+          "word": "quiet",
+          "zh": "安静的"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "A ticket"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s travel talk at the hotel lobby. It begins at 13 fifteen in the River Room and lasts 35 minutes. Admission costs 9 pounds and there are 18 places. Please come in through the north entrance and ask for Eli. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Saturday",
+                "Sunday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "13:45",
+                "13:15",
+                "12:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "River Room",
+                "Hill Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "35 minutes",
+                "55 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£9",
+              "options": [
+                "£11",
+                "£13",
+                "£9"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "18",
+                "22",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "South",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Eli",
+                "Leo",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "办理退房，说明几点取行李并问清凭证。",
-        "sample": "Could you keep our bags until six? What do we need to show when we pick them up?"
+        "sample": "Could you keep our bags until six? What do we need to show when we pick them up?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Can You Keep Our Bags?」的场景。用到 luggage，并给一个具体细节。",
+            "checklist": [
+              "与 Can You Keep Our Bags? 场景有关",
+              "使用 luggage",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 River Room",
+              "费用是 £9"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "退房、寄存和取行李",
@@ -561,7 +2053,49 @@
             ],
             "answer": "At reception"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 16:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "15:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the exit",
+                "At the entrance",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 60–75 词告诉旅伴何时退房、如何寄存和去哪取。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Could you keep ... until ...?；pick ... up）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Can You Keep Our Bags?」的英语消息，使用 luggage 并补充一个具体细节。",
+            "checklist": [
+              "使用 luggage",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 13:15",
+              "房间是 River Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Can You Keep Our Bags?」场景中的选择与理由，尽量运用本课语法（Could you keep ... until ...?；pick ... up）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/ɪnˈkluːdɪd/",
           "zh": "包含在内",
           "example": "Wi-Fi is included in the price."
+        },
+        {
+          "word": "keycard",
+          "zh": "房卡"
+        },
+        {
+          "word": "storage",
+          "zh": "寄存"
+        },
+        {
+          "word": "valuables",
+          "zh": "贵重物品"
+        },
+        {
+          "word": "guest",
+          "zh": "客人"
+        },
+        {
+          "word": "booking",
+          "zh": "预订"
+        },
+        {
+          "word": "available",
+          "zh": "可预订的"
+        },
+        {
+          "word": "double",
+          "zh": "双人房"
+        },
+        {
+          "word": "twin",
+          "zh": "双床房"
+        },
+        {
+          "word": "deposit",
+          "zh": "押金"
+        },
+        {
+          "word": "reception",
+          "zh": "前台"
+        },
+        {
+          "word": "floor",
+          "zh": "楼层"
+        },
+        {
+          "word": "lift",
+          "zh": "电梯"
+        },
+        {
+          "word": "lobby",
+          "zh": "大堂"
+        },
+        {
+          "word": "quiet",
+          "zh": "安静的"
+        },
+        {
+          "word": "noisy",
+          "zh": "吵闹的"
+        },
+        {
+          "word": "extra",
+          "zh": "额外的"
+        },
+        {
+          "word": "parking",
+          "zh": "停车服务"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "A room away from the lift"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s travel talk at the hotel lobby. It begins at 14 fifteen in the Hill Room and lasts 45 minutes. Admission costs 11 pounds and there are 20 places. Please come in through the east entrance and ask for Jo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Tuesday",
+                "Monday",
+                "Sunday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:45",
+                "13:15",
+                "14:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "45 minutes",
+                "55 minutes",
+                "65 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£11",
+              "options": [
+                "£15",
+                "£13",
+                "£11"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "22",
+                "24",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Leo",
+                "Maya",
+                "Jo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "从旅客角度礼貌说明噪音问题，比较两种方案并明确接受哪一个。",
-        "sample": "The room by the lift is noisy. Could we move to the room away from the lift tonight?"
+        "sample": "The room by the lift is noisy. Could we move to the room away from the lift tonight?",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: Handle a Hotel Stay」的场景。用到 solution，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: Handle a Hotel Stay 场景有关",
+              "使用 solution",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 hotel lobby 的 travel talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Hill Room",
+              "费用是 £11"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 travel talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "整合比较、入住和解决投诉",
@@ -659,7 +2412,49 @@
             ],
             "answer": "Parking"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Travel talk booking notice. Book online before 12:00. Collect your ticket at the hotel lobby information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "12:00",
+                "11:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 85–105 词给酒店，说明预订信息、困扰、两种方案和选择。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（比较级与礼貌请求综合）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: Handle a Hotel Stay」的英语消息，使用 solution 并补充一个具体细节。",
+            "checklist": [
+              "使用 solution",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 travel talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 14:15",
+              "房间是 Hill Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: Handle a Hotel Stay」场景中的选择与理由，尽量运用本课语法（比较级与礼貌请求综合）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [

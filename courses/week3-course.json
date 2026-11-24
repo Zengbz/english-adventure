@@ -37,6 +37,74 @@
           "ipa": "/trɪp/",
           "zh": "旅行",
           "example": "Did you enjoy your trip?"
+        },
+        {
+          "word": "arrive",
+          "zh": "到达"
+        },
+        {
+          "word": "depart",
+          "zh": "离开"
+        },
+        {
+          "word": "journey",
+          "zh": "旅程"
+        },
+        {
+          "word": "return",
+          "zh": "返回"
+        },
+        {
+          "word": "visit",
+          "zh": "参观"
+        },
+        {
+          "word": "postcard",
+          "zh": "明信片"
+        },
+        {
+          "word": "castle",
+          "zh": "城堡"
+        },
+        {
+          "word": "bakery",
+          "zh": "面包店"
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
+        },
+        {
+          "word": "cancel",
+          "zh": "取消"
+        },
+        {
+          "word": "miss",
+          "zh": "错过"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "word": "calm",
+          "zh": "平静的"
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
         }
       ],
       "listening": {
@@ -52,11 +120,130 @@
             ],
             "answer": "Two nights"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Monday’s photo talk at the visitor centre. It begins at 12 fifteen in the Green Room and lasts 25 minutes. Admission costs 6 pounds and there are 16 places. Please come in through the west entrance and ask for Omar. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Monday",
+              "options": [
+                "Wednesday",
+                "Monday",
+                "Tuesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "12:15",
+              "options": [
+                "12:15",
+                "12:45",
+                "11:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Green Room",
+              "options": [
+                "River Room",
+                "Green Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "25 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£6",
+              "options": [
+                "£8",
+                "£10",
+                "£6"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "16",
+              "options": [
+                "16",
+                "18",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "East",
+                "West",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a reusable bottle",
+                "a pencil",
+                "a notebook"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Omar",
+              "options": [
+                "Maya",
+                "Leo",
+                "Omar"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用四句话讲一次短途旅行，按到达、活动、回家排序。",
-        "sample": "We arrived on Friday. We stayed near the beach. We walked by the sea. We returned on Sunday."
+        "sample": "We arrived on Friday. We stayed near the beach. We walked by the sea. We returned on Sunday.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「A Weekend Away」的场景。用到 stay，并给一个具体细节。",
+            "checklist": [
+              "与 A Weekend Away 场景有关",
+              "使用 stay",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Monday",
+              "房间是 Green Room",
+              "费用是 £6"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用过去时讲周末旅行",
@@ -71,7 +258,49 @@
             ],
             "answer": "Watched a film"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 12:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "13:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the exit",
+                "At the information desk"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "In cash",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 45–60 词给朋友介绍你上周末去的地方和做的两件事。",
@@ -79,6 +308,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（规则动词加 -ed）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「A Weekend Away」的英语消息，使用 stay 并补充一个具体细节。",
+            "checklist": [
+              "使用 stay",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Monday 12:15",
+              "房间是 Green Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「A Weekend Away」场景中的选择与理由，尽量运用本课语法（规则动词加 -ed）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -135,6 +396,74 @@
           "ipa": "/kləʊzd/",
           "zh": "关闭的",
           "example": "The shop was closed."
+        },
+        {
+          "word": "return",
+          "zh": "返回"
+        },
+        {
+          "word": "visit",
+          "zh": "参观"
+        },
+        {
+          "word": "postcard",
+          "zh": "明信片"
+        },
+        {
+          "word": "castle",
+          "zh": "城堡"
+        },
+        {
+          "word": "bakery",
+          "zh": "面包店"
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
+        },
+        {
+          "word": "cancel",
+          "zh": "取消"
+        },
+        {
+          "word": "miss",
+          "zh": "错过"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "word": "calm",
+          "zh": "平静的"
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "finally",
+          "zh": "最后"
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "disappointed",
+          "zh": "失望的"
         }
       ],
       "listening": {
@@ -150,11 +479,130 @@
             ],
             "answer": "A postcard"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Tuesday’s photo talk at the visitor centre. It begins at 13 fifteen in the Garden Room and lasts 35 minutes. Admission costs 8 pounds and there are 18 places. Please come in through the north entrance and ask for Sofia. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Tuesday",
+              "options": [
+                "Tuesday",
+                "Thursday",
+                "Wednesday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "13:15",
+              "options": [
+                "13:45",
+                "12:15",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Garden Room",
+              "options": [
+                "Hill Room",
+                "River Room",
+                "Garden Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "45 minutes",
+                "55 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£8",
+              "options": [
+                "£12",
+                "£8",
+                "£10"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "18",
+              "options": [
+                "22",
+                "18",
+                "20"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Sofia",
+              "options": [
+                "Maya",
+                "Leo",
+                "Sofia"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "说出上次出门你去了哪、买了什么、怎样到达。",
-        "sample": "I went to the old town. I took a bus and bought a postcard."
+        "sample": "I went to the old town. I took a bus and bought a postcard.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「What Did You Do?」的场景。用到 souvenir，并给一个具体细节。",
+            "checklist": [
+              "与 What Did You Do? 场景有关",
+              "使用 souvenir",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Tuesday",
+              "房间是 Garden Room",
+              "费用是 £8"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "常见不规则过去式",
@@ -169,7 +617,49 @@
             ],
             "answer": "By bus"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 14:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "14:00",
+                "15:00",
+                "13:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the exit",
+                "At the entrance"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "In cash",
+                "By card"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 50–65 词讲一次购物或参观经历，至少用三个不规则过去式。",
@@ -177,6 +667,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（go → went，take → took，buy → bought）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「What Did You Do?」的英语消息，使用 souvenir 并补充一个具体细节。",
+            "checklist": [
+              "使用 souvenir",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Tuesday 13:15",
+              "房间是 Garden Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「What Did You Do?」场景中的选择与理由，尽量运用本课语法（go → went，take → took，buy → bought）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -233,6 +755,74 @@
           "ipa": "/steɪ/",
           "zh": "住宿",
           "example": "I stayed near the beach."
+        },
+        {
+          "word": "postcard",
+          "zh": "明信片"
+        },
+        {
+          "word": "castle",
+          "zh": "城堡"
+        },
+        {
+          "word": "bakery",
+          "zh": "面包店"
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
+        },
+        {
+          "word": "cancel",
+          "zh": "取消"
+        },
+        {
+          "word": "miss",
+          "zh": "错过"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "word": "calm",
+          "zh": "平静的"
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "finally",
+          "zh": "最后"
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "disappointed",
+          "zh": "失望的"
+        },
+        {
+          "word": "excited",
+          "zh": "兴奋的"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
         }
       ],
       "listening": {
@@ -248,11 +838,130 @@
             ],
             "answer": "Tuesday"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Wednesday’s photo talk at the visitor centre. It begins at 14 fifteen in the River Room and lasts 45 minutes. Admission costs 10 pounds and there are 20 places. Please come in through the east entrance and ask for Eli. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Wednesday",
+              "options": [
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "14:15",
+              "options": [
+                "14:45",
+                "14:15",
+                "13:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "River Room",
+              "options": [
+                "Oak Room",
+                "River Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "45 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£10",
+              "options": [
+                "£14",
+                "£10",
+                "£12"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "20",
+              "options": [
+                "24",
+                "20",
+                "22"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "South",
+                "North",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Eli",
+              "options": [
+                "Leo",
+                "Eli",
+                "Maya"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "假装采访一位旅行者，用 Did 和 Where did 各问一句，再模拟回答。",
-        "sample": "Did you visit the castle? Yes, I did. Where did you stay? I stayed near the station."
+        "sample": "Did you visit the castle? Yes, I did. Where did you stay? I stayed near the station.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Did You Enjoy It?」的场景。用到 trip，并给一个具体细节。",
+            "checklist": [
+              "与 Did You Enjoy It? 场景有关",
+              "使用 trip",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Wednesday",
+              "房间是 River Room",
+              "费用是 £10"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用 did 追问经历",
@@ -267,7 +976,49 @@
             ],
             "answer": "A free walking tour"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 16:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "17:00",
+                "15:00",
+                "16:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By card",
+                "By cheque",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Wednesday",
+                "Sunday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一段 6 行采访对话，问目的地、活动和感受。",
@@ -275,6 +1026,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（Did + 主语 + 动词原形）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Did You Enjoy It?」的英语消息，使用 trip 并补充一个具体细节。",
+            "checklist": [
+              "使用 trip",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Wednesday 14:15",
+              "房间是 River Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Did You Enjoy It?」场景中的选择与理由，尽量运用本课语法（Did + 主语 + 动词原形）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -331,6 +1114,74 @@
           "ipa": "/ˌsuːvəˈnɪə/",
           "zh": "纪念品",
           "example": "I bought a souvenir at the market."
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
+        },
+        {
+          "word": "cancel",
+          "zh": "取消"
+        },
+        {
+          "word": "miss",
+          "zh": "错过"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "word": "calm",
+          "zh": "平静的"
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "finally",
+          "zh": "最后"
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "disappointed",
+          "zh": "失望的"
+        },
+        {
+          "word": "excited",
+          "zh": "兴奋的"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "memorable",
+          "zh": "难忘的"
+        },
+        {
+          "word": "arrive",
+          "zh": "到达"
+        },
+        {
+          "word": "depart",
+          "zh": "离开"
         }
       ],
       "listening": {
@@ -346,11 +1197,130 @@
             ],
             "answer": "Outside"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Thursday’s photo talk at the visitor centre. It begins at 15 fifteen in the Hill Room and lasts 55 minutes. Admission costs 12 pounds and there are 22 places. Please come in through the south entrance and ask for Jo. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Thursday",
+              "options": [
+                "Friday",
+                "Saturday",
+                "Thursday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "15:15",
+              "options": [
+                "15:15",
+                "14:15",
+                "15:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Hill Room",
+              "options": [
+                "Maple Room",
+                "Oak Room",
+                "Hill Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "55 minutes",
+              "options": [
+                "65 minutes",
+                "75 minutes",
+                "55 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£12",
+              "options": [
+                "£14",
+                "£16",
+                "£12"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "22",
+              "options": [
+                "22",
+                "24",
+                "26"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "South",
+              "options": [
+                "North",
+                "South",
+                "East"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Jo",
+              "options": [
+                "Leo",
+                "Maya",
+                "Jo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "说一次原计划没成的经历，然后交代你改做了什么。",
-        "sample": "The café was closed, so we didn’t eat there. We bought lunch at the market."
+        "sample": "The café was closed, so we didn’t eat there. We bought lunch at the market.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「It Was Closed」的场景。用到 closed，并给一个具体细节。",
+            "checklist": [
+              "与 It Was Closed 场景有关",
+              "使用 closed",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Thursday",
+              "房间是 Hill Room",
+              "费用是 £12"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "描述意外和过去的状态",
@@ -365,7 +1335,49 @@
             ],
             "answer": "The restaurant was full"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 12:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "13:00",
+                "12:00",
+                "11:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "By cheque",
+                "By card",
+                "In cash"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 55–70 词解释一个旅行计划为什么改变。",
@@ -373,6 +1385,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（was/were 与 didn’t + 动词原形）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「It Was Closed」的英语消息，使用 closed 并补充一个具体细节。",
+            "checklist": [
+              "使用 closed",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Thursday 15:15",
+              "房间是 Hill Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「It Was Closed」场景中的选择与理由，尽量运用本课语法（was/were 与 didn’t + 动词原形）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -429,6 +1473,74 @@
           "ipa": "/trɪp/",
           "zh": "旅行",
           "example": "Did you enjoy your trip?"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
+        },
+        {
+          "word": "calm",
+          "zh": "平静的"
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "finally",
+          "zh": "最后"
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "excited",
+          "zh": "兴奋的"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "memorable",
+          "zh": "难忘的"
+        },
+        {
+          "word": "arrive",
+          "zh": "到达"
+        },
+        {
+          "word": "depart",
+          "zh": "离开"
+        },
+        {
+          "word": "journey",
+          "zh": "旅程"
+        },
+        {
+          "word": "return",
+          "zh": "返回"
+        },
+        {
+          "word": "visit",
+          "zh": "参观"
+        },
+        {
+          "word": "souvenir",
+          "zh": "纪念品"
         }
       ],
       "listening": {
@@ -444,11 +1556,130 @@
             ],
             "answer": "Nervous"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Friday’s photo talk at the visitor centre. It begins at 16 fifteen in the Oak Room and lasts 25 minutes. Admission costs 3 pounds and there are 24 places. Please come in through the west entrance and ask for Maya. You will receive a worksheet. Please bring a reusable bottle.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Friday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "16:15",
+              "options": [
+                "16:45",
+                "16:15",
+                "15:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Oak Room",
+              "options": [
+                "Maple Room",
+                "Blue Room",
+                "Oak Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "25 minutes",
+              "options": [
+                "45 minutes",
+                "25 minutes",
+                "35 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£3",
+              "options": [
+                "£7",
+                "£5",
+                "£3"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "24",
+              "options": [
+                "28",
+                "24",
+                "26"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "West",
+              "options": [
+                "East",
+                "West",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a reusable bottle",
+              "options": [
+                "a notebook",
+                "a reusable bottle",
+                "a pencil"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Maya",
+              "options": [
+                "Nina",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "讲一次先紧张、后来开心的经历，解释原因。",
-        "sample": "I was nervous because it was my first boat trip. I felt better after ten minutes."
+        "sample": "I was nervous because it was my first boat trip. I felt better after ten minutes.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「How Was It?」的场景。用到 disappointed，并给一个具体细节。",
+            "checklist": [
+              "与 How Was It? 场景有关",
+              "使用 disappointed",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Friday",
+              "房间是 Oak Room",
+              "费用是 £3"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用感受形容词描述经历",
@@ -463,7 +1694,49 @@
             ],
             "answer": "The hill was steep"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 14:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Wednesday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "14:00",
+              "options": [
+                "15:00",
+                "13:00",
+                "14:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Wednesday",
+              "options": [
+                "Friday",
+                "Wednesday",
+                "Sunday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写一篇 60 词旅行短评，说清哪件事让你满意或失望。",
@@ -471,6 +1744,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（was/were + 形容词，用 because 补充理由）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「How Was It?」的英语消息，使用 disappointed 并补充一个具体细节。",
+            "checklist": [
+              "使用 disappointed",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Friday 16:15",
+              "房间是 Oak Room",
+              "带 a reusable bottle"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「How Was It?」场景中的选择与理由，尽量运用本课语法（was/were + 形容词，用 because 补充理由）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -527,6 +1832,74 @@
           "ipa": "/kləʊzd/",
           "zh": "关闭的",
           "example": "The shop was closed."
+        },
+        {
+          "word": "steep",
+          "zh": "陡的"
+        },
+        {
+          "word": "view",
+          "zh": "景色"
+        },
+        {
+          "word": "suddenly",
+          "zh": "突然"
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "excited",
+          "zh": "兴奋的"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "memorable",
+          "zh": "难忘的"
+        },
+        {
+          "word": "arrive",
+          "zh": "到达"
+        },
+        {
+          "word": "depart",
+          "zh": "离开"
+        },
+        {
+          "word": "journey",
+          "zh": "旅程"
+        },
+        {
+          "word": "return",
+          "zh": "返回"
+        },
+        {
+          "word": "visit",
+          "zh": "参观"
+        },
+        {
+          "word": "souvenir",
+          "zh": "纪念品"
+        },
+        {
+          "word": "postcard",
+          "zh": "明信片"
+        },
+        {
+          "word": "castle",
+          "zh": "城堡"
+        },
+        {
+          "word": "bakery",
+          "zh": "面包店"
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
         }
       ],
       "listening": {
@@ -542,11 +1915,130 @@
             ],
             "answer": "A shopkeeper"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Saturday’s photo talk at the visitor centre. It begins at 9 fifteen in the Maple Room and lasts 35 minutes. Admission costs 5 pounds and there are 10 places. Please come in through the north entrance and ask for Leo. You will receive a name badge. Please bring a notebook.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Saturday",
+              "options": [
+                "Sunday",
+                "Saturday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "09:15",
+              "options": [
+                "08:15",
+                "09:15",
+                "09:45"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Maple Room",
+              "options": [
+                "Green Room",
+                "Maple Room",
+                "Blue Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "35 minutes",
+              "options": [
+                "55 minutes",
+                "35 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£5",
+              "options": [
+                "£7",
+                "£5",
+                "£9"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "10",
+              "options": [
+                "10",
+                "14",
+                "12"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "North",
+              "options": [
+                "North",
+                "East",
+                "South"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a notebook",
+              "options": [
+                "a notebook",
+                "a pencil",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Leo",
+              "options": [
+                "Nina",
+                "Maya",
+                "Leo"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "用三个连接词讲一件按顺序发生的小事。",
-        "sample": "First, I checked the address. Then I asked for help. Finally, I found the hotel."
+        "sample": "First, I checked the address. Then I asked for help. Finally, I found the hotel.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「First, Then, Finally」的场景。用到 finally，并给一个具体细节。",
+            "checklist": [
+              "与 First, Then, Finally 场景有关",
+              "使用 finally",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Saturday",
+              "房间是 Maple Room",
+              "费用是 £5"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "把旅行经历讲清楚",
@@ -561,7 +2053,49 @@
             ],
             "answer": "Bought coffee"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 16:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Sunday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "16:00",
+              "options": [
+                "16:00",
+                "17:00",
+                "15:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the entrance",
+                "At the information desk",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Sunday",
+              "options": [
+                "Sunday",
+                "Wednesday",
+                "Friday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 60–75 词复盘一次迷路或错过交通工具的经历。",
@@ -569,6 +2103,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（用 first、then、finally 串联事件）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「First, Then, Finally」的英语消息，使用 finally 并补充一个具体细节。",
+            "checklist": [
+              "使用 finally",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Saturday 09:15",
+              "房间是 Maple Room",
+              "带 a notebook"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「First, Then, Finally」场景中的选择与理由，尽量运用本课语法（用 first、then、finally 串联事件）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
@@ -625,6 +2191,74 @@
           "ipa": "/ˌdɪsəˈpɔɪntɪd/",
           "zh": "失望的",
           "example": "I was disappointed because it rained."
+        },
+        {
+          "word": "tiring",
+          "zh": "令人疲倦的"
+        },
+        {
+          "word": "excited",
+          "zh": "兴奋的"
+        },
+        {
+          "word": "unexpected",
+          "zh": "意外的"
+        },
+        {
+          "word": "arrive",
+          "zh": "到达"
+        },
+        {
+          "word": "depart",
+          "zh": "离开"
+        },
+        {
+          "word": "journey",
+          "zh": "旅程"
+        },
+        {
+          "word": "return",
+          "zh": "返回"
+        },
+        {
+          "word": "visit",
+          "zh": "参观"
+        },
+        {
+          "word": "souvenir",
+          "zh": "纪念品"
+        },
+        {
+          "word": "postcard",
+          "zh": "明信片"
+        },
+        {
+          "word": "castle",
+          "zh": "城堡"
+        },
+        {
+          "word": "bakery",
+          "zh": "面包店"
+        },
+        {
+          "word": "guide",
+          "zh": "导游"
+        },
+        {
+          "word": "cancel",
+          "zh": "取消"
+        },
+        {
+          "word": "miss",
+          "zh": "错过"
+        },
+        {
+          "word": "delay",
+          "zh": "延误"
+        },
+        {
+          "word": "crowded",
+          "zh": "拥挤的"
         }
       ],
       "listening": {
@@ -640,11 +2274,130 @@
             ],
             "answer": "Trying the bread and meeting a guide"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Listen to an announcement",
+          "transcript": "This is a message about Sunday’s photo talk at the visitor centre. It begins at 10 fifteen in the Blue Room and lasts 45 minutes. Admission costs 7 pounds and there are 12 places. Please come in through the east entrance and ask for Nina. You will receive a map. Please bring a pencil.",
+          "questions": [
+            {
+              "q": "On which day does the event take place?",
+              "answer": "Sunday",
+              "options": [
+                "Tuesday",
+                "Sunday",
+                "Monday"
+              ]
+            },
+            {
+              "q": "What time does the event begin?",
+              "answer": "10:15",
+              "options": [
+                "10:45",
+                "10:15",
+                "09:15"
+              ]
+            },
+            {
+              "q": "Which room is it in?",
+              "answer": "Blue Room",
+              "options": [
+                "Garden Room",
+                "Blue Room",
+                "Green Room"
+              ]
+            },
+            {
+              "q": "How long does it last?",
+              "answer": "45 minutes",
+              "options": [
+                "65 minutes",
+                "55 minutes",
+                "45 minutes"
+              ]
+            },
+            {
+              "q": "How much does admission cost?",
+              "answer": "£7",
+              "options": [
+                "£9",
+                "£11",
+                "£7"
+              ]
+            },
+            {
+              "q": "How many places are available?",
+              "answer": "12",
+              "options": [
+                "16",
+                "12",
+                "14"
+              ]
+            },
+            {
+              "q": "Which entrance should visitors use?",
+              "answer": "East",
+              "options": [
+                "East",
+                "South",
+                "North"
+              ]
+            },
+            {
+              "q": "What are visitors asked to bring?",
+              "answer": "a pencil",
+              "options": [
+                "a pencil",
+                "a notebook",
+                "a reusable bottle"
+              ]
+            },
+            {
+              "q": "Who should visitors ask for?",
+              "answer": "Nina",
+              "options": [
+                "Maya",
+                "Leo",
+                "Nina"
+              ]
+            }
+          ]
+        }
       },
       "speaking": {
         "prompt": "讲一段约 90 秒的旅行回忆，包含一个意外和一个亮点，再自问自答两个问题。",
-        "sample": "I went to a village last spring. The bus was late, but I found a great bakery. Did I enjoy the day? Yes, I did."
+        "sample": "I went to a village last spring. The bus was late, but I found a great bakery. Did I enjoy the day? Yes, I did.",
+        "practice": [
+          {
+            "prompt": "用两句英语回答「Weekly Challenge: My Last Trip」的场景。用到 memorable，并给一个具体细节。",
+            "checklist": [
+              "与 Weekly Challenge: My Last Trip 场景有关",
+              "使用 memorable",
+              "有一个具体细节"
+            ]
+          },
+          {
+            "prompt": "你想参加 visitor centre 的 photo talk。向工作人员询问地点和开始时间。",
+            "checklist": [
+              "询问地点",
+              "询问开始时间"
+            ]
+          },
+          {
+            "prompt": "你的同伴没听清刚才的活动通知。用自己的话复述日期、房间和费用。",
+            "checklist": [
+              "日期是 Sunday",
+              "房间是 Blue Room",
+              "费用是 £7"
+            ]
+          },
+          {
+            "prompt": "同伴无法按时到达 photo talk。告诉对方你会怎么办，并询问对方是否同意。",
+            "checklist": [
+              "提出可行的替代行动",
+              "用问句确认对方是否同意"
+            ]
+          }
+        ]
       },
       "reading": {
         "title": "用过去时讲完整旅行故事",
@@ -659,7 +2412,49 @@
             ],
             "answer": "Visited a museum"
           }
-        ]
+        ],
+        "followUp": {
+          "title": "Read the booking notice",
+          "text": "Photo talk booking notice. Book online before 12:00. Collect your ticket at the visitor centre information desk. Payment is by card. Changes are free until Friday. If you arrive late, wait by the entrance until a member of staff comes to meet you.",
+          "questions": [
+            {
+              "q": "When is the online booking deadline?",
+              "answer": "12:00",
+              "options": [
+                "11:00",
+                "13:00",
+                "12:00"
+              ]
+            },
+            {
+              "q": "Where do you collect your ticket?",
+              "answer": "At the information desk",
+              "options": [
+                "At the information desk",
+                "At the entrance",
+                "At the exit"
+              ]
+            },
+            {
+              "q": "How do you pay?",
+              "answer": "By card",
+              "options": [
+                "In cash",
+                "By card",
+                "By cheque"
+              ]
+            },
+            {
+              "q": "Until when are changes free?",
+              "answer": "Friday",
+              "options": [
+                "Sunday",
+                "Friday",
+                "Wednesday"
+              ]
+            }
+          ]
+        }
       },
       "writing": {
         "prompt": "写 80–100 词的旅行明信片，包含时间、地点、三个事件和你的感受。",
@@ -667,6 +2462,38 @@
           "我完成了题目要求的每一项信息。",
           "我检查了本课表达（过去式、did 问句和时间顺序综合）。",
           "我朗读了一遍自己的答案，检查表达是否清晰。"
+        ],
+        "practice": [
+          {
+            "prompt": "给朋友写 2–3 句关于「Weekly Challenge: My Last Trip」的英语消息，使用 memorable 并补充一个具体细节。",
+            "checklist": [
+              "使用 memorable",
+              "含一个具体细节"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词邀请朋友参加 photo talk，写明时间、房间和要带的物品。",
+            "checklist": [
+              "时间是 Sunday 10:15",
+              "房间是 Blue Room",
+              "带 a pencil"
+            ]
+          },
+          {
+            "prompt": "写 25–40 词给将要迟到的朋友，根据阅读通知告诉对方到哪里等、向谁求助。",
+            "checklist": [
+              "在入口等待",
+              "等工作人员来接"
+            ]
+          },
+          {
+            "prompt": "写 35–50 词说明你在「Weekly Challenge: My Last Trip」场景中的选择与理由，尽量运用本课语法（过去式、did 问句和时间顺序综合）。",
+            "checklist": [
+              "说明选择",
+              "给出理由",
+              "使用本课语法"
+            ]
+          }
         ]
       },
       "quiz": [
